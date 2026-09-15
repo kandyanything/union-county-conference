@@ -19,18 +19,18 @@ const path = require('path');
 const sharp = require('sharp');
 
 const ROOT = path.join(__dirname, '..');
-const SEAL = path.join(ROOT, 'images', 'UCIAC-logo-footer.png');
+const SEAL = path.join(ROOT, 'images', 'uciac-logo-footer.png');
 const ICONS = path.join(ROOT, 'images', 'icons');
 
 // The site's black-and-silver palette. Legacy names kept so the drawing code
 // below reads unchanged: NAVY is the dark tab-favicon field, RED the silver
 // ring/accent. The compass sits on a SILVER tile at large sizes because its
 // black-and-white linework would half-vanish on a dark field.
-const NAVY = '#0d0e10';
-const NAVY_DEEP = '#000000';
-const NAVY_LIT = '#2a2e35';
-const RED = '#c3c9d1';
-const SILVER = '#c3c9d1';
+const NAVY = '#0b1529';
+const NAVY_DEEP = '#060d1a';
+const NAVY_LIT = '#1a2560';
+const RED = '#c4962a';    // UCC gold
+const SILVER = '#1a2560'; // navy field for touch icons
 
 // Oswald is a web font, and Arial Narrow turned out not to be available to the
 // renderer either - the headline fell back to full-width Arial and ran off the
@@ -155,11 +155,11 @@ async function card() {
         'fill="#ffffff">' + L2 + '</text>' +
         '<rect x="' + HEAD_X + '" y="382" width="96" height="7" fill="' + RED + '"/>' +
         '<text x="' + HEAD_X + '" y="448" font-family="Arial, Helvetica, sans-serif" font-size="30" ' +
-        'fill="#c3c9d1">41 member high schools</text>' +
+        'fill="#c4962a">22 member high schools</text>' +
         '<text x="' + HEAD_X + '" y="492" font-family="Arial, Helvetica, sans-serif" font-size="30" ' +
-        'fill="#c3c9d1">Bergen · Passaic counties</text>' +
+        'fill="#c4962a">Union County, New Jersey</text>' +
         '<text x="' + HEAD_X + '" y="562" font-family="Arial, Helvetica, sans-serif" font-size="26" ' +
-        'font-weight="bold" fill="#ffffff" letter-spacing="2">unioncountyconference.COM</text>' +
+        'font-weight="bold" fill="#ffffff" letter-spacing="2">uccathletics.COM</text>' +
         '</svg>');
 }
 
