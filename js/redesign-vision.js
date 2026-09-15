@@ -34,10 +34,13 @@ document.addEventListener('DOMContentLoaded', function () {
     function isNfhs(v) { return v.type === 'nfhs'; }
 
     function thumbUrl(v, big) {
-        if (v.thumb && /^https?:\/\//i.test(v.thumb)) return v.thumb;
-        if (isNfhs(v)) return '';   // no predictable NFHS thumb URL; CSS fallback handles it
-        if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
-        return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
+        if (!v.thumb) {
+            if (isNfhs(v)) return '';   // no predictable NFHS thumb URL; CSS fallback handles it
+            return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
+        }
+        if (/^https?:\/\//i.test(v.thumb)) return v.thumb;        // absolute URL
+        if (/^images\//i.test(v.thumb))    return v.thumb;        // local relative path
+        return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';  // YouTube thumb name
     }
 
     function buildTile(v, big) {
