@@ -23,11 +23,30 @@ if (!slug1 || !slug2) {
     process.exit(1);
 }
 
-async function circleImg(filepath, size) {
+const fs = require('fs');
+
+async function circleImg(filepath, size, fallbackName) {
     const half = size / 2;
     const mask = Buffer.from(
         `<svg width="${size}" height="${size}"><circle cx="${half}" cy="${half}" r="${half}" fill="white"/></svg>`
     );
+    // If logo file is missing, draw a navy disc with gold initials
+    if (!fs.existsSync(filepath)) {
+        const initials = (fallbackName || 'UCC')
+            .split(/\s+/).map(w => w[0]).join('').toUpperCase().slice(0, 3);
+        const fontSize = initials.length > 2 ? Math.round(size * 0.28) : Math.round(size * 0.36);
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}">
+  <circle cx="${half}" cy="${half}" r="${half}" fill="#13224a"/>
+  <text x="${half}" y="${half + fontSize * 0.38}" fill="#c4962a"
+        font-family="Arial,sans-serif" font-size="${fontSize}" font-weight="900"
+        text-anchor="middle">${initials}</text>
+</svg>`;
+        return sharp(Buffer.from(svg))
+            .resize(size, size)
+            .composite([{ input: mask, blend: 'dest-in' }])
+            .png()
+            .toBuffer();
+    }
     return sharp(filepath)
         .resize(size, size, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
         .composite([{ input: mask, blend: 'dest-in' }])
@@ -48,8 +67,8 @@ async function main() {
     );
 
     const [logo1, logo2] = await Promise.all([
-        circleImg(path.join(LOGOS, slug1 + '.png'), LOGO_SIZE),
-        circleImg(path.join(LOGOS, slug2 + '.png'), LOGO_SIZE),
+        circleImg(path.join(LOGOS, slug1 + '.png'), LOGO_SIZE, name1),
+        circleImg(path.join(LOGOS, slug2 + '.png'), LOGO_SIZE, name2),
     ]);
 
     const nameFontSize = name1.length + name2.length > 24 ? 32 : 38;
