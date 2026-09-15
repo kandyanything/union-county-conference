@@ -1,24 +1,24 @@
 /* ==========================================================================
    Union County Interscholastic Athletic Conference - design system
    Type: Oswald for display, Open Sans for body.
-   Colour: forest green primary, gold accent.
+   Colour: UCC navy (#1a2560) primary, gold accent.
    ========================================================================== */
 
 :root {
     --font-display: 'Oswald', 'Arial Narrow', Arial, sans-serif;
     --font-body: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
 
-    /* forest green base — from the UCC logo's green (#3d9020) */
-    --navy-900: #0c170e;   /* near-black green: masthead, footer, dark bands */
-    --navy-800: #141f16;   /* very dark green: primary nav */
-    --navy-700: #1e3021;   /* dark green: links, gradients */
-    --navy-600: #27422c;   /* forest green: gradient end */
-    /* logo green — readable as fill (white text on it) AND as text on white */
-    --red: #3d9020;
-    --red-dark: #2d6e18;
-    /* light green for outlines, borders, accents on dark surfaces */
-    --silver: #6dc451;
-    --silver-dark: #4a9030;
+    /* navy base — from the UCC circular seal logo */
+    --navy-900: #0b1529;   /* near-black navy: masthead, footer, dark bands */
+    --navy-800: #121e40;   /* dark navy: primary nav */
+    --navy-700: #1a2560;   /* true UCC navy: links, gradients */
+    --navy-600: #1f3070;   /* mid navy: gradient end */
+    /* gold accent — classic athletic complement to navy */
+    --red: #c4962a;
+    --red-dark: #a07820;
+    /* steel blue for outlines, borders, accents on dark surfaces */
+    --silver: #8ab4d8;
+    --silver-dark: #5a90bc;
 
     --ink: #16181c;
     --muted: #666b74;
