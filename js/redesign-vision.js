@@ -31,8 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(function () { section.style.display = 'none'; });
 
+    function isNfhs(v) { return v.type === 'nfhs'; }
+
     function thumbUrl(v, big) {
         if (v.thumb && /^https?:\/\//i.test(v.thumb)) return v.thumb;
+        if (isNfhs(v)) return '';   // no predictable NFHS thumb URL; CSS fallback handles it
         if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
         return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
     }
@@ -44,34 +47,46 @@ document.addEventListener('DOMContentLoaded', function () {
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'vision-thumb';
-        btn.setAttribute('aria-label', 'Play video: ' + (v.title || 'UCIAC game'));
+        btn.setAttribute('aria-label', 'Watch video: ' + (v.title || 'Union Vision'));
 
         var img = document.createElement('img');
-        img.src = thumbUrl(v, big);
-        img.alt = v.title || 'UCIAC game video';
-        img.loading = big ? 'eager' : 'lazy';
-        img.onerror = function () {
-            // maxresdefault is not generated for every upload
-            this.onerror = null;
-            this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
-        };
-        btn.appendChild(img);
+        var thumb = thumbUrl(v, big);
+        if (thumb) {
+            img.src = thumb;
+            img.alt = v.title || 'Union Vision video';
+            img.loading = big ? 'eager' : 'lazy';
+            img.onerror = function () {
+                this.onerror = null;
+                if (!isNfhs(v)) this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
+            };
+            btn.appendChild(img);
+        } else {
+            // NFHS with no custom thumb — show dark placeholder with NFHS badge
+            btn.classList.add('vision-thumb--nfhs');
+        }
 
         var play = document.createElement('span');
         play.className = 'vision-play';
         play.setAttribute('aria-hidden', 'true');
         btn.appendChild(play);
 
-        btn.addEventListener('click', function () {
-            var frame = document.createElement('iframe');
-            frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
-            frame.title = v.title || 'UCIAC game video';
-            frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-            frame.referrerPolicy = 'strict-origin-when-cross-origin';
-            frame.allowFullscreen = true;
-            frame.setAttribute('frameborder', '0');
-            btn.replaceWith(frame);
-        });
+        if (isNfhs(v)) {
+            // NFHS requires subscription — open in a new tab
+            btn.addEventListener('click', function () {
+                window.open(v.url || ('https://www.nfhsnetwork.com/events/' + v.id), '_blank', 'noopener');
+            });
+        } else {
+            btn.addEventListener('click', function () {
+                var frame = document.createElement('iframe');
+                frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
+                frame.title = v.title || 'Union Vision video';
+                frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+                frame.referrerPolicy = 'strict-origin-when-cross-origin';
+                frame.allowFullscreen = true;
+                frame.setAttribute('frameborder', '0');
+                btn.replaceWith(frame);
+            });
+        }
 
         var meta = document.createElement('div');
         meta.className = 'vision-meta';

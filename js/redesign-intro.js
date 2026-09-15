@@ -1,7 +1,7 @@
 ﻿// Homepage load reveal. A circle coin-flips through five photographic sport
 // balls (each landing with a squash-and-settle), then flips into the Union County
 // compass, which arrives on a burst of light + a shockwave ring + a shine sweep
-// and keeps drifting toward the viewer (Ken Burns) while "Union County Interscholastic Athletic Conference /
+// and keeps drifting toward the viewer (Ken Burns) while "Union County Conference /
 // 22 schools - ONE CONFERENCE" fades in. Finally the crest flies up and docks
 // into the site's header logo as the veil clears - the intro becomes the page.
 // Plays once per session, skips on a click, honours reduced-motion, and always
@@ -113,7 +113,7 @@
         ctx.beginPath(); ctx.moveTo(cx - R * 1.05, cy + R * 1.5); ctx.lineTo(cx + R * 1.05, cy + R * 1.5); ctx.stroke();
         ctx.font = '700 ' + Math.min(W * 0.052, 50) + 'px "Oswald","Arial Narrow",system-ui,sans-serif';
         ctx.fillStyle = '#fff'; ctx.shadowColor = 'rgba(195,201,209,.5)'; ctx.shadowBlur = 18;
-        ctx.fillText('Union County Interscholastic Athletic Conference', cx, cy + R * 1.92);
+        ctx.fillText('Union County Conference', cx, cy + R * 1.92);
         ctx.shadowBlur = 0;
         ctx.font = '600 ' + Math.min(W * 0.022, 20) + 'px "Oswald","Arial Narrow",system-ui,sans-serif';
         ctx.fillStyle = '#c3c9d1';

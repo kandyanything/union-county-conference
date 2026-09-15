@@ -1,5 +1,5 @@
 ﻿{
-  "_comment": "Union County Interscholastic Athletic Conference top navigation. Built fresh on every page by js/nav-render.js. 'href' uses the full portable form so the renderer can detect same-page anchors and convert them to smooth-scroll links. A top-level item with 'children' becomes a dropdown; one without is a plain link.",
+  "_comment": "Union County Conference top navigation. Built fresh on every page by js/nav-render.js. 'href' uses the full portable form so the renderer can detect same-page anchors and convert them to smooth-scroll links. A top-level item with 'children' becomes a dropdown; one without is a plain link.",
   "items": [
     { "label": "Home", "href": "index.html" },
     { "label": "School Schedules", "href": "index.html#member-schools" },
@@ -24,11 +24,11 @@
     },
     {
       "label": "Media",
-      "href": "index.html#UCIAC-vision",
+      "href": "index.html#UCC-vision",
       "children": [
-        { "label": "UCIAC Vision", "href": "index.html#UCIAC-vision" },
+        { "label": "Union Vision", "href": "index.html#UCC-vision" },
         { "label": "All Videos", "href": "videos.html" },
-        { "label": "UCIAC News", "href": "index.html#UCIAC-news" }
+        { "label": "UCC News", "href": "index.html#UCC-news" }
       ]
     },
     {
@@ -36,7 +36,7 @@
       "href": "info.html",
       "children": [
         { "label": "Athletic Directors", "href": "index.html#directory" },
-        { "label": "About the UCIAC", "href": "info.html" },
+        { "label": "About the UCC", "href": "info.html" },
         { "label": "School Websites", "href": "websites.html" },
         { "label": "External Links", "href": "links.html" }
       ]
