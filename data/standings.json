@@ -1,38 +1,35 @@
-﻿{
-  "_comment": "Conference standings are published by NJ.com. An entry's URL is built from baseUrl + slug + season + conference, where 'season' falls back to defaultSeason and 'conference' to defaultConference (Union County). NJ.com is inconsistent about the conference id per sport: most use 'Union County' but girls soccer uses 'Big-North' (hyphen), so it carries a conference override. Football groups at the Super Football Conference (SFC) and lacrosse at NJILL/NJIGLL. A sport with neither 'slug' nor 'url' is listed but not clickable - NJ.com has no Union County table for field hockey or ice hockey (revisit later). Update defaultSeason each year.",
+{
+  "_comment": "Conference standings link out to NJ.com/highschoolsports. Each sport's URL is built from baseUrl + slug + season + conference, falling back to defaultConference. Sports with an explicit 'url' use that directly. Football groups under Big Central; field hockey under Essex/Union; cross country uses MileSplit. Update defaultSeason each year.",
   "defaultSeason": "2026-2027",
   "baseUrl": "https://highschoolsports.nj.com",
-  "defaultConference": "Union County",
+  "defaultConference": "UCC",
   "seasons": [
     {
       "name": "Fall",
       "sports": [
         {
           "label": "Football",
-          "slug": "football",
-          "conference": "SFC"
+          "url": "https://highschoolsports.nj.com/football/standings/season/2026-2027?conference=Big%20Central"
         },
         {
           "label": "Boys Soccer",
-          "slug": "boyssoccer"
+          "url": "https://highschoolsports.nj.com/boyssoccer/standings/season/2026-2027?conference=UCC"
         },
         {
           "label": "Girls Soccer",
-          "slug": "girlssoccer",
-          "conference": "Big-North"
+          "url": "https://highschoolsports.nj.com/girlssoccer/standings/season/2026-2027?conference=UCC"
         },
         {
           "label": "Field Hockey",
-          "slug": "fieldhockey",
-          "conference": "NEFHL"
+          "url": "https://highschoolsports.nj.com/fieldhockey/standings/season/2026-2027?conference=Essex/Union"
         },
         {
           "label": "Girls Tennis",
-          "slug": "girlstennis"
+          "url": "https://highschoolsports.nj.com/girlstennis/standings/season/2026-2027?conference=UCC"
         },
         {
           "label": "Girls Volleyball",
-          "slug": "girlsvolleyball"
+          "url": "https://highschoolsports.nj.com/girlsvolleyball/standings/season/2026-2027?conference=UCC"
         },
         {
           "label": "Boys Cross Country",
@@ -47,76 +44,27 @@
     {
       "name": "Winter",
       "sports": [
-        {
-          "label": "Boys Basketball",
-          "slug": "boysbasketball"
-        },
-        {
-          "label": "Girls Basketball",
-          "slug": "girlsbasketball"
-        },
-        {
-          "label": "Ice Hockey"
-        },
-        {
-          "label": "Wrestling",
-          "slug": "wrestling"
-        },
-        {
-          "label": "Boys Swimming",
-          "slug": "boysswimming"
-        },
-        {
-          "label": "Girls Swimming",
-          "slug": "girlsswimming"
-        },
-        {
-          "label": "Boys Bowling",
-          "slug": "boysbowling"
-        },
-        {
-          "label": "Girls Bowling",
-          "slug": "girlsbowling"
-        }
+        { "label": "Boys Basketball",  "slug": "boysbasketball" },
+        { "label": "Girls Basketball", "slug": "girlsbasketball" },
+        { "label": "Ice Hockey" },
+        { "label": "Wrestling",        "slug": "wrestling" },
+        { "label": "Boys Swimming",    "slug": "boysswimming" },
+        { "label": "Girls Swimming",   "slug": "girlsswimming" },
+        { "label": "Boys Bowling",     "slug": "boysbowling" },
+        { "label": "Girls Bowling",    "slug": "girlsbowling" }
       ]
     },
     {
       "name": "Spring",
       "sports": [
-        {
-          "label": "Baseball",
-          "slug": "baseball"
-        },
-        {
-          "label": "Softball",
-          "slug": "softball"
-        },
-        {
-          "label": "Boys Lacrosse",
-          "slug": "boyslacrosse",
-          "conference": "NJILL"
-        },
-        {
-          "label": "Girls Lacrosse",
-          "slug": "girlslacrosse",
-          "conference": "NJIGLL"
-        },
-        {
-          "label": "Boys Tennis",
-          "slug": "boystennis"
-        },
-        {
-          "label": "Boys Volleyball",
-          "slug": "boysvolleyball"
-        },
-        {
-          "label": "Boys Golf",
-          "slug": "boysgolf"
-        },
-        {
-          "label": "Girls Golf",
-          "slug": "girlsgolf"
-        }
+        { "label": "Baseball",         "slug": "baseball" },
+        { "label": "Softball",         "slug": "softball" },
+        { "label": "Boys Lacrosse",    "slug": "boyslacrosse" },
+        { "label": "Girls Lacrosse",   "slug": "girlslacrosse" },
+        { "label": "Boys Tennis",      "slug": "boystennis" },
+        { "label": "Boys Volleyball",  "slug": "boysvolleyball" },
+        { "label": "Boys Golf",        "slug": "boysgolf" },
+        { "label": "Girls Golf",       "slug": "girlsgolf" }
       ]
     }
   ]
