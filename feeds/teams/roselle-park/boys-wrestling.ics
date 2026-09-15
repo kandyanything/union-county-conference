@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Roselle P
+ ark Boys Wrestling
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2837:7590652@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T110000
+SUMMARY:Roselle Park vs South River High School (Varsity Boys Boys Wrestl
+ ing)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7503748@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T103000
+DTEND;TZID=America/New_York:20261223T123000
+SUMMARY:Roselle Park vs Cliffside Park High School (Varsity Boys Boys Wre
+ stling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7484560@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T084500
+DTEND;TZID=America/New_York:20270206T104500
+SUMMARY:Roselle Park vs Perth Amboy High School (Junior Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 8:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7484559@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T100000
+DTEND;TZID=America/New_York:20270206T120000
+SUMMARY:Roselle Park vs Perth Amboy High School (Varsity Boys Boys Wrestl
+ ing)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 10:00 AM
+END:VEVENT
+END:VCALENDAR

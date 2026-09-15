@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Varsity B
+ oys Golf
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2678:7521911@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T150000
+DTEND;TZID=America/New_York:20270330T170000
+SUMMARY:Jonathan Dayton vs Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7521912@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T151500
+DTEND;TZID=America/New_York:20270331T171500
+SUMMARY:Arthur L. Johnson vs Governor Livingston (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2584:7521913@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T151500
+DTEND;TZID=America/New_York:20270406T171500
+SUMMARY:David Brearley at Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7521914@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T151500
+DTEND;TZID=America/New_York:20270407T171500
+SUMMARY:Arthur L. Johnson at Union Catholic (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7521917@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T151500
+DTEND;TZID=America/New_York:20270413T171500
+SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7521920@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T151500
+DTEND;TZID=America/New_York:20270414T171500
+SUMMARY:Jonathan Dayton at Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7521921@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Arthur L. Johnson vs TBD (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7521922@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270421T151500
+DTEND;TZID=America/New_York:20270421T171500
+SUMMARY:Arthur L. Johnson at Governor Livingston (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2584:7521923@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T151500
+DTEND;TZID=America/New_York:20270422T171500
+SUMMARY:David Brearley vs Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7521924@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T151500
+DTEND;TZID=America/New_York:20270427T171500
+SUMMARY:Arthur L. Johnson vs Union Catholic (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7521925@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T151500
+DTEND;TZID=America/New_York:20270428T171500
+SUMMARY:Cranford vs Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7521926@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Arthur L. Johnson vs TBD (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7521927@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Arthur L. Johnson vs TBD (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+END:VCALENDAR
