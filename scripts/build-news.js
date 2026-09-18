@@ -16,7 +16,7 @@
 const CONF_NAME    = 'Union County Conference';
 const CONF_SHORT   = 'UCC';           // case-sensitive â€” used in headline matching
 const EXTRA_QUERIES = [];             // extra Google News search phrases if needed
-const MAX_ITEMS    = 40;              // articles kept in news.json, newest first
+const MAX_ITEMS    = 7;              // articles kept in news.json, newest first
 // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 const fs   = require('fs');
@@ -125,10 +125,11 @@ const HOUSE_SOURCES = [
     'nj.com', 'dailyrecord.com', 'northjersey.com', 'tapinto.net', 'patch.com',
     'newjerseyhills.com', 'njherald.com', 'mycentraljersey.com', 'app.com',
     'insidernj.com', 'nj1015.com', 'nfhs.org', 'onnj.com', 'wrnjradio.com',
+    'maxpreps.com',
 ];
 
 const DENY_HOSTS = [
-    'maxpreps.com', 'nfhsnetwork.com', 'hudl.com', 'arbiterlive.com',
+    'nfhsnetwork.com', 'hudl.com', 'arbiterlive.com',
     'digitalsports.com', 'si.com', 'athlitiq.com',
 ];
 
@@ -147,6 +148,7 @@ const OUTLET_NAMES = {
     'mycentraljersey.com': 'MyCentralJersey',
     'onnj.com':            'On New Jersey',
     'wrnjradio.com':       'WRNJ Radio',
+    'maxpreps.com':        'MaxPreps',
 };
 
 function outletNameFor(host) {
