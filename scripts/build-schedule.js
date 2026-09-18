@@ -28,8 +28,10 @@ const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'data', 'schedule.json');
 const PAUSE_MS = 1200;          // be a good citizen: one school at a time
 
-// No Union County schools are on ArbiterLive - all 22 use DigitalSports.
-const ARBITER_SCHOOLS = [];
+// Oratory Prep uses ArbiterLive (entityId 17128); all other UCC schools use DigitalSports.
+const ARBITER_SCHOOLS = [
+    { name: 'Oratory Prep', slug: 'oratory-prep', entityId: 17128 },
+];
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const PAD = n => '  ' + String(n).padStart(4);
