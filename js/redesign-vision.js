@@ -1,9 +1,7 @@
-﻿// UCIAC Vision (redesign): the first video runs large as a feature, the rest
-// sit in a grid beneath it.
-//
-// Tiles are thumbnails rather than embedded players - ten iframes would load
-// the YouTube player ten times on first paint. Clicking a tile swaps that one
-// tile for a real autoplaying iframe, so video plays inline on the page.
+﻿// Union Vision: feature video + grid of game clips.
+// YouTube entries: provide 'id' (the watch?v= part) — embeds inline on click.
+// NFHS Network entries: provide 'url' and set source:'nfhs' — opens NFHS in
+//   a new tab on click (NFHS blocks iframes on third-party sites).
 document.addEventListener('DOMContentLoaded', function () {
     var section = document.querySelector('.njac-vision');
     if (!section) return;
@@ -15,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data/videos.json')
         .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
         .then(function (data) {
-            var videos = (data.videos || []).filter(function (v) { return v && v.id; });
+            var videos = (data.videos || []).filter(function (v) { return v && (v.id || v.url); });
             if (!videos.length) { section.style.display = 'none'; return; }
 
             // data-limit caps how many appear here; the rest live on the all-videos
@@ -31,55 +29,61 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(function () { section.style.display = 'none'; });
 
-    function isNfhs(v) { return v.type === 'nfhs'; }
-
     function thumbUrl(v, big) {
-        if (!v.thumb) {
-            if (isNfhs(v)) return '';   // no predictable NFHS thumb URL; CSS fallback handles it
+        if (v.thumb && /^https?:\/\//i.test(v.thumb)) return v.thumb;
+        if (v.id && !v.url) {
+            if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
             return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
         }
-        if (/^https?:\/\//i.test(v.thumb)) return v.thumb;        // absolute URL
-        if (/^images\//i.test(v.thumb))    return v.thumb;        // local relative path
-        return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';  // YouTube thumb name
+        // NFHS: derive thumbnail from game id in the URL
+        if (v.url) {
+            var m = v.url.match(/\/(gam[a-z0-9]+)(?:[/?]|$)/);
+            if (m) return 'https://social.nfhsnetwork.com/thumbnails/' + m[1] + '_nfhs_net.jpg';
+        }
+        return '';
     }
 
     function buildTile(v, big) {
+        var isExternal = !v.id && v.url;
+
         var tile = document.createElement('article');
         tile.className = 'vision-item' + (big ? ' vision-item--feature' : '');
 
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'vision-thumb';
-        btn.setAttribute('aria-label', 'Watch video: ' + (v.title || 'Union Vision'));
+        btn.setAttribute('aria-label', (isExternal ? 'Watch video: ' : 'Play video: ') + (v.title || 'Union Vision'));
 
         var img = document.createElement('img');
-        var thumb = thumbUrl(v, big);
-        if (thumb) {
-            img.src = thumb;
-            img.alt = v.title || 'Union Vision video';
-            img.loading = big ? 'eager' : 'lazy';
+        img.src = thumbUrl(v, big);
+        img.alt = v.title || 'Union Vision video';
+        img.loading = big ? 'eager' : 'lazy';
+        if (v.id && !v.url) {
             img.onerror = function () {
                 this.onerror = null;
-                if (!isNfhs(v)) this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
+                this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
             };
-            btn.appendChild(img);
-        } else {
-            // NFHS with no custom thumb — show dark placeholder with NFHS badge
-            btn.classList.add('vision-thumb--nfhs');
         }
+        btn.appendChild(img);
 
         var play = document.createElement('span');
         play.className = 'vision-play';
         play.setAttribute('aria-hidden', 'true');
         btn.appendChild(play);
 
-        if (isNfhs(v)) {
-            // NFHS requires subscription — open in a new tab
-            btn.addEventListener('click', function () {
-                window.open(v.url || ('https://www.nfhsnetwork.com/events/' + v.id), '_blank', 'noopener');
-            });
-        } else {
-            btn.addEventListener('click', function () {
+        // Source badge
+        if (isExternal) {
+            var badge = document.createElement('span');
+            badge.className = 'vision-source-badge';
+            badge.setAttribute('aria-hidden', 'true');
+            badge.textContent = (v.source === 'nfhs' || v.type === 'nfhs') ? 'NFHS Network' : 'Watch';
+            btn.appendChild(badge);
+        }
+
+        btn.addEventListener('click', function () {
+            if (isExternal) {
+                window.open(v.url, '_blank', 'noopener,noreferrer');
+            } else {
                 var frame = document.createElement('iframe');
                 frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
                 frame.title = v.title || 'Union Vision video';
@@ -88,18 +92,20 @@ document.addEventListener('DOMContentLoaded', function () {
                 frame.allowFullscreen = true;
                 frame.setAttribute('frameborder', '0');
                 btn.replaceWith(frame);
-            });
-        }
+            }
+        });
 
         var meta = document.createElement('div');
         meta.className = 'vision-meta';
         var h3 = document.createElement('h3');
-        h3.textContent = v.title || 'UCIAC game';
+        h3.textContent = v.title || 'UCC game';
         meta.appendChild(h3);
-        if (v.sport || v.date) {
+        if (v.sport || v.date || isExternal) {
             var p = document.createElement('p');
             p.className = 'vision-sub';
-            p.textContent = [v.sport, formatDate(v.date)].filter(Boolean).join(' · ');
+            var parts = [v.sport, formatDate(v.date)].filter(Boolean);
+            if (isExternal) parts.push('Opens on NFHS Network ↗');
+            p.textContent = parts.join(' · ');
             meta.appendChild(p);
         }
 

@@ -1,38 +1,30 @@
 {
-  "_comment": "Union Vision. 'type' can be 'youtube' (default) or 'nfhs'. For youtube, 'id' is the YouTube video id. For nfhs, 'id' is the game id and 'url' is the full NFHS Network event URL. Optional 'thumb' is a full URL or local images/... path for the thumbnail. First entry runs large as the feature; rest fill the grid.",
+  "_comment": "Union Vision. Two formats: YouTube (set 'id' = the watch?v= part, plays inline) or NFHS Network (set 'url' = full NFHS event URL and 'source':'nfhs', opens in new tab — NFHS blocks iframe embedding). Optional 'thumb': full URL or local images/... path. First entry runs large as the feature.",
   "videos": [
     {
-      "id": "gam90596924be",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/d1-media-pro/gam90596924be",
-      "thumb": "images/photos/cranford-bernards-thumb.jpg",
+      "source": "nfhs",
       "title": "Cranford vs Bernards",
       "date": "2026-09-15",
       "sport": "Football"
     },
     {
-      "id": "gam38d0955264",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gam38d0955264",
-      "thumb": "images/photos/oakknoll-montclair-thumb.jpg",
+      "source": "nfhs",
       "title": "Oak Knoll vs Montclair",
       "date": "2026-09-15",
       "sport": "Girls Soccer"
     },
     {
-      "id": "gam1c68edeebc",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam1c68edeebc",
-      "thumb": "images/photos/newprov-aljohnson-thumb.jpg",
+      "source": "nfhs",
       "title": "New Providence vs A.L. Johnson",
       "date": "2026-09-15",
       "sport": "Football"
     },
     {
-      "id": "gam5ff9680c32",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gam5ff9680c32",
-      "thumb": "images/photos/elizabeth-montclair-vball-thumb.jpg",
+      "source": "nfhs",
       "title": "Elizabeth vs Montclair",
       "date": "2026-09-15",
       "sport": "Girls Volleyball"

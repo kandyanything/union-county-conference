@@ -6,6 +6,14 @@
 /* ---------- BNC Vision: one feature, then a grid ---------- */
 .vision-feature { margin-bottom: 22px; }
 
+.vision-source-badge {
+    position: absolute; bottom: 10px; left: 10px;
+    background: rgba(0,0,0,.72); color: #fff;
+    font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+    padding: 3px 8px; border-radius: 3px; pointer-events: none;
+    text-transform: uppercase;
+}
+
 .vision-feature .vision-item {
     flex: none;
     width: 100%;
