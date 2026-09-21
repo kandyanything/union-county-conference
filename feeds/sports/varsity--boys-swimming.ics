@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104016317@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T150000
+DTEND;TZID=America/New_York:20261201T170000
+SUMMARY:Oratory Prep at Scotch Plains-Fanwood (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7587892@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T150000
@@ -48,6 +56,14 @@ SUMMARY:Governor Livingston at New Providence (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104058302@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T153000
+DTEND;TZID=America/New_York:20261209T173000
+SUMMARY:Oratory Prep at Summit (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7587895@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T154500
@@ -64,20 +80,28 @@ SUMMARY:Governor Livingston vs Kent Place (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7587898@union-county-interscholastic-athletic-conference
+UID:arb:104082396@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T154500
-DTEND;TZID=America/New_York:20261216T174500
-SUMMARY:Cranford at Union (Varsity Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:45 PM
+DTSTART;TZID=America/New_York:20261216T150000
+DTEND;TZID=America/New_York:20261216T170000
+SUMMARY:Oratory Prep at Westfield (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7587899@union-county-interscholastic-athletic-conference
+UID:ds:2581:7587898@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T150000
+DTEND;TZID=America/New_York:20261216T170000
+SUMMARY:Cranford at Union (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104111167@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T154500
 DTEND;TZID=America/New_York:20261222T174500
-SUMMARY:Cranford vs Oratory Prep (Varsity Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:45 PM
+SUMMARY:Oratory Prep at Cranford (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7612877@union-county-interscholastic-athletic-conference
@@ -86,6 +110,14 @@ DTSTART;TZID=America/New_York:20261222T181500
 DTEND;TZID=America/New_York:20261222T201500
 SUMMARY:Governor Livingston vs Plainfield (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104054187@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T151500
+DTEND;TZID=America/New_York:20270105T171500
+SUMMARY:Oratory Prep at New Providence (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7587900@union-county-interscholastic-athletic-conference
@@ -112,6 +144,15 @@ SUMMARY:Governor Livingston vs Westfield (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2905:7634506@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T153000
+DTEND;TZID=America/New_York:20270108T173000
+SUMMARY:Union Catholic at South Plainfield High School (Varsity Boys Boys
+  Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7612882@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T181500
@@ -129,6 +170,14 @@ SUMMARY:Governor Livingston at Summit (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104112252@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T163000
+DTEND;TZID=America/New_York:20270119T183000
+SUMMARY:Oratory Prep at Elizabeth (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7612888@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T181500
@@ -143,5 +192,13 @@ DTSTART;TZID=America/New_York:20270120T154500
 DTEND;TZID=America/New_York:20270120T174500
 SUMMARY:Cranford vs Elizabeth (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102011038@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Oratory Prep vs Governor Livingston (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home
 END:VEVENT
 END:VCALENDAR

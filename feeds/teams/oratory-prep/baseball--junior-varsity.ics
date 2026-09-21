@@ -24,12 +24,38 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2581:7609858@union-county-interscholastic-athletic-conference
+UID:arb:102899866@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Oratory Prep at Governor Livingston (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102491861@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
+SUMMARY:Oratory Prep vs Scotch Plains-Fanwood (Junior Varsity Boys Baseba
+ ll)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102491879@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T110000
+DTEND;TZID=America/New_York:20270417T130000
+SUMMARY:Oratory Prep at Scotch Plains-Fanwood (Junior Varsity Boys Baseba
+ ll)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102704470@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270420T160000
 DTEND;TZID=America/New_York:20270420T180000
-SUMMARY:Cranford vs Oratory Prep (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+SUMMARY:Oratory Prep at Cranford (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7609859@union-county-interscholastic-athletic-conference
@@ -48,20 +74,19 @@ SUMMARY:Arthur L. Johnson at Oratory Prep (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7521901@union-county-interscholastic-athletic-conference
+UID:arb:103166051@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T160000
 DTEND;TZID=America/New_York:20270428T180000
-SUMMARY:Arthur L. Johnson vs Oratory Prep (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+SUMMARY:Oratory Prep at Arthur L. Johnson (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7620443@union-county-interscholastic-athletic-conference
+UID:arb:102900204@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270514T160000
-DTEND;TZID=America/New_York:20270514T180000
-SUMMARY:Oratory Prep at Hanover Park High School (Junior Varsity Boys Bas
- eball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20270501T100000
+DTEND;TZID=America/New_York:20270501T120000
+SUMMARY:Oratory Prep at Westfield (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR

@@ -24,31 +24,76 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2581:7566541@union-county-interscholastic-athletic-conference
+UID:arb:102536613@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Oratory Prep at Glen Ridge High School (Junior Varsity Boys Boys 
+ Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102069433@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Oratory Prep vs Glen Ridge High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102549751@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T100000
+DTEND;TZID=America/New_York:20260828T120000
+SUMMARY:Oratory Prep at Belleville Senior High School (Varsity Boys Boys 
+ Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100805732@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T100000
+DTEND;TZID=America/New_York:20260828T120000
+SUMMARY:[Canceled] Oratory Prep vs Belleville Senior High School (Freshma
+ n Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101453424@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T120000
+DTEND;TZID=America/New_York:20260828T140000
+SUMMARY:Oratory Prep at Belleville Senior High School (Junior Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102069453@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
 DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Cranford at Oratory Prep (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Oratory Prep vs Cranford (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7566584@union-county-interscholastic-athletic-conference
+UID:arb:101192126@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
 DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Cranford vs Oratory Prep (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Oratory Prep at Cranford (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7566581@union-county-interscholastic-athletic-conference
+UID:arb:101452396@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Cranford at Oratory Prep (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Oratory Prep vs Cranford (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7556320@union-county-interscholastic-athletic-conference
+UID:arb:100806202@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T154500
 DTEND;TZID=America/New_York:20260904T174500
@@ -57,7 +102,7 @@ SUMMARY:Oratory Prep at Colonia High School (Junior Varsity Boys Boys Soc
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7498800@union-county-interscholastic-athletic-conference
+UID:arb:100803662@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T154500
 DTEND;TZID=America/New_York:20260904T174500
@@ -65,7 +110,41 @@ SUMMARY:Oratory Prep at Colonia High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7605467@union-county-interscholastic-athletic-conference
+UID:arb:100806290@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Oratory Prep at TBD (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100681199@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Oratory Prep at TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103837443@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:[Canceled] Oratory Prep at Hillside (Junior Varsity Boys Boys Soc
+ cer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103725349@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Oratory Prep at Hillside (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102332195@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T120000
 DTEND;TZID=America/New_York:20260912T140000
@@ -74,7 +153,7 @@ SUMMARY:Oratory Prep vs Madison High School (Junior Varsity Boys Boys Soc
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7492099@union-county-interscholastic-athletic-conference
+UID:arb:102332182@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T140000
 DTEND;TZID=America/New_York:20260912T160000
@@ -82,15 +161,31 @@ SUMMARY:Oratory Prep vs Madison High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7543332@union-county-interscholastic-athletic-conference
+UID:arb:101945690@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T180000
-DTEND;TZID=America/New_York:20260922T200000
-SUMMARY:Oratory Prep at Rahway (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Oratory Prep vs Plainfield (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7543422@union-county-interscholastic-athletic-conference
+UID:arb:102069475@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Oratory Prep vs Plainfield (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101945741@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T153000
+DTEND;TZID=America/New_York:20260922T173000
+SUMMARY:Oratory Prep vs The Pingry School (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101681516@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T180000
 DTEND;TZID=America/New_York:20260922T200000
@@ -98,45 +193,112 @@ SUMMARY:Oratory Prep at Rahway (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7534521@union-county-interscholastic-athletic-conference
+UID:arb:101681392@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Governor Livingston vs Oratory Prep (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260922T180000
+DTEND;TZID=America/New_York:20260922T200000
+SUMMARY:Oratory Prep at Rahway (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7534522@union-county-interscholastic-athletic-conference
+UID:arb:100801459@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Governor Livingston vs Oratory Prep (Junior Varsity Boys Boys Soc
- cer)
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Oratory Prep vs New Providence (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7534523@union-county-interscholastic-athletic-conference
+UID:arb:104078056@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Oratory Prep at Saint Benedict's Preparatory School (Middle Schoo
+ l Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100800648@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Oratory Prep vs New Providence (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100801485@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T160000
+DTEND;TZID=America/New_York:20260925T180000
+SUMMARY:Oratory Prep at New Providence (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101945700@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T110000
+DTEND;TZID=America/New_York:20260926T130000
+SUMMARY:Oratory Prep vs Rutgers Prep School (Junior Varsity Boys Boys Soc
+ cer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102069523@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T130000
+DTEND;TZID=America/New_York:20260926T150000
+SUMMARY:Oratory Prep vs Rutgers Prep School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101945749@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T153000
+DTEND;TZID=America/New_York:20260929T173000
+SUMMARY:Oratory Prep vs Rutgers Prep School (Middle School Boys Boys Socc
+ er)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98542773@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Oratory Prep at Governor Livingston (Junior Varsity Boys Boys Soc
+ cer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104098994@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T183000
+DTEND;TZID=America/New_York:20260929T203000
+SUMMARY:Oratory Prep at Governor Livingston (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98542774@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Governor Livingston vs Oratory Prep (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Oratory Prep at Governor Livingston (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7562905@union-county-interscholastic-athletic-conference
+UID:arb:103036188@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T153000
+DTEND;TZID=America/New_York:20261001T173000
+SUMMARY:Oratory Prep at Newark Academy (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102069542@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T180000
 SUMMARY:Oratory Prep vs Roselle (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2781:7562929@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Oratory Prep vs Roselle (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7562905@union-county-interscholastic-athletic-conference
@@ -155,7 +317,15 @@ SUMMARY:Roselle at Oratory Prep (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7513097@union-county-interscholastic-athletic-conference
+UID:arb:103065399@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T160000
+DTEND;TZID=America/New_York:20261002T180000
+SUMMARY:Oratory Prep vs Roselle (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101627522@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T080000
 DTEND;TZID=America/New_York:20261003T100000
@@ -164,7 +334,7 @@ SUMMARY:Oratory Prep at James Caldwell High School (Freshman Boys Boys So
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7512559@union-county-interscholastic-athletic-conference
+UID:arb:101627298@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T100000
 DTEND;TZID=America/New_York:20261003T120000
@@ -173,7 +343,7 @@ SUMMARY:Oratory Prep at James Caldwell High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7505330@union-county-interscholastic-athletic-conference
+UID:arb:101984674@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T160000
 DTEND;TZID=America/New_York:20261003T180000
@@ -182,12 +352,44 @@ SUMMARY:Oratory Prep at James Caldwell High School (Varsity Boys Boys Soc
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7445027@union-county-interscholastic-athletic-conference
+UID:arb:102485391@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T153000
+DTEND;TZID=America/New_York:20261006T173000
+SUMMARY:Oratory Prep at Far Brook School (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100806817@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Oratory Prep at Elizabeth (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100804856@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Oratory Prep at Elizabeth (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102485504@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T154500
+DTEND;TZID=America/New_York:20261008T174500
+SUMMARY:Oratory Prep at The Pingry School (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102069559@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Arthur L. Johnson at Oratory Prep (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Oratory Prep vs Arthur L. Johnson (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7445028@union-county-interscholastic-athletic-conference
@@ -199,19 +401,144 @@ SUMMARY:Arthur L. Johnson at Oratory Prep (Junior Varsity Boys Boys Socce
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7464608@union-county-interscholastic-athletic-conference
+UID:arb:101945761@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Linden vs Oratory Prep (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261013T154500
+DTEND;TZID=America/New_York:20261013T174500
+SUMMARY:Oratory Prep vs Montclair Kimberley Academy (Middle School Boys B
+ oys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7465058@union-county-interscholastic-athletic-conference
+UID:arb:101592476@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Linden vs Oratory Prep (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:[Canceled] Oratory Prep at Linden (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100806863@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Oratory Prep at Linden (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100804957@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Oratory Prep at Linden (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102311600@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Oratory Prep at Montclair Kimberley Academy (Middle School Boys B
+ oys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103524742@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Oratory Prep vs TBD (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100806937@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Oratory Prep vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103524806@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Oratory Prep vs TBD (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100807003@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Oratory Prep vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100807204@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Oratory Prep vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103895462@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Oratory Prep vs Saint Benedict's Preparatory School (Middle Schoo
+ l Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104154952@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161500
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:Oratory Prep at Irvington High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102995784@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T120000
+DTEND;TZID=America/New_York:20261024T140000
+SUMMARY:Oratory Prep at Voorhees High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102637540@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T120000
+DTEND;TZID=America/New_York:20261024T140000
+SUMMARY:Oratory Prep at Voorhees High School (Junior Varsity Boys Boys So
+ ccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101842889@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T163000
+DTEND;TZID=America/New_York:20261027T183000
+SUMMARY:Oratory Prep at Union (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101842870@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T163000
+DTEND;TZID=America/New_York:20261027T183000
+SUMMARY:Oratory Prep at Union (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101842866@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T163000
+DTEND;TZID=America/New_York:20261027T183000
+SUMMARY:Oratory Prep at Union (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR

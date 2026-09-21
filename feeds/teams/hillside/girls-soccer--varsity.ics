@@ -24,20 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2654:7532255@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Hillside vs Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2654:7540845@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Hillside at Rahway (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532255@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillside vs Jonathan Dayton (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7465594@union-county-interscholastic-athletic-conference

@@ -24,11 +24,44 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:103939171@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Oratory Prep at Cedar Grove High School (Varsity Boys Boys Lacros
+ se)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7511682@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270410T120000
 DTEND;TZID=America/New_York:20270410T140000
 SUMMARY:Arthur L. Johnson vs Oratory Prep (Varsity Boys Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103939298@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270421T160000
+DTEND;TZID=America/New_York:20270421T180000
+SUMMARY:Oratory Prep at Nutley High School (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103939349@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T163000
+DTEND;TZID=America/New_York:20270428T183000
+SUMMARY:Oratory Prep vs Jonathan Dayton (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103939405@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270506T160000
+DTEND;TZID=America/New_York:20270506T180000
+SUMMARY:Oratory Prep at Boonton High School (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

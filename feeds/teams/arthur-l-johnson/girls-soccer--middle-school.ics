@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2509:7637689@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T160000
+DTEND;TZID=America/New_York:20260918T180000
+SUMMARY:Arthur L. Johnson vs Maxson Middle (Middle School Girls Girls Soc
+ cer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7444977@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
@@ -36,16 +45,8 @@ UID:ds:2584:7446588@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:David Brearley at Arthur L. Johnson (Middle School Girls Girls So
+SUMMARY:David Brearley vs Arthur L. Johnson (Middle School Girls Girls So
  ccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7444989@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T160000
-DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Hillside vs Arthur L. Johnson (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -81,15 +82,6 @@ DTSTART;TZID=America/New_York:20261002T160000
 DTEND;TZID=America/New_York:20261002T180000
 SUMMARY:Arthur L. Johnson vs Cranford (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2509:7445014@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Arthur L. Johnson at Joseph E. Soehl Middle School (Middle School
-  Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7445022@union-county-interscholastic-athletic-conference

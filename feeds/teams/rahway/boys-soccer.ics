@@ -185,15 +185,7 @@ SUMMARY:Rahway at Union Catholic (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2781:7543332@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T180000
-DTEND;TZID=America/New_York:20260922T200000
-SUMMARY:Oratory Prep at Rahway (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2781:7543422@union-county-interscholastic-athletic-conference
+UID:arb:101681516@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T180000
 DTEND;TZID=America/New_York:20260922T200000
@@ -201,12 +193,20 @@ SUMMARY:Oratory Prep at Rahway (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:101681392@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T180000
+DTEND;TZID=America/New_York:20260922T200000
+SUMMARY:Oratory Prep at Rahway (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2654:7543940@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Hillside at Rahway (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Hillside vs Rahway (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7543336@union-county-interscholastic-athletic-conference
@@ -409,11 +409,11 @@ SUMMARY:Governor Livingston vs Rahway (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7544021@union-county-interscholastic-athletic-conference
+UID:ds:2821:7554121@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Rahway at Columbia Middle (Middle School Boys Boys Soccer)
+SUMMARY:Rahway at Columbia Middle School (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -482,19 +482,19 @@ SUMMARY:Rahway at TBA NJ (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7544007@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Rahway vs Madison Ave Field (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7592625@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Rahway vs Cranford (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7544007@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Rahway vs Madison Ave Field (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT

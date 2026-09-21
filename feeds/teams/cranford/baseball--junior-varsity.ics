@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2581:7521891@union-county-interscholastic-athletic-conference
+UID:ds:2581:7609851@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
 DTEND;TZID=America/New_York:20270330T180000
@@ -32,7 +32,7 @@ SUMMARY:Cranford at Arthur L. Johnson (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7521892@union-county-interscholastic-athletic-conference
+UID:ds:2581:7609852@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
@@ -80,12 +80,20 @@ SUMMARY:Cranford vs Union Catholic (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7609858@union-county-interscholastic-athletic-conference
+UID:ds:2581:7638467@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T110000
+DTEND;TZID=America/New_York:20270417T130000
+SUMMARY:Cranford vs Bayonne High School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102704470@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270420T160000
 DTEND;TZID=America/New_York:20270420T180000
-SUMMARY:Cranford vs Oratory Prep (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+SUMMARY:Oratory Prep at Cranford (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7609859@union-county-interscholastic-athletic-conference
