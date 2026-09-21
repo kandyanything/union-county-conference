@@ -16,7 +16,7 @@ const ROOT = path.join(__dirname, '..');
 const fresh = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'schedule.json'), 'utf8'));
 
 const MIN_GAMES = 2000;          // a real season is many thousands
-const MIN_SOURCES_OK = 35;       // of 39; a couple of schools may legitimately fail
+const MIN_SOURCE_RATE = 0.9;     // share of this conference's own schools that must return
 const MAX_DROP = 0.30;           // vs the previous build
 
 const problems = [];
@@ -31,7 +31,13 @@ notes.push(`games ${games}, sources ok ${okSources}/${totalSources}`);
 if (games < MIN_GAMES) {
     problems.push(`only ${games} games - expected at least ${MIN_GAMES}`);
 }
-if (okSources < MIN_SOURCES_OK) {
+// Take the floor from the schools this conference actually has. A count copied
+// from a larger conference fails every single run no matter how healthy the
+// build is: this file arrived here set to 35 "of 39" while Union County has 22,
+// so the guard rejected 22-of-22 perfect builds for weeks.
+if (!totalSources) {
+    problems.push('the build reported no sources at all');
+} else if (okSources < Math.ceil(totalSources * MIN_SOURCE_RATE)) {
     const failed = (fresh.sources || []).filter(s => !s.ok).map(s => s.school);
     problems.push(`only ${okSources}/${totalSources} sources returned data; failed: ${failed.join(', ')}`);
 }
