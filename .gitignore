@@ -18,7 +18,17 @@ image.png
 _logo-check.html
 
 # Local Claude Code settings
-.claude/settings.local.json
+.claude/
 
 # Experimental scores-scraper output (backend only, not served)
 data/scores-scraped.json
+
+# Local-only CMS staging. admin/index.html IS published - only the config and
+# the activation scaffolding stay local. Ignoring these makes "never commit
+# them" structural instead of something to remember on every commit.
+admin/config.yml
+cms-activation/
+data/pages/
+
+# Scores are entered by hand; there is no live feed to refresh them.
+data/scores.json
