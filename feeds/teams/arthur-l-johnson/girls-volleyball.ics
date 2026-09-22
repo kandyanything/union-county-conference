@@ -189,11 +189,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444990@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
+DTSTART;TZID=America/New_York:20260926T080000
+DTEND;TZID=America/New_York:20260926T100000
 SUMMARY:Arthur L. Johnson at Millburn High School (Varsity Girls Girls Vo
  lleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7445002@union-county-interscholastic-athletic-conference
