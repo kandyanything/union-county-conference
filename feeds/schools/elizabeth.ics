@@ -785,20 +785,20 @@ SUMMARY:Elizabeth vs Union Catholic (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7640517@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T163000
-DTEND;TZID=America/New_York:20260915T183000
-SUMMARY:Summit at Elizabeth (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7555185@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T163000
 DTEND;TZID=America/New_York:20260915T183000
 SUMMARY:Summit at Elizabeth (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7557026@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T163000
+DTEND;TZID=America/New_York:20260915T183000
+SUMMARY:Summit at Elizabeth (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7629039@union-county-interscholastic-athletic-conference
@@ -1403,6 +1403,14 @@ SUMMARY:Elizabeth at Ridge High School (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7649954@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T183000
+DTEND;TZID=America/New_York:20260925T203000
+SUMMARY:Elizabeth at Basking Ridge (Varsity Coed Coed Cheerleading)
+DESCRIPTION:Varsity Coed Coed Cheerleading - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2584:7529586@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T090000
@@ -1417,14 +1425,6 @@ DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T110000
 SUMMARY:Elizabeth vs Ridge High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7529585@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T110000
-DTEND;TZID=America/New_York:20260926T130000
-SUMMARY:David Brearley at Elizabeth (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7559958@union-county-interscholastic-athletic-conference
@@ -1443,6 +1443,14 @@ DTEND;TZID=America/New_York:20260926T140000
 SUMMARY:Elizabeth vs South Brunswick High School (Freshman Boys Boys Socc
  er)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2584:7529585@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T130000
+DTEND;TZID=America/New_York:20260926T150000
+SUMMARY:David Brearley at Elizabeth (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7555492@union-county-interscholastic-athletic-conference
@@ -1621,8 +1629,8 @@ UID:ds:2607:7632256@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Elizabeth vs Union (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Elizabeth at Union (Middle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7473137@union-county-interscholastic-athletic-conference
@@ -1925,15 +1933,6 @@ SUMMARY:Elizabeth vs Mcmanus Middle School (Middle School Boys Boys Socce
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7472976@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T161500
-DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Elizabeth at Mcmanus Middle School (Middle School Girls Girls Soc
- cer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7542055@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
@@ -2048,15 +2047,6 @@ DTEND;TZID=America/New_York:20261009T180000
 SUMMARY:Elizabeth vs Joseph E. Soehl Middle School (Middle School Boys Bo
  ys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7473372@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T161500
-DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Elizabeth at Joseph E. Soehl Middle School (Middle School Girls G
- irls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7626842@union-county-interscholastic-athletic-conference
@@ -2937,6 +2927,14 @@ DTSTART;TZID=America/New_York:20270120T154500
 DTEND;TZID=America/New_York:20270120T174500
 SUMMARY:Cranford vs Elizabeth (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7587915@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T154500
+DTEND;TZID=America/New_York:20270120T174500
+SUMMARY:Cranford vs Elizabeth (Varsity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7479345@union-county-interscholastic-athletic-conference
