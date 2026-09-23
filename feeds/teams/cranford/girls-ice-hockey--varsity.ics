@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Cranford 
+ Varsity Girls Ice Hockey
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2581:7651227@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T164500
+DTEND;TZID=America/New_York:20261202T184500
+SUMMARY:Cranford at Summit (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7651375@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T153000
+DTEND;TZID=America/New_York:20261211T173000
+SUMMARY:Cranford vs Ridgewood High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7651229@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T200000
+DTEND;TZID=America/New_York:20261215T220000
+SUMMARY:Cranford at Randolph High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7651340@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T170000
+DTEND;TZID=America/New_York:20261218T190000
+SUMMARY:Cranford at Princeton High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7651353@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T201500
+DTEND;TZID=America/New_York:20261222T221500
+SUMMARY:Cranford at Ridgewood High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7651378@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T153000
+DTEND;TZID=America/New_York:20270108T173000
+SUMMARY:Cranford vs Randolph High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7651383@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T183000
+DTEND;TZID=America/New_York:20270115T203000
+SUMMARY:Cranford vs Princeton High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7651365@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T180000
+DTEND;TZID=America/New_York:20270120T200000
+SUMMARY:Cranford at Trinity Hall (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 6:00 PM
+END:VEVENT
+END:VCALENDAR
