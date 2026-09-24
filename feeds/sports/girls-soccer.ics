@@ -199,14 +199,6 @@ SUMMARY:Linden at Carteret High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7504908@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T100000
-DTEND;TZID=America/New_York:20260826T120000
-SUMMARY:Oak Knoll vs Notre Dame High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7560024@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T100000
@@ -231,15 +223,6 @@ DTEND;TZID=America/New_York:20260826T130000
 SUMMARY:Scotch Plains-Fanwood at Northern Highlands Regional High School 
  (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7504910@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T113000
-DTEND;TZID=America/New_York:20260826T133000
-SUMMARY:Oak Knoll vs Notre Dame High School (Junior Varsity Girls Girls S
- occer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7534044@union-county-interscholastic-athletic-conference
@@ -427,15 +410,6 @@ SUMMARY:Westfield vs Bridgewater-Raritan High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7574911@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260829T220000
-DTEND;TZID=America/New_York:20260829T000000
-SUMMARY:Oak Knoll vs Northern Valley Regional High (Varsity Girls Girls S
- occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2698:7600788@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T100000
@@ -452,12 +426,12 @@ SUMMARY:Arthur L. Johnson at Union Catholic (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7531242@union-county-interscholastic-athletic-conference
+UID:ds:2886:7531242@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T160000
 DTEND;TZID=America/New_York:20260901T180000
-SUMMARY:Kent Place vs Summit (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7602870@union-county-interscholastic-athletic-conference
@@ -469,12 +443,12 @@ SUMMARY:Arthur L. Johnson at Union Catholic (Junior Varsity Girls Girls S
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7531547@union-county-interscholastic-athletic-conference
+UID:ds:2886:7531547@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T173000
 DTEND;TZID=America/New_York:20260901T193000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 5:30 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7533517@union-county-interscholastic-athletic-conference
@@ -921,28 +895,28 @@ SUMMARY:Linden at Roselle Catholic (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7531241@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Oak Knoll at Summit (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7630639@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Oak Knoll at Summit (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7535636@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Rahway at Union (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7630639@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Summit vs Oak Knoll (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531241@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7557334@union-county-interscholastic-athletic-conference
@@ -1166,23 +1140,6 @@ DTSTART;TZID=America/New_York:20260919T130000
 DTEND;TZID=America/New_York:20260919T150000
 SUMMARY:Cranford vs New Providence (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7534091@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T140000
-DTEND;TZID=America/New_York:20260919T160000
-SUMMARY:Kent Place vs Morristown High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7534101@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T153000
-DTEND;TZID=America/New_York:20260919T173000
-SUMMARY:Kent Place vs Morristown High School (Junior Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444977@union-county-interscholastic-athletic-conference
@@ -1734,15 +1691,6 @@ SUMMARY:Rahway at Roselle Catholic (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7495924@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Oak Knoll at Wayne Hills High School (Junior Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7440925@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T163000
@@ -1784,14 +1732,6 @@ DTSTART;TZID=America/New_York:20261001T183000
 DTEND;TZID=America/New_York:20261001T203000
 SUMMARY:Jonathan Dayton vs Roselle Park (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7495923@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T183000
-DTEND;TZID=America/New_York:20261001T203000
-SUMMARY:Oak Knoll at Wayne Hills High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7509266@union-county-interscholastic-athletic-conference
@@ -2208,12 +2148,12 @@ SUMMARY:Arthur L. Johnson at Wilday middle school (Middle School Girls Gi
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7465609@union-county-interscholastic-athletic-conference
+UID:ds:2698:7465609@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
 DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Kent Place vs Linden (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Linden at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7565461@union-county-interscholastic-athletic-conference
@@ -2717,12 +2657,12 @@ SUMMARY:Cranford at Bridgewater-Raritan High School (Freshman Girls Girls
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7541022@union-county-interscholastic-athletic-conference
+UID:ds:2821:7541022@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
 DTEND;TZID=America/New_York:20261019T183000
-SUMMARY:Kent Place vs Rahway (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
+SUMMARY:Rahway at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7587328@union-county-interscholastic-athletic-conference
@@ -3037,15 +2977,6 @@ DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
 SUMMARY:Arthur L. Johnson vs Oak Knoll (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7412504@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Kent Place at Academy of the Holy Angels (Varsity Girls Girls Soc
- cer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7501294@union-county-interscholastic-athletic-conference

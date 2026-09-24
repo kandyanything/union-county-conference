@@ -24,38 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2775:7485311@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T160000
-DTEND;TZID=America/New_York:20260828T180000
-SUMMARY:Oak Knoll vs Morris Catholic High School (Varsity Girls Girls Vol
- leyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7485580@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T171500
-DTEND;TZID=America/New_York:20260828T191500
-SUMMARY:Oak Knoll vs Morris Catholic High School (Junior Varsity Girls Gi
- rls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7541350@union-county-interscholastic-athletic-conference
+UID:ds:2821:7541350@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Oak Knoll at Rahway (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Rahway vs Oak Knoll (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7536365@union-county-interscholastic-athletic-conference
+UID:ds:2821:7536365@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T170000
 DTEND;TZID=America/New_York:20260914T190000
-SUMMARY:Oak Knoll at Rahway (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:00 PM
+SUMMARY:Rahway vs Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7532375@union-county-interscholastic-athletic-conference
@@ -91,20 +73,20 @@ SUMMARY:Linden at Oak Knoll (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7536383@union-county-interscholastic-athletic-conference
+UID:ds:2821:7536383@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Oak Knoll vs Rahway (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Rahway at Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7541355@union-county-interscholastic-athletic-conference
+UID:ds:2821:7541355@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T173000
 DTEND;TZID=America/New_York:20261005T193000
-SUMMARY:Oak Knoll vs Rahway (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+SUMMARY:Rahway at Oak Knoll (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7532353@union-county-interscholastic-athletic-conference
@@ -124,12 +106,12 @@ SUMMARY:Jonathan Dayton vs Oak Knoll (Junior Varsity Girls Girls Volleyba
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7552513@union-county-interscholastic-athletic-conference
+UID:ds:2886:7552513@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
 DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Oak Knoll at Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7464900@union-county-interscholastic-athletic-conference
@@ -165,46 +147,19 @@ SUMMARY:Arthur L. Johnson vs Oak Knoll (Junior Varsity Girls Girls Volley
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7552779@union-county-interscholastic-athletic-conference
+UID:ds:2886:7552779@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Oak Knoll at Summit (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Summit vs Oak Knoll (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7552778@union-county-interscholastic-athletic-conference
+UID:ds:2886:7552778@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T171500
 DTEND;TZID=America/New_York:20261026T191500
-SUMMARY:Oak Knoll at Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7485661@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T120000
-DTEND;TZID=America/New_York:20261028T140000
-SUMMARY:Oak Knoll vs Morris Catholic High School (Freshman Girls Girls Vo
- lleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7485475@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T160000
-DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Oak Knoll at Morris Catholic High School (Varsity Girls Girls Vol
- leyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7485594@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T211500
-DTEND;TZID=America/New_York:20261028T231500
-SUMMARY:Oak Knoll at Morris Catholic High School (Junior Varsity Girls Gi
- rls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 9:15 PM
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 END:VCALENDAR

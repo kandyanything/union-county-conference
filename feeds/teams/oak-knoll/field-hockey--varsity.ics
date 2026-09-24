@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2775:7529276@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T090000
-DTEND;TZID=America/New_York:20260826T110000
-SUMMARY:Oak Knoll at Shore Regional High School (Varsity Girls Field Hock
- ey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7444958@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -41,35 +32,101 @@ SUMMARY:Arthur L. Johnson vs Oak Knoll (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7541266@union-county-interscholastic-athletic-conference
+UID:ds:2886:7541266@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Oak Knoll vs Summit (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+SUMMARY:Summit at Oak Knoll (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7487963@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10071730www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T100000
-DTEND;TZID=America/New_York:20261003T120000
-SUMMARY:Oak Knoll at Madison High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+DTSTART;TZID=America/New_York:20260924T120000
+DTEND;TZID=America/New_York:20260924T140000
+SUMMARY:Kent Place at Oak Knoll (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7527724@union-county-interscholastic-athletic-conference
+UID:ics:OakKnoll:16503615www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Oak Knoll vs Livingston High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260926T060000
+DTEND;TZID=America/New_York:20260926T080000
+SUMMARY:Oak Knoll vs Camden Catholic High School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 6:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7512910@union-county-interscholastic-athletic-conference
+UID:ics:OakKnoll:15795191www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T160000
-DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:Oak Knoll vs Arthur L. Johnson (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260930T120000
+DTEND;TZID=America/New_York:20260930T140000
+SUMMARY:Oak Knoll at West Essex Regional School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16435066www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T060000
+DTEND;TZID=America/New_York:20261003T080000
+SUMMARY:Oak Knoll at Madison High School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16435075www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T120000
+DTEND;TZID=America/New_York:20261007T140000
+SUMMARY:Oak Knoll vs Livingston High School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795210www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T060000
+DTEND;TZID=America/New_York:20261010T080000
+SUMMARY:Oak Knoll vs Agnes Irwin (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795214www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T120000
+DTEND;TZID=America/New_York:20261012T140000
+SUMMARY:Oak Knoll at Montclair Kimberley Academy (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795229www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T060000
+DTEND;TZID=America/New_York:20261017T080000
+SUMMARY:Oak Knoll at Academy of Notre Dame de Namur (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795256www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T123000
+DTEND;TZID=America/New_York:20261028T143000
+SUMMARY:Oak Knoll vs The Hill School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795263www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T060000
+DTEND;TZID=America/New_York:20261031T080000
+SUMMARY:Oak Knoll at North Hunterdon High School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 6:00 AM
 END:VEVENT
 END:VCALENDAR

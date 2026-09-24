@@ -1,0 +1,592 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Soccer
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:KentPlace:9621377www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Kent Place at Columbia (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9621376www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Kent Place at Columbia (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016979www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T140000
+DTEND;TZID=America/New_York:20260826T160000
+SUMMARY:Kent Place vs TBD (Soccer)
+DESCRIPTION:Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9597940www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T113000
+DTEND;TZID=America/New_York:20260827T133000
+SUMMARY:Kent Place at Mount Saint Dominic Academy (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9551923www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T130000
+DTEND;TZID=America/New_York:20260827T150000
+SUMMARY:Kent Place at Mount Saint Dominic Academy (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10159326www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T120000
+DTEND;TZID=America/New_York:20260901T140000
+SUMMARY:Kent Place vs Summit (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017015www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T133000
+DTEND;TZID=America/New_York:20260901T153000
+SUMMARY:Kent Place vs Summit (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10034968www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T123000
+DTEND;TZID=America/New_York:20260903T143000
+SUMMARY:Kent Place at Union (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9991766www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T123000
+DTEND;TZID=America/New_York:20260903T143000
+SUMMARY:Kent Place at Union (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10034969www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place vs New Providence (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9991767www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T133000
+DTEND;TZID=America/New_York:20260908T153000
+SUMMARY:Kent Place vs New Providence (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10034970www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T120000
+DTEND;TZID=America/New_York:20260910T140000
+SUMMARY:Kent Place vs Roselle Catholic (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10104290www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T120000
+DTEND;TZID=America/New_York:20260915T140000
+SUMMARY:Kent Place at Governor Livingston (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10279471www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T120000
+DTEND;TZID=America/New_York:20260915T140000
+SUMMARY:Kent Place at Governor Livingston (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9259014www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Kent Place vs Morristown (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10279472www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Kent Place vs Morristown (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9259048www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T120000
+DTEND;TZID=America/New_York:20260922T140000
+SUMMARY:Kent Place at Hillside (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10146014www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T133000
+DTEND;TZID=America/New_York:20260922T153000
+SUMMARY:Kent Place at Hillside CANCELLED (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710291www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T113000
+DTEND;TZID=America/New_York:20260923T133000
+SUMMARY:Kent Place vs Newark Academy (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071767www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T120000
+DTEND;TZID=America/New_York:20260924T140000
+SUMMARY:Kent Place vs Elizabeth (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071770www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T133000
+DTEND;TZID=America/New_York:20260924T153000
+SUMMARY:Kent Place vs Elizabeth (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16521607www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T113000
+DTEND;TZID=America/New_York:20260925T133000
+SUMMARY:Oak Knoll vs Peck School POSTPONED (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071746www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T070000
+DTEND;TZID=America/New_York:20260926T090000
+SUMMARY:Kent Place at Cranford (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 7:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071741www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T070000
+DTEND;TZID=America/New_York:20260926T090000
+SUMMARY:Kent Place at Cranford (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 7:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10301127www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place vs Morristown Beard School (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16521765www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T120000
+DTEND;TZID=America/New_York:20260929T140000
+SUMMARY:Oak Knoll at Westfield (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16521766www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T120000
+DTEND;TZID=America/New_York:20260929T140000
+SUMMARY:Oak Knoll at Westfield (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071760www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T113000
+DTEND;TZID=America/New_York:20260930T133000
+SUMMARY:Kent Place at Gill Saint Bernard's School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268146www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T120000
+DTEND;TZID=America/New_York:20261001T140000
+SUMMARY:Kent Place at Union Catholic (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16507813www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T121500
+DTEND;TZID=America/New_York:20261001T141500
+SUMMARY:Oak Knoll at Wayne Hills High School (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268145www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T133000
+DTEND;TZID=America/New_York:20261001T153000
+SUMMARY:Kent Place at Union Catholic (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16507811www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T143000
+DTEND;TZID=America/New_York:20261001T163000
+SUMMARY:Oak Knoll at Wayne Hills High School (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710310www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T113000
+DTEND;TZID=America/New_York:20261002T133000
+SUMMARY:Kent Place vs Peck (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16438904www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T113000
+DTEND;TZID=America/New_York:20261005T133000
+SUMMARY:Oak Knoll at Newark Academy (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16435069www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T120000
+DTEND;TZID=America/New_York:20261005T140000
+SUMMARY:Oak Knoll vs Elizabeth (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10321985www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T114500
+DTEND;TZID=America/New_York:20261006T134500
+SUMMARY:Kent Place vs Pingry (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631947www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T120000
+DTEND;TZID=America/New_York:20261006T140000
+SUMMARY:Kent Place at David Brearley (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16435073www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T120000
+DTEND;TZID=America/New_York:20261006T140000
+SUMMARY:Oak Knoll vs Elizabeth (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631944www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T140000
+DTEND;TZID=America/New_York:20261006T160000
+SUMMARY:Kent Place at David Brearley (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16435076www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T120000
+DTEND;TZID=America/New_York:20261007T140000
+SUMMARY:Oak Knoll vs Arthur L. Johnson (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10321036www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T120000
+DTEND;TZID=America/New_York:20261008T140000
+SUMMARY:Kent Place vs Linden POSTPONED (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795206www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T120000
+DTEND;TZID=America/New_York:20261008T140000
+SUMMARY:Oak Knoll vs Arthur L. Johnson (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9832138www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T133000
+DTEND;TZID=America/New_York:20261008T153000
+SUMMARY:Kent Place vs Linden CANCELLED (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10321035www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T120000
+DTEND;TZID=America/New_York:20261009T140000
+SUMMARY:Kent Place vs Linden (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795217www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T123000
+DTEND;TZID=America/New_York:20261013T143000
+SUMMARY:Oak Knoll at Bayonne High School (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795216www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T123000
+DTEND;TZID=America/New_York:20261013T143000
+SUMMARY:Oak Knoll at Bayonne High School (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16447588www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T113000
+DTEND;TZID=America/New_York:20261014T133000
+SUMMARY:Oak Knoll at Pingry School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10049826www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T121500
+DTEND;TZID=America/New_York:20261014T141500
+SUMMARY:Kent Place at Montclair Kimberly (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16491677www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T114500
+DTEND;TZID=America/New_York:20261016T134500
+SUMMARY:Oak Knoll vs Montclair Kimberley Academy (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16507724www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T113000
+DTEND;TZID=America/New_York:20261019T133000
+SUMMARY:Oak Knoll vs Bayonne High School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10321037www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T123000
+DTEND;TZID=America/New_York:20261019T143000
+SUMMARY:Kent Place vs Rahway (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10311053www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T120000
+DTEND;TZID=America/New_York:20261020T140000
+SUMMARY:Kent Place vs Morris Knolls (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16438887www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T123000
+DTEND;TZID=America/New_York:20261021T143000
+SUMMARY:Oak Knoll vs Blair Academy (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10311070www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T120000
+DTEND;TZID=America/New_York:20261022T140000
+SUMMARY:Kent Place vs Millburn (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10290846www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T113000
+DTEND;TZID=America/New_York:20261023T133000
+SUMMARY:Kent Place vs Chatham Day School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16521608www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T113000
+DTEND;TZID=America/New_York:20261023T133000
+SUMMARY:Oak Knoll vs Peck School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9665406www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T083000
+DTEND;TZID=America/New_York:20261024T103000
+SUMMARY:Kent Place at TBA (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 8:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16438916www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T120000
+DTEND;TZID=America/New_York:20261026T140000
+SUMMARY:Oak Knoll at Kumpf Middle School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9481076www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T121500
+DTEND;TZID=America/New_York:20261026T141500
+SUMMARY:Kent Place at Academy of Holy Angels (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710327www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T113000
+DTEND;TZID=America/New_York:20261028T133000
+SUMMARY:Kent Place at Oak Knoll (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017273www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T120000
+DTEND;TZID=America/New_York:20261028T140000
+SUMMARY:Kent Place vs Glen Ridge (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017274www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T120000
+DTEND;TZID=America/New_York:20261028T140000
+SUMMARY:Kent Place at Glen Ridge (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16438921www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T113000
+DTEND;TZID=America/New_York:20261030T133000
+SUMMARY:Oak Knoll at Peck School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 11:30 AM
+END:VEVENT
+END:VCALENDAR

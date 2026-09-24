@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Kent Plac
+ e Middle School Tennis
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:KentPlace:9710288www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T113000
+DTEND;TZID=America/New_York:20260923T133000
+SUMMARY:Kent Place vs Gill Saint Bernard's School (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071782www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T114500
+DTEND;TZID=America/New_York:20260930T134500
+SUMMARY:Kent Place at Summit (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710309www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T113000
+DTEND;TZID=America/New_York:20261002T133000
+SUMMARY:Kent Place vs Rutgers Preparatory (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710316www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T113000
+DTEND;TZID=America/New_York:20261005T133000
+SUMMARY:Kent Place at Newark Academy (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710325www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T114500
+DTEND;TZID=America/New_York:20261007T134500
+SUMMARY:Kent Place at Heritage Middle School (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9714527www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T113000
+DTEND;TZID=America/New_York:20261014T133000
+SUMMARY:Kent Place at Pingry (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10311047www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T114500
+DTEND;TZID=America/New_York:20261020T134500
+SUMMARY:Kent Place vs Heritage Middle School (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:45 AM
+END:VEVENT
+END:VCALENDAR

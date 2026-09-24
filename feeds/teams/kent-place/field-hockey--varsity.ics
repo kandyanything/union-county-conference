@@ -24,12 +24,58 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2681:7534663@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9514406www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:Kent Place at Metuchen High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+DTSTART;TZID=America/New_York:20260825T060000
+DTEND;TZID=America/New_York:20260825T080000
+SUMMARY:Kent Place at Metuchen High School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9040233www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T120000
+DTEND;TZID=America/New_York:20260827T140000
+SUMMARY:Kent Place vs Verona (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017002www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T060000
+DTEND;TZID=America/New_York:20260829T080000
+SUMMARY:Kent Place at Pingry (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10159321www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T120000
+DTEND;TZID=America/New_York:20260831T140000
+SUMMARY:Kent Place vs Pennington (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10016075www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T120000
+DTEND;TZID=America/New_York:20260902T140000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10016076www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place vs Arthur L. Johnson (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444940@union-county-interscholastic-athletic-conference
@@ -40,45 +86,119 @@ SUMMARY:Arthur L. Johnson at Kent Place (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7491882@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10034966www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Kent Place vs Madison High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260910T120000
+DTEND;TZID=America/New_York:20260910T140000
+SUMMARY:Kent Place vs Madison (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7527709@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9017070www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Kent Place vs Livingston High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260914T120000
+DTEND;TZID=America/New_York:20260914T140000
+SUMMARY:Kent Place vs Livingston (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7638338@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10148913www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Kent Place vs Summit (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7638338@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T153000
 DTEND;TZID=America/New_York:20260919T173000
-SUMMARY:Kent Place vs Summit (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 3:30 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7520802@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10195643www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Kent Place vs James Caldwell High School (Varsity Girls Field Hoc
- key)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260922T121500
+DTEND;TZID=America/New_York:20260922T141500
+SUMMARY:Kent Place vs Caldwell (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7446722@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10071730www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Kent Place at East Brunswick High School (Varsity Girls Field Hoc
- key)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20260924T120000
+DTEND;TZID=America/New_York:20260924T140000
+SUMMARY:Kent Place at Oak Knoll (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10298370www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place vs Westfield CANCELLED (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9725980www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T120000
+DTEND;TZID=America/New_York:20260930T140000
+SUMMARY:Kent Place at Montclair (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10299323www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T120000
+DTEND;TZID=America/New_York:20261002T140000
+SUMMARY:Kent Place vs Millburn (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9479074www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T133000
+DTEND;TZID=America/New_York:20261007T153000
+SUMMARY:Kent Place at West Essex (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017203www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T130000
+DTEND;TZID=America/New_York:20261013T150000
+SUMMARY:Kent Place at North Hunterdon (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9099559www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T120000
+DTEND;TZID=America/New_York:20261015T140000
+SUMMARY:Kent Place at East Brunswick (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10151804www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T120000
+DTEND;TZID=America/New_York:20261026T140000
+SUMMARY:Kent Place at Glen Ridge (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
 END:VEVENT
 END:VCALENDAR

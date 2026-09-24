@@ -71,20 +71,20 @@ SUMMARY:Summit vs Newton High School (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7554229@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554229@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T160000
 DTEND;TZID=America/New_York:20260824T180000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7554235@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554235@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T160000
 DTEND;TZID=America/New_York:20260824T180000
-SUMMARY:Kent Place vs Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7540810@union-county-interscholastic-athletic-conference
@@ -211,22 +211,6 @@ SUMMARY:Summit at Madison High School (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7554917@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T150000
-DTEND;TZID=America/New_York:20260827T170000
-SUMMARY:Oak Knoll vs Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7554921@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T150000
-DTEND;TZID=America/New_York:20260827T170000
-SUMMARY:Oak Knoll at Summit (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7513210@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T150000
@@ -242,6 +226,22 @@ DTSTART;TZID=America/New_York:20260827T150000
 DTEND;TZID=America/New_York:20260827T170000
 SUMMARY:Summit vs Madison High School (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7554917@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T150000
+DTEND;TZID=America/New_York:20260827T170000
+SUMMARY:Summit at Oak Knoll (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7554921@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T150000
+DTEND;TZID=America/New_York:20260827T170000
+SUMMARY:Summit vs Oak Knoll (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7523784@union-county-interscholastic-athletic-conference
@@ -356,12 +356,30 @@ SUMMARY:Linden at Summit (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7531242@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10159326www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T120000
+DTEND;TZID=America/New_York:20260901T140000
+SUMMARY:Kent Place vs Summit (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017015www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T133000
+DTEND;TZID=America/New_York:20260901T153000
+SUMMARY:Kent Place vs Summit (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531242@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T160000
 DTEND;TZID=America/New_York:20260901T180000
-SUMMARY:Kent Place vs Summit (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7540828@union-county-interscholastic-athletic-conference
@@ -372,14 +390,6 @@ SUMMARY:Summit vs Old Bridge High School (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7531547@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260901T173000
-DTEND;TZID=America/New_York:20260901T193000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7540829@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T173000
@@ -387,6 +397,14 @@ DTEND;TZID=America/New_York:20260901T193000
 SUMMARY:Summit vs Old Bridge High School (Junior Varsity Girls Field Hock
  ey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531547@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T173000
+DTEND;TZID=America/New_York:20260901T193000
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7527701@union-county-interscholastic-athletic-conference
@@ -406,20 +424,30 @@ SUMMARY:Summit vs Livingston High School (Junior Varsity Girls Field Hock
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:9967199www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T120000
+DTEND;TZID=America/New_York:20260903T140000
+SUMMARY:Kent Place at Summit (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9911417www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T131500
+DTEND;TZID=America/New_York:20260903T151500
+SUMMARY:Kent Place at Summit (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 1:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7539573@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
 SUMMARY:Governor Livingston vs Summit (Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7550760@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7543416@union-county-interscholastic-athletic-conference
@@ -446,6 +474,14 @@ SUMMARY:Summit vs Union Catholic (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7550760@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Summit vs Kent Place (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7522604@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -462,12 +498,12 @@ SUMMARY:Governor Livingston at Summit (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7550572@union-county-interscholastic-athletic-conference
+UID:ds:2886:7550572@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T171500
 DTEND;TZID=America/New_York:20260903T191500
-SUMMARY:Kent Place at Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
+SUMMARY:Summit vs Kent Place (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7583925@union-county-interscholastic-athletic-conference
@@ -526,6 +562,24 @@ SUMMARY:Rahway at Summit (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:9979735www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place at Summit (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9975725www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place vs Summit (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7534406@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -534,20 +588,20 @@ SUMMARY:Elizabeth at Summit (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7554925@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554925@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7554927@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554927@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Kent Place at Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+SUMMARY:Summit vs Kent Place (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7548787@union-county-interscholastic-athletic-conference
@@ -807,22 +861,6 @@ SUMMARY:Scotch Plains-Fanwood at Summit (Junior Varsity Girls Field Hocke
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7531241@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Oak Knoll at Summit (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7630639@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Oak Knoll at Summit (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:39378:7602731@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -838,6 +876,22 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Scotch Plains-Fanwood at Summit (Junior Varsity Girls Girls Tenni
  s)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7630639@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Summit vs Oak Knoll (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531241@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7555185@union-county-interscholastic-athletic-conference
@@ -1016,6 +1070,24 @@ SUMMARY:Cranford at Summit (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10216816www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Kent Place vs Summit (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10148913www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Kent Place vs Summit (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7534499@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T130000
@@ -1032,20 +1104,38 @@ SUMMARY:Summit at Union (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7638341@union-county-interscholastic-athletic-conference
+UID:ds:2886:7638341@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T140000
 DTEND;TZID=America/New_York:20260919T160000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 2:00 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7638338@union-county-interscholastic-athletic-conference
+UID:ds:2886:7638338@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T153000
 DTEND;TZID=America/New_York:20260919T173000
-SUMMARY:Kent Place vs Summit (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 3:30 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9259020www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T120000
+DTEND;TZID=America/New_York:20260922T140000
+SUMMARY:Kent Place vs Summit (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10298369www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T133000
+DTEND;TZID=America/New_York:20260922T153000
+SUMMARY:Kent Place vs Summit (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7583929@union-county-interscholastic-athletic-conference
@@ -1064,36 +1154,28 @@ SUMMARY:Cranford at Summit (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7588654@union-county-interscholastic-athletic-conference
+UID:ds:2886:7637980@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Kent Place vs Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Summit at Oak Knoll (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7541266@union-county-interscholastic-athletic-conference
+UID:ds:2886:7620578@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Oak Knoll vs Summit (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7637980@union-county-interscholastic-athletic-conference
+UID:ds:2886:7588654@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Oak Knoll vs Summit (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7620578@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Oak Knoll at Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7546439@union-county-interscholastic-athletic-conference
@@ -1102,6 +1184,14 @@ DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Summit at Chatham High School (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7541266@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Summit at Oak Knoll (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7480030@union-county-interscholastic-athletic-conference
@@ -1120,20 +1210,20 @@ SUMMARY:Summit at Chatham High School (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7588656@union-county-interscholastic-athletic-conference
+UID:ds:2886:7588656@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T171500
 DTEND;TZID=America/New_York:20260922T191500
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7541267@union-county-interscholastic-athletic-conference
+UID:ds:2886:7541267@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T173000
 DTEND;TZID=America/New_York:20260922T193000
-SUMMARY:Oak Knoll vs Summit (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+SUMMARY:Summit at Oak Knoll (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7531594@union-county-interscholastic-athletic-conference
@@ -1158,14 +1248,6 @@ DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:New Providence vs Summit (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7549245@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Oak Knoll at Summit (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7531612@union-county-interscholastic-athletic-conference
@@ -1560,6 +1642,15 @@ SUMMARY:Summit at Chatham High School (Junior Varsity Girls Girls Volleyb
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10071782www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T114500
+DTEND;TZID=America/New_York:20260930T134500
+SUMMARY:Kent Place at Summit (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7552393@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
@@ -1769,12 +1860,13 @@ SUMMARY:Summit vs Livingston High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7647528@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9710318www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Girls Cross Country)
-DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20261005T113000
+DTEND;TZID=America/New_York:20261005T133000
+SUMMARY:Kent Place at Summit (Middle School Cross Country)
+DESCRIPTION:Middle School Cross Country - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7549084@union-county-interscholastic-athletic-conference
@@ -2104,20 +2196,21 @@ SUMMARY:Summit at Kumpf (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:OakKnoll:15795211www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T060000
+DTEND;TZID=America/New_York:20261010T080000
+SUMMARY:Oak Knoll vs Summit (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7476052@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
 SUMMARY:Summit at Woodbridge High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7552513@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Oak Knoll at Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2837:7552513@union-county-interscholastic-athletic-conference
@@ -2142,6 +2235,14 @@ DTSTART;TZID=America/New_York:20261010T100000
 DTEND;TZID=America/New_York:20261010T120000
 SUMMARY:Summit vs Southern Regional High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7552513@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7487099@union-county-interscholastic-athletic-conference
@@ -2283,20 +2384,21 @@ SUMMARY:Summit at Morris Knolls High School (Unified Coed Coed Soccer)
 DESCRIPTION:Unified Coed Coed Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:9710336www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T113000
+DTEND;TZID=America/New_York:20261014T133000
+SUMMARY:Kent Place at Summit (Middle School Cross Country)
+DESCRIPTION:Middle School Cross Country - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7552624@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Elizabeth at Summit (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7647556@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Girls Cross Country)
-DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7549238@union-county-interscholastic-athletic-conference
@@ -2460,12 +2562,13 @@ SUMMARY:Scotch Plains-Fanwood at Summit (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7624854@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10290808www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20261019T120000
+DTEND;TZID=America/New_York:20261019T140000
+SUMMARY:Kent Place at Summit (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7532051@union-county-interscholastic-athletic-conference
@@ -2547,14 +2650,6 @@ DTSTART;TZID=America/New_York:20261020T190000
 DTEND;TZID=America/New_York:20261020T210000
 SUMMARY:Summit vs TBD (Varsity Girls Gymnastics)
 DESCRIPTION:Varsity Girls Gymnastics - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2775:7549240@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Oak Knoll vs Summit (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7516945@union-county-interscholastic-athletic-conference
@@ -2679,12 +2774,30 @@ SUMMARY:Summit vs Bernards High School (Varsity Girls Girls Cheerleading)
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7552779@union-county-interscholastic-athletic-conference
+UID:ics:OakKnoll:15795252www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T120000
+DTEND;TZID=America/New_York:20261026T140000
+SUMMARY:Oak Knoll at Summit (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:15795253www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T133000
+DTEND;TZID=America/New_York:20261026T153000
+SUMMARY:Oak Knoll at Summit (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7552779@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Oak Knoll at Summit (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Summit vs Oak Knoll (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7562024@union-county-interscholastic-athletic-conference
@@ -2703,12 +2816,12 @@ SUMMARY:Summit at Somerville High School (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7552778@union-county-interscholastic-athletic-conference
+UID:ds:2886:7552778@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T171500
 DTEND;TZID=America/New_York:20261026T191500
-SUMMARY:Oak Knoll at Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7540559@union-county-interscholastic-athletic-conference

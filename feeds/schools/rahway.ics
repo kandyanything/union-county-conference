@@ -443,14 +443,6 @@ SUMMARY:Cranford at Rahway (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7541350@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Oak Knoll at Rahway (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7475942@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -459,12 +451,20 @@ SUMMARY:Rahway vs Woodbridge High School (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7536365@union-county-interscholastic-athletic-conference
+UID:ds:2821:7541350@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Rahway vs Oak Knoll (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7536365@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T170000
 DTEND;TZID=America/New_York:20260914T190000
-SUMMARY:Oak Knoll at Rahway (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:00 PM
+SUMMARY:Rahway vs Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7581234@union-county-interscholastic-athletic-conference
@@ -1157,12 +1157,22 @@ SUMMARY:Rahway vs TBA NJ (Varsity Coed Coed Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7536383@union-county-interscholastic-athletic-conference
+UID:ics:OakKnoll:16435068www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Oak Knoll vs Rahway (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261005T120000
+DTEND;TZID=America/New_York:20261005T140000
+SUMMARY:Oak Knoll vs Rahway (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16435071www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T133000
+DTEND;TZID=America/New_York:20261005T153000
+SUMMARY:Oak Knoll vs Rahway (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7536186@union-county-interscholastic-athletic-conference
@@ -1172,6 +1182,14 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Rahway at South Brunswick High School (Junior Varsity Boys Footba
  ll)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7536383@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Rahway at Oak Knoll (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7652267@union-county-interscholastic-athletic-conference
@@ -1207,12 +1225,12 @@ SUMMARY:Elizabeth vs Rahway (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2775:7541355@union-county-interscholastic-athletic-conference
+UID:ds:2821:7541355@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T173000
 DTEND;TZID=America/New_York:20261005T193000
-SUMMARY:Oak Knoll vs Rahway (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+SUMMARY:Rahway at Oak Knoll (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7568348@union-county-interscholastic-athletic-conference
@@ -1643,6 +1661,15 @@ SUMMARY:Rahway at Union Catholic (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10321037www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T123000
+DTEND;TZID=America/New_York:20261019T143000
+SUMMARY:Kent Place vs Rahway (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2821:7541360@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T153000
@@ -1667,12 +1694,12 @@ SUMMARY:Rahway vs Colonia High School (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7541022@union-county-interscholastic-athletic-conference
+UID:ds:2821:7541022@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
 DTEND;TZID=America/New_York:20261019T183000
-SUMMARY:Kent Place vs Rahway (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
+SUMMARY:Rahway at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7536406@union-county-interscholastic-athletic-conference

@@ -1,0 +1,180 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Kent Plac
+ e Junior Varsity Volleyball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:KentPlace:9785727www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T133000
+DTEND;TZID=America/New_York:20260825T153000
+SUMMARY:Kent Place at Oak Knoll (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016989www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T123000
+DTEND;TZID=America/New_York:20260827T143000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9967199www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T120000
+DTEND;TZID=America/New_York:20260903T140000
+SUMMARY:Kent Place at Summit (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10122796www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T133000
+DTEND;TZID=America/New_York:20260908T153000
+SUMMARY:Kent Place at Westfield (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9827004www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T133000
+DTEND;TZID=America/New_York:20260910T153000
+SUMMARY:Kent Place vs Union Catholic High School POSTPONED (Junior Varsit
+ y Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10122797www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T133000
+DTEND;TZID=America/New_York:20260914T153000
+SUMMARY:Kent Place at Governor Livingston (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10200419www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T133000
+DTEND;TZID=America/New_York:20260915T153000
+SUMMARY:Kent Place vs Elizabeth (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10242575www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Kent Place vs Pioneer Academy (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10298369www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T133000
+DTEND;TZID=America/New_York:20260922T153000
+SUMMARY:Kent Place vs Summit (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071759www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T133000
+DTEND;TZID=America/New_York:20260924T153000
+SUMMARY:Kent Place vs Cranford (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071750www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T133000
+DTEND;TZID=America/New_York:20260928T153000
+SUMMARY:Kent Place vs Westfield (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071777www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T134500
+DTEND;TZID=America/New_York:20260929T154500
+SUMMARY:Kent Place vs Hun School of Princeton (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268149www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T133000
+DTEND;TZID=America/New_York:20261001T153000
+SUMMARY:Kent Place at Union Catholic (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10277583www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T133000
+DTEND;TZID=America/New_York:20261005T153000
+SUMMARY:Kent Place vs Governor Livingston (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9827005www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T120000
+DTEND;TZID=America/New_York:20261006T140000
+SUMMARY:Kent Place vs Union Catholic (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017207www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T133000
+DTEND;TZID=America/New_York:20261008T153000
+SUMMARY:Kent Place at Elizabeth (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10049827www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T133000
+DTEND;TZID=America/New_York:20261014T153000
+SUMMARY:Kent Place at Cranford (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+END:VCALENDAR

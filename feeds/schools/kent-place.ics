@@ -23,20 +23,38 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2681:7554229@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554229@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T160000
 DTEND;TZID=America/New_York:20260824T180000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7554235@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554235@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T160000
 DTEND;TZID=America/New_York:20260824T180000
-SUMMARY:Kent Place vs Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9661218www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T050000
+DTEND;TZID=America/New_York:20260825T070000
+SUMMARY:Kent Place at Governor Livingston (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9514406www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T060000
+DTEND;TZID=America/New_York:20260825T080000
+SUMMARY:Kent Place at Metuchen High School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 6:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7539522@union-county-interscholastic-athletic-conference
@@ -47,21 +65,94 @@ SUMMARY:Governor Livingston vs Kent Place (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7534663@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9621377www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T100000
 DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:Kent Place at Metuchen High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+SUMMARY:Kent Place at Columbia (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7536194@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9621376www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T113000
-DTEND;TZID=America/New_York:20260825T133000
-SUMMARY:Kent Place at Metuchen High School (Junior Varsity Girls Field Ho
- ckey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 11:30 AM
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Kent Place at Columbia (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016939www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T120000
+DTEND;TZID=America/New_York:20260825T140000
+SUMMARY:Kent Place at Oak Knoll (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9785727www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T133000
+DTEND;TZID=America/New_York:20260825T153000
+SUMMARY:Kent Place at Oak Knoll (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9976728www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T121500
+DTEND;TZID=America/New_York:20260826T141500
+SUMMARY:Kent Place vs Governor Livingston (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9454009www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T140000
+DTEND;TZID=America/New_York:20260826T160000
+SUMMARY:Kent Place vs TBD (Cross Country)
+DESCRIPTION:Cross Country - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016976www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T140000
+DTEND;TZID=America/New_York:20260826T160000
+SUMMARY:Kent Place vs TBD (Field Hockey)
+DESCRIPTION:Field Hockey - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016979www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T140000
+DTEND;TZID=America/New_York:20260826T160000
+SUMMARY:Kent Place vs TBD (Soccer)
+DESCRIPTION:Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016975www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T140000
+DTEND;TZID=America/New_York:20260826T160000
+SUMMARY:Kent Place vs TBD (Tennis)
+DESCRIPTION:Tennis - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016974www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T140000
+DTEND;TZID=America/New_York:20260826T160000
+SUMMARY:Kent Place vs TBD (Volleyball)
+DESCRIPTION:Volleyball - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7539527@union-county-interscholastic-athletic-conference
@@ -73,36 +164,343 @@ SUMMARY:Governor Livingston at Kent Place (Junior Varsity Girls Girls Ten
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7531242@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9597940www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T113000
+DTEND;TZID=America/New_York:20260827T133000
+SUMMARY:Kent Place at Mount Saint Dominic Academy (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9040233www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T120000
+DTEND;TZID=America/New_York:20260827T140000
+SUMMARY:Kent Place vs Verona (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9687285www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T120000
+DTEND;TZID=America/New_York:20260827T140000
+SUMMARY:Kent Place vs Scotch Plains-Fanwood POSTPONED (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9687286www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T120000
+DTEND;TZID=America/New_York:20260827T140000
+SUMMARY:Kent Place at Scotch Plains-Fanwood POSTPONED (Junior Varsity Ten
+ nis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016989www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T123000
+DTEND;TZID=America/New_York:20260827T143000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9551923www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T130000
+DTEND;TZID=America/New_York:20260827T150000
+SUMMARY:Kent Place at Mount Saint Dominic Academy (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9665404www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T133000
+DTEND;TZID=America/New_York:20260827T153000
+SUMMARY:Kent Place vs Verona CANCELLED (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9145685www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T133000
+DTEND;TZID=America/New_York:20260827T153000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017002www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T060000
+DTEND;TZID=America/New_York:20260829T080000
+SUMMARY:Kent Place at Pingry (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9981743www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T073000
+DTEND;TZID=America/New_York:20260829T093000
+SUMMARY:Kent Place at Pingry (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 7:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10159321www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T120000
+DTEND;TZID=America/New_York:20260831T140000
+SUMMARY:Kent Place vs Pennington (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10159320www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T120000
+DTEND;TZID=America/New_York:20260831T140000
+SUMMARY:Kent Place vs Scotch Plains-Fanwood (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10159319www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T120000
+DTEND;TZID=America/New_York:20260831T140000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10159326www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T120000
+DTEND;TZID=America/New_York:20260901T140000
+SUMMARY:Kent Place vs Summit (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017015www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T133000
+DTEND;TZID=America/New_York:20260901T153000
+SUMMARY:Kent Place vs Summit (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531242@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T160000
 DTEND;TZID=America/New_York:20260901T180000
-SUMMARY:Kent Place vs Summit (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7531547@union-county-interscholastic-athletic-conference
+UID:ds:2886:7531547@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T173000
 DTEND;TZID=America/New_York:20260901T193000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 5:30 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7550760@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10016075www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T120000
+DTEND;TZID=America/New_York:20260902T140000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9885384www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T120000
+DTEND;TZID=America/New_York:20260902T140000
+SUMMARY:Kent Place vs Westfield POSTPONED (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9885383www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T120000
+DTEND;TZID=America/New_York:20260902T140000
+SUMMARY:Kent Place at Westfield POSTPONED (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9981744www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T133000
+DTEND;TZID=America/New_York:20260902T153000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9876196www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T120000
+DTEND;TZID=America/New_York:20260903T140000
+SUMMARY:Kent Place vs Oak Knoll (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9967199www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T120000
+DTEND;TZID=America/New_York:20260903T140000
+SUMMARY:Kent Place at Summit (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10034968www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T123000
+DTEND;TZID=America/New_York:20260903T143000
+SUMMARY:Kent Place at Union (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9991766www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T123000
+DTEND;TZID=America/New_York:20260903T143000
+SUMMARY:Kent Place at Union (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9911417www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T131500
+DTEND;TZID=America/New_York:20260903T151500
+SUMMARY:Kent Place at Summit (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 1:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7550760@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Summit vs Kent Place (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7550572@union-county-interscholastic-athletic-conference
+UID:ds:2886:7550572@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T171500
 DTEND;TZID=America/New_York:20260903T191500
-SUMMARY:Kent Place at Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
+SUMMARY:Summit vs Kent Place (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9911425www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T050000
+DTEND;TZID=America/New_York:20260904T070000
+SUMMARY:Kent Place vs CANCELLED (Volleyball)
+DESCRIPTION:Volleyball - Home - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9911426www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T130000
+DTEND;TZID=America/New_York:20260904T150000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10016076www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place vs Arthur L. Johnson (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10034969www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place vs New Providence (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9979735www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place at Summit (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9975725www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place vs Summit (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017037www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T140000
+SUMMARY:Kent Place at Westfield (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9981745www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T133000
+DTEND;TZID=America/New_York:20260908T153000
+SUMMARY:Kent Place vs Arthur L. Johnson (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9991767www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T133000
+DTEND;TZID=America/New_York:20260908T153000
+SUMMARY:Kent Place vs New Providence (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10122796www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T133000
+DTEND;TZID=America/New_York:20260908T153000
+SUMMARY:Kent Place at Westfield (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444940@union-county-interscholastic-athletic-conference
@@ -113,20 +511,20 @@ SUMMARY:Arthur L. Johnson at Kent Place (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7554925@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554925@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7554927@union-county-interscholastic-athletic-conference
+UID:ds:2886:7554927@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Kent Place at Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+SUMMARY:Summit vs Kent Place (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444941@union-county-interscholastic-athletic-conference
@@ -138,6 +536,61 @@ SUMMARY:Arthur L. Johnson at Kent Place (Junior Varsity Girls Field Hocke
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10034966www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T120000
+DTEND;TZID=America/New_York:20260910T140000
+SUMMARY:Kent Place vs Madison (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10034970www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T120000
+DTEND;TZID=America/New_York:20260910T140000
+SUMMARY:Kent Place vs Roselle Catholic (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10023029www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T120000
+DTEND;TZID=America/New_York:20260910T140000
+SUMMARY:Kent Place at Governor Livingston (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9561605www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T120000
+DTEND;TZID=America/New_York:20260910T140000
+SUMMARY:Kent Place vs Union Catholic (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10022035www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T121500
+DTEND;TZID=America/New_York:20260910T141500
+SUMMARY:Kent Place vs Governor Livingston (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Home - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9827004www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T133000
+DTEND;TZID=America/New_York:20260910T153000
+SUMMARY:Kent Place vs Union Catholic High School POSTPONED (Junior Varsit
+ y Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7539592@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -145,14 +598,6 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Ten
  nis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7491882@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Kent Place vs Madison High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7539591@union-county-interscholastic-athletic-conference
@@ -163,20 +608,75 @@ SUMMARY:Governor Livingston at Kent Place (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:9454020www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T113000
+DTEND;TZID=America/New_York:20260911T133000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017070www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T120000
+DTEND;TZID=America/New_York:20260914T140000
+SUMMARY:Kent Place vs Livingston (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10113093www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T120000
+DTEND;TZID=America/New_York:20260914T140000
+SUMMARY:Kent Place vs Westfield (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10110163www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T120000
+DTEND;TZID=America/New_York:20260914T140000
+SUMMARY:Kent Place at Westfield (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017069www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T120000
+DTEND;TZID=America/New_York:20260914T140000
+SUMMARY:Kent Place at Governor Livingston (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10111142www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T133000
+DTEND;TZID=America/New_York:20260914T153000
+SUMMARY:Kent Place vs Livingston High School (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10122797www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T133000
+DTEND;TZID=America/New_York:20260914T153000
+SUMMARY:Kent Place at Governor Livingston (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7541852@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Governor Livingston vs Kent Place (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7527709@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Kent Place vs Livingston High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7541853@union-county-interscholastic-athletic-conference
@@ -188,13 +688,58 @@ SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Vol
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7527710@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10104290www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T173000
-DTEND;TZID=America/New_York:20260914T193000
-SUMMARY:Kent Place vs Livingston High School (Junior Varsity Girls Field 
- Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20260915T120000
+DTEND;TZID=America/New_York:20260915T140000
+SUMMARY:Kent Place at Governor Livingston (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10279471www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T120000
+DTEND;TZID=America/New_York:20260915T140000
+SUMMARY:Kent Place at Governor Livingston (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10132483www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T120000
+DTEND;TZID=America/New_York:20260915T140000
+SUMMARY:Kent Place vs Academy of the Holy Angels (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10105271www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T121500
+DTEND;TZID=America/New_York:20260915T141500
+SUMMARY:Kent Place vs Elizabeth (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9454022www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T123000
+DTEND;TZID=America/New_York:20260915T143000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10200419www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T133000
+DTEND;TZID=America/New_York:20260915T153000
+SUMMARY:Kent Place vs Elizabeth (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534001@union-county-interscholastic-athletic-conference
@@ -214,15 +759,6 @@ SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Soc
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7474570@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Kent Place vs Academy of the Holy Angels (Junior Varsity Girls Gi
- rls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7629027@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -239,79 +775,297 @@ SUMMARY:Elizabeth at Kent Place (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7638341@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9017083www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T050000
+DTEND;TZID=America/New_York:20260916T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9259033www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T050000
+DTEND;TZID=America/New_York:20260917T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10035962www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T110000
+DTEND;TZID=America/New_York:20260918T130000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9828033www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T050000
+DTEND;TZID=America/New_York:20260919T070000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10216816www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Kent Place vs Summit (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9259014www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Kent Place vs Morristown (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9607668www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Kent Place vs Pioneer Academy (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10148913www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Kent Place vs Summit (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10279472www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Kent Place vs Morristown (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10242575www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Kent Place vs Pioneer Academy (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7638341@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T140000
 DTEND;TZID=America/New_York:20260919T160000
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 2:00 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7534091@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T140000
-DTEND;TZID=America/New_York:20260919T160000
-SUMMARY:Kent Place vs Morristown High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7424121@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T140000
-DTEND;TZID=America/New_York:20260919T160000
-SUMMARY:Kent Place vs Chatham High School (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7534101@union-county-interscholastic-athletic-conference
+UID:ds:2886:7638338@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T153000
 DTEND;TZID=America/New_York:20260919T173000
-SUMMARY:Kent Place vs Morristown High School (Junior Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:30 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7638338@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9259048www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T153000
-DTEND;TZID=America/New_York:20260919T173000
-SUMMARY:Kent Place vs Summit (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 3:30 PM
+DTSTART;TZID=America/New_York:20260922T120000
+DTEND;TZID=America/New_York:20260922T140000
+SUMMARY:Kent Place at Hillside (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7588654@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10295526www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T120000
+DTEND;TZID=America/New_York:20260922T140000
+SUMMARY:Kent Place at Scotch Plains-Fanwood (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10285131www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T120000
+DTEND;TZID=America/New_York:20260922T140000
+SUMMARY:Kent Place vs Scotch Plains-Fanwood (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9259020www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T120000
+DTEND;TZID=America/New_York:20260922T140000
+SUMMARY:Kent Place vs Summit (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10195643www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T121500
+DTEND;TZID=America/New_York:20260922T141500
+SUMMARY:Kent Place vs Caldwell (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9454026www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T123000
+DTEND;TZID=America/New_York:20260922T143000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10146014www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T133000
+DTEND;TZID=America/New_York:20260922T153000
+SUMMARY:Kent Place at Hillside CANCELLED (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10298369www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T133000
+DTEND;TZID=America/New_York:20260922T153000
+SUMMARY:Kent Place vs Summit (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10302030www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T134500
+DTEND;TZID=America/New_York:20260922T154500
+SUMMARY:Kent Place vs Caldwell (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 1:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7588654@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Kent Place vs Summit (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7520802@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Kent Place vs James Caldwell High School (Varsity Girls Field Hoc
- key)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7588656@union-county-interscholastic-athletic-conference
+UID:ds:2886:7588656@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T171500
 DTEND;TZID=America/New_York:20260922T191500
-SUMMARY:Kent Place vs Summit (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7520804@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9710291www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T173000
-DTEND;TZID=America/New_York:20260922T193000
-SUMMARY:Kent Place vs James Caldwell High School (Junior Varsity Girls Fi
- eld Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20260923T113000
+DTEND;TZID=America/New_York:20260923T133000
+SUMMARY:Kent Place vs Newark Academy (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710288www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T113000
+DTEND;TZID=America/New_York:20260923T133000
+SUMMARY:Kent Place vs Gill Saint Bernard's School (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10307437www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T120000
+DTEND;TZID=America/New_York:20260923T140000
+SUMMARY:Kent Place at Harding Township (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10308339www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T120000
+DTEND;TZID=America/New_York:20260923T140000
+SUMMARY:Kent Place at Westfield (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071730www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T120000
+DTEND;TZID=America/New_York:20260924T140000
+SUMMARY:Kent Place at Oak Knoll (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071767www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T120000
+DTEND;TZID=America/New_York:20260924T140000
+SUMMARY:Kent Place vs Elizabeth (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10171793www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T120000
+DTEND;TZID=America/New_York:20260924T140000
+SUMMARY:Kent Place vs Cranford (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10297421www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T133000
+DTEND;TZID=America/New_York:20260924T153000
+SUMMARY:Kent Place at Oak Knoll (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071770www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T133000
+DTEND;TZID=America/New_York:20260924T153000
+SUMMARY:Kent Place vs Elizabeth (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071759www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T133000
+DTEND;TZID=America/New_York:20260924T153000
+SUMMARY:Kent Place vs Cranford (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7567770@union-county-interscholastic-athletic-conference
@@ -346,6 +1100,42 @@ SUMMARY:Cranford at Kent Place (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10071739www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T120000
+DTEND;TZID=America/New_York:20260925T140000
+SUMMARY:Kent Place at Westfield (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10171794www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T120000
+DTEND;TZID=America/New_York:20260925T140000
+SUMMARY:Kent Place vs Scotch Plains-Fanwood (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071746www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T070000
+DTEND;TZID=America/New_York:20260926T090000
+SUMMARY:Kent Place at Cranford (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 7:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071741www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T070000
+DTEND;TZID=America/New_York:20260926T090000
+SUMMARY:Kent Place at Cranford (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 7:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7567822@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T110000
@@ -362,12 +1152,301 @@ SUMMARY:Cranford vs Kent Place (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7647528@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10298370www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Girls Cross Country)
-DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place vs Westfield CANCELLED (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10301127www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place vs Morristown Beard School (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071747www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place at Oak Knoll (Varsity Tennis)
+DESCRIPTION:Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071776www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place vs Oak Knoll (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071745www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place vs Westfield (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10298371www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T133000
+DTEND;TZID=America/New_York:20260928T153000
+SUMMARY:Kent Place vs Westfield CANCELLED (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071750www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T133000
+DTEND;TZID=America/New_York:20260928T153000
+SUMMARY:Kent Place vs Westfield (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071773www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T123000
+DTEND;TZID=America/New_York:20260929T143000
+SUMMARY:Kent Place vs Hun School of Princeton (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071777www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T134500
+DTEND;TZID=America/New_York:20260929T154500
+SUMMARY:Kent Place vs Hun School of Princeton (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071760www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T113000
+DTEND;TZID=America/New_York:20260930T133000
+SUMMARY:Kent Place at Gill Saint Bernard's School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071782www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T114500
+DTEND;TZID=America/New_York:20260930T134500
+SUMMARY:Kent Place at Summit (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9725980www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T120000
+DTEND;TZID=America/New_York:20260930T140000
+SUMMARY:Kent Place at Montclair (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9725961www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T120000
+DTEND;TZID=America/New_York:20260930T140000
+SUMMARY:Kent Place at Newark Academy (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10126674www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T120000
+DTEND;TZID=America/New_York:20260930T140000
+SUMMARY:Kent Place at New Providence (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631893www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T133000
+DTEND;TZID=America/New_York:20260930T153000
+SUMMARY:Kent Place at Montclair (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268146www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T120000
+DTEND;TZID=America/New_York:20261001T140000
+SUMMARY:Kent Place at Union Catholic (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268148www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T120000
+DTEND;TZID=America/New_York:20261001T140000
+SUMMARY:Kent Place at Pingry (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268143www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T120000
+DTEND;TZID=America/New_York:20261001T140000
+SUMMARY:Kent Place at Union Catholic (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268145www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T133000
+DTEND;TZID=America/New_York:20261001T153000
+SUMMARY:Kent Place at Union Catholic (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10268149www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T133000
+DTEND;TZID=America/New_York:20261001T153000
+SUMMARY:Kent Place at Union Catholic (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710310www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T113000
+DTEND;TZID=America/New_York:20261002T133000
+SUMMARY:Kent Place vs Peck (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710309www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T113000
+DTEND;TZID=America/New_York:20261002T133000
+SUMMARY:Kent Place vs Rutgers Preparatory (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10299323www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T120000
+DTEND;TZID=America/New_York:20261002T140000
+SUMMARY:Kent Place vs Millburn (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10299324www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T133000
+DTEND;TZID=America/New_York:20261002T153000
+SUMMARY:Kent Place vs Millburn (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631907www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T050000
+DTEND;TZID=America/New_York:20261003T070000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631906www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T050000
+DTEND;TZID=America/New_York:20261003T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631912www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261004T050000
+DTEND;TZID=America/New_York:20261004T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631939www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261004T050000
+DTEND;TZID=America/New_York:20261004T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710318www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T113000
+DTEND;TZID=America/New_York:20261005T133000
+SUMMARY:Kent Place at Summit (Middle School Cross Country)
+DESCRIPTION:Middle School Cross Country - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710317www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T113000
+DTEND;TZID=America/New_York:20261005T133000
+SUMMARY:Kent Place at Oak Knoll (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710316www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T113000
+DTEND;TZID=America/New_York:20261005T133000
+SUMMARY:Kent Place at Newark Academy (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631929www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T121500
+DTEND;TZID=America/New_York:20261005T141500
+SUMMARY:Kent Place vs Governor Livingston (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10277583www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T133000
+DTEND;TZID=America/New_York:20261005T153000
+SUMMARY:Kent Place vs Governor Livingston (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7542049@union-county-interscholastic-athletic-conference
@@ -387,6 +1466,51 @@ SUMMARY:Governor Livingston at Kent Place (Junior Varsity Girls Girls Vol
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10321985www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T114500
+DTEND;TZID=America/New_York:20261006T134500
+SUMMARY:Kent Place vs Pingry (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631947www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T120000
+DTEND;TZID=America/New_York:20261006T140000
+SUMMARY:Kent Place at David Brearley (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631942www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T120000
+DTEND;TZID=America/New_York:20261006T140000
+SUMMARY:Kent Place vs Oak Knoll (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9827005www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T120000
+DTEND;TZID=America/New_York:20261006T140000
+SUMMARY:Kent Place vs Union Catholic (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631944www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T140000
+DTEND;TZID=America/New_York:20261006T160000
+SUMMARY:Kent Place at David Brearley (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2584:7529600@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -403,6 +1527,114 @@ SUMMARY:David Brearley vs Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10321986www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T114500
+DTEND;TZID=America/New_York:20261007T134500
+SUMMARY:Kent Place vs Pingry (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Home - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710325www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T114500
+DTEND;TZID=America/New_York:20261007T134500
+SUMMARY:Kent Place at Heritage Middle School (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9479075www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T120000
+DTEND;TZID=America/New_York:20261007T140000
+SUMMARY:Kent Place at West Essex (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017372www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T120000
+DTEND;TZID=America/New_York:20261007T140000
+SUMMARY:Kent Place vs Newark Academy (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9479074www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T133000
+DTEND;TZID=America/New_York:20261007T153000
+SUMMARY:Kent Place at West Essex (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10321036www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T120000
+DTEND;TZID=America/New_York:20261008T140000
+SUMMARY:Kent Place vs Linden POSTPONED (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017199www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T120000
+DTEND;TZID=America/New_York:20261008T140000
+SUMMARY:Kent Place at Elizabeth (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9832138www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T133000
+DTEND;TZID=America/New_York:20261008T153000
+SUMMARY:Kent Place vs Linden CANCELLED (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017207www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T133000
+DTEND;TZID=America/New_York:20261008T153000
+SUMMARY:Kent Place at Elizabeth (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10321035www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T120000
+DTEND;TZID=America/New_York:20261009T140000
+SUMMARY:Kent Place vs Linden (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9825977www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T120000
+DTEND;TZID=America/New_York:20261009T140000
+SUMMARY:Kent Place at Cranford (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017214www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T133000
+DTEND;TZID=America/New_York:20261009T153000
+SUMMARY:Kent Place at Glen Ridge (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7605489@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
@@ -411,12 +1643,120 @@ SUMMARY:Cranford vs Kent Place (Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7465609@union-county-interscholastic-athletic-conference
+UID:ds:2698:7465609@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
 DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Kent Place vs Linden (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Linden at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017218www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T050000
+DTEND;TZID=America/New_York:20261010T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017220www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261011T050000
+DTEND;TZID=America/New_York:20261011T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9454046www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T120000
+DTEND;TZID=America/New_York:20261013T140000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017373www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T120000
+DTEND;TZID=America/New_York:20261013T140000
+SUMMARY:Kent Place at North Hunterdon (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017203www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T130000
+DTEND;TZID=America/New_York:20261013T150000
+SUMMARY:Kent Place at North Hunterdon (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710336www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T113000
+DTEND;TZID=America/New_York:20261014T133000
+SUMMARY:Kent Place at Summit (Middle School Cross Country)
+DESCRIPTION:Middle School Cross Country - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9714527www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T113000
+DTEND;TZID=America/New_York:20261014T133000
+SUMMARY:Kent Place at Pingry (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710338www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T120000
+DTEND;TZID=America/New_York:20261014T140000
+SUMMARY:Kent Place vs Westfield (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10049825www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T120000
+DTEND;TZID=America/New_York:20261014T140000
+SUMMARY:Kent Place vs Westfield (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9099551www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T120000
+DTEND;TZID=America/New_York:20261014T140000
+SUMMARY:Kent Place at Cranford (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10049826www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T121500
+DTEND;TZID=America/New_York:20261014T141500
+SUMMARY:Kent Place at Montclair Kimberly (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10049827www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T133000
+DTEND;TZID=America/New_York:20261014T153000
+SUMMARY:Kent Place at Cranford (Junior Varsity Volleyball)
+DESCRIPTION:Junior Varsity Volleyball - Away - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7569178@union-county-interscholastic-athletic-conference
@@ -427,14 +1767,6 @@ SUMMARY:Cranford vs Kent Place (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7647556@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Girls Cross Country)
-DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7569179@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T173000
@@ -443,30 +1775,58 @@ SUMMARY:Cranford vs Kent Place (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7446722@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9099559www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Kent Place at East Brunswick High School (Varsity Girls Field Hoc
- key)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20261015T120000
+DTEND;TZID=America/New_York:20261015T140000
+SUMMARY:Kent Place at East Brunswick (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7446740@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9099560www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T174500
-DTEND;TZID=America/New_York:20261015T194500
-SUMMARY:Kent Place at East Brunswick High School (Junior Varsity Girls Fi
- eld Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
+DTSTART;TZID=America/New_York:20261015T133000
+DTEND;TZID=America/New_York:20261015T153000
+SUMMARY:Kent Place at East Brunswick (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Away - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7624854@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:9099561www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Kent Place at Summit (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20261016T050000
+DTEND;TZID=America/New_York:20261016T070000
+SUMMARY:Kent Place at TBD (Tennis)
+DESCRIPTION:Tennis - Away - 5:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9016964www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T123000
+DTEND;TZID=America/New_York:20261016T143000
+SUMMARY:Kent Place vs Blair Academy (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10290808www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T120000
+DTEND;TZID=America/New_York:20261019T140000
+SUMMARY:Kent Place at Summit (Middle School Field Hockey)
+DESCRIPTION:Middle School Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10321037www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T123000
+DTEND;TZID=America/New_York:20261019T143000
+SUMMARY:Kent Place vs Rahway (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7624854@union-county-interscholastic-athletic-conference
@@ -477,30 +1837,175 @@ SUMMARY:Summit vs Kent Place (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7541022@union-county-interscholastic-athletic-conference
+UID:ds:2821:7541022@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
 DTEND;TZID=America/New_York:20261019T183000
-SUMMARY:Kent Place vs Rahway (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
+SUMMARY:Rahway at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7412504@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10311047www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Kent Place at Academy of the Holy Angels (Varsity Girls Girls Soc
- cer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20261020T114500
+DTEND;TZID=America/New_York:20261020T134500
+SUMMARY:Kent Place vs Heritage Middle School (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:45 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7506676@union-county-interscholastic-athletic-conference
+UID:ics:KentPlace:10311053www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T163000
-DTEND;TZID=America/New_York:20261026T183000
-SUMMARY:Kent Place vs Madison High School (Junior Varsity Girls Field Hoc
- key)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:30 PM
+DTSTART;TZID=America/New_York:20261020T120000
+DTEND;TZID=America/New_York:20261020T140000
+SUMMARY:Kent Place vs Morris Knolls (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10311071www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T120000
+DTEND;TZID=America/New_York:20261022T140000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10311070www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T120000
+DTEND;TZID=America/New_York:20261022T140000
+SUMMARY:Kent Place vs Millburn (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10290846www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T113000
+DTEND;TZID=America/New_York:20261023T133000
+SUMMARY:Kent Place vs Chatham Day School (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9665406www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T083000
+DTEND;TZID=America/New_York:20261024T103000
+SUMMARY:Kent Place at TBA (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 8:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10151804www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T120000
+DTEND;TZID=America/New_York:20261026T140000
+SUMMARY:Kent Place at Glen Ridge (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9481076www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T121500
+DTEND;TZID=America/New_York:20261026T141500
+SUMMARY:Kent Place at Academy of Holy Angels (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9804851www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T123000
+DTEND;TZID=America/New_York:20261026T143000
+SUMMARY:Kent Place vs Madison (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10026052www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T123000
+DTEND;TZID=America/New_York:20261027T143000
+SUMMARY:Kent Place at Gill Saint Bernard's School (Middle School Cross Co
+ untry)
+DESCRIPTION:Middle School Cross Country - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10033975www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T100000
+DTEND;TZID=America/New_York:20261028T120000
+SUMMARY:Kent Place vs TBD (Cross Country)
+DESCRIPTION:Cross Country - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9710327www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T113000
+DTEND;TZID=America/New_York:20261028T133000
+SUMMARY:Kent Place at Oak Knoll (Middle School Soccer)
+DESCRIPTION:Middle School Soccer - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017273www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T120000
+DTEND;TZID=America/New_York:20261028T140000
+SUMMARY:Kent Place vs Glen Ridge (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017274www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T120000
+DTEND;TZID=America/New_York:20261028T140000
+SUMMARY:Kent Place at Glen Ridge (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9017284www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T120000
+DTEND;TZID=America/New_York:20261030T140000
+SUMMARY:Kent Place at TBD (Field Hockey)
+DESCRIPTION:Field Hockey - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9454066www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261107T040000
+DTEND;TZID=America/New_York:20261107T060000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 4:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9454058www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261114T040000
+DTEND;TZID=America/New_York:20261114T060000
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 4:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9454039www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261121T054500
+DTEND;TZID=America/New_York:20261121T074500
+SUMMARY:Kent Place at TBD (Cross Country)
+DESCRIPTION:Cross Country - Away - 5:45 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7577986@union-county-interscholastic-athletic-conference
@@ -560,14 +2065,6 @@ SUMMARY:Cranford vs Kent Place (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7597225@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T163000
-DTEND;TZID=America/New_York:20270112T183000
-SUMMARY:Kent Place vs Roselle (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7597225@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
@@ -610,14 +2107,6 @@ SUMMARY:Jonathan Dayton vs Kent Place (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2681:7597233@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T163000
-DTEND;TZID=America/New_York:20270202T183000
-SUMMARY:Kent Place at Roselle (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7597233@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T163000
@@ -641,21 +2130,5 @@ DTSTART;TZID=America/New_York:20270223T173000
 DTEND;TZID=America/New_York:20270223T193000
 SUMMARY:Governor Livingston vs Kent Place (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7644755@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270413T160000
-DTEND;TZID=America/New_York:20270413T180000
-SUMMARY:Kent Place vs Chatham High School (Varsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2681:7621810@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270420T163000
-DTEND;TZID=America/New_York:20270420T183000
-SUMMARY:Kent Place at Sparta High School (Varsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Oak Knoll
+  Junior Varsity Tennis
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:OakKnoll:16417971www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T120000
+DTEND;TZID=America/New_York:20260924T140000
+SUMMARY:Oak Knoll at Governor Livingston (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10071776www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T120000
+DTEND;TZID=America/New_York:20260928T140000
+SUMMARY:Kent Place vs Oak Knoll (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16417979www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T120000
+DTEND;TZID=America/New_York:20260930T140000
+SUMMARY:Oak Knoll at Jonathan Dayton (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16474146www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T120000
+DTEND;TZID=America/New_York:20261001T140000
+SUMMARY:Oak Knoll vs Governor Livingston (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16435070www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T120000
+DTEND;TZID=America/New_York:20261005T140000
+SUMMARY:Oak Knoll vs Union Catholic (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:9631942www.kentplace.org@union-county-interscholastic-a
+ thletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T120000
+DTEND;TZID=America/New_York:20261006T140000
+SUMMARY:Kent Place vs Oak Knoll (Junior Varsity Tennis)
+DESCRIPTION:Junior Varsity Tennis - Home - 12:00 PM
+END:VEVENT
+END:VCALENDAR
