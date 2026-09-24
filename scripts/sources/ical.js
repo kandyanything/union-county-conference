@@ -96,8 +96,19 @@ function parseSummary(summary, stripPrefix) {
     if (!m) return null;
 
     let head = m[1].trim();
-    const opponent = m[3].replace(/\s+/g, ' ').trim();
-    const home = /^v/i.test(m[2]);      // "vs." / "v" are home; "@" and "at" are away
+    let opponent = m[3].replace(/\s+/g, ' ').trim();
+    let home = /^v/i.test(m[2]);        // "vs." / "v" are home; "@" and "at" are away
+
+    // Finalsite writes every fixture with "vs." and puts the truth in a suffix:
+    //   "Soccer - V vs. Columbia (Away)"
+    // Reading the marker alone would file all 638 Kent Place games as home. Where
+    // the suffix exists it is authoritative, because it is the field the athletic
+    // director actually sets; the marker is decoration.
+    const site = opponent.match(/\s*\((home|away|neutral)\)\s*$/i);
+    if (site) {
+        opponent = opponent.slice(0, site.index).trim();
+        home = /^home$/i.test(site[1]);
+    }
 
     // "Varsity and JV" is one fixture covering both. Drop the trailing half
     // first, or the JV token matches before Varsity does and the sport name
@@ -131,6 +142,10 @@ function parseSummary(summary, stripPrefix) {
     // already took one, e.g. "Tennis Varsity".
     sport = sport.replace(/\s+(Varsity|Junior Varsity|JV|Freshman)$/i, '').trim();
 
+    // Finalsite separates sport from level with a dash - "Soccer - V" - and once
+    // the level is taken the dash is left dangling on the sport name.
+    sport = sport.replace(/[\s–—-]+$/, '').trim();
+
     // Typos and inconsistent naming in the source calendar. Only obvious
     // one-for-one corrections belong here - not guesses about event names.
     const FIXES = { basketbal: 'Basketball', hockey: 'Ice Hockey' };
@@ -141,8 +156,39 @@ function parseSummary(summary, stripPrefix) {
     return { sport, level, gender, opponent, home, status, kind };
 }
 
+/**
+ * A school may publish one feed or many. Finalsite gives a separate calendar
+ * per team - Kent Place has thirteen - so `ics` accepts an array and the
+ * results are merged, keyed by event id so a fixture listed in two feeds is
+ * only counted once.
+ */
 async function fetchSchool(school, startDate, endDate) {
-    const res = await fetch(school.ics, { headers: { 'User-Agent': UA } });
+    const urls = Array.isArray(school.ics) ? school.ics : [school.ics];
+    const byId = new Map();
+    const failures = [];
+
+    for (const url of urls) {
+        try {
+            for (const ev of await fetchFeed(school, url, startDate, endDate)) {
+                if (!byId.has(ev.id)) byId.set(ev.id, ev);
+            }
+        } catch (err) {
+            failures.push(`${url.split('/').pop()}: ${err.message}`);
+        }
+        // A school can have thirty-odd team feeds. Space them out.
+        if (urls.length > 1) await new Promise(r => setTimeout(r, 200));
+    }
+
+    // One dead team feed should not drop the whole school, but every feed
+    // failing means the school is genuinely unreachable and must be reported.
+    if (failures.length === urls.length) throw new Error(failures.join('; '));
+    if (failures.length) console.log(`         ${school.name}: ${failures.length}/${urls.length} feeds failed (${failures[0]})`);
+
+    return [...byId.values()];
+}
+
+async function fetchFeed(school, icsUrl, startDate, endDate) {
+    const res = await fetch(icsUrl, { headers: { 'User-Agent': UA }, redirect: 'follow' });
     if (!res.ok) throw new Error(`ics ${res.status}`);
     const body = unfold(await res.text());
     if (!/BEGIN:VCALENDAR/.test(body)) throw new Error('response was not an iCalendar feed');

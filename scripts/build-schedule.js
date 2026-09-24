@@ -20,9 +20,38 @@ const digitalsports = require('./sources/digitalsports');
 const DS_SCHOOLS = require('./ds-schools.json');
 const ical = require('./sources/ical');
 
-// No Union County schools are known to use iCal feeds - all 41 are on DigitalSports.
-// Leave ICS_SCHOOLS empty; update if a school is found to use an iCal feed instead.
-const ICS_SCHOOLS = [];
+// Kent Place and Oak Knoll run Finalsite, which publishes one iCal feed per
+// team at /calendar/team_<id>.ics. Both posted only a fraction of their teams
+// to DigitalSports - Kent Place 55 games against 638 in these feeds, Oak Knoll
+// 65 against 157 - so they are read here instead, and have been taken out of
+// ds-schools.json so a fixture cannot arrive twice by two routes.
+//
+// The lists are every NAMED team, not only the ones with games today. Winter
+// and spring squads return an empty calendar until their schedule is set and
+// then start flowing on their own, which is why ice hockey and lacrosse are
+// here in September.
+//
+// To refresh a list: open the school's schedule page, read the team ids out of
+// the "select a team" dropdown, or sweep /calendar/team_<id>.ics and keep every
+// id that returns an X-WR-CALNAME.
+const ICS_SCHOOLS = [
+    {
+        name: 'Kent Place',
+        slug: 'kent-place',
+        ics: [148, 153, 152, 146, 147, 151, 144, 145, 150, 142, 143, 149, 137, 140,
+            141, 155, 136, 134, 135, 139, 130, 138, 133, 132, 131, 120, 129, 126,
+            125, 123, 124, 128, 121, 122, 154, 127, 158]
+            .map(id => `https://www.kentplace.org/calendar/team_${id}.ics`),
+    },
+    {
+        name: 'Oak Knoll',
+        slug: 'oak-knoll',
+        ics: [120, 121, 122, 123, 125, 126, 131, 132, 134, 136, 137, 139, 140, 142,
+            143, 147, 148, 151, 152, 153, 154, 156, 157, 158, 159, 160, 161, 162,
+            163, 169, 170, 171, 174]
+            .map(id => `https://www.oakknoll.org/calendar/team_${id}.ics`),
+    },
+];
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'data', 'schedule.json');
