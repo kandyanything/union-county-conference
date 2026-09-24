@@ -98,10 +98,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:103040031@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
+DTSTART;TZID=America/New_York:20261028T140000
+DTEND;TZID=America/New_York:20261028T160000
 SUMMARY:Oratory Prep at Blair Academy (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103040666@union-county-interscholastic-athletic-conference

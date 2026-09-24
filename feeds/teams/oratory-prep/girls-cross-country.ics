@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2607:7557027@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T163000
+DTEND;TZID=America/New_York:20260922T183000
+SUMMARY:Elizabeth vs Oratory Prep (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7557039@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T163000
@@ -31,13 +39,5 @@ DTEND;TZID=America/New_York:20260922T183000
 SUMMARY:Elizabeth vs Oratory Prep (Junior Varsity Girls Girls Cross Count
  ry)
 DESCRIPTION:Junior Varsity Girls Girls Cross Country - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7557027@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T163000
-DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:Elizabeth vs Oratory Prep (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:30 PM
 END:VEVENT
 END:VCALENDAR
