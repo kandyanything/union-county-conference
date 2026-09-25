@@ -332,6 +332,27 @@
 .footer-brand { display: flex; gap: 16px; align-items: flex-start; }
 .footer-brand img { width: 66px; height: 66px; object-fit: contain; flex-shrink: 0; }
 
+/* ---------- Instagram ----------------------------------------------------
+   Two placements, deliberately different. The masthead carries the mark
+   alone, because a wordmark beside the conference name competes with it. The
+   footer spells the handle out: down here nobody is navigating, and plenty of
+   people would rather search @uciac_ in the app than follow a link out of a
+   browser. */
+.footer-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 13px;
+    font-size: .93rem;
+    font-weight: 600;
+    letter-spacing: .01em;
+    color: rgba(255, 255, 255, .82);
+    transition: color .2s;
+}
+.footer-social svg { width: 20px; height: 20px; flex: 0 0 auto; }
+.footer-social:hover { color: var(--white); }
+.footer-social:focus-visible { outline: 2px solid var(--white); outline-offset: 3px; border-radius: 4px; }
+
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, .12);
     padding: 20px 0;

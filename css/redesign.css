@@ -71,9 +71,32 @@ p { margin: 0 0 1rem; }
 }
 .topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 40px; }
 .topbar strong { color: var(--white); font-weight: 600; }
-.topbar-links { display: flex; gap: 20px; }
+.topbar-links { display: flex; align-items: center; gap: 20px; }
 .topbar-links a { color: var(--silver); text-decoration: none; }
 .topbar-links a:hover { color: var(--white); }
+
+/* ---------- Instagram ----------------------------------------------------
+   It sits here rather than in the masthead because the masthead's right-hand
+   side is the logo strip's runway: school crests drift across that exact spot
+   all day, and a fixed chip parked there reads as an accident. This bar is
+   static, it is where people already look for secondary links, and it is on
+   every page. The handle is spelled out beside the mark - plenty of people
+   would rather search @uciac_ in the app than follow a link out of a browser -
+   and it drops away on narrow screens where the bar has no room for it. */
+.topbar-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(255, 255, 255, .18);
+}
+.topbar-social svg { width: 17px; height: 17px; flex: 0 0 auto; }
+.topbar-social-handle { letter-spacing: .03em; }
+
+@media (max-width: 760px) {
+    .topbar-social-handle { display: none; }
+    .topbar-social { padding-left: 14px; }
+}
 
 /* ---------- masthead ---------- */
 /* silver masthead so the black compass badge, the black wordmark, and the
