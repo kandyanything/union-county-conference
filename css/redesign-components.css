@@ -349,7 +349,18 @@
     color: rgba(255, 255, 255, .82);
     transition: color .2s;
 }
-.footer-social svg { width: 20px; height: 20px; flex: 0 0 auto; }
+.footer-social .ig-mark {
+    width: 21px;
+    height: 21px;
+    flex: 0 0 auto;
+    display: block;
+    border-radius: 6px;
+    transition: transform .2s, box-shadow .2s;
+}
+.footer-social:hover .ig-mark {
+    transform: translateY(-1px) scale(1.05);
+    box-shadow: 0 2px 9px rgba(214, 41, 118, .5);
+}
 .footer-social:hover { color: var(--white); }
 .footer-social:focus-visible { outline: 2px solid var(--white); outline-offset: 3px; border-radius: 4px; }
 

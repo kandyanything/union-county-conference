@@ -90,7 +90,22 @@ p { margin: 0 0 1rem; }
     padding-left: 20px;
     border-left: 1px solid rgba(255, 255, 255, .18);
 }
-.topbar-social svg { width: 17px; height: 17px; flex: 0 0 auto; }
+/* The mark carries Instagram's own gradient rather than inheriting the bar's
+   silver, so it reads as the brand and lifts the whole strip. A gradient
+   outline was tried first and vanished against the navy; the filled tile with
+   the camera knocked out in white is what people actually recognise. */
+.topbar-social .ig-mark {
+    width: 19px;
+    height: 19px;
+    flex: 0 0 auto;
+    display: block;
+    border-radius: 5px;
+    transition: transform .2s, box-shadow .2s;
+}
+.topbar-social:hover .ig-mark {
+    transform: translateY(-1px) scale(1.06);
+    box-shadow: 0 2px 8px rgba(214, 41, 118, .55);
+}
 .topbar-social-handle { letter-spacing: .03em; }
 
 @media (max-width: 760px) {
