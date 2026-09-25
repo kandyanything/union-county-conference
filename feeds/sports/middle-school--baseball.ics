@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2607:7656594@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T160000
+DTEND;TZID=America/New_York:20270409T180000
+SUMMARY:Elizabeth at Jonathan Dayton (Middle School Boys Baseball)
+DESCRIPTION:Middle School Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7518960@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T160000
@@ -31,6 +39,14 @@ DTEND;TZID=America/New_York:20270412T180000
 SUMMARY:Arthur L. Johnson vs Kumpf Middle School (Middle School Boys Base
  ball)
 DESCRIPTION:Middle School Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7656601@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Rahway at Jonathan Dayton (Middle School Boys Baseball)
+DESCRIPTION:Middle School Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7518964@union-county-interscholastic-athletic-conference

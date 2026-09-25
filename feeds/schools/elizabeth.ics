@@ -380,20 +380,20 @@ SUMMARY:Elizabeth vs Morristown High School (Junior Varsity Boys Boys Soc
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7602785@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T110000
-DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Elizabeth at Morristown High School (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7568410@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T110000
 DTEND;TZID=America/New_York:20260905T130000
 SUMMARY:Elizabeth vs Morristown High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7602785@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T110000
+DTEND;TZID=America/New_York:20260905T130000
+SUMMARY:Elizabeth at Morristown High School (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7444937@union-county-interscholastic-athletic-conference
@@ -753,12 +753,13 @@ SUMMARY:Elizabeth at New Providence (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7629027@union-county-interscholastic-athletic-conference
+UID:ds:2607:7631844@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
 DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Elizabeth at Kent Place (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Elizabeth vs Bayonne High School (Middle School Girls Girls Socce
+ r)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7629065@union-county-interscholastic-athletic-conference
@@ -778,13 +779,12 @@ SUMMARY:Elizabeth at Scotch Plains-Fanwood (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7631844@union-county-interscholastic-athletic-conference
+UID:ds:2607:7629027@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
 DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Elizabeth vs Bayonne High School (Middle School Girls Girls Socce
- r)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Elizabeth at Kent Place (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7640517@union-county-interscholastic-athletic-conference
@@ -827,20 +827,20 @@ SUMMARY:Elizabeth at Kent Place (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7470047@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Elizabeth vs Mcmanus Middle School (Girls (9) Volleyball)
-DESCRIPTION:Girls (9) Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7541904@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
 DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Elizabeth at Governor Livingston (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7470047@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Elizabeth vs Mcmanus Middle School (Girls (9) Volleyball)
+DESCRIPTION:Girls (9) Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7629983@union-county-interscholastic-athletic-conference
@@ -1070,6 +1070,14 @@ SUMMARY:Elizabeth vs Roselle Park (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7557100@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Elizabeth at New Providence (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7565321@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1077,14 +1085,6 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Elizabeth vs Woodbridge High School (Freshman Girls Girls Volleyb
  all)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7557100@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Elizabeth at New Providence (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7556824@union-county-interscholastic-athletic-conference
@@ -1196,14 +1196,6 @@ SUMMARY:Elizabeth at Hillside (Middle School Girls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7631399@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Elizabeth at Roselle (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7629226@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -1211,6 +1203,14 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
  irls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7631399@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Elizabeth at Roselle (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7556868@union-county-interscholastic-athletic-conference
@@ -1482,22 +1482,6 @@ SUMMARY:Elizabeth vs South Brunswick High School (Varsity Boys Boys Socce
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529585@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T130000
-DTEND;TZID=America/New_York:20260926T150000
-SUMMARY:David Brearley at Elizabeth (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7567833@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Cranford at Elizabeth (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7592560@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -1514,14 +1498,6 @@ SUMMARY:Elizabeth at Jonathan Dayton (Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7532419@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Elizabeth vs Jonathan Dayton (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7592560@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -1530,12 +1506,21 @@ SUMMARY:Elizabeth at Cranford (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7626151@union-county-interscholastic-athletic-conference
+UID:ds:2607:7655525@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Elizabeth at Elizabeth Middle School North (Middle School Girls G
+ irls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7567833@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T161500
 DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Cranford at Elizabeth (Middle School Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Cranford at Elizabeth (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7476321@union-county-interscholastic-athletic-conference
@@ -1554,6 +1539,14 @@ SUMMARY:Elizabeth at Roselle Park (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7629265@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T161500
+DTEND;TZID=America/New_York:20260928T181500
+SUMMARY:Elizabeth at Hillside (Middle School Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7631411@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T161500
@@ -1563,20 +1556,20 @@ SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Boys Bo
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7629265@union-county-interscholastic-athletic-conference
+UID:ds:2607:7655885@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T161500
-DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Elizabeth at Hillside (Middle School Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20260928T163000
+DTEND;TZID=America/New_York:20260928T183000
+SUMMARY:Elizabeth vs Union City High School (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7567835@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T173000
-DTEND;TZID=America/New_York:20260928T193000
+DTSTART;TZID=America/New_York:20260928T174500
+DTEND;TZID=America/New_York:20260928T194500
 SUMMARY:Cranford at Elizabeth (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7603296@union-county-interscholastic-athletic-conference
@@ -1627,15 +1620,6 @@ SUMMARY:Elizabeth at Rahway (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7629278@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
- irls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7631447@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
@@ -1643,6 +1627,15 @@ DTEND;TZID=America/New_York:20260930T181500
 SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Boys Bo
  ys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7629278@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
+ irls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7632256@union-county-interscholastic-athletic-conference
@@ -1901,14 +1894,6 @@ SUMMARY:Elizabeth at Rahway (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7543978@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Elizabeth vs Rahway (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7567466@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -1942,8 +1927,8 @@ SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Boys Bo
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16435073oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:16435073www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T120000
 DTEND;TZID=America/New_York:20261006T140000
@@ -1966,6 +1951,14 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Elizabeth vs Edison Intermediate (Middle School Coed Coed Cross C
  ountry)
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7543978@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Elizabeth vs Rahway (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7556934@union-county-interscholastic-athletic-conference
@@ -2806,6 +2799,23 @@ SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7655675@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261102T180000
+DTEND;TZID=America/New_York:20261102T200000
+SUMMARY:Elizabeth vs Bayonne High School (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7655682@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261102T180000
+DTEND;TZID=America/New_York:20261102T200000
+SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Boys Bo
+ ys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7605469@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
@@ -3293,6 +3303,14 @@ SUMMARY:Elizabeth at Mcmanus Middle School (Middle School Coed Coed Wrest
 DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7656594@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T160000
+DTEND;TZID=America/New_York:20270409T180000
+SUMMARY:Elizabeth at Jonathan Dayton (Middle School Boys Baseball)
+DESCRIPTION:Middle School Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7532040@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T160000
@@ -3315,6 +3333,14 @@ DTSTART;TZID=America/New_York:20270414T160000
 DTEND;TZID=America/New_York:20270414T180000
 SUMMARY:Elizabeth vs Jonathan Dayton (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7656496@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Elizabeth vs Jonathan Dayton (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103220065@union-county-interscholastic-athletic-conference
@@ -3340,6 +3366,14 @@ DTSTART;TZID=America/New_York:20270416T160000
 DTEND;TZID=America/New_York:20270416T180000
 SUMMARY:Elizabeth at Jonathan Dayton (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7656497@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T160000
+DTEND;TZID=America/New_York:20270416T180000
+SUMMARY:Elizabeth at Jonathan Dayton (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103220076@union-county-interscholastic-athletic-conference
