@@ -126,8 +126,18 @@ p { margin: 0 0 1rem; }
 .topbar-social-handle { letter-spacing: .03em; }
 
 @media (max-width: 760px) {
-    .topbar-social-handle { display: none; }
     .topbar-social { padding-left: 14px; }
+}
+
+/* Below 600px the bar stacks and the links wrap, so the mark ends up on a line
+   of its own. Hiding the handle there left an unexplained icon floating in an
+   empty row; the divider was also dangling with nothing to its left. Both go,
+   and the handle is spelled out - there is a whole line for it. */
+@media (max-width: 600px) {
+    .topbar-social {
+        padding-left: 0;
+        border-left: 0;
+    }
 }
 
 /* ---------- masthead ---------- */
@@ -317,8 +327,23 @@ p { margin: 0 0 1rem; }
     .masthead-text .name { font-size: 1.18rem; letter-spacing: -.005em; }
     .masthead .wrap { padding-top: 14px; padding-bottom: 14px; }
 
-    .topbar .wrap { flex-direction: column; align-items: flex-start; gap: 2px; padding-top: 8px; padding-bottom: 8px; }
-    .topbar-links { flex-wrap: wrap; gap: 14px; }
+    /* The bar was built for three text links. Adding the sportsmanship flag
+       and the Instagram link made five, which will not sit on a 360px phone
+       however hard it is squeezed - the last link kept running off the edge.
+       Conference Info, External Links and School Websites are every one of
+       them already in the main nav's Conference menu, so on a phone they are
+       duplication. They go, and the two things that exist nowhere else stay. */
+    .topbar .wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .topbar-links { flex-wrap: nowrap; gap: 14px; }
+    .topbar-links a:not(.topbar-flag):not(.topbar-social) { display: none; }
+    .topbar-links a.topbar-flag { padding: 3px 9px; font-size: .7rem; }
+    .topbar-social { padding-left: 12px; }
 
     .wrap { padding: 0 16px; }
     .band { padding: 36px 0; }
