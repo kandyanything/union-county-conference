@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2938:7661558@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T090000
+DTEND;TZID=America/New_York:20261205T110000
+SUMMARY:Westfield vs North Plainfield Public Schools (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7529982@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T140000
@@ -72,5 +81,22 @@ DTSTART;TZID=America/New_York:20270121T183000
 DTEND;TZID=America/New_York:20270121T203000
 SUMMARY:Westfield at Paramus High School (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7659918@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T170000
+DTEND;TZID=America/New_York:20270128T190000
+SUMMARY:Governor Livingston vs Westfield (Junior Varsity Boys Boys Wrestl
+ ing)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7659917@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T180000
+DTEND;TZID=America/New_York:20270128T200000
+SUMMARY:Governor Livingston vs Westfield (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR

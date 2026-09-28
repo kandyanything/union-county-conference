@@ -24,14 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2698:7515950@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T170000
-DTEND;TZID=America/New_York:20270106T190000
-SUMMARY:Linden at Scotch Plains-Fanwood (Varsity Girls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:39378:7479295@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -39,5 +31,13 @@ DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Scotch Plains-Fanwood at Parsippany Hills High School (Varsity Gi
  rls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7515955@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T170000
+DTEND;TZID=America/New_York:20270127T190000
+SUMMARY:Scotch Plains-Fanwood at Linden (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
 END:VEVENT
 END:VCALENDAR

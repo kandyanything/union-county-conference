@@ -24,12 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2698:7600922@union-county-interscholastic-athletic-conference
+UID:ds:2698:7658696@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T170000
-DTEND;TZID=America/New_York:20260831T190000
-SUMMARY:Linden at St Thomas Aquinas High School (Varsity Girls Girls Wres
- tling)
+DTSTART;TZID=America/New_York:20261211T170000
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Linden vs Carteret High School (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7658702@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T170000
+DTEND;TZID=America/New_York:20261216T190000
+SUMMARY:Linden at Plainfield (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -37,8 +44,16 @@ UID:ds:2698:7515949@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T170000
 DTEND;TZID=America/New_York:20261218T190000
-SUMMARY:Linden vs Rahway (Varsity Girls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
+SUMMARY:Linden at Rahway (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7659006@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T090000
+DTEND;TZID=America/New_York:20261220T110000
+SUMMARY:Linden at Bloomfield High School (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7479123@union-county-interscholastic-athletic-conference
@@ -49,12 +64,20 @@ SUMMARY:Linden vs Perth Amboy High School (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7515950@union-county-interscholastic-athletic-conference
+UID:ds:2607:7659008@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270103T090000
+DTEND;TZID=America/New_York:20270103T110000
+SUMMARY:Elizabeth vs Linden (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7659015@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T170000
 DTEND;TZID=America/New_York:20270106T190000
-SUMMARY:Linden at Scotch Plains-Fanwood (Varsity Girls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
+SUMMARY:Elizabeth vs Linden (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7515951@union-county-interscholastic-athletic-conference
@@ -74,27 +97,85 @@ SUMMARY:Linden vs North Plainfield Public Schools (Varsity Girls Girls Wr
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7515954@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T170000
-DTEND;TZID=America/New_York:20270113T190000
-SUMMARY:Elizabeth at Linden (Varsity Girls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2698:7515955@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
 DTEND;TZID=America/New_York:20270127T190000
-SUMMARY:Linden at Union (Varsity Girls Girls Wrestling)
+SUMMARY:Linden vs Union (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7515955@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T170000
+DTEND;TZID=America/New_York:20270127T190000
+SUMMARY:Scotch Plains-Fanwood at Linden (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7515958@union-county-interscholastic-athletic-conference
+UID:ds:2698:7659029@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T170000
 DTEND;TZID=America/New_York:20270129T190000
-SUMMARY:Linden vs Plainfield (Varsity Girls Girls Wrestling)
+SUMMARY:Linden at Bayonne High School (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7659040@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T090000
+DTEND;TZID=America/New_York:20270130T110000
+SUMMARY:Linden at St Thomas Aquinas High School (Varsity Girls Girls Wres
+ tling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7658728@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T160000
+DTEND;TZID=America/New_York:20270203T180000
+SUMMARY:Linden vs Kearny High School (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7658736@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T170000
+DTEND;TZID=America/New_York:20270205T190000
+SUMMARY:Linden vs New Brunswick High School (Varsity Girls Girls Wrestlin
+ g)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7659043@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T090000
+DTEND;TZID=America/New_York:20270206T110000
+SUMMARY:Linden at Howell High School (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7659049@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270214T090000
+DTEND;TZID=America/New_York:20270214T110000
+SUMMARY:Linden at TBA NJ (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7659052@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270221T090000
+DTEND;TZID=America/New_York:20270221T110000
+SUMMARY:Linden at Union (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7659063@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270225T090000
+DTEND;TZID=America/New_York:20270225T110000
+SUMMARY:Linden at TBA NJ (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 END:VCALENDAR

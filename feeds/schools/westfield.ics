@@ -877,8 +877,8 @@ SUMMARY:Westfield at Bridgewater-Raritan High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Football - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16526824oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:16526824www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T121500
 DTEND;TZID=America/New_York:20260929T141500
@@ -895,21 +895,13 @@ SUMMARY:Oak Knoll at Westfield (Junior Varsity Soccer)
 DESCRIPTION:Junior Varsity Soccer - Away - 12:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7503254@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Westfield at Chatham High School (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7503259@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Westfield vs Chatham High School (Junior Varsity Girls Girls Tenn
+SUMMARY:Westfield at Chatham High School (Junior Varsity Girls Girls Tenn
  is)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7629278@union-county-interscholastic-athletic-conference
@@ -1087,20 +1079,20 @@ SUMMARY:Governor Livingston at Westfield (Junior Varsity Girls Girls Socc
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7543426@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T180000
-DTEND;TZID=America/New_York:20261006T200000
-SUMMARY:Rahway vs Westfield (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7543360@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T180000
 DTEND;TZID=America/New_York:20261006T200000
 SUMMARY:Rahway vs Westfield (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7543426@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T180000
+DTEND;TZID=America/New_York:20261006T200000
+SUMMARY:Rahway vs Westfield (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7568375@union-county-interscholastic-athletic-conference
@@ -1362,6 +1354,14 @@ SUMMARY:Governor Livingston at Westfield (Junior Varsity Girls Girls Voll
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2938:7503254@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T160000
+DTEND;TZID=America/New_York:20261016T180000
+SUMMARY:Westfield at Chatham High School (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7557192@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T090000
@@ -1498,12 +1498,30 @@ SUMMARY:Westfield vs Hillsborough Athletics (Varsity Girls Girls Cross Co
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2938:7661558@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T090000
+DTEND;TZID=America/New_York:20261205T110000
+SUMMARY:Westfield vs North Plainfield Public Schools (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2938:7587168@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261206T180000
 DTEND;TZID=America/New_York:20261206T200000
 SUMMARY:Westfield at Chatham High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7660820@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T164500
+DTEND;TZID=America/New_York:20261207T184500
+SUMMARY:Westfield vs Delbarton School (Junior Varsity Boys Boys Ice Hocke
+ y)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7605221@union-county-interscholastic-athletic-conference
@@ -1781,6 +1799,15 @@ SUMMARY:Westfield at Governor Livingston (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2938:7660917@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T160000
+DTEND;TZID=America/New_York:20270113T180000
+SUMMARY:Westfield at Delbarton School (Junior Varsity Boys Boys Ice Hocke
+ y)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2938:7638572@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T183000
@@ -1885,6 +1912,23 @@ DTSTART;TZID=America/New_York:20270126T190000
 DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Linden vs Westfield (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7659918@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T170000
+DTEND;TZID=America/New_York:20270128T190000
+SUMMARY:Governor Livingston vs Westfield (Junior Varsity Boys Boys Wrestl
+ ing)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7659917@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T180000
+DTEND;TZID=America/New_York:20270128T200000
+SUMMARY:Governor Livingston vs Westfield (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7628607@union-county-interscholastic-athletic-conference
@@ -2047,6 +2091,14 @@ DTSTART;TZID=America/New_York:20270410T110000
 DTEND;TZID=America/New_York:20270410T130000
 SUMMARY:Westfield at South Plainfield High School (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7660307@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T110000
+DTEND;TZID=America/New_York:20270410T130000
+SUMMARY:Westfield at Seton Hall Prep School (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7521873@union-county-interscholastic-athletic-conference
