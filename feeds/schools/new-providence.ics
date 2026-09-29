@@ -994,10 +994,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7472462@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T190000
-DTEND;TZID=America/New_York:20261009T210000
+DTSTART;TZID=America/New_York:20261009T183000
+DTEND;TZID=America/New_York:20261009T203000
 SUMMARY:New Providence vs Perth Amboy High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7629338@union-county-interscholastic-athletic-conference
@@ -2061,6 +2061,24 @@ SUMMARY:Arthur L. Johnson at New Providence (Junior Varsity Boys Boys Lac
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2759:7663515@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:New Providence at Livingston High School (Varsity Boys Boys Lacro
+ sse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2759:7663516@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T173000
+DTEND;TZID=America/New_York:20270422T193000
+SUMMARY:New Providence at Livingston High School (Junior Varsity Boys Boy
+ s Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2759:7641051@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T160000
@@ -2076,5 +2094,14 @@ DTEND;TZID=America/New_York:20270507T180000
 SUMMARY:New Providence vs Mcmanus Middle School (Junior Varsity Girls Sof
  tball)
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2759:7663736@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270515T110000
+DTEND;TZID=America/New_York:20270515T130000
+SUMMARY:New Providence at Whippany Park High School (Varsity Girls Softba
+ ll)
+DESCRIPTION:Varsity Girls Softball - Away - 11:00 AM
 END:VEVENT
 END:VCALENDAR
