@@ -219,15 +219,6 @@ SUMMARY:Kent Place at Oak Knoll (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10330515www.kentplace.org@union-county-interscholastic-
- athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T133000
-DTEND;TZID=America/New_York:20260924T153000
-SUMMARY:Kent Place at Oak Knoll (Junior Varsity Field Hockey)
-DESCRIPTION:Junior Varsity Field Hockey - Away - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7636312@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -324,12 +315,13 @@ SUMMARY:Oak Knoll at Governor Livingston High School POSTPONED (Varsity T
 DESCRIPTION:Varsity Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16507813www.oakknoll.org@union-county-interscholastic-at
+UID:ics:OakKnoll:16536642www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T121500
 DTEND;TZID=America/New_York:20261001T141500
-SUMMARY:Oak Knoll at Wayne Hills High School (Junior Varsity Soccer)
+SUMMARY:Oak Knoll at Wayne Hills High School CANCELLED (Junior Varsity So
+ ccer)
 DESCRIPTION:Junior Varsity Soccer - Away - 12:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -587,6 +579,15 @@ DTSTART;TZID=America/New_York:20261007T113000
 DTEND;TZID=America/New_York:20261007T133000
 SUMMARY:Oak Knoll vs Peck School (Middle School Field Hockey)
 DESCRIPTION:Middle School Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16536643www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T120000
+DTEND;TZID=America/New_York:20261007T140000
+SUMMARY:Oak Knoll vs Kent Place (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:OakKnoll:16531399www.oakknoll.org@union-county-interscholastic-at
