@@ -10782,21 +10782,21 @@ SUMMARY:Summit at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 7:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10071746www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:10472518www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T070000
 DTEND;TZID=America/New_York:20260926T090000
-SUMMARY:Kent Place at Cranford (Varsity Soccer)
+SUMMARY:Kent Place at Cranford POSTPONED (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Away - 7:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10362523www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:10471560www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T070000
 DTEND;TZID=America/New_York:20260926T090000
-SUMMARY:Kent Place at Cranford CANCELLED (Junior Varsity Soccer)
+SUMMARY:Kent Place at Cranford POSTPONED (Junior Varsity Soccer)
 DESCRIPTION:Junior Varsity Soccer - Away - 7:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -13812,6 +13812,14 @@ SUMMARY:Arthur L. Johnson at Hackettstown High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2821:7540795@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T104500
+DTEND;TZID=America/New_York:20261003T124500
+SUMMARY:Rahway vs TBA NJ (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 10:45 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7534560@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T110000
@@ -14061,14 +14069,6 @@ DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Governor Livingston at TBA NJ (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2821:7540795@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
-SUMMARY:Rahway vs TBA NJ (Varsity Coed Coed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:10417866www.kentplace.org@union-county-interscholastic-
@@ -14446,14 +14446,6 @@ SUMMARY:Roselle vs Jonathan Dayton (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2510:7538463@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Roselle at Jonathan Dayton (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2837:7484308@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
@@ -14594,14 +14586,6 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:David Brearley at Elizabeth Middle School South (Middle School Bo
  ys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7632262@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:David Brearley at Elizabeth (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7534377@union-county-interscholastic-athletic-conference
@@ -16911,6 +16895,24 @@ DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
 SUMMARY:Westfield vs Ridge High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10472517www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T093000
+DTEND;TZID=America/New_York:20261010T113000
+SUMMARY:Kent Place at Cranford (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10471561www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T093000
+DTEND;TZID=America/New_York:20261010T113000
+SUMMARY:Kent Place at Cranford (Junior Varsity Soccer)
+DESCRIPTION:Junior Varsity Soccer - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7475334@union-county-interscholastic-athletic-conference
@@ -19282,20 +19284,20 @@ SUMMARY:Roselle at TBD (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2510:7561414@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Roselle at TBD (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7561407@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Roselle at TBD (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2510:7561414@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Roselle at TBD (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:9099561www.kentplace.org@union-county-interscholastic-a
@@ -22029,20 +22031,20 @@ SUMMARY:Governor Livingston at TBA NJ (Junior Varsity Girls Girls Volleyb
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2510:7561416@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Roselle at TBD (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7561410@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Roselle at TBD (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2510:7561416@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Roselle at TBD (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2837:7514273@union-county-interscholastic-athletic-conference
@@ -23360,20 +23362,20 @@ SUMMARY:Governor Livingston at TBA NJ (Junior Varsity Girls Girls Volleyb
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2510:7561418@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:Roselle at TBD (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7561412@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Roselle at TBD (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2510:7561418@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Roselle at TBD (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:OakKnoll:16438921www.oakknoll.org@union-county-interscholastic-at
@@ -24058,14 +24060,6 @@ DTSTART;TZID=America/New_York:20261204T160000
 DTEND;TZID=America/New_York:20261204T180000
 SUMMARY:Oratory Prep vs TBD (Varsity Boys Bowling)
 DESCRIPTION:Varsity Boys Bowling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7660075@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261204T183000
-DTEND;TZID=America/New_York:20261204T203000
-SUMMARY:Cranford vs Ridge High School (Varsity Girls Girls Ice Hockey)
-DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7558251@union-county-interscholastic-athletic-conference
@@ -25430,6 +25424,15 @@ DTEND;TZID=America/New_York:20261215T210000
 SUMMARY:Jonathan Dayton at Hanover Park High School (Varsity Boys Boys Ba
  sketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7668613@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T191500
+DTEND;TZID=America/New_York:20261215T211500
+SUMMARY:Westfield vs Seton Hall Prep School (Junior Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7651229@union-county-interscholastic-athletic-conference
@@ -28377,6 +28380,15 @@ DTSTART;TZID=America/New_York:20270108T190000
 DTEND;TZID=America/New_York:20270108T210000
 SUMMARY:Cranford vs Westfield (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7668631@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T201500
+DTEND;TZID=America/New_York:20270108T221500
+SUMMARY:Westfield at Seton Hall Prep School (Junior Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7605125@union-county-interscholastic-athletic-conference
