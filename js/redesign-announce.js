@@ -56,7 +56,16 @@
 
     // The intro veil owns the screen first; wait until it is gone.
     function waitForIntro(cb) {
-        function gone() { return !document.getElementById('UCIAC-intro') && !document.getElementById('njac-intro'); }
+        // Every intro veil in this family plus the Pink October canvas. The old
+        // test named only two ids, so it could not tell that Pink October was
+        // still playing and the modal opened on top of it.
+        var INTRO_IDS = ['bnc-intro','njac-intro','sec-intro','UCIAC-intro','skyland-intro','ucc-intro','po-intro'];
+        function gone() {
+            for (var i = 0; i < INTRO_IDS.length; i++) {
+                if (document.getElementById(INTRO_IDS[i])) return false;
+            }
+            return true;
+        }
         if (gone()) { setTimeout(cb, 300); return; }
         var t0 = Date.now();
         var iv = setInterval(function () {
