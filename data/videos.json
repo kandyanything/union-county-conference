@@ -1,33 +1,426 @@
 {
-  "_comment": "Union Vision. Two formats: YouTube (set 'id' = the watch?v= part, plays inline) or NFHS Network (set 'url' = full NFHS event URL and 'source':'nfhs', opens in new tab — NFHS blocks iframe embedding). Optional 'thumb': full URL or local images/... path. First entry runs large as the feature.",
+  "_comment": "UCC Vision. NFHS Network broadcasts of member schools, newest first. No \"thumb\" is stored: the renderer derives the broadcast frame from the game id (social.nfhsnetwork.com/thumbnails/<id>_nfhs_net.jpg), and every entry here was checked to have one. Rebuild with scripts/build-nfhs-videos.js.",
+  "generated": "2026-10-04T15:47:29.549Z",
   "videos": [
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gamff41db05a6",
+      "source": "nfhs",
+      "title": "Malcolm X vs. Hillside",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam726fced87c",
+      "source": "nfhs",
+      "title": "Jonathan Dayton vs. A L Johnson",
+      "date": "2026-10-03",
+      "sport": "Varsity Boys Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam1339decceb",
+      "source": "nfhs",
+      "title": "Rahway vs. A L Johnson",
+      "date": "2026-10-03",
+      "sport": "Freshman Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam54cedafc0f",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. A L Johnson",
+      "date": "2026-10-02",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/bishop-george-ahr-high-school-edison-nj/gam3f5e6ba475",
+      "source": "nfhs",
+      "title": "Rahway vs. STAHS",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam8be07d17f8",
+      "source": "nfhs",
+      "title": "Cranford vs. Chatham",
+      "date": "2026-10-01",
+      "sport": "Freshman Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam4272014f48",
+      "source": "nfhs",
+      "title": "Abraham Clark vs. A L Johnson",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gambc2c604559",
+      "source": "nfhs",
+      "title": "Cranford vs. A L Johnson",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam2575923e8c",
+      "source": "nfhs",
+      "title": "Livingston vs. A L Johnson",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamabd7c636bb",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. Mt. Saint Mary",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gamba320bbf8b",
+      "source": "nfhs",
+      "title": "Summit vs. A L Johnson",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gam5c5e61a7a1",
+      "source": "nfhs",
+      "title": "Kent Place vs. Montclair",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morristown-high-school-morristown-nj/gam54d784c95b",
+      "source": "nfhs",
+      "title": "Kent Place vs. Morristown",
+      "date": "2026-09-30",
+      "sport": "varsity Girls Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gamd800b78abf",
+      "source": "nfhs",
+      "title": "Malcolm X vs. Hillside",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/d1-media-pro/gamf20f45c4c9",
+      "source": "nfhs",
+      "title": "New Brunswick vs. Hillside",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gamcfba543c68",
+      "source": "nfhs",
+      "title": "Spotswood vs. A L Johnson",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gamddde1364b0",
+      "source": "nfhs",
+      "title": "Summit vs. Chatham",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam86a9a48d75",
+      "source": "nfhs",
+      "title": "Summit vs. Chatham",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamd54cbf4c03",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. Mt. Saint Mary",
+      "date": "2026-09-28",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam5565136456",
+      "source": "nfhs",
+      "title": "Elizabeth vs. A L Johnson",
+      "date": "2026-09-25",
+      "sport": "Varsity Girls Soccer 2:"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gamd37cf36e1f",
+      "source": "nfhs",
+      "title": "Abraham Clark vs. Hillside",
+      "date": "2026-09-25",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam381c3fe2a8",
+      "source": "nfhs",
+      "title": "Plainfield vs. A L Johnson",
+      "date": "2026-09-25",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/game1294df38a",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. A L Johnson",
+      "date": "2026-09-25",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/d1-media-pro/gam528050da43",
+      "source": "nfhs",
+      "title": "GLHS vs. Bernards",
+      "date": "2026-09-24",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gam156c416097",
+      "source": "nfhs",
+      "title": "Abraham Clark vs. Hillside",
+      "date": "2026-09-24",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gama18ba235aa",
+      "source": "nfhs",
+      "title": "Hillside vs. Voorhees",
+      "date": "2026-09-24",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam61350cb628",
+      "source": "nfhs",
+      "title": "Abraham Clark vs. A L Johnson",
+      "date": "2026-09-24",
+      "sport": "Junior Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gamfc9d09b74f",
+      "source": "nfhs",
+      "title": "Plainfield vs. Hillside",
+      "date": "2026-09-24",
+      "sport": "Varsity Boys Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gamfb8a08bdff",
+      "source": "nfhs",
+      "title": "SPF vs. Montclair",
+      "date": "2026-09-22",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-dominic-academy-caldwell-nj/gam2dfaf63588",
+      "source": "nfhs",
+      "title": "SPF vs. Mt. St. Dominic",
+      "date": "2026-09-22",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam6e29983e02",
+      "source": "nfhs",
+      "title": "2026 NJSIAA Boys Lacrosse Championship — Summit vs. Chatham",
+      "date": "2026-09-22",
+      "sport": "Varsity Boys Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gam384a2f47ae",
+      "source": "nfhs",
+      "title": "Abraham Clark vs. Hillside",
+      "date": "2026-09-20",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
     {
       "url": "https://www.nfhsnetwork.com/events/d1-media-pro/gam90596924be",
       "source": "nfhs",
-      "title": "Cranford vs Bernards",
-      "date": "2026-09-15",
-      "sport": "Football"
+      "title": "Cranford vs. Bernards",
+      "date": "2026-09-19",
+      "sport": "Varsity Boys Football"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gam38d0955264",
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gam833e6458dc",
       "source": "nfhs",
-      "title": "Oak Knoll vs Montclair",
-      "date": "2026-09-15",
-      "sport": "Girls Soccer"
+      "title": "Away vs. Hillside",
+      "date": "2026-09-18",
+      "sport": "Varsity Girls Volleyball"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam1c68edeebc",
+      "url": "https://www.nfhsnetwork.com/events/northern-highlands-high-school-allendale-nj/gam2cdaaae896",
       "source": "nfhs",
-      "title": "New Providence vs A.L. Johnson",
-      "date": "2026-09-15",
-      "sport": "Football"
+      "title": "SPF vs. N. Highlands",
+      "date": "2026-09-18",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gam5dd0d84b29",
+      "source": "nfhs",
+      "title": "A L Johnson vs. Hillside",
+      "date": "2026-09-17",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gamecc23f30d2",
+      "source": "nfhs",
+      "title": "A L Johnson vs. Hillside",
+      "date": "2026-09-16",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gamac654b56cb",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. A L Johnson",
+      "date": "2026-09-14",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gamdf05e39789",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. Hillside",
+      "date": "2026-09-14",
+      "sport": "Varsity Boys Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/south-amboy-high-school-south-amboy-nj/gam803c2bff22",
+      "source": "nfhs",
+      "title": "2026 NJSIAA Girls Basketball Playoffs — David Brearley vs. South Amboy",
+      "date": "2026-09-11",
+      "sport": "Varsity Girls Basketball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/franklin-high-school-somerset-nj/game8e408e926",
+      "source": "nfhs",
+      "title": "Union vs. Franklin",
+      "date": "2026-09-11",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-dominic-academy-caldwell-nj/gam5be4c005ed",
+      "source": "nfhs",
+      "title": "GLHS vs. Mt. St. Dominic",
+      "date": "2026-09-10",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gamf199714a35",
+      "source": "nfhs",
+      "title": "Voorhees vs. New Providence",
+      "date": "2026-09-10",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/east-brunswick-votech-high-school-east-brunswick-nj/gam66835dfe9a",
+      "source": "nfhs",
+      "title": "Roselle Park vs. East Brunswick",
+      "date": "2026-09-10",
+      "sport": "Varsity Boys Baseball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gamba469b4402",
+      "source": "nfhs",
+      "title": "Oak Knoll vs. Montclair",
+      "date": "2026-09-08",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam3e49e2efde",
+      "source": "nfhs",
+      "title": "Oak Knoll vs. Chatham",
+      "date": "2026-09-08",
+      "sport": "Junior Varsity Girls Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/d1-media-pro/gam9d322e9844",
+      "source": "nfhs",
+      "title": "Abraham Clark vs. Hillside",
+      "date": "2026-09-08",
+      "sport": "Varsity Boys Football"
     },
     {
       "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gam5ff9680c32",
       "source": "nfhs",
-      "title": "Elizabeth vs Montclair",
-      "date": "2026-09-15",
-      "sport": "Girls Volleyball"
+      "title": "Elizabeth vs. Montclair",
+      "date": "2026-09-05",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hillside-high-school-hillside-nj/gamd32c57d82f",
+      "source": "nfhs",
+      "title": "Abraham Clark vs. Hillside",
+      "date": "2026-09-05",
+      "sport": "Varsity Boys Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/d1-media-pro/gamcf47048956",
+      "source": "nfhs",
+      "title": "2026 Boys Basketball Semifinal — Union vs. Linden",
+      "date": "2026-09-05",
+      "sport": "Varsity Boys Basketball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam56ce02197d",
+      "source": "nfhs",
+      "title": "Cranford vs. A L Johnson",
+      "date": "2026-09-04",
+      "sport": "Middle School Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/a-l-johnson-high-school-clark-nj/gam7a90449aaf",
+      "source": "nfhs",
+      "title": "Elizabeth vs. A L Johnson",
+      "date": "2026-09-04",
+      "sport": "Varsity Boys Soccer 4:5"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/piaa/gam96a08fee62",
+      "source": "nfhs",
+      "title": "Boys Philly Live 2026-AHC 2 — Cardinal O&#39;Hara vs. Elizabeth High School",
+      "date": "2026-09-03",
+      "sport": "Varsity Boys Basketball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/rumsonfair-haven-regional-high-school-rumson-nj/gam1f1115ab47",
+      "source": "nfhs",
+      "title": "New Providence vs. RFH",
+      "date": "2026-09-03",
+      "sport": "Varsity Girls Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/livingston-high-school-livingston-nj/gambd43b6e8b9",
+      "source": "nfhs",
+      "title": "Cranford vs. Livingston",
+      "date": "2026-09-02",
+      "sport": "varsity Girls Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gam0c6a48d1b0",
+      "source": "nfhs",
+      "title": "GLHS vs. Mendham",
+      "date": "2026-08-31",
+      "sport": "Junior Varsity Boys Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/bishop-george-ahr-high-school-edison-nj/gam287132cf65",
+      "source": "nfhs",
+      "title": "Rahway vs. STAHS",
+      "date": "2026-08-27",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/piaa/gam048d8a9855",
+      "source": "nfhs",
+      "title": "Boys Philly Live 2026-AHC 5 — Rahway High School vs. Lindenwold High School",
+      "date": "2026-08-27",
+      "sport": "Varsity Boys Basketball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gambee949f0b3",
+      "source": "nfhs",
+      "title": "SPF vs. Morris Knolls",
+      "date": "2026-08-26",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/kinnelon-high-school-kinnelon-nj/gam2feeb520c7",
+      "source": "nfhs",
+      "title": "SPF vs. Kinnelon",
+      "date": "2026-08-24",
+      "sport": "varsity Girls Lacrosse"
     }
   ]
 }
