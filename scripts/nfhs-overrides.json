@@ -1,0 +1,20 @@
+{
+  "_comment": "Schools whose NFHS Network slug cannot be derived from the name. The harvester matches strictly - every distinctive word of the school name must appear as a whole hyphen-separated word in the slug, and no slug may serve two schools - so it refuses rather than guessing, and what it refuses is listed here. Resolve each against the sitemap and pick by event-card count when two records compete. null means the school is genuinely not on NFHS Network.",
+  "conference": "UCC",
+  "overrides": {
+    "Arthur L. Johnson": "a-l-johnson-high-school-clark-nj",
+    "Elizabeth": "elizabeth-high-school-elizabeth-nj",
+    "Linden": "linden-high-school-linden-nj",
+    "Plainfield": "plainfield-high-school-plainfield-nj",
+    "Roselle": "abraham-clark-high-school-roselle-nj",
+    "Scotch Plains-Fanwood": "scotch-plainsfanwood-high-school-scotch-plains-nj",
+    "Summit": "summit-high-school-summit-nj",
+    "Union": "union-high-school-union-nj"
+  },
+  "_notes": {
+    "Roselle": "Roselle's public high school is named Abraham Clark. The other candidates are Roselle Catholic and Roselle PARK, which are different schools.",
+    "Plainfield": "North Plainfield and South Plainfield are separate districts; this is plain Plainfield.",
+    "Union": "Union Catholic is in Scotch Plains and Union CITY is in Hudson County - three different schools sharing a word.",
+    "Summit": "Oak Knoll, Kent Place and Oratory Prep are all in Summit too."
+  }
+}
