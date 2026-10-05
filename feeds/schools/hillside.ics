@@ -424,20 +424,20 @@ SUMMARY:Hillside vs Bernards High School (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7532255@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Hillside vs Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2654:7472286@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Hillside at Mcmanus Middle School (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532255@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillside vs Jonathan Dayton (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7670346@union-county-interscholastic-athletic-conference
@@ -556,15 +556,6 @@ SUMMARY:Elizabeth vs Hillside (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7544542@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T130000
-DTEND;TZID=America/New_York:20261010T150000
-SUMMARY:Hillside vs North Plainfield Public Schools (Varsity Girls Girls 
- Cheerleading)
-DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2654:7524008@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T130000
@@ -574,13 +565,13 @@ SUMMARY:Hillside vs North Plainfield Public Schools (Varsity Boys Footbal
 DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7523727@union-county-interscholastic-athletic-conference
+UID:ds:2654:7544542@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Hillside at North Plainfield Public Schools (Junior Varsity Boys 
- Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20261010T130000
+DTEND;TZID=America/New_York:20261010T150000
+SUMMARY:Hillside vs North Plainfield Public Schools (Varsity Girls Girls 
+ Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7473161@union-county-interscholastic-athletic-conference
@@ -590,6 +581,15 @@ DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:Hillside vs Joseph E. Soehl Middle School (Middle School Boys Boy
  s Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7523727@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Hillside at North Plainfield Public Schools (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7598128@union-county-interscholastic-athletic-conference

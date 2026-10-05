@@ -1269,19 +1269,19 @@ SUMMARY:Governor Livingston vs Matawan Regional High School (Varsity Girl
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7636854@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7584195@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Cranford at Kumpf middle (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7636854@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1424,15 +1424,6 @@ SUMMARY:Summit vs Verona High School (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7627703@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Cranford at Orange Avenue School (Middle School Girls Field Hocke
- y)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7584199@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -1440,6 +1431,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Cranford vs Summit Middle School (Middle School Girls Field Hocke
  y)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7627703@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Cranford at Orange Avenue School (Middle School Girls Field Hocke
+ y)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7627703@union-county-interscholastic-athletic-conference
