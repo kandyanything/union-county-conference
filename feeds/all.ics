@@ -14710,14 +14710,6 @@ SUMMARY:Elizabeth vs Edison Intermediate (Middle School Coed Coed Cross C
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7465594@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Hillside at Linden (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2678:7531974@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -16657,7 +16649,7 @@ SUMMARY:Kent Place at Cranford (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10471561www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:10580046www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T093000
@@ -17119,6 +17111,14 @@ SUMMARY:Cranford at Orange Avenue School (Boys (MS BLUE) Soccer)
 DESCRIPTION:Boys (MS BLUE) Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7592811@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Cranford at Elizabeth (Girls (MS BLUE) Soccer)
+DESCRIPTION:Girls (MS BLUE) Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7663626@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
@@ -17177,6 +17177,15 @@ DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:Elizabeth at Orange Avenue School (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7592811@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Elizabeth vs Orange Avenue School (Middle School Girls Girls Socc
+ er)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534092@union-county-interscholastic-athletic-conference
@@ -17371,23 +17380,6 @@ SUMMARY:Elizabeth vs Jonathan Dayton (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7626863@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T161500
-DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Elizabeth at Union (Middle School Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7629360@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T161500
-DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
- irls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7532001@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
@@ -17404,15 +17396,6 @@ DTEND;TZID=America/New_York:20261012T181500
 SUMMARY:Roselle vs Newark School of Global Studies (Varsity Boys Boys Soc
  cer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2906:7629360@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T161500
-DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Union at Elizabeth Middle School South (Middle School Girls Girls
-  Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7543740@union-county-interscholastic-athletic-conference
@@ -18002,15 +17985,7 @@ SUMMARY:Cranford vs Mcmanus Middle School (Middle School Girls Girls Voll
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7666169@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T161500
-DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Elizabeth vs Franklin High School (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7668020@union-county-interscholastic-athletic-conference
+UID:ds:2607:7626863@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
 DTEND;TZID=America/New_York:20261013T181500
@@ -18018,7 +17993,7 @@ SUMMARY:Elizabeth at Union (Middle School Girls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7668029@union-county-interscholastic-athletic-conference
+UID:ds:2607:7629360@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
 DTEND;TZID=America/New_York:20261013T181500
@@ -18027,7 +18002,15 @@ SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7668029@union-county-interscholastic-athletic-conference
+UID:ds:2607:7666169@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Elizabeth vs Franklin High School (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7629360@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
 DTEND;TZID=America/New_York:20261013T181500
@@ -25174,6 +25157,15 @@ SUMMARY:Oratory Prep vs Union City High School (Varsity Boys Boys Swimmin
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104550406@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T154500
+DTEND;TZID=America/New_York:20261214T174500
+SUMMARY:Oratory Prep at Montclair Kimberley Academy (7/8th Boys Basketbal
+ l)
+DESCRIPTION:7/8th Boys Basketball - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7638541@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T160000
@@ -25207,6 +25199,15 @@ DTEND;TZID=America/New_York:20261214T184500
 SUMMARY:Scotch Plains-Fanwood at Governor Livingston (Varsity Boys Boys I
  ce Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104550416@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T170000
+DTEND;TZID=America/New_York:20261214T190000
+SUMMARY:Oratory Prep at Montclair Kimberley Academy (7/8th Boys Basketbal
+ l)
+DESCRIPTION:7/8th Boys Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7579764@union-county-interscholastic-athletic-conference
@@ -35622,6 +35623,15 @@ SUMMARY:Cranford vs Allentown High School (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2678:7678698@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270325T160000
+DTEND;TZID=America/New_York:20270325T180000
+SUMMARY:Jonathan Dayton vs Bound Brook High School (Varsity Girls Softbal
+ l)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7612340@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270325T160000
@@ -37556,6 +37566,14 @@ DTSTART;TZID=America/New_York:20270415T160000
 DTEND;TZID=America/New_York:20270415T180000
 SUMMARY:Linden at Roselle Park (Varsity Boys Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7678791@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T161500
+DTEND;TZID=America/New_York:20270415T181500
+SUMMARY:Westfield at Ridgewood High School (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7585432@union-county-interscholastic-athletic-conference
@@ -40337,6 +40355,14 @@ SUMMARY:Plainfield at Mcmanus Middle School (Junior Varsity Girls Softbal
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2510:7679473@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T160000
+DTEND;TZID=America/New_York:20270510T180000
+SUMMARY:Roselle at East Brunswick Magnet School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2837:7540166@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270510T160000
@@ -40344,15 +40370,6 @@ DTEND;TZID=America/New_York:20270510T180000
 SUMMARY:Roselle Park vs Mcmanus Middle School (Junior Varsity Boys Baseba
  ll)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2837:7666781@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270510T160000
-DTEND;TZID=America/New_York:20270510T180000
-SUMMARY:Roselle Park at East Brunswick Magnet School (Varsity Boys Baseba
- ll)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7499166@union-county-interscholastic-athletic-conference
@@ -40926,6 +40943,22 @@ DTSTART;TZID=America/New_York:20270518T163000
 DTEND;TZID=America/New_York:20270518T183000
 SUMMARY:Cranford vs Randolph High School (Varsity Boys Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7678844@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T163000
+DTEND;TZID=America/New_York:20270518T183000
+SUMMARY:Cranford vs Perth Amboy High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7678850@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T163000
+DTEND;TZID=America/New_York:20270518T183000
+SUMMARY:Cranford vs Perth Amboy High School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7516117@union-county-interscholastic-athletic-conference
