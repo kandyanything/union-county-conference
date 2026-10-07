@@ -751,22 +751,6 @@ SUMMARY:Plainfield vs Rahway (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7561383@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T040000
-DTEND;TZID=America/New_York:20261012T060000
-SUMMARY:Plainfield at Roselle (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2510:7561383@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T040000
-DTEND;TZID=America/New_York:20261012T060000
-SUMMARY:Roselle vs Plainfield (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2812:7536198@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
@@ -783,22 +767,6 @@ SUMMARY:Plainfield at Perth Amboy High School (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7561427@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T173000
-DTEND;TZID=America/New_York:20261012T193000
-SUMMARY:Plainfield at Roselle (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2510:7561427@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T173000
-DTEND;TZID=America/New_York:20261012T193000
-SUMMARY:Roselle vs Plainfield (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7445036@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -813,6 +781,38 @@ DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Arthur L. Johnson vs Plainfield (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7561383@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Plainfield vs Roselle (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2510:7561383@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Roselle at Plainfield (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7561427@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T173000
+DTEND;TZID=America/New_York:20261013T193000
+SUMMARY:Plainfield vs Roselle (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2510:7561427@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T173000
+DTEND;TZID=America/New_York:20261013T193000
+SUMMARY:Roselle at Plainfield (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7501642@union-county-interscholastic-athletic-conference
@@ -1210,12 +1210,20 @@ SUMMARY:Plainfield vs Columbia Middle School (Middle School Girls Girls B
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7683077@union-county-interscholastic-athletic-conference
+UID:ds:2812:7683190@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T090000
+DTEND;TZID=America/New_York:20270109T110000
+SUMMARY:Plainfield at Scotch Plains-Fanwood (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7683077@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T173000
 DTEND;TZID=America/New_York:20270109T193000
-SUMMARY:Plainfield at Elizabeth (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+SUMMARY:Elizabeth vs Plainfield (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7668085@union-county-interscholastic-athletic-conference
@@ -1439,20 +1447,20 @@ SUMMARY:Jonathan Dayton vs Plainfield (Middle School Girls Girls Basketba
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7683082@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T173000
+DTEND;TZID=America/New_York:20270130T193000
+SUMMARY:Elizabeth at Plainfield (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7668160@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T190000
 DTEND;TZID=America/New_York:20270130T210000
 SUMMARY:Elizabeth at Plainfield (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2812:7683082@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270130T190000
-DTEND;TZID=America/New_York:20270130T210000
-SUMMARY:Plainfield vs Elizabeth (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7629941@union-county-interscholastic-athletic-conference
