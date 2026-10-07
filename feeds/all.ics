@@ -14506,7 +14506,7 @@ SUMMARY:Kent Place at David Brearley (Junior Varsity Soccer)
 DESCRIPTION:Junior Varsity Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10517949www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:10597542www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T120000
@@ -15510,8 +15510,8 @@ SUMMARY:Kent Place vs Linden POSTPONED (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16531378oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:16531378www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
 DTEND;TZID=America/New_York:20261008T140000
@@ -15619,6 +15619,14 @@ DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Cranford vs New Providence (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7681056@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Cranford at Rahway (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7501367@union-county-interscholastic-athletic-conference
@@ -17345,6 +17353,14 @@ SUMMARY:Westfield vs Ridge High School (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2938:7681084@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Westfield vs Sparta High School (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7542119@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
@@ -17611,8 +17627,8 @@ SUMMARY:Kent Place at North Hunterdon (Junior Varsity Field Hockey)
 DESCRIPTION:Junior Varsity Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:15795217oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:15795217www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T123000
 DTEND;TZID=America/New_York:20261013T143000
@@ -18438,14 +18454,6 @@ DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Rahway at Columbia Middle School (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2821:7545897@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Rahway vs Columbia Middle (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7578849@union-county-interscholastic-athletic-conference
@@ -20533,8 +20541,8 @@ SUMMARY:Oak Knoll vs Summit Middle School (Middle School Field Hockey)
 DESCRIPTION:Middle School Field Hockey - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16540929oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:16540929www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T123000
 DTEND;TZID=America/New_York:20261021T143000
@@ -20755,20 +20763,20 @@ SUMMARY:Rahway at Hillside Avenue School (Middle School Girls Girls Socce
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7546327@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Rahway at Rahway (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7544007@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Rahway vs Madison Ave Field (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7546327@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Rahway at Rahway (Middle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7663304@union-county-interscholastic-athletic-conference
@@ -23037,8 +23045,8 @@ SUMMARY:Kent Place vs Westfield (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16547601oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:16547601www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T120000
 DTEND;TZID=America/New_York:20261029T140000
@@ -32418,6 +32426,15 @@ DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Scotch Plains-Fanwood at Livingston High School (Varsity Boys Boy
  s Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7681295@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T083000
+DTEND;TZID=America/New_York:20270130T103000
+SUMMARY:Governor Livingston at Bernards High School (Varsity Coed Coed Fe
+ ncing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7573674@union-county-interscholastic-athletic-conference
