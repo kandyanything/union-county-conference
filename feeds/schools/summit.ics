@@ -2239,22 +2239,6 @@ SUMMARY:Kent Place at Summit (Middle School Cross Country)
 DESCRIPTION:Middle School Cross Country - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7552611@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Elizabeth at Summit (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7552624@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Elizabeth at Summit (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7549238@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -2277,6 +2261,22 @@ DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Summit vs Madison High School (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7552611@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T161500
+DTEND;TZID=America/New_York:20261014T181500
+SUMMARY:Elizabeth at Summit (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7552624@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T161500
+DTEND;TZID=America/New_York:20261014T181500
+SUMMARY:Elizabeth at Summit (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7552609@union-county-interscholastic-athletic-conference
@@ -2362,18 +2362,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7549087@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T180000
-DTEND;TZID=America/New_York:20261016T200000
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
 SUMMARY:Scotch Plains-Fanwood vs Summit (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7567680@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T180000
-DTEND;TZID=America/New_York:20261016T200000
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
 SUMMARY:Scotch Plains-Fanwood vs Summit (Varsity Girls Girls Cheerleading)
-DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7531929@union-county-interscholastic-athletic-conference
@@ -2432,13 +2432,13 @@ SUMMARY:Scotch Plains-Fanwood at Summit (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10581966www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:10643652www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T114500
 DTEND;TZID=America/New_York:20261019T134500
-SUMMARY:Kent Place at Summit (Middle School Tennis)
-DESCRIPTION:Middle School Tennis - Away - 11:45 AM
+SUMMARY:Kent Place vs Summit (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:45 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:10290808www.kentplace.org@union-county-interscholastic-
