@@ -1,6 +1,6 @@
 {
   "conference": "Union County Interscholastic Athletic Conference",
-  "generated": "2026-10-14T17:15:27.283Z",
+  "generated": "2026-10-14T18:18:22.990Z",
   "all": "feeds/all.ics",
   "rss": "feeds/rss.xml",
   "teams": "feeds/teams.json",
@@ -52,14 +52,14 @@
       "slug": "arthur-l-johnson",
       "path": "feeds/schools/arthur-l-johnson.ics",
       "rss": "feeds/schools/arthur-l-johnson.xml",
-      "games": 657
+      "games": 659
     },
     {
       "name": "Kent Place",
       "slug": "kent-place",
       "path": "feeds/schools/kent-place.ics",
       "rss": "feeds/schools/kent-place.xml",
-      "games": 218
+      "games": 220
     },
     {
       "name": "Linden",
@@ -80,7 +80,7 @@
       "slug": "oak-knoll",
       "path": "feeds/schools/oak-knoll.ics",
       "rss": "feeds/schools/oak-knoll.xml",
-      "games": 123
+      "games": 125
     },
     {
       "name": "Oratory Prep",
@@ -94,7 +94,7 @@
       "slug": "plainfield",
       "path": "feeds/schools/plainfield.ics",
       "rss": "feeds/schools/plainfield.xml",
-      "games": 220
+      "games": 221
     },
     {
       "name": "Rahway",
@@ -129,14 +129,14 @@
       "slug": "scotch-plains-fanwood",
       "path": "feeds/schools/scotch-plains-fanwood.ics",
       "rss": "feeds/schools/scotch-plains-fanwood.xml",
-      "games": 279
+      "games": 280
     },
     {
       "name": "Summit",
       "slug": "summit",
       "path": "feeds/schools/summit.ics",
       "rss": "feeds/schools/summit.xml",
-      "games": 526
+      "games": 531
     },
     {
       "name": "Union",
@@ -150,14 +150,14 @@
       "slug": "union-catholic",
       "path": "feeds/schools/union-catholic.ics",
       "rss": "feeds/schools/union-catholic.xml",
-      "games": 150
+      "games": 152
     },
     {
       "name": "Westfield",
       "slug": "westfield",
       "path": "feeds/schools/westfield.ics",
       "rss": "feeds/schools/westfield.xml",
-      "games": 291
+      "games": 293
     }
   ],
   "sports": [
@@ -264,7 +264,7 @@
       "slug": "boys-soccer",
       "path": "feeds/sports/boys-soccer.ics",
       "rss": "feeds/sports/boys-soccer.xml",
-      "games": 648
+      "games": 649
     },
     {
       "name": "Boys Swimming",
@@ -299,7 +299,7 @@
       "slug": "boys-wrestling",
       "path": "feeds/sports/boys-wrestling.ics",
       "rss": "feeds/sports/boys-wrestling.xml",
-      "games": 180
+      "games": 181
     },
     {
       "name": "Coed Cheerleading",
@@ -383,7 +383,7 @@
       "slug": "field-hockey",
       "path": "feeds/sports/field-hockey.ics",
       "rss": "feeds/sports/field-hockey.xml",
-      "games": 257
+      "games": 258
     },
     {
       "name": "Football",
@@ -460,7 +460,7 @@
       "slug": "girls-lacrosse",
       "path": "feeds/sports/girls-lacrosse.ics",
       "rss": "feeds/sports/girls-lacrosse.xml",
-      "games": 62
+      "games": 65
     },
     {
       "name": "Girls Soccer",
@@ -495,7 +495,7 @@
       "slug": "girls-volleyball",
       "path": "feeds/sports/girls-volleyball.ics",
       "rss": "feeds/sports/girls-volleyball.xml",
-      "games": 636
+      "games": 638
     },
     {
       "name": "Girls Wrestling",
@@ -544,7 +544,7 @@
       "slug": "volleyball",
       "path": "feeds/sports/volleyball.ics",
       "rss": "feeds/sports/volleyball.xml",
-      "games": 47
+      "games": 50
     }
   ],
   "sportLevels": [
@@ -753,7 +753,7 @@
       "slug": "junior-varsity--boys-soccer",
       "path": "feeds/sports/junior-varsity--boys-soccer.ics",
       "rss": "feeds/sports/junior-varsity--boys-soccer.xml",
-      "games": 203
+      "games": 204
     },
     {
       "sport": "Boys Soccer",
@@ -861,7 +861,7 @@
       "slug": "varsity--boys-wrestling",
       "path": "feeds/sports/varsity--boys-wrestling.ics",
       "rss": "feeds/sports/varsity--boys-wrestling.xml",
-      "games": 114
+      "games": 115
     },
     {
       "sport": "Coed Cheerleading",
@@ -1014,7 +1014,7 @@
       "slug": "junior-varsity--field-hockey",
       "path": "feeds/sports/junior-varsity--field-hockey.ics",
       "rss": "feeds/sports/junior-varsity--field-hockey.xml",
-      "games": 83
+      "games": 84
     },
     {
       "sport": "Field Hockey",
@@ -1153,12 +1153,21 @@
     },
     {
       "sport": "Girls Lacrosse",
+      "level": "Freshman",
+      "name": "Freshman Girls Lacrosse",
+      "slug": "freshman--girls-lacrosse",
+      "path": "feeds/sports/freshman--girls-lacrosse.ics",
+      "rss": "feeds/sports/freshman--girls-lacrosse.xml",
+      "games": 1
+    },
+    {
+      "sport": "Girls Lacrosse",
       "level": "Junior Varsity",
       "name": "Junior Varsity Girls Lacrosse",
       "slug": "junior-varsity--girls-lacrosse",
       "path": "feeds/sports/junior-varsity--girls-lacrosse.ics",
       "rss": "feeds/sports/junior-varsity--girls-lacrosse.xml",
-      "games": 20
+      "games": 22
     },
     {
       "sport": "Girls Lacrosse",
@@ -1257,7 +1266,7 @@
       "slug": "junior-varsity--girls-volleyball",
       "path": "feeds/sports/junior-varsity--girls-volleyball.ics",
       "rss": "feeds/sports/junior-varsity--girls-volleyball.xml",
-      "games": 213
+      "games": 215
     },
     {
       "sport": "Girls Volleyball",
@@ -1392,7 +1401,7 @@
       "slug": "junior-varsity--volleyball",
       "path": "feeds/sports/junior-varsity--volleyball.ics",
       "rss": "feeds/sports/junior-varsity--volleyball.xml",
-      "games": 24
+      "games": 26
     },
     {
       "sport": "Volleyball",
@@ -1401,7 +1410,7 @@
       "slug": "varsity--volleyball",
       "path": "feeds/sports/varsity--volleyball.ics",
       "rss": "feeds/sports/varsity--volleyball.xml",
-      "games": 23
+      "games": 24
     }
   ]
 }
