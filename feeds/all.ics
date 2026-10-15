@@ -18926,14 +18926,6 @@ SUMMARY:Elizabeth at Arthur L. Johnson (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7688929@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T160000
-DTEND;TZID=America/New_York:20261016T180000
-SUMMARY:Governor Livingston vs Linden (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2678:7472291@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T160000
@@ -19023,15 +19015,6 @@ SUMMARY:Roselle Park at Columbia Middle School (Middle School Girls Girls
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2837:7688929@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T160000
-DTEND;TZID=America/New_York:20261016T180000
-SUMMARY:Roselle Park at Governor Livingston (Junior Varsity Boys Boys Soc
- cer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7575517@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T160000
@@ -19083,21 +19066,20 @@ SUMMARY:Elizabeth at Hillside (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7686125@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T161500
-DTEND;TZID=America/New_York:20261016T181500
-SUMMARY:Elizabeth at New Providence (Junior Varsity Girls Girls Cross Cou
- ntry)
-DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7690993@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T161500
 DTEND;TZID=America/New_York:20261016T181500
 SUMMARY:Elizabeth at New Providence (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7688929@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Governor Livingston vs Linden (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7631518@union-county-interscholastic-athletic-conference
@@ -19290,6 +19272,14 @@ DTSTART;TZID=America/New_York:20261017T100000
 DTEND;TZID=America/New_York:20261017T120000
 SUMMARY:Hillside at Franklin High School (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7695833@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Linden vs TBA NJ (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7508966@union-county-interscholastic-athletic-conference
@@ -19507,14 +19497,6 @@ DTEND;TZID=America/New_York:20261017T210000
 SUMMARY:Elizabeth vs William L Dickinson High School (Varsity Boys Boys S
  occer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:103524806@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Oratory Prep vs TBD (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100807003@union-county-interscholastic-athletic-conference
@@ -20086,6 +20068,14 @@ SUMMARY:Summit vs TBD (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103524806@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Oratory Prep vs TBD (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7552705@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261019
@@ -20154,11 +20144,12 @@ SUMMARY:Cranford vs Edison Intermediate (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7684855@union-county-interscholastic-athletic-conference
+UID:ds:2581:7695902@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
 DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Cranford vs TBD (Junior Varsity Girls Girls Soccer)
+SUMMARY:Cranford vs Governor Livingston (Junior Varsity Girls Girls Socce
+ r)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -39974,15 +39965,6 @@ SUMMARY:Arthur L. Johnson at Morristown Beard School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7637666@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270424T110000
-DTEND;TZID=America/New_York:20270424T130000
-SUMMARY:Cranford at Watchung Hills Regional High School (Freshman Boys Ba
- seball)
-DESCRIPTION:Freshman Boys Baseball - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7638364@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270424T110000
@@ -39999,6 +39981,15 @@ DTEND;TZID=America/New_York:20270424T130000
 SUMMARY:Cranford at Watchung Hills Regional High School (Junior Varsity B
  oys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7695941@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T110000
+DTEND;TZID=America/New_York:20270424T130000
+SUMMARY:Cranford vs Watchung Hills Regional High School (Freshman Boys Ba
+ seball)
+DESCRIPTION:Freshman Boys Baseball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2584:7656499@union-county-interscholastic-athletic-conference
@@ -40291,6 +40282,15 @@ DTSTART;TZID=America/New_York:20270427T163000
 DTEND;TZID=America/New_York:20270427T183000
 SUMMARY:Cranford vs Scotch Plains-Fanwood (Varsity Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7695982@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T163000
+DTEND;TZID=America/New_York:20270427T183000
+SUMMARY:Scotch Plains-Fanwood at Delbarton School (Varsity Boys Boys Lacr
+ osse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7609041@union-county-interscholastic-athletic-conference
