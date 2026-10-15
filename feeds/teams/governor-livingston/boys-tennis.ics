@@ -24,6 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2607:7697446@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T160000
+DTEND;TZID=America/New_York:20270402T180000
+SUMMARY:Elizabeth at Governor Livingston (Varsity Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7697447@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T160000
+DTEND;TZID=America/New_York:20270402T180000
+SUMMARY:Elizabeth vs Governor Livingston (Junior Varsity Boys Boys Tennis)
+DESCRIPTION:Junior Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7521932@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270405T160000
@@ -31,5 +47,21 @@ DTEND;TZID=America/New_York:20270405T180000
 SUMMARY:Governor Livingston at Arthur L. Johnson (Varsity Boys Boys Tenni
  s)
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7697454@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
+SUMMARY:Governor Livingston vs Westfield (Varsity Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7697455@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
+SUMMARY:Governor Livingston at Westfield (Junior Varsity Boys Boys Tennis)
+DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
