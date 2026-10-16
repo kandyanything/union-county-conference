@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2812:7699868@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T173000
+DTEND;TZID=America/New_York:20270317T193000
+SUMMARY:Plainfield at New Brunswick High School (Varsity Boys Boys Volley
+ ball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2812:7699120@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270322T160000
@@ -31,6 +40,15 @@ DTEND;TZID=America/New_York:20270322T180000
 SUMMARY:Plainfield vs Sayreville Public Schools (Varsity Boys Boys Volley
  ball)
 DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7699870@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T173000
+DTEND;TZID=America/New_York:20270408T193000
+SUMMARY:Plainfield vs New Brunswick High School (Varsity Boys Boys Volley
+ ball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103220054@union-county-interscholastic-athletic-conference

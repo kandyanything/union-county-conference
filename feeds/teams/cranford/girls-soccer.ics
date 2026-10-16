@@ -332,20 +332,20 @@ SUMMARY:Cranford vs Hillsborough Athletics (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7509266@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T160000
-DTEND;TZID=America/New_York:20261002T180000
-SUMMARY:Cranford at Madison High School (Freshman Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7664858@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T160000
 DTEND;TZID=America/New_York:20261002T180000
 SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7509266@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T160000
+DTEND;TZID=America/New_York:20261002T180000
+SUMMARY:Cranford at Madison High School (Freshman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7592677@union-county-interscholastic-athletic-conference
@@ -430,7 +430,7 @@ SUMMARY:Cranford at Scotch Plains-Fanwood (Junior Varsity Girls Girls Soc
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7592684@union-county-interscholastic-athletic-conference
+UID:ds:2581:7592812@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
@@ -472,14 +472,6 @@ SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7684728@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Cranford vs TBD (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7695902@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
@@ -489,13 +481,12 @@ SUMMARY:Cranford vs Governor Livingston (Junior Varsity Girls Girls Socce
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7576111@union-county-interscholastic-athletic-conference
+UID:ds:2581:7684728@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Cranford at Hillside Avenue School (Middle School Girls Girls Soc
- cer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Cranford vs TBD (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7577974@union-county-interscholastic-athletic-conference
@@ -504,6 +495,15 @@ DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Cranford vs New Providence (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7576111@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Cranford at Hillside Avenue School (Middle School Girls Girls Soc
+ cer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7569175@union-county-interscholastic-athletic-conference

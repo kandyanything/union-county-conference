@@ -1059,20 +1059,20 @@ SUMMARY:Elizabeth at Linden (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7590786@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Linden vs Union (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2698:7571021@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Linden vs Dunellen High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7590786@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Linden vs Union (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7464929@union-county-interscholastic-athletic-conference
@@ -1527,14 +1527,6 @@ DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T120000
 SUMMARY:Linden vs Hudson Catholic High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2698:7571036@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T160000
-DTEND;TZID=America/New_York:20261024T180000
-SUMMARY:Linden vs Hudson Catholic High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7477501@union-county-interscholastic-athletic-conference
@@ -2124,6 +2116,15 @@ DTSTART;TZID=America/New_York:20270106T170000
 DTEND;TZID=America/New_York:20270106T190000
 SUMMARY:Elizabeth vs Linden (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16593649www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T110000
+DTEND;TZID=America/New_York:20270107T130000
+SUMMARY:Oak Knoll vs Linden (Varsity Basketball)
+DESCRIPTION:Varsity Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7513057@union-county-interscholastic-athletic-conference
