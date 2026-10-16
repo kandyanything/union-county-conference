@@ -19116,15 +19116,6 @@ SUMMARY:Scotch Plains-Fanwood vs Summit (Varsity Girls Girls Cheerleading)
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16590586www.oakknoll.org@union-county-interscholastic-at
- hletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T050000
-DTEND;TZID=America/New_York:20261017T070000
-SUMMARY:Oak Knoll vs Kent Place (Varsity Soccer)
-DESCRIPTION:Varsity Soccer - Home - 5:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:OakKnoll:15795229www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
@@ -19142,6 +19133,15 @@ DTEND;TZID=America/New_York:20261017T093000
 SUMMARY:Oak Knoll at Academy of Notre Dame de Namur (Junior Varsity Field
   Hockey)
 DESCRIPTION:Junior Varsity Field Hockey - Away - 7:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:10801590www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T083000
+DTEND;TZID=America/New_York:20261017T103000
+SUMMARY:Kent Place at Oak Knoll (Varsity Soccer)
+DESCRIPTION:Varsity Soccer - Away - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7589387@union-county-interscholastic-athletic-conference
@@ -19748,6 +19748,14 @@ DTSTART;TZID=America/New_York:20261019T160000
 DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Rahway vs Union (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7700188@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Rahway at Union (Middle School Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7536214@union-county-interscholastic-athletic-conference
@@ -20447,23 +20455,6 @@ DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Cranford at Hillside Avenue School (Middle School Girls Girls Soc
  cer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7531363@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:David Brearley vs Dunellen High School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7531364@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:David Brearley vs Dunellen High School (Junior Varsity Boys Boys 
- Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7576128@union-county-interscholastic-athletic-conference
