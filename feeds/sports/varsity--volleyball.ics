@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:KentPlace:10105271www.kentplace.org@union-county-interscholastic-
- athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T121500
-DTEND;TZID=America/New_York:20260915T141500
-SUMMARY:Kent Place vs Elizabeth (Varsity Volleyball)
-DESCRIPTION:Varsity Volleyball - Home - 12:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:KentPlace:10760089www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -115,21 +106,21 @@ SUMMARY:Kent Place at Elizabeth (Varsity Volleyball)
 DESCRIPTION:Varsity Volleyball - Away - 1:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10788688www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T120000
+DTEND;TZID=America/New_York:20261014T140000
+SUMMARY:Kent Place at Mount Saint Mary Academy (Varsity Volleyball)
+DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:KentPlace:10625755www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T120000
 DTEND;TZID=America/New_York:20261014T140000
 SUMMARY:Kent Place at Cranford POSTPONED (Varsity Volleyball)
-DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:KentPlace:10625758www.kentplace.org@union-county-interscholastic-
- athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T120000
-DTEND;TZID=America/New_York:20261014T140000
-SUMMARY:Kent Place at Mount Saint Mary Academy (Varsity Volleyball)
 DESCRIPTION:Varsity Volleyball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
