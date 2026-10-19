@@ -24,14 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2886:7696728@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270316T173000
-DTEND;TZID=America/New_York:20270316T193000
-SUMMARY:Summit at Ridge High School (Junior Varsity Girls Girls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7627009@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270318T160000
@@ -85,20 +77,20 @@ SUMMARY:Cranford at Phillipsburg High School (Junior Varsity Girls Girls
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7670198@union-county-interscholastic-athletic-conference
+UID:ds:2886:7670197@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270327T100000
 DTEND;TZID=America/New_York:20270327T120000
-SUMMARY:Summit vs Ridge High School (Junior Varsity Girls Girls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 10:00 AM
+SUMMARY:Summit vs Ridge High School (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7670197@union-county-interscholastic-athletic-conference
+UID:ds:2886:7670198@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270327T113000
 DTEND;TZID=America/New_York:20270327T133000
-SUMMARY:Summit vs Ridge High School (Varsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 11:30 AM
+SUMMARY:Summit vs Ridge High School (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7626718@union-county-interscholastic-athletic-conference
@@ -472,6 +464,23 @@ DTEND;TZID=America/New_York:20270429T200000
 SUMMARY:Cranford at West Essex High School (Junior Varsity Girls Girls La
  crosse)
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2759:7700587@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T160000
+DTEND;TZID=America/New_York:20270430T180000
+SUMMARY:New Providence vs Ridge High School (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2759:7700588@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T173000
+DTEND;TZID=America/New_York:20270430T193000
+SUMMARY:New Providence vs Ridge High School (Junior Varsity Girls Girls L
+ acrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7608178@union-county-interscholastic-athletic-conference
