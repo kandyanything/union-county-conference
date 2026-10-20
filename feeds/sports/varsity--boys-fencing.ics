@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104912799@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T160000
+DTEND;TZID=America/New_York:20261211T180000
+SUMMARY:Oratory Prep at Montclair Kimberley Academy (Varsity Boys Boys Fe
+ ncing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101193512@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T163000
@@ -41,12 +50,28 @@ SUMMARY:Oratory Prep at Montclair High School (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104912698@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Oratory Prep vs Livingston High School (Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104463754@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
 SUMMARY:Oratory Prep at Newark Academy (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104912894@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T043000
+DTEND;TZID=America/New_York:20270201T063000
+SUMMARY:Oratory Prep vs West Essex High School (Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104463295@union-county-interscholastic-athletic-conference
