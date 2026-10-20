@@ -2507,14 +2507,6 @@ SUMMARY:Summit vs Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7703689@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2678:7552737@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T171500
@@ -2554,6 +2546,14 @@ DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Summit at Bernards High School (Freshman Girls Field Hockey)
 DESCRIPTION:Freshman Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7703689@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7699158@union-county-interscholastic-athletic-conference
@@ -3014,6 +3014,15 @@ SUMMARY:Summit at Middletown North High School (Varsity Girls Girls Baske
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:OakKnoll:16614231www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T103000
+DTEND;TZID=America/New_York:20261209T123000
+SUMMARY:Oak Knoll at Summit (Varsity Swimming)
+DESCRIPTION:Varsity Swimming - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:OakKnoll:16593669www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
@@ -3181,22 +3190,22 @@ SUMMARY:Summit vs Princeton Day School (Varsity Girls Girls Ice Hockey)
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16595576www.oakknoll.org@union-county-interscholastic-at
+UID:ics:OakKnoll:16614237www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T050000
-DTEND;TZID=America/New_York:20261219T070000
+DTSTART;TZID=America/New_York:20261219T053000
+DTEND;TZID=America/New_York:20261219T073000
 SUMMARY:Oak Knoll at Summit (Junior Varsity Basketball)
-DESCRIPTION:Junior Varsity Basketball - Away - 5:00 AM
+DESCRIPTION:Junior Varsity Basketball - Away - 5:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16593683www.oakknoll.org@union-county-interscholastic-at
+UID:ics:OakKnoll:16614238www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T063000
-DTEND;TZID=America/New_York:20261219T083000
+DTSTART;TZID=America/New_York:20261219T070000
+DTEND;TZID=America/New_York:20261219T090000
 SUMMARY:Oak Knoll at Summit (Varsity Basketball)
-DESCRIPTION:Varsity Basketball - Away - 6:30 AM
+DESCRIPTION:Varsity Basketball - Away - 7:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7690429@union-county-interscholastic-athletic-conference
@@ -3857,6 +3866,14 @@ SUMMARY:Scotch Plains-Fanwood vs Summit (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7705397@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T164500
+DTEND;TZID=America/New_York:20270127T184500
+SUMMARY:Summit vs Madison High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7690416@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T180000
@@ -3962,12 +3979,28 @@ SUMMARY:Summit vs Livingston High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7705373@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T164500
+DTEND;TZID=America/New_York:20270203T184500
+SUMMARY:Summit vs Hoboken High School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7692880@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T160000
 DTEND;TZID=America/New_York:20270204T180000
 SUMMARY:Summit at Westfield (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7705371@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T160000
+DTEND;TZID=America/New_York:20270204T180000
+SUMMARY:Summit at The Pingry School (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7692833@union-county-interscholastic-athletic-conference
@@ -4041,6 +4074,15 @@ DTSTART;TZID=America/New_York:20270206T113000
 DTEND;TZID=America/New_York:20270206T133000
 SUMMARY:Summit vs Hanover Park High School (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7705364@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270212T164500
+DTEND;TZID=America/New_York:20270212T184500
+SUMMARY:Summit vs Academy of The New Church (Varsity Girls Girls Ice Hock
+ ey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7692882@union-county-interscholastic-athletic-conference

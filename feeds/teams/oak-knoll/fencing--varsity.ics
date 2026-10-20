@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ics:OakKnoll:16614233www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T110000
+DTEND;TZID=America/New_York:20261215T130000
+SUMMARY:Oak Knoll vs Kent Place (Varsity Fencing)
+DESCRIPTION:Varsity Fencing - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:OakKnoll:16582681www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
@@ -60,7 +69,7 @@ SUMMARY:Oak Knoll at Livingston High School (Varsity Fencing)
 DESCRIPTION:Varsity Fencing - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16582850www.oakknoll.org@union-county-interscholastic-at
+UID:ics:OakKnoll:16614248www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T130000

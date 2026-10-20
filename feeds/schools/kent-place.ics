@@ -845,7 +845,7 @@ SUMMARY:Kent Place at Oak Knoll (Junior Varsity Tennis)
 DESCRIPTION:Junior Varsity Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10890949www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:10891959www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T120000
@@ -1430,14 +1430,6 @@ SUMMARY:Summit vs Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7703689@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:KentPlace:10866604www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1481,6 +1473,14 @@ DTSTART;TZID=America/New_York:20261021T153000
 DTEND;TZID=America/New_York:20261021T173000
 SUMMARY:Kent Place vs (TBD) (Field Hockey)
 DESCRIPTION:Field Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7703689@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7703910@union-county-interscholastic-athletic-conference
@@ -1704,6 +1704,15 @@ DTSTART;TZID=America/New_York:20261208T173000
 DTEND;TZID=America/New_York:20261208T193000
 SUMMARY:Cranford at Kent Place (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16614233www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T110000
+DTEND;TZID=America/New_York:20261215T130000
+SUMMARY:Oak Knoll vs Kent Place (Varsity Fencing)
+DESCRIPTION:Varsity Fencing - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:OakKnoll:16593675www.oakknoll.org@union-county-interscholastic-at
