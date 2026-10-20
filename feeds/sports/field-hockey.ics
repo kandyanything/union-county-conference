@@ -1334,15 +1334,6 @@ SUMMARY:Summit vs Verona High School (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7627703@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Cranford at Orange Avenue School (Middle School Girls Field Hocke
- y)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7584199@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -1350,6 +1341,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Cranford vs Summit Middle School (Middle School Girls Field Hocke
  y)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7627703@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Cranford at Orange Avenue School (Middle School Girls Field Hocke
+ y)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7627703@union-county-interscholastic-athletic-conference
@@ -1788,6 +1788,15 @@ SUMMARY:Oak Knoll vs Summit Middle School (Middle School Field Hockey)
 DESCRIPTION:Middle School Field Hockey - Home - 11:45 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:10889449www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T121500
+DTEND;TZID=America/New_York:20261021T141500
+SUMMARY:Kent Place vs Summit (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:KentPlace:10753710www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1847,6 +1856,14 @@ SUMMARY:Arthur L. Johnson vs UCIAC Semifinals (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7703910@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T193000
+DTEND;TZID=America/New_York:20261021T213000
+SUMMARY:Summit vs Kent Place (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:KentPlace:10753711www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1854,6 +1871,15 @@ DTSTART;TZID=America/New_York:20261022T120000
 DTEND;TZID=America/New_York:20261022T140000
 SUMMARY:Kent Place vs Lawrenceville (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16608618www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T120000
+DTEND;TZID=America/New_York:20261022T140000
+SUMMARY:Oak Knoll vs Scotch Plains-Fanwood (Junior Varsity Field Hockey)
+DESCRIPTION:Junior Varsity Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7475345@union-county-interscholastic-athletic-conference
@@ -1871,15 +1897,6 @@ DTEND;TZID=America/New_York:20261022T180000
 SUMMARY:Westfield vs James Caldwell High School (Varsity Girls Field Hock
  ey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7475346@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T173000
-DTEND;TZID=America/New_York:20261022T193000
-SUMMARY:Cranford at Whippany Park High School (Junior Varsity Girls Field
-  Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7521267@union-county-interscholastic-athletic-conference
@@ -2030,13 +2047,13 @@ SUMMARY:Cranford at Scotch Plains-Fanwood (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7703667@union-county-interscholastic-athletic-conference
+UID:ds:2581:7703667@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T173000
 DTEND;TZID=America/New_York:20261027T193000
-SUMMARY:Scotch Plains-Fanwood vs Cranford (Junior Varsity Girls Field Hoc
+SUMMARY:Cranford at Scotch Plains-Fanwood (Junior Varsity Girls Field Hoc
  key)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:OakKnoll:16438917www.oakknoll.org@union-county-interscholastic-at
