@@ -26,9 +26,17 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:2509:7705578@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T160000
-DTEND;TZID=America/New_York:20261203T180000
+DTSTART;TZID=America/New_York:20261203T153000
+DTEND;TZID=America/New_York:20261203T173000
 SUMMARY:Arthur L. Johnson at Elizabeth (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7705785@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T153000
+DTEND;TZID=America/New_York:20270112T173000
+SUMMARY:Arthur L. Johnson vs Elizabeth (Varsity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 END:VCALENDAR
