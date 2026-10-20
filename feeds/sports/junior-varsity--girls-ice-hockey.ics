@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Junior Va
+ rsity Girls Ice Hockey
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2581:7704586@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T190000
+DTEND;TZID=America/New_York:20261206T210000
+SUMMARY:Cranford vs Morristown Beard School (Junior Varsity Girls Girls I
+ ce Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7704633@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T173000
+DTEND;TZID=America/New_York:20261220T193000
+SUMMARY:Cranford vs Summit (Junior Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7704661@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T164500
+DTEND;TZID=America/New_York:20270113T184500
+SUMMARY:Cranford at Morristown Beard School (Junior Varsity Girls Girls I
+ ce Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7704697@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T191500
+DTEND;TZID=America/New_York:20270117T211500
+SUMMARY:Cranford at Madison High School (Junior Varsity Girls Girls Ice H
+ ockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Away - 7:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7704722@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270219T153000
+DTEND;TZID=America/New_York:20270219T173000
+SUMMARY:Cranford vs Madison High School (Junior Varsity Girls Girls Ice H
+ ockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 3:30 PM
+END:VEVENT
+END:VCALENDAR
