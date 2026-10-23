@@ -24,23 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2584:7668937@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:David Brearley vs Dunellen High School (Junior Varsity Boys Boys 
- Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7609309@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:David Brearley vs Roselle (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7609309@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -49,47 +32,39 @@ SUMMARY:Roselle at David Brearley (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7608723@union-county-interscholastic-athletic-conference
+UID:ds:2821:7608723@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
 DTEND;TZID=America/New_York:20261219T133000
-SUMMARY:David Brearley at Rahway (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+SUMMARY:Rahway vs David Brearley (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7541603@union-county-interscholastic-athletic-conference
+UID:ds:2678:7541603@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:David Brearley at Jonathan Dayton (Junior Varsity Boys Boys Baske
+SUMMARY:Jonathan Dayton vs David Brearley (Junior Varsity Boys Boys Baske
  tball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7608737@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:David Brearley vs Roselle Park (Junior Varsity Boys Boys Basketba
- ll)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7572049@union-county-interscholastic-athletic-conference
+UID:ds:2837:7608737@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Roselle Park at David Brearley (Junior Varsity Boys Boys Basketba
+ ll)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7572049@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:David Brearley at Governor Livingston (Junior Varsity Boys Boys B
+SUMMARY:Governor Livingston vs David Brearley (Junior Varsity Boys Boys B
  asketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7608731@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:David Brearley at Roselle (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7608731@union-county-interscholastic-athletic-conference
@@ -100,65 +75,38 @@ SUMMARY:Roselle vs David Brearley (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7541610@union-county-interscholastic-athletic-conference
+UID:ds:2678:7541610@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:David Brearley vs Jonathan Dayton (Junior Varsity Boys Boys Baske
+SUMMARY:Jonathan Dayton at David Brearley (Junior Varsity Boys Boys Baske
  tball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7608740@union-county-interscholastic-athletic-conference
+UID:ds:2821:7608740@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T093000
 DTEND;TZID=America/New_York:20270123T113000
-SUMMARY:David Brearley vs Rahway (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 9:30 AM
+SUMMARY:Rahway at David Brearley (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7608734@union-county-interscholastic-athletic-conference
+UID:ds:2837:7608734@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
-SUMMARY:David Brearley at Roselle Park (Junior Varsity Boys Boys Basketba
+SUMMARY:Roselle Park vs David Brearley (Junior Varsity Boys Boys Basketba
  ll)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7572079@union-county-interscholastic-athletic-conference
+UID:ds:2630:7572079@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T160000
 DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:David Brearley vs Governor Livingston (Junior Varsity Boys Boys B
+SUMMARY:Governor Livingston at David Brearley (Junior Varsity Boys Boys B
  asketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7609327@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T160000
-DTEND;TZID=America/New_York:20270205T180000
-SUMMARY:David Brearley at Somerset County Vocational & Technical High Sch
- ool (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7608745@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270208T160000
-DTEND;TZID=America/New_York:20270208T180000
-SUMMARY:David Brearley vs College Achieve of Plainfield (Junior Varsity B
- oys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7608746@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270210T160000
-DTEND;TZID=America/New_York:20270210T180000
-SUMMARY:David Brearley vs Newark Vocational High School (Junior Varsity B
- oys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
