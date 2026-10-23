@@ -14057,7 +14057,7 @@ SUMMARY:Kent Place at TBD (Tennis)
 DESCRIPTION:Tennis - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10589821www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:10951644www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T114500
@@ -19828,14 +19828,6 @@ SUMMARY:Union vs John P Stevens High School (Varsity Girls Girls Volleyba
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7700782@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7695902@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
@@ -19843,6 +19835,14 @@ DTEND;TZID=America/New_York:20261020T181500
 SUMMARY:Cranford vs Governor Livingston (Junior Varsity Girls Girls Socce
  r)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7700782@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Cranford vs Arthur L. Johnson (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7629531@union-county-interscholastic-athletic-conference
@@ -21056,23 +21056,6 @@ SUMMARY:Cranford at Orange Avenue School (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7652572@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Cranford at Edgar MS (Middle School Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7653415@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Cranford at Metuchen High School (Middle School Girls Field Hocke
- y)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7709151@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T160000
@@ -21095,6 +21078,23 @@ DTSTART;TZID=America/New_York:20261023T160000
 DTEND;TZID=America/New_York:20261023T180000
 SUMMARY:Cranford vs Florence M Gaudineer Middle (Boys (MS BLUE) Soccer)
 DESCRIPTION:Boys (MS BLUE) Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7652572@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T160000
+DTEND;TZID=America/New_York:20261023T180000
+SUMMARY:Cranford at Edgar MS (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7653415@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T160000
+DTEND;TZID=America/New_York:20261023T180000
+SUMMARY:Cranford at Metuchen High School (Middle School Girls Field Hocke
+ y)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7592627@union-county-interscholastic-athletic-conference
@@ -21718,12 +21718,12 @@ SUMMARY:New Providence at Lyndhurst High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7709154@union-county-interscholastic-athletic-conference
+UID:ds:2581:7718731@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T151500
 DTEND;TZID=America/New_York:20261024T171500
-SUMMARY:Elizabeth vs TBA NJ (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 3:15 PM
+SUMMARY:Cranford at Elizabeth (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7577066@union-county-interscholastic-athletic-conference
@@ -22191,8 +22191,8 @@ SUMMARY:Oak Knoll at Summit (Junior Varsity Volleyball)
 DESCRIPTION:Junior Varsity Volleyball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16571959oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:16571959www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T123000
 DTEND;TZID=America/New_York:20261027T143000
@@ -22207,6 +22207,14 @@ DTSTART;TZID=America/New_York:20261027T131500
 DTEND;TZID=America/New_York:20261027T151500
 SUMMARY:Oak Knoll at Summit (Varsity Volleyball)
 DESCRIPTION:Varsity Volleyball - Away - 1:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7714868@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Cranford vs TBD (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7703511@union-county-interscholastic-athletic-conference
@@ -22606,6 +22614,14 @@ SUMMARY:Arthur L. Johnson vs Mount Saint Mary Academy (Varsity Girls Fiel
 DESCRIPTION:Varsity Girls Field Hockey - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7718633@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T160000
+DTEND;TZID=America/New_York:20261028T180000
+SUMMARY:Cranford vs Millburn High School (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7470151@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T160000
@@ -22750,6 +22766,15 @@ SUMMARY:Summit at Woodbridge High School (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7718638@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T173000
+DTEND;TZID=America/New_York:20261028T193000
+SUMMARY:Cranford vs Millburn High School (Junior Varsity Girls Field Hock
+ ey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7534062@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T173000
@@ -22828,8 +22853,8 @@ SUMMARY:Kent Place vs Millburn (Junior Varsity Soccer)
 DESCRIPTION:Junior Varsity Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16547601oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
+UID:ics:OakKnoll:16547601www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T120000
 DTEND;TZID=America/New_York:20261029T140000
@@ -31800,14 +31825,6 @@ DTSTART;TZID=America/New_York:20270117T090000
 DTEND;TZID=America/New_York:20270117T110000
 SUMMARY:Linden at TBA NJ (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2698:7696460@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270117T090000
-DTEND;TZID=America/New_York:20270117T110000
-SUMMARY:Linden at TBA NJ (Junior Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7682078@union-county-interscholastic-athletic-conference
