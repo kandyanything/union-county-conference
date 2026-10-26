@@ -24,12 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2584:7725503@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270319T160000
+DTEND;TZID=America/New_York:20270319T180000
+SUMMARY:David Brearley at Jonathan Dayton (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2584:7638391@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270323T160000
 DTEND;TZID=America/New_York:20270323T180000
 SUMMARY:David Brearley vs Sayreville Public Schools (Varsity Girls Softba
  ll)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2584:7725632@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:David Brearley vs Jonathan Dayton (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

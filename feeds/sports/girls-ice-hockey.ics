@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2581:7707742@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T164500
+DTEND;TZID=America/New_York:20261202T184500
+SUMMARY:Cranford at Summit (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7682005@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T183000
@@ -72,6 +80,22 @@ DTSTART;TZID=America/New_York:20261218T170000
 DTEND;TZID=America/New_York:20261218T190000
 SUMMARY:Cranford at Princeton High School (Varsity Girls Girls Ice Hockey)
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7707766@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T173000
+DTEND;TZID=America/New_York:20261220T193000
+SUMMARY:Cranford vs Summit (Junior Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7707766@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T173000
+DTEND;TZID=America/New_York:20261220T193000
+SUMMARY:Summit at Cranford (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7707763@union-county-interscholastic-athletic-conference
@@ -172,6 +196,14 @@ DTSTART;TZID=America/New_York:20270121T204500
 DTEND;TZID=America/New_York:20270121T224500
 SUMMARY:Summit at Hoboken High School (Varsity Girls Girls Ice Hockey)
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 8:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7707743@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T154500
+DTEND;TZID=America/New_York:20270124T174500
+SUMMARY:Cranford vs Summit (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7707777@union-county-interscholastic-athletic-conference
