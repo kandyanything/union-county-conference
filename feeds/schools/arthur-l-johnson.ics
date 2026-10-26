@@ -2047,11 +2047,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7577073@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T173000
-DTEND;TZID=America/New_York:20261026T193000
+DTSTART;TZID=America/New_York:20261026T180000
+DTEND;TZID=America/New_York:20261026T200000
 SUMMARY:Arthur L. Johnson vs UCIAC Semifinals (Varsity Girls Girls Volley
  ball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7688887@union-county-interscholastic-athletic-conference
@@ -2149,45 +2149,65 @@ SUMMARY:Arthur L. Johnson at Oak Knoll (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7577074@union-county-interscholastic-athletic-conference
+UID:ds:2509:7723236@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T170000
+DTEND;TZID=America/New_York:20261030T190000
+SUMMARY:Arthur L. Johnson vs UCIAC Championship (Junior Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7723186@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T190000
 DTEND;TZID=America/New_York:20261030T210000
-SUMMARY:Arthur L. Johnson vs NJSIAA Round #1 (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+SUMMARY:Arthur L. Johnson at NJSIAA Round #1 (Varsity Girls Girls Cheerle
+ ading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7577078@union-county-interscholastic-athletic-conference
+UID:ds:2509:7723195@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Arthur L. Johnson vs UCIAC Championship (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
+DTSTART;TZID=America/New_York:20261030T190000
+DTEND;TZID=America/New_York:20261030T210000
+SUMMARY:Arthur L. Johnson at Haddonfield Memorial High School (Varsity Bo
+ ys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7577079@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;TZID=America/New_York:20261030T190000
+DTEND;TZID=America/New_York:20261030T210000
 SUMMARY:Arthur L. Johnson vs UCIAC Championship (Varsity Girls Girls Socc
  er)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7723213@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T120000
+DTEND;TZID=America/New_York:20261031T140000
+SUMMARY:Arthur L. Johnson vs UCIAC Championship (Junior Varsity Boys Boys
+  Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7577078@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T140000
+DTEND;TZID=America/New_York:20261031T160000
+SUMMARY:Arthur L. Johnson vs UCIAC Championship (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7577082@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261103T160000
-DTEND;TZID=America/New_York:20261103T180000
-SUMMARY:Arthur L. Johnson vs NJSIAA Round #1 (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2509:7577086@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261103T160000
-DTEND;TZID=America/New_York:20261103T180000
-SUMMARY:Arthur L. Johnson vs NJSIAA Round #1 (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Arthur L. Johnson at NJSIAA Round #1 (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7577089@union-county-interscholastic-athletic-conference
@@ -2198,13 +2218,12 @@ SUMMARY:Arthur L. Johnson vs NJSIAA Round #1 (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7577094@union-county-interscholastic-athletic-conference
+UID:ds:2509:7577086@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261103T160000
-DTEND;TZID=America/New_York:20261103T180000
-SUMMARY:Arthur L. Johnson vs NJSIAA Round #1 (Varsity Girls Girls Volleyb
- all)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261104T160000
+DTEND;TZID=America/New_York:20261104T180000
+SUMMARY:Arthur L. Johnson at NJSIAA Round #1 (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7657143@union-county-interscholastic-athletic-conference

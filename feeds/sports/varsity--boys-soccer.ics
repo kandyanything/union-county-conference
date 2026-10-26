@@ -189,7 +189,7 @@ UID:ds:2938:7591078@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T160000
 DTEND;TZID=America/New_York:20260826T180000
-SUMMARY:Westfield at East Side High School (Varsity Boys Boys Soccer)
+SUMMARY:Westfield at Eastside High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -448,7 +448,7 @@ UID:ds:2906:7591110@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T160000
 DTEND;TZID=America/New_York:20260904T180000
-SUMMARY:Union at East Side High School (Varsity Boys Boys Soccer)
+SUMMARY:Union at Eastside High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -803,7 +803,7 @@ UID:ds:2607:7591121@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T110000
 DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Elizabeth at East Side High School (Varsity Boys Boys Soccer)
+SUMMARY:Elizabeth at Eastside High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -1989,20 +1989,20 @@ SUMMARY:Roselle Park vs Beloved Charter (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7577078@union-county-interscholastic-athletic-conference
+UID:ds:2607:7723263@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Arthur L. Johnson vs UCIAC Championship (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
+DTSTART;TZID=America/New_York:20261031T140000
+DTEND;TZID=America/New_York:20261031T160000
+SUMMARY:Elizabeth at Summit (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7577086@union-county-interscholastic-athletic-conference
+UID:ds:2509:7577078@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261103T160000
-DTEND;TZID=America/New_York:20261103T180000
-SUMMARY:Arthur L. Johnson vs NJSIAA Round #1 (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261031T140000
+DTEND;TZID=America/New_York:20261031T160000
+SUMMARY:Arthur L. Johnson vs UCIAC Championship (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7543398@union-county-interscholastic-athletic-conference
@@ -2011,5 +2011,13 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Rahway at NJSIAA (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7577086@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261104T160000
+DTEND;TZID=America/New_York:20261104T180000
+SUMMARY:Arthur L. Johnson at NJSIAA Round #1 (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

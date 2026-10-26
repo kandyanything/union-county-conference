@@ -24,6 +24,42 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2886:7724073@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Summit at Warren Township Middle School (Middle School Girls Girl
+ s Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7724051@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Summit vs Branchburg Middle School (Middle School Girls Girls Bas
+ ketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7724049@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Summit at Readington Middle School (Middle School Girls Girls Bas
+ ketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7724047@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:Summit at William Annin Middle School (Middle School Girls Girls 
+ Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7629963@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T160000
@@ -31,14 +67,6 @@ DTEND;TZID=America/New_York:20270104T180000
 SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
  irls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7698159@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T160000
-DTEND;TZID=America/New_York:20270104T180000
-SUMMARY:Elizabeth vs Cranford (Middle School Girls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7544753@union-county-interscholastic-athletic-conference
@@ -85,12 +113,29 @@ SUMMARY:Roselle vs Arthur L. Johnson (Middle School Girls Girls Basketbal
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2837:7723846@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T160000
+DTEND;TZID=America/New_York:20270104T180000
+SUMMARY:Roselle Park vs Cranford (Middle School Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:39378:7698045@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T160000
 DTEND;TZID=America/New_York:20270104T180000
 SUMMARY:Scotch Plains-Fanwood vs Cranford (Middle School Girls Girls Bask
  etball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7724044@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Summit vs Hillsborough Athletics (Middle School Girls Girls Baske
+ tball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -125,6 +170,15 @@ DTSTART;TZID=America/New_York:20270106T160000
 DTEND;TZID=America/New_York:20270106T180000
 SUMMARY:Union at Joseph E. Soehl Middle School (Middle School Girls Girls
   Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7724040@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Summit at Franklin Ave Middle School (Middle School Girls Girls B
+ asketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -190,6 +244,15 @@ SUMMARY:Roselle at Columbia Middle School (Middle School Girls Girls Bask
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7724037@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Summit at Bridgewater-Raritan Middle School (Middle School Girls 
+ Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2906:7698162@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
@@ -230,6 +293,15 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
 SUMMARY:Rahway vs Cranford (Middle School Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7724030@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T160000
+DTEND;TZID=America/New_York:20270113T180000
+SUMMARY:Summit vs JP Case Middle School (Middle School Girls Girls Basket
+ ball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -275,6 +347,15 @@ DTSTART;TZID=America/New_York:20270115T160000
 DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Arthur L. Johnson vs Columbia Middle School (Middle School Girls 
  Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7724027@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T160000
+DTEND;TZID=America/New_York:20270115T180000
+SUMMARY:Summit vs Clinton Township Middle School (Middle School Girls Gir
+ ls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -634,6 +715,14 @@ DTSTART;TZID=America/New_York:20270210T160000
 DTEND;TZID=America/New_York:20270210T180000
 SUMMARY:Arthur L. Johnson at Mcmanus Middle School (Middle School Girls G
  irls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7723808@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270210T160000
+DTEND;TZID=America/New_York:20270210T180000
+SUMMARY:Roselle Park at Cranford (Middle School Girls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
