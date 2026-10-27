@@ -15941,8 +15941,8 @@ SUMMARY:Kent Place at PAUL VI (Junior Varsity Volleyball)
 DESCRIPTION:Junior Varsity Volleyball - Away - 4:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:9017218www.kentplace.org@union-county-interscholastic-a
- thletic-conference
+UID:ics:KentPlace:11050359www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T050000
 DTEND;TZID=America/New_York:20261010T070000
@@ -16027,7 +16027,7 @@ SUMMARY:Kent Place at Cranford (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10690710www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11050361www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T093000
@@ -16335,8 +16335,8 @@ SUMMARY:Elizabeth at TBA NJ (Middle School Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:9017220www.kentplace.org@union-county-interscholastic-a
- thletic-conference
+UID:ics:KentPlace:11050362www.kentplace.org@union-county-interscholastic-
+ athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261011T050000
 DTEND;TZID=America/New_York:20261011T070000
@@ -22036,15 +22036,6 @@ SUMMARY:Jonathan Dayton vs Nutley High School (Varsity Girls Girls Volley
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2678:7532074@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Jonathan Dayton vs Middlesex High School (Junior Varsity Boys Boy
- s Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2678:7470467@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T160000
@@ -22293,6 +22284,15 @@ SUMMARY:Kent Place at Oak Knoll (Middle School Soccer)
 DESCRIPTION:Middle School Soccer - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:11050354www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T113000
+DTEND;TZID=America/New_York:20261028T133000
+SUMMARY:Kent Place vs Gill Saint Bernard's School (Middle School Tennis)
+DESCRIPTION:Middle School Tennis - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:OakKnoll:16438917www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
@@ -22530,6 +22530,14 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T163000
 DTEND;TZID=America/New_York:20261028T183000
 SUMMARY:Linden vs Science Park High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7728557@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T163000
+DTEND;TZID=America/New_York:20261028T183000
+SUMMARY:Rahway vs John P Stevens High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -23159,22 +23167,6 @@ SUMMARY:Plainfield at East Brunswick High School (Varsity Boys Boys Socce
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7569304@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261031T100000
-DTEND;TZID=America/New_York:20261031T120000
-SUMMARY:Cranford at NJSIAA (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7569306@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261031T100000
-DTEND;TZID=America/New_York:20261031T120000
-SUMMARY:Cranford at NJSIAA (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7722941@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261031T110000
@@ -23191,6 +23183,22 @@ DTEND;TZID=America/New_York:20261031T140000
 SUMMARY:Arthur L. Johnson vs UCIAC Championship (Junior Varsity Boys Boys
   Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7569304@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T123000
+DTEND;TZID=America/New_York:20261031T143000
+SUMMARY:Cranford at NJSIAA (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7569306@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T133000
+DTEND;TZID=America/New_York:20261031T153000
+SUMMARY:Cranford at NJSIAA (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7723263@union-county-interscholastic-athletic-conference
@@ -23265,6 +23273,15 @@ SUMMARY:Arthur L. Johnson at NJSIAA Round #1 (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:39378:7728683@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Scotch Plains-Fanwood at Bridgewater-Raritan High School (Varsity
+  Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7722998@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261102T161500
@@ -23331,14 +23348,6 @@ DTSTART;TZID=America/New_York:20261103T163000
 DTEND;TZID=America/New_York:20261103T183000
 SUMMARY:Rahway at TBA NJ (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2821:7543398@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:Rahway at NJSIAA (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7543432@union-county-interscholastic-athletic-conference
