@@ -2857,10 +2857,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7729577@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261103T140000
+DTEND;TZID=America/New_York:20261103T160000
+SUMMARY:Summit vs Randolph High School (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7732630@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261103T160000
 DTEND;TZID=America/New_York:20261103T180000
-SUMMARY:Summit vs Randolph High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+SUMMARY:Summit vs Essex County Donald M. Payne Tech (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7558976@union-county-interscholastic-athletic-conference
@@ -2877,6 +2886,14 @@ DTSTART;TZID=America/New_York:20261104T123000
 DTEND;TZID=America/New_York:20261104T143000
 SUMMARY:Summit at TBD (Varsity Girls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7732634@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261104T160000
+DTEND;TZID=America/New_York:20261104T180000
+SUMMARY:Summit vs Orange High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7558977@union-county-interscholastic-athletic-conference
@@ -4340,6 +4357,14 @@ SUMMARY:Summit vs Roselle (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7692834@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T160000
+DTEND;TZID=America/New_York:20270204T180000
+SUMMARY:Summit vs Union (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7692880@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T160000
@@ -4362,14 +4387,6 @@ DTSTART;TZID=America/New_York:20270204T173000
 DTEND;TZID=America/New_York:20270204T193000
 SUMMARY:Summit vs Union (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2886:7692834@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Summit vs Union (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7692877@union-county-interscholastic-athletic-conference
