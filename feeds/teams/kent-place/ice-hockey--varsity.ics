@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Kent Plac
+ e Varsity Ice Hockey
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:KentPlace:11180685www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T110000
+DTEND;TZID=America/New_York:20261207T130000
+SUMMARY:Kent Place vs Hoboken (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180687www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T113000
+DTEND;TZID=America/New_York:20261209T133000
+SUMMARY:Kent Place at Morristown Beard School (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180689www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T110000
+DTEND;TZID=America/New_York:20261211T130000
+SUMMARY:Kent Place at Immaculate Heart Academy (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180665www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T110000
+DTEND;TZID=America/New_York:20270108T130000
+SUMMARY:Kent Place vs Ridge (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180667www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T110000
+DTEND;TZID=America/New_York:20270111T130000
+SUMMARY:Kent Place vs Morristown Beard School (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180699www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T110000
+DTEND;TZID=America/New_York:20270113T130000
+SUMMARY:Kent Place vs Trinity Hall (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180701www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T114500
+DTEND;TZID=America/New_York:20270119T134500
+SUMMARY:Kent Place at Westfield (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Away - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180691www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T124500
+DTEND;TZID=America/New_York:20270122T144500
+SUMMARY:Kent Place at Trinity Hall (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Away - 12:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180703www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T110000
+DTEND;TZID=America/New_York:20270125T130000
+SUMMARY:Kent Place vs Immaculate Heart Academy (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180693www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T110000
+DTEND;TZID=America/New_York:20270127T130000
+SUMMARY:Kent Place vs Princeton Day (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180757www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T110000
+DTEND;TZID=America/New_York:20270201T130000
+SUMMARY:Kent Place vs Glen Rock (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11180733www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T103000
+DTEND;TZID=America/New_York:20270202T123000
+SUMMARY:Kent Place at Princeton Day (Varsity Ice Hockey)
+DESCRIPTION:Varsity Ice Hockey - Away - 10:30 AM
+END:VEVENT
+END:VCALENDAR
