@@ -3044,6 +3044,24 @@ SUMMARY:Governor Livingston at Ridgewood High School (Varsity Coed Coed I
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:OakKnoll:16657985www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T110000
+DTEND;TZID=America/New_York:20261221T130000
+SUMMARY:Oak Knoll at Governor Livingston (Junior Varsity Basketball)
+DESCRIPTION:Junior Varsity Basketball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16657986www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T123000
+DTEND;TZID=America/New_York:20261221T143000
+SUMMARY:Oak Knoll at Governor Livingston (Varsity Basketball)
+DESCRIPTION:Varsity Basketball - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7605474@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
@@ -3093,24 +3111,6 @@ DTEND;TZID=America/New_York:20261221T223000
 SUMMARY:Governor Livingston vs Hillsborough Athletics (Varsity Coed Coed 
  Ice Hockey)
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:OakKnoll:16614239www.oakknoll.org@union-county-interscholastic-at
- hletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T110000
-DTEND;TZID=America/New_York:20261222T130000
-SUMMARY:Oak Knoll at Governor Livingston (Varsity Basketball)
-DESCRIPTION:Varsity Basketball - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:OakKnoll:16614240www.oakknoll.org@union-county-interscholastic-at
- hletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T123000
-DTEND;TZID=America/New_York:20261222T143000
-SUMMARY:Oak Knoll at Governor Livingston (Junior Varsity Basketball)
-DESCRIPTION:Junior Varsity Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7570342@union-county-interscholastic-athletic-conference
@@ -3812,14 +3812,6 @@ SUMMARY:Governor Livingston at TBA NJ (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7613818@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270118T163000
-DTEND;TZID=America/New_York:20270118T183000
-SUMMARY:Governor Livingston at Newark Academy (Varsity Coed Coed Fencing)
-DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7572062@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
@@ -3827,6 +3819,14 @@ DTEND;TZID=America/New_York:20270119T180000
 SUMMARY:Governor Livingston vs Roselle Park (Junior Varsity Boys Boys Bas
  ketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7613818@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T163000
+DTEND;TZID=America/New_York:20270119T183000
+SUMMARY:Governor Livingston at Newark Academy (Varsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7572061@union-county-interscholastic-athletic-conference
@@ -3853,7 +3853,7 @@ SUMMARY:Governor Livingston vs Union (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16641243www.oakknoll.org@union-county-interscholastic-at
+UID:ics:OakKnoll:16657987www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T100000
@@ -4643,6 +4643,23 @@ SUMMARY:Governor Livingston at Oratory Prep (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7737389@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T160000
+DTEND;TZID=America/New_York:20270216T180000
+SUMMARY:Cranford at Governor Livingston (Junior Varsity Girls Girls Baske
+ tball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7737382@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T173000
+DTEND;TZID=America/New_York:20270216T193000
+SUMMARY:Cranford at Governor Livingston (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7572121@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270216
@@ -5273,6 +5290,22 @@ DTEND;TZID=America/New_York:20270405T180000
 SUMMARY:Governor Livingston at Scotch Plains-Fanwood (Freshman Boys Baseb
  all)
 DESCRIPTION:Freshman Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7707896@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T160000
+DTEND;TZID=America/New_York:20270406T180000
+SUMMARY:Governor Livingston vs Jonathan Dayton (Varsity Coed Coed Golf)
+DESCRIPTION:Varsity Coed Coed Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7707896@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T160000
+DTEND;TZID=America/New_York:20270406T180000
+SUMMARY:Jonathan Dayton at Governor Livingston (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7610114@union-county-interscholastic-athletic-conference
