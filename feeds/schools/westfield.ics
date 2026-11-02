@@ -940,20 +940,20 @@ SUMMARY:Westfield vs Montgomery High School (Junior Varsity Girls Field H
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7550886@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Summit vs Westfield (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7552449@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Summit at Westfield (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7550886@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Summit vs Westfield (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7475947@union-county-interscholastic-athletic-conference
@@ -1237,14 +1237,6 @@ SUMMARY:Summit at Westfield (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7534796@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T163000
-DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Westfield at Ridge High School (Varsity Girls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7586515@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T163000
@@ -1252,6 +1244,14 @@ DTEND;TZID=America/New_York:20261013T183000
 SUMMARY:Westfield at Hillsborough Athletics (Junior Varsity Girls Girls S
  occer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7534796@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T163000
+DTEND;TZID=America/New_York:20261013T183000
+SUMMARY:Westfield at Ridge High School (Varsity Girls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103039710@union-county-interscholastic-athletic-conference
