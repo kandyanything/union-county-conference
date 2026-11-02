@@ -23217,20 +23217,20 @@ SUMMARY:Roselle Park vs Delaware Valley Regional High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7726306@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261104T143000
+DTEND;TZID=America/New_York:20261104T163000
+SUMMARY:Cranford vs Cliffside Park High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:105209259@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261104T144500
 DTEND;TZID=America/New_York:20261104T164500
 SUMMARY:Oratory Prep at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 2:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7726306@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261104T150000
-DTEND;TZID=America/New_York:20261104T170000
-SUMMARY:Cranford vs Cliffside Park High School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2584:7731088@union-county-interscholastic-athletic-conference
@@ -23335,12 +23335,29 @@ SUMMARY:Arthur L. Johnson at NJSIAA Round #2 (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7601011@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Elizabeth vs Passaic County Technical Institute (Varsity Boys Foo
+ tball)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7736834@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261106T190000
 DTEND;TZID=America/New_York:20261106T210000
 SUMMARY:Cranford vs Malcolm X Shabazz High School (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2759:7737039@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:New Providence at Waldwick High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:10966688www.kentplace.org@union-county-interscholastic-
@@ -23390,6 +23407,22 @@ DTSTART;TZID=America/New_York:20261107T100000
 DTEND;TZID=America/New_York:20261107T120000
 SUMMARY:Oratory Prep at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7736965@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261107T140000
+DTEND;TZID=America/New_York:20261107T160000
+SUMMARY:Cranford at TBD (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7736999@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261107T140000
+DTEND;TZID=America/New_York:20261107T160000
+SUMMARY:Cranford at TBD (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7540702@union-county-interscholastic-athletic-conference
@@ -33470,9 +33503,9 @@ UID:ds:2938:7567520@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
 DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Westfield at Paramus High School (Junior Varsity Boys Boys Wrestl
+SUMMARY:Westfield vs Paramus High School (Junior Varsity Boys Boys Wrestl
  ing)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7705343@union-county-interscholastic-athletic-conference
@@ -33496,8 +33529,8 @@ UID:ds:2938:7567519@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T183000
 DTEND;TZID=America/New_York:20270121T203000
-SUMMARY:Westfield at Paramus High School (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+SUMMARY:Westfield vs Paramus High School (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7668911@union-county-interscholastic-athletic-conference
@@ -34547,6 +34580,14 @@ DTEND;TZID=America/New_York:20270125T193000
 SUMMARY:Plainfield at North Plainfield Public Schools (Junior Varsity Boy
  s Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7540909@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T173000
+DTEND;TZID=America/New_York:20270125T193000
+SUMMARY:Rahway vs Jonathan Dayton (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7692053@union-county-interscholastic-athletic-conference
@@ -44333,15 +44374,6 @@ SUMMARY:Oratory Prep vs Scotch Plains-Fanwood (Varsity Boys Boys Volleyba
 DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102493155@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270423T160000
-DTEND;TZID=America/New_York:20270423T180000
-SUMMARY:Oratory Prep vs Scotch Plains-Fanwood (Junior Varsity Boys Boys V
- olleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102493154@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T160000
@@ -44612,15 +44644,6 @@ DTEND;TZID=America/New_York:20270423T193000
 SUMMARY:Oratory Prep vs Scotch Plains-Fanwood (Junior Varsity Boys Boys V
  olleyball)
 DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102493153@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270423T173000
-DTEND;TZID=America/New_York:20270423T193000
-SUMMARY:Oratory Prep vs Scotch Plains-Fanwood (Varsity Boys Boys Volleyba
- ll)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7588839@union-county-interscholastic-athletic-conference
