@@ -13104,7 +13104,7 @@ SUMMARY:Kent Place at Watchung Hills Reg (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11186699www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11187684www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T121500
@@ -13113,7 +13113,7 @@ SUMMARY:Kent Place vs Governor Livingston (Varsity Volleyball)
 DESCRIPTION:Varsity Volleyball - Home - 12:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10838435www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11187685www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T134500
@@ -15663,6 +15663,14 @@ SUMMARY:Roselle vs Spotswood High School (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2906:7503206@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T190000
+DTEND;TZID=America/New_York:20261009T210000
+SUMMARY:Union vs Bridgewater-Raritan High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2906:7504744@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T190000
@@ -15670,14 +15678,6 @@ DTEND;TZID=America/New_York:20261009T210000
 SUMMARY:Union vs Bridgewater-Raritan High School (Varsity Girls Girls Che
  erleading)
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2906:7503206@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T190000
-DTEND;TZID=America/New_York:20261009T210000
-SUMMARY:Union vs Bridgewater-Raritan High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7562659@union-county-interscholastic-athletic-conference
@@ -16311,14 +16311,6 @@ SUMMARY:Summit vs West Essex High School (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7503399@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Union at Bridgewater-Raritan High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2906:7412195@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
@@ -16335,6 +16327,14 @@ DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:Union at Monroe Township School District (Junior Varsity Girls Gi
  rls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7503399@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Union at Bridgewater-Raritan High School (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7476323@union-county-interscholastic-athletic-conference
@@ -17066,6 +17066,14 @@ SUMMARY:Union Catholic at East Brunswick High School (Varsity Girls Gymna
 DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2938:7534796@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T163000
+DTEND;TZID=America/New_York:20261013T183000
+SUMMARY:Westfield at Ridge High School (Varsity Girls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2938:7586515@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T163000
@@ -17073,14 +17081,6 @@ DTEND;TZID=America/New_York:20261013T183000
 SUMMARY:Westfield at Hillsborough Athletics (Junior Varsity Girls Girls S
  occer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2938:7534796@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T163000
-DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Westfield at Ridge High School (Varsity Girls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7464754@union-county-interscholastic-athletic-conference
@@ -19434,20 +19434,20 @@ SUMMARY:Summit vs Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7526611@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Union vs Franklin High School (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2906:7470891@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
 DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Union vs Franklin High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7526611@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Union vs Franklin High School (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7594572@union-county-interscholastic-athletic-conference
@@ -19905,14 +19905,6 @@ SUMMARY:Roselle Catholic vs University High School (Varsity Boys Boys Soc
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7472292@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Union at Mcmanus Middle School (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2906:7470141@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
@@ -19920,6 +19912,14 @@ DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Union vs Mcmanus Middle School (Middle School Girls Girls Volleyb
  all)
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7472292@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Union at Mcmanus Middle School (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7702492@union-county-interscholastic-athletic-conference
@@ -20121,7 +20121,7 @@ SUMMARY:Kent Place vs Lawrenceville (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:10914183www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11187683www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T120000
@@ -22939,8 +22939,8 @@ SUMMARY:Kent Place vs Dwight-Englewood High School (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16658944www.oakknoll.org@union-county-interscholastic-at
- hletic-conference
+UID:ics:OakKnoll:16658944oakknollorg.finalsite.com@union-county-interscho
+ lastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261102T090000
 DTEND;TZID=America/New_York:20261102T110000
@@ -23166,6 +23166,15 @@ SUMMARY:Kent Place vs TBD (Field Hockey)
 DESCRIPTION:Field Hockey - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:OakKnoll:16658945www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261104T090000
+DTEND;TZID=America/New_York:20261104T110000
+SUMMARY:Oak Knoll vs Princeton Day School (Varsity Field Hockey)
+DESCRIPTION:Varsity Field Hockey - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:KentPlace:11180722www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -23265,6 +23274,15 @@ SUMMARY:Arthur L. Johnson at NJSIAA Round #2 (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7739095@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261104T160000
+DTEND;TZID=America/New_York:20261104T180000
+SUMMARY:Arthur L. Johnson at Pompton Lakes High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:39378:7739018@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261104T160000
@@ -23317,8 +23335,8 @@ SUMMARY:Kent Place at Immaculate Heart Academy (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16644768www.oakknoll.org@union-county-interscholastic-at
- hletic-conference
+UID:ics:OakKnoll:16644768oakknollorg.finalsite.com@union-county-interscho
+ lastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261105T110000
 DTEND;TZID=America/New_York:20261105T130000
@@ -23326,7 +23344,7 @@ SUMMARY:Oak Knoll at Newark Academy (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11116268www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11189650www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261105T121500
@@ -45863,6 +45881,15 @@ SUMMARY:Arthur L. Johnson at TBD (Varsity Boys Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7739098@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T160000
+DTEND;TZID=America/New_York:20270429T180000
+SUMMARY:Arthur L. Johnson at UCIAC Championship (Varsity Coed Coed Track 
+ and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2759:7703724@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270429T160000
@@ -46054,6 +46081,15 @@ DTEND;TZID=America/New_York:20270430T180000
 SUMMARY:Arthur L. Johnson vs Scotch Plains-Fanwood (Junior Varsity Girls 
  Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7739099@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T160000
+DTEND;TZID=America/New_York:20270430T180000
+SUMMARY:Arthur L. Johnson at UCIAC Championship (Varsity Coed Coed Track 
+ and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7531720@union-county-interscholastic-athletic-conference
@@ -46923,6 +46959,15 @@ SUMMARY:Cranford at UCC (Varsity Girls Girls Track and Field)
 DESCRIPTION:Varsity Girls Girls Track and Field - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7739100@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270506T153000
+DTEND;TZID=America/New_York:20270506T173000
+SUMMARY:Arthur L. Johnson at UCC Championship (Varsity Coed Coed Track an
+ d Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103939405@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270506T160000
@@ -47095,6 +47140,15 @@ DTSTART;TZID=America/New_York:20270507T153000
 DTEND;TZID=America/New_York:20270507T173000
 SUMMARY:Cranford at UCC (Varsity Girls Girls Track and Field)
 DESCRIPTION:Varsity Girls Girls Track and Field - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7739101@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T153000
+DTEND;TZID=America/New_York:20270507T173000
+SUMMARY:Arthur L. Johnson at UCC Championship (Varsity Coed Coed Track an
+ d Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103220213@union-county-interscholastic-athletic-conference
@@ -47429,6 +47483,15 @@ DTSTART;TZID=America/New_York:20270510T160000
 DTEND;TZID=America/New_York:20270510T180000
 SUMMARY:Arthur L. Johnson at Oratory Prep (Varsity Boys Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7739105@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T160000
+DTEND;TZID=America/New_York:20270510T180000
+SUMMARY:Arthur L. Johnson at UCIAC Championship (Junior Varsity Coed Coed
+  Track and Field)
+DESCRIPTION:Junior Varsity Coed Coed Track and Field - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7531451@union-county-interscholastic-athletic-conference
@@ -47852,6 +47915,15 @@ SUMMARY:Arthur L. Johnson vs UCIAC Semifinals (Junior Varsity Girls Softb
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7739102@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
+SUMMARY:Arthur L. Johnson at UCIAC Championship (Varsity Coed Coed Track 
+ and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2698:7531457@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270513T160000
@@ -48021,6 +48093,15 @@ DTEND;TZID=America/New_York:20270514T180000
 SUMMARY:Arthur L. Johnson at Scotch Plains-Fanwood (Middle School Girls S
  oftball)
 DESCRIPTION:Middle School Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7739104@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T160000
+DTEND;TZID=America/New_York:20270514T180000
+SUMMARY:Arthur L. Johnson at UCIAC Championship (Varsity Coed Coed Track 
+ and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7707634@union-county-interscholastic-athletic-conference
