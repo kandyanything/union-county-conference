@@ -26,10 +26,10 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:arb:105206783@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
 SUMMARY:Oratory Prep at Union (Varsity Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7697872@union-county-interscholastic-athletic-conference

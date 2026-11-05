@@ -217,13 +217,12 @@ SUMMARY:Oratory Prep at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7557039@union-county-interscholastic-athletic-conference
+UID:ds:2607:7555317@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T163000
 DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:Elizabeth vs Oratory Prep (Junior Varsity Girls Girls Cross Count
- ry)
-DESCRIPTION:Junior Varsity Girls Girls Cross Country - Home - 4:30 PM
+SUMMARY:Elizabeth vs Oratory Prep (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7557052@union-county-interscholastic-athletic-conference
@@ -234,20 +233,21 @@ SUMMARY:Elizabeth vs Oratory Prep (Junior Varsity Boys Boys Cross Country)
 DESCRIPTION:Junior Varsity Boys Boys Cross Country - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7555317@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T163000
-DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:Elizabeth vs Oratory Prep (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7557027@union-county-interscholastic-athletic-conference
+UID:ds:2607:7640518@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T163000
 DTEND;TZID=America/New_York:20260922T183000
 SUMMARY:Elizabeth vs Oratory Prep (Varsity Girls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7557039@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T163000
+DTEND;TZID=America/New_York:20260922T183000
+SUMMARY:Elizabeth vs Oratory Prep (Junior Varsity Girls Girls Cross Count
+ ry)
+DESCRIPTION:Junior Varsity Girls Girls Cross Country - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101681516@union-county-interscholastic-athletic-conference
@@ -782,12 +782,12 @@ SUMMARY:Oratory Prep at Scotch Plains-Fanwood (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:105203511@union-county-interscholastic-athletic-conference
+UID:arb:105376783@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T160000
 DTEND;TZID=America/New_York:20261202T180000
-SUMMARY:Oratory Prep at Roselle (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
+SUMMARY:Oratory Prep vs Roselle (Varsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104013898@union-county-interscholastic-athletic-conference
@@ -832,10 +832,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105206783@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
 SUMMARY:Oratory Prep at Union (Varsity Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105159280@union-county-interscholastic-athletic-conference
@@ -885,8 +885,7 @@ UID:arb:104407027@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T151500
 DTEND;TZID=America/New_York:20261214T171500
-SUMMARY:Oratory Prep vs Union City High School (Varsity Boys Boys Swimmin
- g)
+SUMMARY:Oratory Prep vs Union (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -899,19 +898,11 @@ SUMMARY:Oratory Prep at Montclair Kimberley Academy (7/8th Boys Basketbal
 DESCRIPTION:7/8th Boys Basketball - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104913143@union-county-interscholastic-athletic-conference
+UID:arb:105377220@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T160000
 DTEND;TZID=America/New_York:20261214T180000
-SUMMARY:Oratory Prep at TBD (Varsity Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7697864@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T160000
-DTEND;TZID=America/New_York:20261214T180000
-SUMMARY:Cranford vs Oratory Prep (Varsity Coed Coed Bowling)
+SUMMARY:Oratory Prep vs Cranford (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1018,6 +1009,14 @@ DTEND;TZID=America/New_York:20261220T190000
 SUMMARY:Oratory Prep at Scotch Plains-Fanwood (Varsity Boys Boys Ice Hock
  ey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105377430@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T160000
+DTEND;TZID=America/New_York:20261221T180000
+SUMMARY:Oratory Prep vs Plainfield (Varsity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104111167@union-county-interscholastic-athletic-conference

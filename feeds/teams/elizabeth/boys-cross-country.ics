@@ -40,14 +40,6 @@ SUMMARY:Summit at Elizabeth (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7557052@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T163000
-DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:Elizabeth vs Oratory Prep (Junior Varsity Boys Boys Cross Country)
-DESCRIPTION:Junior Varsity Boys Boys Cross Country - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7555317@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T163000
@@ -56,13 +48,12 @@ SUMMARY:Elizabeth vs Oratory Prep (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7557052@union-county-interscholastic-athletic-conference
+UID:ds:2607:7557052@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T163000
 DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:Scotch Plains-Fanwood at Elizabeth (Junior Varsity Boys Boys Cros
- s Country)
-DESCRIPTION:Junior Varsity Boys Boys Cross Country - Away - 4:30 PM
+SUMMARY:Elizabeth vs Oratory Prep (Junior Varsity Boys Boys Cross Country)
+DESCRIPTION:Junior Varsity Boys Boys Cross Country - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7555317@union-county-interscholastic-athletic-conference
@@ -72,5 +63,14 @@ DTEND;TZID=America/New_York:20260922T183000
 SUMMARY:Scotch Plains-Fanwood at Elizabeth (Varsity Boys Boys Cross Count
  ry)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7557052@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T163000
+DTEND;TZID=America/New_York:20260922T183000
+SUMMARY:Scotch Plains-Fanwood at Elizabeth (Junior Varsity Boys Boys Cros
+ s Country)
+DESCRIPTION:Junior Varsity Boys Boys Cross Country - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR
