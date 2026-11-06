@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:KentPlace:11145874www.kentplace.org@union-county-interscholastic-
- athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T114500
-DTEND;TZID=America/New_York:20261006T134500
-SUMMARY:Kent Place vs Pingry (Middle School Soccer)
-DESCRIPTION:Middle School Soccer - Home - 11:45 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:KentPlace:10634470www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -255,14 +246,5 @@ DTSTART;TZID=America/New_York:20261105T090000
 DTEND;TZID=America/New_York:20261105T110000
 SUMMARY:Kent Place at Immaculate Heart Academy (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:OakKnoll:16644768oakknollorg.finalsite.com@union-county-interscho
- lastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261105T110000
-DTEND;TZID=America/New_York:20261105T130000
-SUMMARY:Oak Knoll at Newark Academy (Varsity Soccer)
-DESCRIPTION:Varsity Soccer - Away - 11:00 AM
 END:VEVENT
 END:VCALENDAR
