@@ -558,20 +558,20 @@ SUMMARY:Summit vs Columbia High School (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7444938@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T120000
-DTEND;TZID=America/New_York:20260905T140000
-SUMMARY:Elizabeth at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7444937@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T120000
 DTEND;TZID=America/New_York:20260905T140000
 SUMMARY:Elizabeth at Arthur L. Johnson (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7444938@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Elizabeth at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7515435@union-county-interscholastic-athletic-conference
@@ -729,20 +729,20 @@ SUMMARY:Elizabeth vs Roselle Park (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7532114@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Summit at Westfield (Freshman Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7531231@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
 SUMMARY:Summit vs Westfield (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7532114@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T161500
+DTEND;TZID=America/New_York:20260910T181500
+SUMMARY:Summit at Westfield (Freshman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7531232@union-county-interscholastic-athletic-conference
@@ -830,20 +830,20 @@ SUMMARY:Cranford at Hillsborough Athletics (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7566795@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Cranford at Union Catholic (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7566796@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Cranford at Union Catholic (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7566795@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Cranford at Union Catholic (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2584:7529571@union-county-interscholastic-athletic-conference
@@ -1274,14 +1274,6 @@ SUMMARY:David Brearley vs Jonathan Dayton (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7567768@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Cranford at Union (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7567767@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1290,12 +1282,12 @@ SUMMARY:Cranford at Union (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7534017@union-county-interscholastic-athletic-conference
+UID:ds:2581:7567768@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Governor Livingston vs New Providence (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Cranford at Union (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534021@union-county-interscholastic-athletic-conference
@@ -1307,19 +1299,19 @@ SUMMARY:Governor Livingston vs New Providence (Junior Varsity Girls Girls
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2630:7534017@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Governor Livingston vs New Providence (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7557346@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Elizabeth at Kent Place (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2886:7531559@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Summit at Wayne Hills High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1330,6 +1322,14 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Summit at Wayne Hills High School (Junior Varsity Girls Girls Soc
  cer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531559@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Summit at Wayne Hills High School (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7516782@union-county-interscholastic-athletic-conference
