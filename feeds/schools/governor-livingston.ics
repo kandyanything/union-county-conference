@@ -511,15 +511,6 @@ SUMMARY:Governor Livingston at Monroe Township School District (Varsity B
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7539580@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Governor Livingston vs Scotch Plains-Fanwood (Varsity Girls Girls
-  Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7539581@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -527,6 +518,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Governor Livingston at Scotch Plains-Fanwood (Junior Varsity Girl
  s Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7539580@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Governor Livingston vs Scotch Plains-Fanwood (Varsity Girls Girls
+  Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7533865@union-county-interscholastic-athletic-conference
@@ -753,15 +753,6 @@ SUMMARY:Governor Livingston vs Bernards High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7619903@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T173000
-DTEND;TZID=America/New_York:20260914T193000
-SUMMARY:Governor Livingston at Watchung Hills Regional High School (Junio
- r Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7541853@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T173000
@@ -771,12 +762,30 @@ SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Vol
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2630:7619903@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T173000
+DTEND;TZID=America/New_York:20260914T193000
+SUMMARY:Governor Livingston at Watchung Hills Regional High School (Junio
+ r Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7534001@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Governor Livingston vs Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7534002@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Soc
+ cer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7538342@union-county-interscholastic-athletic-conference
@@ -794,15 +803,6 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Governor Livingston vs Westfield (Junior Varsity Girls Girls Tenn
  is)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7534002@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Soc
- cer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7599323@union-county-interscholastic-athletic-conference
@@ -949,20 +949,20 @@ SUMMARY:Governor Livingston at Bloomfield High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7570984@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T090000
-DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Governor Livingston at TBA NJ (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7571432@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T090000
 DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:Governor Livingston at TBA NJ (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7570984@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Governor Livingston at TBA NJ (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7531739@union-county-interscholastic-athletic-conference
@@ -1026,6 +1026,15 @@ SUMMARY:Governor Livingston vs Westfield (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2630:7532292@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Governor Livingston at Jonathan Dayton (Junior Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7444978@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1042,15 +1051,6 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Governor Livingston at Westfield (Junior Varsity Girls Girls Tenn
  is)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7532292@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Governor Livingston at Jonathan Dayton (Junior Varsity Girls Girl
- s Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7541935@union-county-interscholastic-athletic-conference
@@ -1096,31 +1096,6 @@ SUMMARY:Governor Livingston vs Westfield (Junior Varsity Girls Field Hock
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7464566@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Governor Livingston at Linden (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7534021@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Governor Livingston vs New Providence (Junior Varsity Girls Girls
-  Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7534017@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Governor Livingston vs New Providence (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7465040@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1136,6 +1111,31 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Governor Livingston vs Oak Knoll (Junior Varsity Girls Girls Tenn
  is)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7534017@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Governor Livingston vs New Providence (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7464566@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Governor Livingston at Linden (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7534021@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Governor Livingston vs New Providence (Junior Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7553480@union-county-interscholastic-athletic-conference
