@@ -281,20 +281,20 @@ SUMMARY:Jonathan Dayton vs Arthur L. Johnson (Varsity Boys Boys Cross Cou
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7444937@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T120000
-DTEND;TZID=America/New_York:20260905T140000
-SUMMARY:Elizabeth at Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7444938@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T120000
 DTEND;TZID=America/New_York:20260905T140000
 SUMMARY:Elizabeth at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7444937@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Elizabeth at Arthur L. Johnson (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444939@union-county-interscholastic-athletic-conference
@@ -465,14 +465,6 @@ SUMMARY:Arthur L. Johnson vs New Providence (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7444953@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T160000
-DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:David Brearley at Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2584:7444954@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T160000
@@ -480,6 +472,14 @@ DTEND;TZID=America/New_York:20260911T180000
 SUMMARY:David Brearley at Arthur L. Johnson (Junior Varsity Girls Girls S
  occer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2584:7444953@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T160000
+DTEND;TZID=America/New_York:20260911T180000
+SUMMARY:David Brearley at Arthur L. Johnson (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444950@union-county-interscholastic-athletic-conference
@@ -515,6 +515,15 @@ SUMMARY:Arthur L. Johnson at Scotch Plains-Fanwood (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7444963@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Arthur L. Johnson at Scotch Plains-Fanwood (Varsity Girls Girls S
+ occer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7444958@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -530,15 +539,6 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Arthur L. Johnson vs Roselle Catholic (Varsity Girls Girls Volley
  ball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2509:7444963@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Arthur L. Johnson at Scotch Plains-Fanwood (Varsity Girls Girls S
- occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444959@union-county-interscholastic-athletic-conference
@@ -632,15 +632,6 @@ SUMMARY:Arthur L. Johnson at Union (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7570526@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Arthur L. Johnson at New Providence (Junior Varsity Girls Girls S
- occer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7444969@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
@@ -664,6 +655,15 @@ DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
 SUMMARY:Arthur L. Johnson at New Providence (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7570526@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Arthur L. Johnson at New Providence (Junior Varsity Girls Girls S
+ occer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7597676@union-county-interscholastic-athletic-conference
@@ -792,20 +792,20 @@ SUMMARY:Governor Livingston vs Arthur L. Johnson (Varsity Boys Boys Socce
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7444980@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Arthur L. Johnson at Linden (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7444981@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Arthur L. Johnson vs Roselle Park (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7444980@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Arthur L. Johnson at Linden (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7646554@union-county-interscholastic-athletic-conference
