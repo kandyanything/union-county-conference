@@ -806,12 +806,30 @@ SUMMARY:Oratory Prep at Union Catholic (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105453072@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T173000
+DTEND;TZID=America/New_York:20261207T193000
+SUMMARY:Oratory Prep at Morristown-Beard School (Varsity Boys Boys Basket
+ ball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102876230@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T200000
 SUMMARY:Oratory Prep at Verona High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105453084@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T190000
+DTEND;TZID=America/New_York:20261207T210000
+SUMMARY:Oratory Prep at Morristown-Beard School (Junior Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104058302@union-county-interscholastic-athletic-conference
@@ -1241,14 +1259,6 @@ DTEND;TZID=America/New_York:20270113T181500
 SUMMARY:Oratory Prep at Montclair Kimberley Academy (Varsity Boys Boys Ic
  e Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104912698@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270113
-DTEND;VALUE=DATE:20270114
-SUMMARY:Oratory Prep vs Livingston High School (Varsity Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100858287@union-county-interscholastic-athletic-conference
@@ -1981,6 +1991,14 @@ SUMMARY:Oratory Prep vs Governor Livingston (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2630:7713512@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T100000
+DTEND;TZID=America/New_York:20270410T120000
+SUMMARY:Governor Livingston vs Oratory Prep (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7511683@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270410T103000
@@ -2004,22 +2022,6 @@ DTSTART;TZID=America/New_York:20270410T160000
 DTEND;TZID=America/New_York:20270410T180000
 SUMMARY:Governor Livingston at Oratory Prep (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7713512@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270410T160000
-DTEND;TZID=America/New_York:20270410T180000
-SUMMARY:Governor Livingston at Oratory Prep (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7713513@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270410T160000
-DTEND;TZID=America/New_York:20270410T180000
-SUMMARY:Governor Livingston vs Oratory Prep (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103220054@union-county-interscholastic-athletic-conference
