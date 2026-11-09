@@ -48,14 +48,6 @@ SUMMARY:Rahway at Randolph High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7482487@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260821T100000
-DTEND;TZID=America/New_York:20260821T120000
-SUMMARY:Cranford vs Hanover Park High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7557397@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260821T100000
@@ -73,14 +65,6 @@ SUMMARY:New Providence at Madison High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7484620@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T140000
-DTEND;TZID=America/New_York:20260827T160000
-SUMMARY:Cranford at Linden (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7581244@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T140000
@@ -94,6 +78,14 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T140000
 DTEND;TZID=America/New_York:20260827T160000
 SUMMARY:Arthur L. Johnson vs Ridge High School (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7484620@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T140000
+DTEND;TZID=America/New_York:20260827T160000
+SUMMARY:Linden vs Cranford (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -147,28 +139,12 @@ SUMMARY:Elizabeth vs Passaic County Technical Institute (Freshman Boys Fo
 DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7605087@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T100000
-DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Cranford at Kearny High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7536267@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T120000
 SUMMARY:Rahway at Summit (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7562030@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T110000
-DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Cranford vs Bernards High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7549062@union-county-interscholastic-athletic-conference
@@ -187,19 +163,19 @@ SUMMARY:Linden vs John F Kennedy High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7566668@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Cranford at Scotch Plains-Fanwood (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7476047@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Rahway vs Woodbridge High School (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7566668@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Scotch Plains-Fanwood vs Cranford (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -244,14 +220,6 @@ SUMMARY:Elizabeth at Saint Joseph High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7549068@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T100000
-DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Cranford at Summit (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2759:7530707@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -260,12 +228,20 @@ SUMMARY:New Providence at Edison High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7588394@union-county-interscholastic-athletic-conference
+UID:ds:2886:7549068@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Summit vs Cranford (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7588394@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
 DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:David Brearley vs Arthur L. Johnson (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+SUMMARY:Arthur L. Johnson at David Brearley (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7555899@union-county-interscholastic-athletic-conference
@@ -284,20 +260,20 @@ SUMMARY:Linden at Carteret High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7536269@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Cranford vs Rahway (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7476309@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T110000
 SUMMARY:Elizabeth vs Ridge High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7536269@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Rahway at Cranford (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7586620@union-county-interscholastic-athletic-conference
@@ -358,20 +334,12 @@ SUMMARY:Summit vs Watchung Hills Regional High School (Freshman Boys Foot
 DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7664612@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T110000
-DTEND;TZID=America/New_York:20261003T130000
-SUMMARY:Cranford vs Somerville High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7681056@union-county-interscholastic-athletic-conference
+UID:ds:2821:7681056@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Cranford at Rahway (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+SUMMARY:Rahway vs Cranford (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7476052@union-county-interscholastic-athletic-conference
@@ -462,22 +430,6 @@ DTSTART;TZID=America/New_York:20261017T100000
 DTEND;TZID=America/New_York:20261017T120000
 SUMMARY:Scotch Plains-Fanwood at Summit (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7555805@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T110000
-DTEND;TZID=America/New_York:20261017T130000
-SUMMARY:Cranford vs Carteret High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7621288@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Cranford vs Woodbridge High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7706261@union-county-interscholastic-athletic-conference

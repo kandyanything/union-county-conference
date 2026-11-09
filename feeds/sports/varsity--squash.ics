@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Union County Interscholastic Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Union County Interscholastic Athletic Conference — Varsity S
+ quash
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:KentPlace:11333703www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T110000
+DTEND;TZID=America/New_York:20270106T130000
+SUMMARY:Kent Place at Blair Academy (Varsity Squash)
+DESCRIPTION:Varsity Squash - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333714www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T110000
+DTEND;TZID=America/New_York:20270112T130000
+SUMMARY:Kent Place at Princeton Day (Varsity Squash)
+DESCRIPTION:Varsity Squash - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333720www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T110000
+DTEND;TZID=America/New_York:20270114T130000
+SUMMARY:Kent Place at Pingry (Varsity Squash)
+DESCRIPTION:Varsity Squash - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333728www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T110000
+DTEND;TZID=America/New_York:20270119T130000
+SUMMARY:Kent Place vs Pingry (Varsity Squash)
+DESCRIPTION:Varsity Squash - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333739www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Kent Place at Green Farms Academy (Varsity Squash)
+DESCRIPTION:Varsity Squash - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333743www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T110000
+DTEND;TZID=America/New_York:20270125T130000
+SUMMARY:Kent Place vs David Brearley (Varsity Squash)
+DESCRIPTION:Varsity Squash - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333762www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T110000
+DTEND;TZID=America/New_York:20270202T130000
+SUMMARY:Kent Place vs Princeton Day (Varsity Squash)
+DESCRIPTION:Varsity Squash - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333777www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270208T113000
+DTEND;TZID=America/New_York:20270208T133000
+SUMMARY:Kent Place at Lawrenceville (Varsity Squash)
+DESCRIPTION:Varsity Squash - Away - 11:30 AM
+END:VEVENT
+END:VCALENDAR

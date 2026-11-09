@@ -92,21 +92,21 @@ SUMMARY:Arthur L. Johnson at Plainfield (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7444927@union-county-interscholastic-athletic-conference
+UID:ds:2509:7444927@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T090000
 DTEND;TZID=America/New_York:20260827T110000
-SUMMARY:David Brearley at Arthur L. Johnson (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:00 AM
+SUMMARY:Arthur L. Johnson vs David Brearley (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7444928@union-county-interscholastic-athletic-conference
+UID:ds:2509:7444928@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T090000
 DTEND;TZID=America/New_York:20260827T110000
-SUMMARY:David Brearley at Arthur L. Johnson (Junior Varsity Boys Boys Soc
+SUMMARY:Arthur L. Johnson vs David Brearley (Junior Varsity Boys Boys Soc
  cer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 9:00 AM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7581244@union-county-interscholastic-athletic-conference
@@ -281,20 +281,20 @@ SUMMARY:Jonathan Dayton vs Arthur L. Johnson (Varsity Boys Boys Cross Cou
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7444938@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T120000
-DTEND;TZID=America/New_York:20260905T140000
-SUMMARY:Elizabeth at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7444937@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T120000
 DTEND;TZID=America/New_York:20260905T140000
 SUMMARY:Elizabeth at Arthur L. Johnson (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7444938@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Elizabeth at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444939@union-county-interscholastic-athletic-conference
@@ -380,23 +380,6 @@ SUMMARY:Arthur L. Johnson at Rahway (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7526824@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:David Brearley vs Arthur L. Johnson (Junior Varsity Boys Boys Soc
- cer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7444952@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:David Brearley vs Arthur L. Johnson (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7444956@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -414,12 +397,29 @@ SUMMARY:Arthur L. Johnson at South Plainfield High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7444952@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Arthur L. Johnson at David Brearley (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7444955@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Arthur L. Johnson at Plainfield (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7526824@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Arthur L. Johnson at David Brearley (Junior Varsity Boys Boys Soc
+ cer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7444956@union-county-interscholastic-athletic-conference
@@ -465,21 +465,13 @@ SUMMARY:Arthur L. Johnson vs New Providence (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7444953@union-county-interscholastic-athletic-conference
+UID:ds:2509:7444954@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T160000
 DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:David Brearley at Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7444954@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T160000
-DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:David Brearley at Arthur L. Johnson (Junior Varsity Girls Girls S
+SUMMARY:Arthur L. Johnson vs David Brearley (Junior Varsity Girls Girls S
  occer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444950@union-county-interscholastic-athletic-conference
@@ -488,6 +480,14 @@ DTSTART;TZID=America/New_York:20260911T160000
 DTEND;TZID=America/New_York:20260911T180000
 SUMMARY:Arthur L. Johnson at New Providence (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7444953@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T160000
+DTEND;TZID=America/New_York:20260911T180000
+SUMMARY:Arthur L. Johnson vs David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7501300@union-county-interscholastic-athletic-conference
@@ -734,28 +734,20 @@ SUMMARY:Roselle vs Arthur L. Johnson (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7444977@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Cranford vs Arthur L. Johnson (Girls (MS BLUE) Soccer)
-DESCRIPTION:Girls (MS BLUE) Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7588394@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:David Brearley vs Arthur L. Johnson (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7444977@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
 DTEND;TZID=America/New_York:20260921T180000
 SUMMARY:Arthur L. Johnson at Cranford (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7588394@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Arthur L. Johnson at David Brearley (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444976@union-county-interscholastic-athletic-conference
@@ -792,20 +784,20 @@ SUMMARY:Governor Livingston vs Arthur L. Johnson (Varsity Boys Boys Socce
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7444981@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Arthur L. Johnson vs Roselle Park (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7444980@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Arthur L. Johnson at Linden (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7444981@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Arthur L. Johnson vs Roselle Park (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7646554@union-county-interscholastic-athletic-conference
@@ -823,15 +815,6 @@ DTEND;TZID=America/New_York:20260922T193000
 SUMMARY:Arthur L. Johnson vs Roselle Park (Junior Varsity Girls Girls Vol
  leyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7446580@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:David Brearley at Arthur L. Johnson (Middle School Boys Boys Socc
- er)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7648149@union-county-interscholastic-athletic-conference
@@ -856,6 +839,15 @@ DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Arthur L. Johnson vs Elizabeth (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7446580@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Arthur L. Johnson vs David Brearley (Middle School Boys Boys Socc
+ er)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7647564@union-county-interscholastic-athletic-conference
@@ -1014,23 +1006,6 @@ SUMMARY:Arthur L. Johnson at Voorhees High School (Varsity Girls Girls Te
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7444995@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Arthur L. Johnson at Linden (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2509:7529938@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Arthur L. Johnson vs Edison Intermediate (Middle School Girls Fie
- ld Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7444994@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -1053,6 +1028,23 @@ DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Arthur L. Johnson vs Summit (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7444995@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Arthur L. Johnson at Linden (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7529938@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Arthur L. Johnson vs Edison Intermediate (Middle School Girls Fie
+ ld Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444997@union-county-interscholastic-athletic-conference
@@ -1106,28 +1098,28 @@ SUMMARY:Arthur L. Johnson at Linden (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445003@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7445004@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Cranford at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7445006@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T180000
 SUMMARY:Arthur L. Johnson vs Roselle (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7445003@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7445004@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Arthur L. Johnson vs Cranford (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7516797@union-county-interscholastic-athletic-conference
@@ -1173,20 +1165,12 @@ SUMMARY:Arthur L. Johnson vs Roselle Catholic (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445009@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445009@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T160000
 DTEND;TZID=America/New_York:20261002T180000
-SUMMARY:Cranford at Arthur L. Johnson (Girls (MS BLUE) Soccer)
-DESCRIPTION:Girls (MS BLUE) Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7664858@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T160000
-DTEND;TZID=America/New_York:20261002T180000
-SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Middle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7656579@union-county-interscholastic-athletic-conference
@@ -1285,28 +1269,20 @@ SUMMARY:Arthur L. Johnson at Roselle Catholic (Junior Varsity Girls Girls
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7636854@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445018@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445018@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445019@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7445019@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Cranford at Arthur L. Johnson (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7570666@union-county-interscholastic-athletic-conference
@@ -1771,14 +1747,6 @@ SUMMARY:Arthur L. Johnson vs UCIAC Round #1 (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7664052@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7577007@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -1786,6 +1754,14 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Arthur L. Johnson at UCIAC Round #1 (Junior Varsity Girls Field H
  ockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7664052@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Arthur L. Johnson vs Cranford (Middle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7664056@union-county-interscholastic-athletic-conference
@@ -1868,20 +1844,20 @@ SUMMARY:Arthur L. Johnson vs New Providence (Junior Varsity Girls Girls S
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7700782@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7577027@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
 DTEND;TZID=America/New_York:20261020T181500
 SUMMARY:Arthur L. Johnson at UCIAC Quarterfinals (Varsity Girls Girls Soc
  cer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7700782@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2440,15 +2416,6 @@ SUMMARY:Rahway at Arthur L. Johnson (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7511685@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Cranford vs Arthur L. Johnson (Junior Varsity Girls Girls Basketb
- all)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7502292@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -2467,12 +2434,13 @@ SUMMARY:Arthur L. Johnson at Sayreville Public Schools (Freshman Boys Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7511684@union-county-interscholastic-athletic-conference
+UID:ds:2509:7511685@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T173000
-DTEND;TZID=America/New_York:20261210T193000
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Arthur L. Johnson at Cranford (Junior Varsity Girls Girls Basketb
+ all)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7502295@union-county-interscholastic-athletic-conference
@@ -2482,6 +2450,14 @@ DTEND;TZID=America/New_York:20261210T193000
 SUMMARY:Arthur L. Johnson vs Sayreville Public Schools (Junior Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7511684@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T173000
+DTEND;TZID=America/New_York:20261210T193000
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7509729@union-county-interscholastic-athletic-conference
@@ -2617,29 +2593,29 @@ SUMMARY:Arthur L. Johnson vs Scotch Plains Fanwood Lacrosse Club (Varsity
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445051@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445051@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Cranford vs Arthur L. Johnson (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+SUMMARY:Arthur L. Johnson at Cranford (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445052@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445052@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T163000
 DTEND;TZID=America/New_York:20261217T183000
-SUMMARY:Cranford vs Arthur L. Johnson (Junior Varsity Boys Boys Basketbal
+SUMMARY:Arthur L. Johnson at Cranford (Junior Varsity Boys Boys Basketbal
  l)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445053@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445053@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T200000
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7589910@union-county-interscholastic-athletic-conference
@@ -2659,22 +2635,22 @@ SUMMARY:Arthur L. Johnson vs Union (Varsity Coed Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7445055@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445055@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T103000
 DTEND;TZID=America/New_York:20261219T123000
-SUMMARY:David Brearley at Arthur L. Johnson (Junior Varsity Girls Girls B
+SUMMARY:Arthur L. Johnson vs David Brearley (Junior Varsity Girls Girls B
  asketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:30 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7445054@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445054@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T120000
 DTEND;TZID=America/New_York:20261219T140000
-SUMMARY:David Brearley at Arthur L. Johnson (Varsity Girls Girls Basketba
+SUMMARY:Arthur L. Johnson vs David Brearley (Varsity Girls Girls Basketba
  ll)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7740194@union-county-interscholastic-athletic-conference
@@ -3283,29 +3259,29 @@ SUMMARY:Rahway at Arthur L. Johnson (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445085@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445085@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Cranford at Arthur L. Johnson (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445086@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445086@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Cranford at Arthur L. Johnson (Junior Varsity Boys Boys Basketbal
+SUMMARY:Arthur L. Johnson vs Cranford (Junior Varsity Boys Boys Basketbal
  l)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445087@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445087@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7445088@union-county-interscholastic-athletic-conference
@@ -3342,6 +3318,15 @@ DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Arthur L. Johnson vs Columbia Middle School (Middle School Girls 
  Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:KentPlace:11333726www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T070000
+DTEND;TZID=America/New_York:20270116T090000
+SUMMARY:Kent Place at Arthur L. Johnson (Varsity Basketball)
+DESCRIPTION:Varsity Basketball - Away - 7:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7662756@union-county-interscholastic-athletic-conference
@@ -3388,13 +3373,13 @@ SUMMARY:Arthur L. Johnson vs UCIAC Championship (Varsity Boys Boys Bowlin
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7445090@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445090@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
 DTEND;TZID=America/New_York:20270119T180000
-SUMMARY:David Brearley vs Arthur L. Johnson (Junior Varsity Girls Girls B
+SUMMARY:Arthur L. Johnson at David Brearley (Junior Varsity Girls Girls B
  asketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7445091@union-county-interscholastic-athletic-conference
@@ -3430,13 +3415,13 @@ SUMMARY:Rahway vs Arthur L. Johnson (Middle School Coed Coed Wrestling)
 DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7445092@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445092@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
-SUMMARY:David Brearley vs Arthur L. Johnson (Varsity Girls Girls Basketba
+SUMMARY:Arthur L. Johnson at David Brearley (Varsity Girls Girls Basketba
  ll)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7445093@union-county-interscholastic-athletic-conference
@@ -4598,20 +4583,20 @@ SUMMARY:Jonathan Dayton vs Arthur L. Johnson (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7521863@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521863@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
 DTEND;TZID=America/New_York:20270330T180000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7609851@union-county-interscholastic-athletic-conference
+UID:ds:2509:7609851@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
 DTEND;TZID=America/New_York:20270330T180000
-SUMMARY:Cranford at Arthur L. Johnson (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7510617@union-county-interscholastic-athletic-conference
@@ -4632,20 +4617,20 @@ SUMMARY:Arthur L. Johnson vs Delaware Valley Regional High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7521864@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521864@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7609852@union-county-interscholastic-athletic-conference
+UID:ds:2509:7609852@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Cranford vs Arthur L. Johnson (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+SUMMARY:Arthur L. Johnson at Cranford (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7522570@union-county-interscholastic-athletic-conference
@@ -4690,14 +4675,6 @@ SUMMARY:Arthur L. Johnson at Montclair High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7639115@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270403T120000
-DTEND;TZID=America/New_York:20270403T140000
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7568408@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270403T120000
@@ -4707,12 +4684,12 @@ SUMMARY:Arthur L. Johnson vs Watchung Hills Regional High School (Varsity
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7512925@union-county-interscholastic-athletic-conference
+UID:ds:2509:7639115@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270405T160000
-DTEND;TZID=America/New_York:20270405T180000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20270403T120000
+DTEND;TZID=America/New_York:20270403T140000
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7521868@union-county-interscholastic-athletic-conference
@@ -4741,20 +4718,28 @@ SUMMARY:Governor Livingston at Arthur L. Johnson (Varsity Boys Boys Tenni
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7512928@union-county-interscholastic-athletic-conference
+UID:ds:2509:7512925@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7512928@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270405T173000
 DTEND;TZID=America/New_York:20270405T193000
-SUMMARY:Cranford at Arthur L. Johnson (Junior Varsity Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7521913@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521913@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T151500
 DTEND;TZID=America/New_York:20270406T171500
-SUMMARY:David Brearley at Arthur L. Johnson (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+SUMMARY:Arthur L. Johnson vs David Brearley (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7521914@union-county-interscholastic-athletic-conference
@@ -4815,12 +4800,12 @@ SUMMARY:Arthur L. Johnson at Newark Academy (Junior Varsity Boys Boys Lac
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7521933@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521933@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270408T160000
 DTEND;TZID=America/New_York:20270408T180000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7522574@union-county-interscholastic-athletic-conference
@@ -4933,12 +4918,12 @@ SUMMARY:Arthur L. Johnson at New Providence (Varsity Boys Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7521917@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521917@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T151500
 DTEND;TZID=America/New_York:20270413T171500
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7521934@union-county-interscholastic-athletic-conference
@@ -4955,22 +4940,6 @@ DTSTART;TZID=America/New_York:20270414T151500
 DTEND;TZID=America/New_York:20270414T171500
 SUMMARY:Jonathan Dayton at Arthur L. Johnson (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7522578@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270414T160000
-DTEND;TZID=America/New_York:20270414T180000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7522615@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270414T160000
-DTEND;TZID=America/New_York:20270414T180000
-SUMMARY:Cranford at Arthur L. Johnson (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7519218@union-county-interscholastic-athletic-conference
@@ -4997,6 +4966,22 @@ DTEND;TZID=America/New_York:20270414T180000
 SUMMARY:Arthur L. Johnson at Kenilworth Middle School (Middle School Boys
   Baseball)
 DESCRIPTION:Middle School Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7522578@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7522615@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Arthur L. Johnson vs Cranford (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7510674@union-county-interscholastic-athletic-conference
@@ -5227,12 +5212,12 @@ SUMMARY:Governor Livingston at Arthur L. Johnson (Junior Varsity Boys Boy
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7521923@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521923@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T151500
 DTEND;TZID=America/New_York:20270422T171500
-SUMMARY:David Brearley vs Arthur L. Johnson (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
+SUMMARY:Arthur L. Johnson at David Brearley (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7521938@union-county-interscholastic-athletic-conference
@@ -5402,12 +5387,12 @@ SUMMARY:Arthur L. Johnson vs Union Catholic (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7521925@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521925@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T151500
 DTEND;TZID=America/New_York:20270428T171500
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103166051@union-county-interscholastic-athletic-conference
@@ -5581,20 +5566,20 @@ SUMMARY:Arthur L. Johnson vs Scotch Plains-Fanwood (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7522586@union-county-interscholastic-athletic-conference
+UID:ds:2509:7522586@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270501T120000
 DTEND;TZID=America/New_York:20270501T140000
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 12:00 PM
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7522621@union-county-interscholastic-athletic-conference
+UID:ds:2509:7522621@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270501T120000
 DTEND;TZID=America/New_York:20270501T140000
-SUMMARY:Cranford vs Arthur L. Johnson (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 12:00 PM
+SUMMARY:Arthur L. Johnson at Cranford (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7521943@union-county-interscholastic-athletic-conference
@@ -5657,12 +5642,12 @@ SUMMARY:Arthur L. Johnson vs Verona High School (Junior Varsity Girls Sof
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7521944@union-county-interscholastic-athletic-conference
+UID:ds:2509:7521944@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270504T160000
 DTEND;TZID=America/New_York:20270504T180000
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Boys Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7521927@union-county-interscholastic-athletic-conference

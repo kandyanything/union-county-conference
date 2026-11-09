@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2581:7590783@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T090000
-DTEND;TZID=America/New_York:20260824T110000
-SUMMARY:Cranford vs Monroe Township School District (Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7585612@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T090000
@@ -67,15 +58,6 @@ DTEND;TZID=America/New_York:20260824T140000
 SUMMARY:Governor Livingston vs Hanover Park High School (Varsity Girls Gi
  rls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7523716@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:David Brearley vs North Plainfield Public Schools (Varsity Girls 
- Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7512219@union-county-interscholastic-athletic-conference
@@ -126,14 +108,6 @@ DTEND;TZID=America/New_York:20260826T130000
 SUMMARY:Scotch Plains-Fanwood at Northern Highlands Regional High School 
  (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7534044@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T090000
-DTEND;TZID=America/New_York:20260827T110000
-SUMMARY:Cranford vs Morristown High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7532236@union-county-interscholastic-athletic-conference
@@ -211,20 +185,12 @@ SUMMARY:Linden at Franklin High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7566518@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260829T090000
-DTEND;TZID=America/New_York:20260829T110000
-SUMMARY:Cranford vs West Orange High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7526803@union-county-interscholastic-athletic-conference
+UID:ds:2630:7526803@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T100000
 DTEND;TZID=America/New_York:20260829T120000
-SUMMARY:David Brearley at Governor Livingston (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+SUMMARY:Governor Livingston vs David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7516530@union-county-interscholastic-athletic-conference
@@ -269,22 +235,6 @@ SUMMARY:Governor Livingston at Scotch Plains-Fanwood (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7566559@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Cranford at Oak Knoll (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7526816@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:David Brearley vs New Providence (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7557268@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -299,6 +249,14 @@ DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
 SUMMARY:Jonathan Dayton vs Rahway (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2759:7526816@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:New Providence at David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7522604@union-county-interscholastic-athletic-conference
@@ -349,12 +307,12 @@ SUMMARY:Linden vs Roselle Park (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7533862@union-county-interscholastic-athletic-conference
+UID:ds:2630:7533862@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Cranford vs Governor Livingston (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Governor Livingston at Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7531176@union-county-interscholastic-athletic-conference
@@ -373,12 +331,12 @@ SUMMARY:Westfield vs Chatham High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7532244@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532244@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T153000
 DTEND;TZID=America/New_York:20260910T173000
-SUMMARY:Cranford vs Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:30 PM
+SUMMARY:Jonathan Dayton at Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7533915@union-county-interscholastic-athletic-conference
@@ -413,12 +371,12 @@ SUMMARY:Summit vs Westfield (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7444953@union-county-interscholastic-athletic-conference
+UID:ds:2509:7444953@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T160000
 DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:David Brearley at Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Arthur L. Johnson vs David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2837:7611798@union-county-interscholastic-athletic-conference
@@ -453,14 +411,6 @@ DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Arthur L. Johnson at Scotch Plains-Fanwood (Varsity Girls Girls S
  occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7566795@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Cranford at Union Catholic (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -504,6 +454,14 @@ SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2905:7566795@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Union Catholic vs Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7557334@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -512,20 +470,12 @@ SUMMARY:Elizabeth at New Providence (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529570@union-county-interscholastic-athletic-conference
+UID:ds:2938:7529570@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T180000
 DTEND;TZID=America/New_York:20260915T200000
-SUMMARY:David Brearley vs Westfield (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7529577@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:David Brearley at Union Catholic (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Westfield at David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534005@union-county-interscholastic-athletic-conference
@@ -560,6 +510,14 @@ SUMMARY:Plainfield at Rahway (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2905:7529577@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Union Catholic vs David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2938:7566882@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
@@ -568,20 +526,20 @@ SUMMARY:Westfield vs Cranford (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7566879@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T161500
-DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Cranford vs Westfield (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7557336@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
 DTEND;TZID=America/New_York:20260917T181500
 SUMMARY:Elizabeth vs Scotch Plains-Fanwood (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7566879@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T161500
+DTEND;TZID=America/New_York:20260917T181500
+SUMMARY:Westfield at Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7557337@union-county-interscholastic-athletic-conference
@@ -617,20 +575,12 @@ SUMMARY:Scotch Plains-Fanwood vs Hunterdon Central Regional High (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7567745@union-county-interscholastic-athletic-conference
+UID:ds:2759:7567745@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T130000
 DTEND;TZID=America/New_York:20260919T150000
-SUMMARY:Cranford vs New Providence (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7567755@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Cranford at Roselle Park (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:New Providence at Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7465583@union-county-interscholastic-athletic-conference
@@ -638,6 +588,14 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Linden vs Union (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7567755@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Roselle Park vs Cranford (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -657,14 +615,6 @@ SUMMARY:Arthur L. Johnson vs Westfield (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529580@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T163000
-DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:David Brearley at Oak Knoll (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7532249@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T183000
@@ -682,20 +632,12 @@ SUMMARY:Scotch Plains-Fanwood vs Summit (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529583@union-county-interscholastic-athletic-conference
+UID:ds:2678:7529583@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T180000
 DTEND;TZID=America/New_York:20260923T200000
-SUMMARY:David Brearley vs Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7567767@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Cranford at Union (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Jonathan Dayton at David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534017@union-county-interscholastic-athletic-conference
@@ -703,6 +645,14 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Governor Livingston vs New Providence (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7567767@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Union vs Cranford (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -731,15 +681,6 @@ SUMMARY:Jonathan Dayton vs Columbia High School (Varsity Girls Girls Socc
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529590@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:David Brearley at West Essex High School (Varsity Girls Girls Soc
- cer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2654:7540845@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -756,12 +697,12 @@ SUMMARY:Arthur L. Johnson vs Summit (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7557363@union-county-interscholastic-athletic-conference
+UID:ds:2607:7557363@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Cranford at Elizabeth (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+SUMMARY:Elizabeth vs Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7465592@union-county-interscholastic-athletic-conference
@@ -781,20 +722,20 @@ SUMMARY:Roselle Catholic at University High School (Varsity Girls Girls S
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7445003@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Cranford at Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7655532@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T180000
 SUMMARY:Governor Livingston at Union (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7445003@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Arthur L. Johnson vs Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7540966@union-county-interscholastic-athletic-conference
@@ -814,20 +755,20 @@ SUMMARY:Westfield vs Northern Highlands Regional High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529592@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T180000
-DTEND;TZID=America/New_York:20261001T200000
-SUMMARY:David Brearley vs Scotch Plains-Fanwood (Varsity Girls Girls Socc
- er)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2759:7531930@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T180000
 DTEND;TZID=America/New_York:20261001T200000
 SUMMARY:New Providence at Summit (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7529592@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T180000
+DTEND;TZID=America/New_York:20261001T200000
+SUMMARY:Scotch Plains-Fanwood at David Brearley (Varsity Girls Girls Socc
+ er)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -870,15 +811,6 @@ DTSTART;TZID=America/New_York:20261003T130000
 DTEND;TZID=America/New_York:20261003T150000
 SUMMARY:Summit vs Livingston High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7529598@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T140000
-DTEND;TZID=America/New_York:20261003T160000
-SUMMARY:David Brearley vs Watchung Hills Regional High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7534040@union-county-interscholastic-athletic-conference
@@ -937,14 +869,6 @@ SUMMARY:Governor Livingston at Westfield (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529599@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T180000
-DTEND;TZID=America/New_York:20261006T200000
-SUMMARY:David Brearley vs Kent Place (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7570665@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T180000
@@ -969,12 +893,12 @@ SUMMARY:Elizabeth vs Jonathan Dayton (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7540997@union-county-interscholastic-athletic-conference
+UID:ds:2821:7540997@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T180000
 DTEND;TZID=America/New_York:20261008T200000
-SUMMARY:Cranford vs Rahway (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
+SUMMARY:Rahway at Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534063@union-county-interscholastic-athletic-conference
@@ -1045,14 +969,6 @@ SUMMARY:Arthur L. Johnson vs West Orange High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7671440@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T133000
-DTEND;TZID=America/New_York:20261010T153000
-SUMMARY:Cranford vs Kent Place (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2698:7687118@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
@@ -1086,20 +1002,20 @@ SUMMARY:Union at Monroe Township School District (Varsity Girls Girls Soc
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529601@union-county-interscholastic-athletic-conference
+UID:ds:2886:7529601@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
 DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:David Brearley at Summit (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+SUMMARY:Summit vs David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7569164@union-county-interscholastic-athletic-conference
+UID:ds:39378:7569164@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Cranford at Scotch Plains-Fanwood (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Scotch Plains-Fanwood vs Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7682890@union-county-interscholastic-athletic-conference
@@ -1110,12 +1026,12 @@ SUMMARY:Hillside vs Barringer High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7685406@union-county-interscholastic-athletic-conference
+UID:ds:2678:7685406@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:David Brearley vs Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Jonathan Dayton at David Brearley (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7665030@union-county-interscholastic-athletic-conference
@@ -1132,14 +1048,6 @@ DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Summit at Newark Academy (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7503124@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Cranford vs Sayreville Public Schools (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7663971@union-county-interscholastic-athletic-conference
@@ -1199,15 +1107,6 @@ SUMMARY:Arthur L. Johnson vs UCIAC Round #2 (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7529607@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T163000
-DTEND;TZID=America/New_York:20261019T183000
-SUMMARY:David Brearley at Bernards High School (Varsity Girls Girls Socce
- r)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7541022@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
@@ -1232,14 +1131,6 @@ SUMMARY:Summit vs Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7700782@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Cranford vs Arthur L. Johnson (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7700821@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
@@ -1254,6 +1145,14 @@ DTSTART;TZID=America/New_York:20261020T161500
 DTEND;TZID=America/New_York:20261020T181500
 SUMMARY:Arthur L. Johnson at UCIAC Quarterfinals (Varsity Girls Girls Soc
  cer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7700782@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Arthur L. Johnson at Cranford (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1342,15 +1241,6 @@ SUMMARY:Roselle Catholic vs University High School (Varsity Girls Girls S
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7531449@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T163000
-DTEND;TZID=America/New_York:20261022T183000
-SUMMARY:David Brearley vs East Side High School (Varsity Girls Girls Socc
- er)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7692334@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T160000
@@ -1391,12 +1281,12 @@ SUMMARY:Arthur L. Johnson vs UCIAC Semifinals (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7706857@union-county-interscholastic-athletic-conference
+UID:ds:39378:7706857@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T143000
 DTEND;TZID=America/New_York:20261024T163000
-SUMMARY:Cranford at Scotch Plains-Fanwood (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 2:30 PM
+SUMMARY:Scotch Plains-Fanwood vs Cranford (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7532279@union-county-interscholastic-athletic-conference
@@ -1423,14 +1313,6 @@ DTEND;TZID=America/New_York:20261027T180000
 SUMMARY:Arthur L. Johnson at Immaculata High School (Varsity Girls Girls 
  Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7632895@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T161500
-DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Cranford vs Columbia High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7532094@union-county-interscholastic-athletic-conference
@@ -1553,15 +1435,6 @@ SUMMARY:Scotch Plains-Fanwood vs East Side High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7726267@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261103T150000
-DTEND;TZID=America/New_York:20261103T170000
-SUMMARY:Cranford vs James J Ferris High School (Varsity Girls Girls Socce
- r)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7577089@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261103T160000
@@ -1577,23 +1450,6 @@ DTEND;TZID=America/New_York:20261103T180000
 SUMMARY:Summit vs Essex County Donald M. Payne Tech (Varsity Girls Girls 
  Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7740946@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261106T100000
-DTEND;TZID=America/New_York:20261106T120000
-SUMMARY:Cranford vs Nutley High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7742444@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261106T110000
-DTEND;TZID=America/New_York:20261106T130000
-SUMMARY:David Brearley at Highland Park High School (Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7729272@union-county-interscholastic-athletic-conference
@@ -1651,13 +1507,5 @@ DTEND;TZID=America/New_York:20261110T160000
 SUMMARY:Westfield vs Bridgewater-Raritan High School (Varsity Girls Girls
   Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7752701@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261110T170000
-DTEND;TZID=America/New_York:20261110T190000
-SUMMARY:Cranford at Randolph High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 5:00 PM
 END:VEVENT
 END:VCALENDAR

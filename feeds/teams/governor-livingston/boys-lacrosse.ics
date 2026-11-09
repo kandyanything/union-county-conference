@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2630:7754000@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T163000
+DTEND;TZID=America/New_York:20270329T183000
+SUMMARY:Governor Livingston at East Brunswick High School (Varsity Boys B
+ oys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7754002@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T171500
+DTEND;TZID=America/New_York:20270329T191500
+SUMMARY:Governor Livingston at East Brunswick High School (Junior Varsity
+  Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7511629@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270331T160000
@@ -141,21 +159,21 @@ SUMMARY:Governor Livingston at Arthur L. Johnson (Junior Varsity Boys Boy
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7627872@union-county-interscholastic-athletic-conference
+UID:ds:2630:7627872@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270424T100000
 DTEND;TZID=America/New_York:20270424T120000
-SUMMARY:Cranford at Governor Livingston (Varsity Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 10:00 AM
+SUMMARY:Governor Livingston vs Cranford (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7627875@union-county-interscholastic-athletic-conference
+UID:ds:2630:7627875@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270424T113000
 DTEND;TZID=America/New_York:20270424T133000
-SUMMARY:Cranford at Governor Livingston (Junior Varsity Boys Boys Lacross
+SUMMARY:Governor Livingston vs Cranford (Junior Varsity Boys Boys Lacross
  e)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 11:30 AM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7652250@union-county-interscholastic-athletic-conference
