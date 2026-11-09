@@ -24,6 +24,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2581:7569609@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T183000
+DTEND;TZID=America/New_York:20261130T203000
+SUMMARY:Cranford vs Governor Livingston (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7569612@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T203000
+DTEND;TZID=America/New_York:20261130T223000
+SUMMARY:Cranford at Governor Livingston (Junior Varsity Boys Boys Ice Hoc
+ key)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7692888@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T160000
@@ -32,12 +49,21 @@ SUMMARY:Summit at The Pingry School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7579756@union-county-interscholastic-athletic-conference
+UID:ds:2581:7585532@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T200000
+DTEND;TZID=America/New_York:20261201T220000
+SUMMARY:Cranford at Marlboro High School (Junior Varsity Boys Boys Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579756@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T203000
 DTEND;TZID=America/New_York:20261201T223000
-SUMMARY:Scotch Plains-Fanwood vs Cranford (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+SUMMARY:Cranford at Scotch Plains-Fanwood (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7657143@union-county-interscholastic-athletic-conference
@@ -74,6 +100,14 @@ DTEND;TZID=America/New_York:20261204T204500
 SUMMARY:Arthur L. Johnson vs Bayonne High School (Varsity Boys Boys Ice H
  ockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579759@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T174500
+DTEND;TZID=America/New_York:20261205T194500
+SUMMARY:Cranford at Nutley High School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102876076@union-county-interscholastic-athletic-conference
@@ -126,6 +160,15 @@ SUMMARY:Oratory Prep at Verona High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7579760@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T183500
+DTEND;TZID=America/New_York:20261207T203500
+SUMMARY:Cranford vs Montclair Kimberley Academy (Varsity Boys Boys Ice Ho
+ ckey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:35 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7512240@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T200000
@@ -141,6 +184,15 @@ DTSTART;TZID=America/New_York:20261207T203000
 DTEND;TZID=America/New_York:20261207T223000
 SUMMARY:Summit at Governor Livingston (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7585484@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T163000
+DTEND;TZID=America/New_York:20261208T183000
+SUMMARY:Cranford at Ramapo High School (Junior Varsity Boys Boys Ice Hock
+ ey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7511686@union-county-interscholastic-athletic-conference
@@ -159,6 +211,14 @@ DTEND;TZID=America/New_York:20261210T173000
 SUMMARY:Scotch Plains-Fanwood vs Governor Livingston (Varsity Boys Boys I
  ce Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579762@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Cranford at Glen Rock High School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7605221@union-county-interscholastic-athletic-conference
@@ -195,12 +255,12 @@ SUMMARY:Arthur L. Johnson at Park Regional (WP/HP) (Varsity Boys Boys Ice
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7585485@union-county-interscholastic-athletic-conference
+UID:ds:2581:7585485@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T191500
 DTEND;TZID=America/New_York:20261213T211500
-SUMMARY:Westfield at Cranford (Junior Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:15 PM
+SUMMARY:Cranford vs Westfield (Junior Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104441568@union-county-interscholastic-athletic-conference
@@ -226,6 +286,14 @@ DTEND;TZID=America/New_York:20261214T184500
 SUMMARY:Scotch Plains-Fanwood at Governor Livingston (Varsity Boys Boys I
  ce Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579764@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T183500
+DTEND;TZID=America/New_York:20261214T203500
+SUMMARY:Cranford vs Frisch School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:35 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7692890@union-county-interscholastic-athletic-conference
@@ -291,6 +359,15 @@ SUMMARY:Oratory Prep vs Watchung Hills Reg High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7585487@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T200000
+DTEND;TZID=America/New_York:20261217T220000
+SUMMARY:Cranford at Freehold Boro High School (Junior Varsity Boys Boys I
+ ce Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7692891@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T201500
@@ -326,6 +403,14 @@ SUMMARY:Oratory Prep at Glen Rock High School (Varsity Boys Boys Ice Hock
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7579766@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T203000
+DTEND;TZID=America/New_York:20261219T223000
+SUMMARY:Cranford at Frisch School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103805168@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261220T170000
@@ -353,6 +438,14 @@ SUMMARY:Arthur L. Johnson at Robbinsville High School/Pond Road Middle Sc
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7671455@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T183500
+DTEND;TZID=America/New_York:20261221T203500
+SUMMARY:Cranford vs Glen Rock High School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:35 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2886:7668367@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
@@ -370,12 +463,12 @@ SUMMARY:Oratory Prep at Madison High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7585488@union-county-interscholastic-athletic-conference
+UID:ds:2581:7585488@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T134500
 DTEND;TZID=America/New_York:20261223T154500
-SUMMARY:Westfield at Cranford (Junior Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 1:45 PM
+SUMMARY:Cranford vs Westfield (Junior Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 1:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7514499@union-county-interscholastic-athletic-conference
@@ -403,12 +496,38 @@ SUMMARY:Oratory Prep vs Nutley High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7585491@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T191500
+DTEND;TZID=America/New_York:20261227T211500
+SUMMARY:Cranford vs TBD (Junior Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579768@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T183500
+DTEND;TZID=America/New_York:20261228T203500
+SUMMARY:Cranford vs Robbinsville High School/Pond Road Middle School (Var
+ sity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:35 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103899862@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261229T140000
 DTEND;TZID=America/New_York:20261229T160000
 SUMMARY:Oratory Prep vs Cranford (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7586400@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T134500
+DTEND;TZID=America/New_York:20261230T154500
+SUMMARY:Cranford vs Governor Livingston (Junior Varsity Boys Boys Ice Hoc
+ key)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 1:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103899874@union-county-interscholastic-athletic-conference
@@ -435,6 +554,14 @@ DTSTART;TZID=America/New_York:20270103T203000
 DTEND;TZID=America/New_York:20270103T223000
 SUMMARY:Oratory Prep vs Frisch School (The) (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579770@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T183000
+DTEND;TZID=America/New_York:20270104T203000
+SUMMARY:Cranford vs Nutley High School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7512238@union-county-interscholastic-athletic-conference
@@ -472,12 +599,20 @@ SUMMARY:Westfield vs Northern Highlands Regional High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7585496@union-county-interscholastic-athletic-conference
+UID:ds:2581:7585496@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T191500
 DTEND;TZID=America/New_York:20270105T211500
-SUMMARY:Westfield vs Cranford (Junior Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:15 PM
+SUMMARY:Cranford at Westfield (Junior Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7585500@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Cranford at The Hun School (Junior Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7514502@union-county-interscholastic-athletic-conference
@@ -522,6 +657,15 @@ SUMMARY:Scotch Plains-Fanwood at Summit (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7579771@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T161500
+DTEND;TZID=America/New_York:20270108T181500
+SUMMARY:Cranford at Montclair Kimberley Academy (Varsity Boys Boys Ice Ho
+ ckey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2938:7668631@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T201500
@@ -529,6 +673,14 @@ DTEND;TZID=America/New_York:20270108T221500
 SUMMARY:Westfield at Seton Hall Prep School (Junior Varsity Boys Boys Ice
   Hockey)
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579772@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T174500
+DTEND;TZID=America/New_York:20270109T194500
+SUMMARY:Cranford at Verona High School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103899907@union-county-interscholastic-athletic-conference
@@ -547,6 +699,15 @@ DTEND;TZID=America/New_York:20270109T220500
 SUMMARY:Arthur L. Johnson at Watchung Hills Regional High School (Varsity
   Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7585502@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T191500
+DTEND;TZID=America/New_York:20270110T211500
+SUMMARY:Cranford vs Scotch Plains-Fanwood (Junior Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7585502@union-county-interscholastic-athletic-conference
@@ -573,6 +734,14 @@ DTEND;TZID=America/New_York:20270111T195000
 SUMMARY:Scotch Plains-Fanwood at Randolph High School (Varsity Boys Boys 
  Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:50 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579773@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T183500
+DTEND;TZID=America/New_York:20270111T203500
+SUMMARY:Cranford vs Glen Ridge High School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:35 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7569949@union-county-interscholastic-athletic-conference
@@ -632,6 +801,15 @@ DTEND;TZID=America/New_York:20270113T223500
 SUMMARY:Arthur L. Johnson vs West Orange High School (Varsity Boys Boys I
  ce Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:35 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7659154@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T163000
+DTEND;TZID=America/New_York:20270114T183000
+SUMMARY:Cranford at Glen Rock High School (Junior Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7692901@union-county-interscholastic-athletic-conference
@@ -700,6 +878,33 @@ SUMMARY:Summit vs Morris Knolls High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7589428@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T181500
+DTEND;TZID=America/New_York:20270122T201500
+SUMMARY:Cranford at Hunterdon Central Regional High (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579775@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Cranford at Hunterdon Central Regional High (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7659166@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T191500
+DTEND;TZID=America/New_York:20270124T211500
+SUMMARY:Cranford vs Glen Rock High School (Junior Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103899920@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270124T193000
@@ -717,12 +922,29 @@ SUMMARY:Westfield at Bergen Catholic High School (Junior Varsity Boys Boy
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7570076@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T164500
+DTEND;TZID=America/New_York:20270125T184500
+SUMMARY:Cranford at Governor Livingston (Junior Varsity Boys Boys Ice Hoc
+ key)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102880041@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T183000
 DTEND;TZID=America/New_York:20270125T203000
 SUMMARY:Oratory Prep at Cranford (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579776@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T183500
+DTEND;TZID=America/New_York:20270125T203500
+SUMMARY:Cranford vs Oratory Prep (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:35 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7692903@union-county-interscholastic-athletic-conference
@@ -751,12 +973,30 @@ SUMMARY:Arthur L. Johnson vs Colonia High School (Varsity Boys Boys Ice H
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:35 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7585518@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T153000
+DTEND;TZID=America/New_York:20270128T173000
+SUMMARY:Cranford vs Scotch Plains-Fanwood (Junior Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:39378:7585518@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T153000
 DTEND;TZID=America/New_York:20270128T173000
 SUMMARY:Scotch Plains-Fanwood at Cranford (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7579777@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T161000
+DTEND;TZID=America/New_York:20270128T181000
+SUMMARY:Cranford at Robbinsville High School/Pond Road Middle School (Var
+ sity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:10 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7692905@union-county-interscholastic-athletic-conference
@@ -782,6 +1022,15 @@ DTEND;TZID=America/New_York:20270129T192000
 SUMMARY:Arthur L. Johnson at Montclair High School (Varsity Boys Boys Ice
   Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:20 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7585519@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T183000
+DTEND;TZID=America/New_York:20270129T203000
+SUMMARY:Cranford at West Essex High School (Junior Varsity Boys Boys Ice 
+ Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7638579@union-county-interscholastic-athletic-conference
@@ -828,12 +1077,21 @@ SUMMARY:Westfield at Randolph High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:50 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7579818@union-county-interscholastic-athletic-conference
+UID:ds:2581:7579818@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270201T183500
 DTEND;TZID=America/New_York:20270201T203500
-SUMMARY:Scotch Plains-Fanwood at Cranford (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:35 PM
+SUMMARY:Cranford vs Scotch Plains-Fanwood (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:35 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7585521@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T163000
+DTEND;TZID=America/New_York:20270202T183000
+SUMMARY:Cranford at Ramapo High School (Junior Varsity Boys Boys Ice Hock
+ ey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7638583@union-county-interscholastic-athletic-conference
@@ -888,6 +1146,14 @@ SUMMARY:Arthur L. Johnson at Colonia High School (Varsity Boys Boys Ice H
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7579820@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T175000
+DTEND;TZID=America/New_York:20270205T195000
+SUMMARY:Cranford at Randolph High School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:50 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102880218@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270209
@@ -919,6 +1185,14 @@ DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Oratory Prep at TBD (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7585053@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T200000
+DTEND;TZID=America/New_York:20270216T220000
+SUMMARY:Cranford at TBD (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102880430@union-county-interscholastic-athletic-conference

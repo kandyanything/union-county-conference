@@ -24,6 +24,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2581:7566523@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T180000
+DTEND;TZID=America/New_York:20260904T200000
+SUMMARY:Cranford at Manalapan High School (Varsity Boys Boys Cross Countr
+ y)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7581235@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Cranford vs Rahway (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2759:7581235@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -32,12 +49,20 @@ SUMMARY:New Providence at Cranford (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2678:7581243@union-county-interscholastic-athletic-conference
+UID:ds:2581:7567752@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Cranford at TBD (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7581243@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Jonathan Dayton at Cranford (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+SUMMARY:Cranford vs Jonathan Dayton (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7581243@union-county-interscholastic-athletic-conference
@@ -48,11 +73,51 @@ SUMMARY:New Providence at Cranford (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2759:7567763@union-county-interscholastic-athletic-conference
+UID:ds:2581:7567763@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T163000
 DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:New Providence at Cranford (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:30 PM
+SUMMARY:Cranford vs New Providence (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7568330@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T094500
+DTEND;TZID=America/New_York:20261003T114500
+SUMMARY:Cranford at Holmdel High School (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7569169@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T143000
+DTEND;TZID=America/New_York:20261013T163000
+SUMMARY:Cranford vs UCC (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7569211@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T150000
+DTEND;TZID=America/New_York:20261022T170000
+SUMMARY:Cranford at UCIAC (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7569304@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T123000
+DTEND;TZID=America/New_York:20261031T143000
+SUMMARY:Cranford at NJSIAA (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7736999@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261107T140000
+DTEND;TZID=America/New_York:20261107T160000
+SUMMARY:Cranford at TBD (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 2:00 PM
 END:VEVENT
 END:VCALENDAR
