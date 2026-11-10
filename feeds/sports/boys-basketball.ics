@@ -380,22 +380,31 @@ SUMMARY:David Brearley vs Dunellen High School (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2630:7570328@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Governor Livingston at Carteret High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7570329@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
 DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Governor Livingston vs Carteret High School (Freshman Boys Boys B
+SUMMARY:Governor Livingston at Carteret High School (Freshman Boys Boys B
  asketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7570330@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
 DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Governor Livingston vs Carteret High School (Junior Varsity Boys 
+SUMMARY:Governor Livingston at Carteret High School (Junior Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7693523@union-county-interscholastic-athletic-conference
@@ -572,15 +581,6 @@ DTEND;TZID=America/New_York:20261210T191500
 SUMMARY:Oratory Prep vs Chatham High School (Junior Varsity Boys Boys Bas
  ketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7570328@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T173000
-DTEND;TZID=America/New_York:20261210T193000
-SUMMARY:Governor Livingston vs Carteret High School (Varsity Boys Boys Ba
- sketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7502295@union-county-interscholastic-athletic-conference
@@ -917,15 +917,6 @@ SUMMARY:David Brearley vs Roselle (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7541598@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Governor Livingston vs Jonathan Dayton (Junior Varsity Boys Boys 
- Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7541656@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -1010,6 +1001,15 @@ SUMMARY:Elizabeth at Union Catholic (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2630:7541598@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Governor Livingston vs Jonathan Dayton (Junior Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2698:7719747@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
@@ -1035,15 +1035,6 @@ SUMMARY:Cranford vs Arthur L. Johnson (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7540769@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T180000
-DTEND;TZID=America/New_York:20261217T200000
-SUMMARY:Governor Livingston vs Jonathan Dayton (Varsity Boys Boys Basketb
- all)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100868420@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
@@ -1058,6 +1049,15 @@ DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:Elizabeth at Union Catholic (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7540769@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T210000
+SUMMARY:Governor Livingston vs Jonathan Dayton (Varsity Boys Boys Basketb
+ all)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7507080@union-county-interscholastic-athletic-conference
@@ -3458,6 +3458,15 @@ DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:David Brearley vs Jonathan Dayton (Junior Varsity Boys Boys Baske
  tball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2584:7756683@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:David Brearley at Wardlaw Hartridge School (Middle School Boys Bo
+ ys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7572068@union-county-interscholastic-athletic-conference
