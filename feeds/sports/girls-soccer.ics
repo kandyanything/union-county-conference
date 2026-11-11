@@ -648,20 +648,20 @@ SUMMARY:Westfield vs Chatham High School (Junior Varsity Girls Girls Socc
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7531181@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T163000
-DTEND;TZID=America/New_York:20260908T183000
-SUMMARY:Summit vs Bayonne High School (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7531176@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T163000
 DTEND;TZID=America/New_York:20260908T183000
 SUMMARY:Summit vs Bayonne High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531181@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T163000
+DTEND;TZID=America/New_York:20260908T183000
+SUMMARY:Summit vs Bayonne High School (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7439100@union-county-interscholastic-athletic-conference
@@ -729,14 +729,6 @@ SUMMARY:Elizabeth vs Roselle Park (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7532114@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Summit at Westfield (Freshman Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7531231@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
@@ -751,6 +743,14 @@ DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
 SUMMARY:Summit vs Westfield (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7532114@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T161500
+DTEND;TZID=America/New_York:20260910T181500
+SUMMARY:Summit at Westfield (Freshman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2584:7444954@union-county-interscholastic-athletic-conference
@@ -3275,5 +3275,13 @@ DTEND;TZID=America/New_York:20261111T160000
 SUMMARY:David Brearley at Middlesex High School (Varsity Girls Girls Socc
  er)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7758103@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261113T140000
+DTEND;TZID=America/New_York:20261113T160000
+SUMMARY:Westfield vs Ridge High School (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
 END:VEVENT
 END:VCALENDAR
