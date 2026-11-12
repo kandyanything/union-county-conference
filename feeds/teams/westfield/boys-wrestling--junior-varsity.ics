@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2938:7759892@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T090000
+DTEND;TZID=America/New_York:20261205T110000
+SUMMARY:Westfield vs Piscataway High School (Junior Varsity Boys Boys Wre
+ stling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7529982@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T140000
@@ -65,5 +74,14 @@ DTEND;TZID=America/New_York:20270128T190000
 SUMMARY:Governor Livingston vs Westfield (Junior Varsity Boys Boys Wrestl
  ing)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7759872@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T170000
+DTEND;TZID=America/New_York:20270205T190000
+SUMMARY:Westfield at Piscataway High School (Junior Varsity Boys Boys Wre
+ stling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 END:VCALENDAR
