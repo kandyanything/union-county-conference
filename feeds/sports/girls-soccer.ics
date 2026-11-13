@@ -558,20 +558,20 @@ SUMMARY:Summit vs Columbia High School (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7444938@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T120000
-DTEND;TZID=America/New_York:20260905T140000
-SUMMARY:Elizabeth at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7444937@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T120000
 DTEND;TZID=America/New_York:20260905T140000
 SUMMARY:Elizabeth at Arthur L. Johnson (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7444938@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Elizabeth at Arthur L. Johnson (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7515435@union-county-interscholastic-athletic-conference
@@ -1002,6 +1002,14 @@ SUMMARY:Jonathan Dayton vs Linden (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7444968@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Arthur L. Johnson at New Providence (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7570526@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
@@ -1009,14 +1017,6 @@ DTEND;TZID=America/New_York:20260917T180000
 SUMMARY:Arthur L. Johnson at New Providence (Junior Varsity Girls Girls S
  occer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2509:7444968@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Arthur L. Johnson at New Providence (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7540820@union-county-interscholastic-athletic-conference
@@ -3283,14 +3283,5 @@ DTSTART;TZID=America/New_York:20261113T140000
 DTEND;TZID=America/New_York:20261113T160000
 SUMMARY:Westfield vs Ridge High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2584:7762656@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261114T110000
-DTEND;TZID=America/New_York:20261114T130000
-SUMMARY:David Brearley at Florence Township Memorial High School (Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 END:VCALENDAR
