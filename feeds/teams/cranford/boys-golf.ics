@@ -24,12 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2581:7763692@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Cranford vs Jonathan Dayton (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7521917@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T151500
 DTEND;TZID=America/New_York:20270413T171500
 SUMMARY:Cranford at Arthur L. Johnson (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7763701@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270421T160000
+DTEND;TZID=America/New_York:20270421T180000
+SUMMARY:Cranford at Jonathan Dayton (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7521925@union-county-interscholastic-athletic-conference
