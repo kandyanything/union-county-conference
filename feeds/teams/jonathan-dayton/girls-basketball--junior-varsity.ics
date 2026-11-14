@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:39378:7540042@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540041@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Jonathan Dayton at Millburn High School (Junior Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540042@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Junior Varsity Girls Gi
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Junior Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7628100@union-county-interscholastic-athletic-conference
@@ -42,6 +51,15 @@ SUMMARY:Governor Livingston at Jonathan Dayton (Junior Varsity Girls Girl
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2678:7540043@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T150000
+DTEND;TZID=America/New_York:20261217T170000
+SUMMARY:Jonathan Dayton vs Newark School of Data Science and Technology (
+ Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2654:7540045@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
@@ -51,29 +69,38 @@ SUMMARY:Hillside vs Jonathan Dayton (Junior Varsity Girls Girls Basketbal
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7540050@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540049@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T100000
-DTEND;TZID=America/New_York:20270109T120000
-SUMMARY:Union vs Jonathan Dayton (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2837:7540051@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Roselle Park at Jonathan Dayton (Junior Varsity Girls Girls Baske
- tball)
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Jonathan Dayton at Kent Place (Junior Varsity Girls Girls Basketb
+ all)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7540052@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540050@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100000
+DTEND;TZID=America/New_York:20270109T120000
+SUMMARY:Jonathan Dayton at Union (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540051@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Jonathan Dayton vs Roselle Park (Junior Varsity Girls Girls Baske
+ tball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540052@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T100000
 DTEND;TZID=America/New_York:20270116T120000
-SUMMARY:Summit at Jonathan Dayton (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+SUMMARY:Jonathan Dayton vs Summit (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7540054@union-county-interscholastic-athletic-conference
@@ -94,21 +121,30 @@ SUMMARY:David Brearley at Jonathan Dayton (Junior Varsity Girls Girls Bas
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7540058@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540057@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T160000
+DTEND;TZID=America/New_York:20270128T180000
+SUMMARY:Jonathan Dayton vs Kent Place (Junior Varsity Girls Girls Basketb
+ all)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540058@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T100000
 DTEND;TZID=America/New_York:20270130T120000
-SUMMARY:Union at Jonathan Dayton (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+SUMMARY:Jonathan Dayton vs Union (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2837:7540059@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540059@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T160000
 DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:Roselle Park vs Jonathan Dayton (Junior Varsity Girls Girls Baske
+SUMMARY:Jonathan Dayton at Roselle Park (Junior Varsity Girls Girls Baske
  tball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7540060@union-county-interscholastic-athletic-conference
@@ -120,12 +156,47 @@ SUMMARY:Cranford vs Jonathan Dayton (Junior Varsity Girls Girls Basketbal
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7540067@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540040@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270212T173000
+DTEND;TZID=America/New_York:20270212T193000
+SUMMARY:Jonathan Dayton at Hanover Park High School (Junior Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540064@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270213T100000
+DTEND;TZID=America/New_York:20270213T120000
+SUMMARY:Jonathan Dayton at Boonton (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540065@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T160000
+DTEND;TZID=America/New_York:20270216T180000
+SUMMARY:Jonathan Dayton vs Edison High School (Junior Varsity Girls Girls
+  Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540066@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270218T160000
+DTEND;TZID=America/New_York:20270218T180000
+SUMMARY:Jonathan Dayton vs Middlesex High School (Junior Varsity Girls Gi
+ rls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7540067@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270220T100000
 DTEND;TZID=America/New_York:20270220T120000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Junior Varsity Girls Gi
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Junior Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR

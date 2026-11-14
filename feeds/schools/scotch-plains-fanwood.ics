@@ -285,13 +285,13 @@ SUMMARY:Cranford at Scotch Plains-Fanwood (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7532343@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532343@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Varsity Girls Girls Vol
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Varsity Girls Girls Vol
  leyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7446870@union-county-interscholastic-athletic-conference
@@ -312,13 +312,13 @@ SUMMARY:Scotch Plains-Fanwood vs East Brunswick High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7532372@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532372@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T173000
 DTEND;TZID=America/New_York:20260910T193000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Junior Varsity Girls Gi
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Junior Varsity Girls Gi
  rls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7446814@union-county-interscholastic-athletic-conference
@@ -578,6 +578,15 @@ SUMMARY:Scotch Plains-Fanwood at Carteret High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2678:7631715@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Varsity Girls Gymnastic
+ s)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:39378:7625467@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -585,24 +594,6 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Scotch Plains-Fanwood vs Madison High School (Freshman Boys Boys 
  Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7625472@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Scotch Plains-Fanwood vs Madison High School (Varsity Boys Boys S
- occer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7631715@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Varsity Girls Gymnastic
- s)
-DESCRIPTION:Varsity Girls Gymnastics - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7625462@union-county-interscholastic-athletic-conference
@@ -614,13 +605,13 @@ SUMMARY:Scotch Plains-Fanwood vs Madison High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7557027@union-county-interscholastic-athletic-conference
+UID:ds:39378:7625472@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T163000
-DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:Scotch Plains-Fanwood at Elizabeth (Varsity Girls Girls Cross Cou
- ntry)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:30 PM
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Scotch Plains-Fanwood vs Madison High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7557039@union-county-interscholastic-athletic-conference
@@ -630,6 +621,15 @@ DTEND;TZID=America/New_York:20260922T183000
 SUMMARY:Scotch Plains-Fanwood at Elizabeth (Junior Varsity Girls Girls Cr
  oss Country)
 DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7557027@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T163000
+DTEND;TZID=America/New_York:20260922T183000
+SUMMARY:Scotch Plains-Fanwood at Elizabeth (Varsity Girls Girls Cross Cou
+ ntry)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7555317@union-county-interscholastic-athletic-conference
@@ -658,6 +658,15 @@ SUMMARY:Scotch Plains-Fanwood vs Summit (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2678:7532379@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Junior Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:39378:7531612@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
@@ -666,22 +675,13 @@ SUMMARY:Scotch Plains-Fanwood vs Summit (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7532379@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Junior Varsity Girls Gi
- rls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7532350@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532350@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T173000
 DTEND;TZID=America/New_York:20260923T193000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Varsity Girls Girls Vol
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Varsity Girls Girls Vol
  leyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7541352@union-county-interscholastic-athletic-conference
@@ -693,6 +693,14 @@ SUMMARY:Rahway vs Scotch Plains-Fanwood (Junior Varsity Girls Girls Volle
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:39378:7554949@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Scotch Plains-Fanwood at Summit (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:39378:7554950@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -700,14 +708,6 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Scotch Plains-Fanwood vs Summit (Junior Varsity Girls Girls Tenni
  s)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7554949@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Scotch Plains-Fanwood at Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7536372@union-county-interscholastic-athletic-conference
@@ -875,30 +875,30 @@ SUMMARY:Governor Livingston vs Scotch Plains-Fanwood (Varsity Boys Boys S
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2678:7532423@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Varsity Girls Girls Ten
+ nis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7532443@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Junior Varsity Girls Gi
+ rls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2698:7464929@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
 SUMMARY:Linden vs Scotch Plains-Fanwood (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7532423@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Varsity Girls Girls Ten
- nis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7532443@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Junior Varsity Girls Gi
- rls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7464890@union-county-interscholastic-athletic-conference
@@ -1165,13 +1165,13 @@ SUMMARY:Scotch Plains-Fanwood vs Summit (Junior Varsity Girls Girls Volle
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7698776@union-county-interscholastic-athletic-conference
+UID:ds:2678:7698776@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T174500
 DTEND;TZID=America/New_York:20261021T194500
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Varsity Girls Girls Vol
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Varsity Girls Girls Vol
  leyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:45 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7569175@union-county-interscholastic-athletic-conference
@@ -1462,13 +1462,13 @@ SUMMARY:Scotch Plains-Fanwood vs Madison High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7540042@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540042@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Junior Varsity Girls Gi
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Junior Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7670763@union-county-interscholastic-athletic-conference
@@ -1489,13 +1489,13 @@ SUMMARY:Scotch Plains-Fanwood at Madison High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7540007@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540007@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T160000
 DTEND;TZID=America/New_York:20261212T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Varsity Girls Girls Bas
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Varsity Girls Girls Bas
  ketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7570052@union-county-interscholastic-athletic-conference
@@ -2018,22 +2018,22 @@ SUMMARY:Scotch Plains-Fanwood vs Summit (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7544739@union-county-interscholastic-athletic-conference
+UID:ds:2678:7544739@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T160000
 DTEND;TZID=America/New_York:20270125T180000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Middle School Boys Boys
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Middle School Boys Boys
   Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7544761@union-county-interscholastic-athletic-conference
+UID:ds:2678:7544761@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T160000
 DTEND;TZID=America/New_York:20270125T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Middle School Girls Gir
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Middle School Girls Gir
  ls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7690436@union-county-interscholastic-athletic-conference
@@ -2312,22 +2312,22 @@ SUMMARY:Scotch Plains-Fanwood at Cranford (Middle School Boys Boys Basket
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7540067@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540067@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270220T100000
 DTEND;TZID=America/New_York:20270220T120000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Junior Varsity Girls Gi
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Junior Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7540039@union-county-interscholastic-athletic-conference
+UID:ds:2678:7540039@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270220T113000
 DTEND;TZID=America/New_York:20270220T133000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Varsity Girls Girls Bas
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Varsity Girls Girls Bas
  ketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7702295@union-county-interscholastic-athletic-conference
@@ -2425,38 +2425,38 @@ SUMMARY:Scotch Plains-Fanwood at Cranford (Varsity Boys Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7725609@union-county-interscholastic-athletic-conference
+UID:ds:2678:7725609@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7725696@union-county-interscholastic-athletic-conference
+UID:ds:2678:7725696@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Junior Varsity Girls So
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Junior Varsity Girls So
  ftball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7763722@union-county-interscholastic-athletic-conference
+UID:ds:2678:7763722@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270402T160000
 DTEND;TZID=America/New_York:20270402T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7764411@union-county-interscholastic-athletic-conference
+UID:ds:2678:7764411@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270402T160000
 DTEND;TZID=America/New_York:20270402T180000
-SUMMARY:Scotch Plains-Fanwood at Jonathan Dayton (Junior Varsity Boys Bas
+SUMMARY:Jonathan Dayton vs Scotch Plains-Fanwood (Junior Varsity Boys Bas
  eball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7708602@union-county-interscholastic-athletic-conference
@@ -2716,21 +2716,21 @@ SUMMARY:Scotch Plains-Fanwood vs Ridge High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7725655@union-county-interscholastic-athletic-conference
+UID:ds:2678:7725655@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T160000
 DTEND;TZID=America/New_York:20270421T180000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7725702@union-county-interscholastic-athletic-conference
+UID:ds:2678:7725702@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T160000
 DTEND;TZID=America/New_York:20270421T180000
-SUMMARY:Scotch Plains-Fanwood vs Jonathan Dayton (Junior Varsity Girls So
+SUMMARY:Jonathan Dayton at Scotch Plains-Fanwood (Junior Varsity Girls So
  ftball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102514585@union-county-interscholastic-athletic-conference
