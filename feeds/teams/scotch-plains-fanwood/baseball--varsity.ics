@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:39378:7702295@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270318T160000
-DTEND;TZID=America/New_York:20270318T180000
-SUMMARY:Scotch Plains-Fanwood at South Plainfield High School (Varsity Bo
- ys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2678:7763722@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270402T160000
@@ -105,14 +96,5 @@ DTSTART;TZID=America/New_York:20270503T160000
 DTEND;TZID=America/New_York:20270503T180000
 SUMMARY:Arthur L. Johnson at Scotch Plains-Fanwood (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7627379@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270515T110000
-DTEND;TZID=America/New_York:20270515T130000
-SUMMARY:Scotch Plains-Fanwood vs Middlesex High School (Varsity Boys Base
- ball)
-DESCRIPTION:Varsity Boys Baseball - Home - 11:00 AM
 END:VEVENT
 END:VCALENDAR

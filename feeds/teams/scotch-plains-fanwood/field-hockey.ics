@@ -24,39 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:39378:7520713@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Scotch Plains-Fanwood vs James Caldwell High School (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7520771@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T173000
-DTEND;TZID=America/New_York:20260908T193000
-SUMMARY:Scotch Plains-Fanwood vs James Caldwell High School (Junior Varsi
- ty Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7541206@union-county-interscholastic-athletic-conference
+UID:ds:2886:7541206@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Scotch Plains-Fanwood at Summit (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+SUMMARY:Summit vs Scotch Plains-Fanwood (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7541207@union-county-interscholastic-athletic-conference
+UID:ds:2886:7541207@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T173000
 DTEND;TZID=America/New_York:20260914T193000
-SUMMARY:Scotch Plains-Fanwood at Summit (Junior Varsity Girls Field Hocke
+SUMMARY:Summit vs Scotch Plains-Fanwood (Junior Varsity Girls Field Hocke
  y)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7542188@union-county-interscholastic-athletic-conference
@@ -75,15 +57,6 @@ DTEND;TZID=America/New_York:20260916T194500
 SUMMARY:Governor Livingston at Scotch Plains-Fanwood (Junior Varsity Girl
  s Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7534912@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T110000
-DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Scotch Plains-Fanwood vs Matawan Regional High School (Varsity Gi
- rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7685661@union-county-interscholastic-athletic-conference
@@ -119,14 +92,5 @@ DTEND;TZID=America/New_York:20261027T193000
 SUMMARY:Cranford at Scotch Plains-Fanwood (Junior Varsity Girls Field Hoc
  key)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:39378:7728683@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261102T160000
-DTEND;TZID=America/New_York:20261102T180000
-SUMMARY:Scotch Plains-Fanwood at Bridgewater-Raritan High School (Varsity
-  Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
