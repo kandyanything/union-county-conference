@@ -1,6 +1,6 @@
 {
   "conference": "Union County Interscholastic Athletic Conference",
-  "generated": "2026-11-16T17:18:03.029Z",
+  "generated": "2026-11-16T18:20:08.996Z",
   "all": "feeds/all.ics",
   "rss": "feeds/rss.xml",
   "teams": "feeds/teams.json",
@@ -24,7 +24,7 @@
       "slug": "elizabeth",
       "path": "feeds/schools/elizabeth.ics",
       "rss": "feeds/schools/elizabeth.xml",
-      "games": 573
+      "games": 586
     },
     {
       "name": "Governor Livingston",
@@ -52,7 +52,7 @@
       "slug": "arthur-l-johnson",
       "path": "feeds/schools/arthur-l-johnson.ics",
       "rss": "feeds/schools/arthur-l-johnson.xml",
-      "games": 739
+      "games": 740
     },
     {
       "name": "Kent Place",
@@ -66,7 +66,7 @@
       "slug": "linden",
       "path": "feeds/schools/linden.ics",
       "rss": "feeds/schools/linden.xml",
-      "games": 537
+      "games": 541
     },
     {
       "name": "New Providence",
@@ -115,28 +115,28 @@
       "slug": "roselle-catholic",
       "path": "feeds/schools/roselle-catholic.ics",
       "rss": "feeds/schools/roselle-catholic.xml",
-      "games": 75
+      "games": 77
     },
     {
       "name": "Roselle Park",
       "slug": "roselle-park",
       "path": "feeds/schools/roselle-park.ics",
       "rss": "feeds/schools/roselle-park.xml",
-      "games": 242
+      "games": 243
     },
     {
       "name": "Scotch Plains-Fanwood",
       "slug": "scotch-plains-fanwood",
       "path": "feeds/schools/scotch-plains-fanwood.ics",
       "rss": "feeds/schools/scotch-plains-fanwood.xml",
-      "games": 360
+      "games": 362
     },
     {
       "name": "Summit",
       "slug": "summit",
       "path": "feeds/schools/summit.ics",
       "rss": "feeds/schools/summit.xml",
-      "games": 640
+      "games": 641
     },
     {
       "name": "Union",
@@ -157,7 +157,7 @@
       "slug": "westfield",
       "path": "feeds/schools/westfield.ics",
       "rss": "feeds/schools/westfield.xml",
-      "games": 374
+      "games": 376
     }
   ],
   "sports": [
@@ -320,7 +320,7 @@
       "slug": "boys-wrestling",
       "path": "feeds/sports/boys-wrestling.ics",
       "rss": "feeds/sports/boys-wrestling.xml",
-      "games": 205
+      "games": 204
     },
     {
       "name": "Coed Basketball",
@@ -334,7 +334,7 @@
       "slug": "coed-bowling",
       "path": "feeds/sports/coed-bowling.ics",
       "rss": "feeds/sports/coed-bowling.xml",
-      "games": 54
+      "games": 67
     },
     {
       "name": "Coed Cheerleading",
@@ -435,6 +435,13 @@
       "games": 236
     },
     {
+      "name": "Flag Football",
+      "slug": "flag-football",
+      "path": "feeds/sports/flag-football.ics",
+      "rss": "feeds/sports/flag-football.xml",
+      "games": 1
+    },
+    {
       "name": "Football",
       "slug": "football",
       "path": "feeds/sports/football.ics",
@@ -481,7 +488,7 @@
       "slug": "girls-basketball",
       "path": "feeds/sports/girls-basketball.ics",
       "rss": "feeds/sports/girls-basketball.xml",
-      "games": 463
+      "games": 464
     },
     {
       "name": "Girls Cheerleading",
@@ -997,7 +1004,7 @@
       "slug": "varsity--boys-wrestling",
       "path": "feeds/sports/varsity--boys-wrestling.ics",
       "rss": "feeds/sports/varsity--boys-wrestling.xml",
-      "games": 134
+      "games": 133
     },
     {
       "sport": "Coed Basketball",
@@ -1015,7 +1022,7 @@
       "slug": "junior-varsity--coed-bowling",
       "path": "feeds/sports/junior-varsity--coed-bowling.ics",
       "rss": "feeds/sports/junior-varsity--coed-bowling.xml",
-      "games": 1
+      "games": 3
     },
     {
       "sport": "Coed Bowling",
@@ -1024,7 +1031,7 @@
       "slug": "varsity--coed-bowling",
       "path": "feeds/sports/varsity--coed-bowling.ics",
       "rss": "feeds/sports/varsity--coed-bowling.xml",
-      "games": 53
+      "games": 64
     },
     {
       "sport": "Coed Cheerleading",
@@ -1234,6 +1241,15 @@
       "games": 116
     },
     {
+      "sport": "Flag Football",
+      "level": "Varsity",
+      "name": "Varsity Flag Football",
+      "slug": "varsity--flag-football",
+      "path": "feeds/sports/varsity--flag-football.ics",
+      "rss": "feeds/sports/varsity--flag-football.xml",
+      "games": 1
+    },
+    {
       "sport": "Football",
       "level": "Freshman",
       "name": "Freshman Football",
@@ -1276,7 +1292,7 @@
       "slug": "junior-varsity--girls-basketball",
       "path": "feeds/sports/junior-varsity--girls-basketball.ics",
       "rss": "feeds/sports/junior-varsity--girls-basketball.xml",
-      "games": 141
+      "games": 142
     },
     {
       "sport": "Girls Basketball",
