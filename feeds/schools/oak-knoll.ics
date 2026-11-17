@@ -185,20 +185,20 @@ SUMMARY:Summit at Oak Knoll (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7549245@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Summit vs Oak Knoll (Middle School Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7647073@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Summit vs Oak Knoll (Middle School Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7549245@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Summit vs Oak Knoll (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7636312@union-county-interscholastic-athletic-conference
@@ -856,7 +856,7 @@ SUMMARY:Oak Knoll vs Hillsborough Middle School (Middle School Basketball)
 DESCRIPTION:Middle School Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11333702www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11503247www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T110000
@@ -1177,6 +1177,14 @@ DTSTART;TZID=America/New_York:20270120T111000
 DTEND;TZID=America/New_York:20270120T131000
 SUMMARY:Oak Knoll vs Chatham High School (Varsity Ice Hockey)
 DESCRIPTION:Varsity Ice Hockey - Home - 11:10 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7613745@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T144500
+DTEND;TZID=America/New_York:20270120T164500
+SUMMARY:Governor Livingston at Oak Knoll (Varsity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2584:7766988@union-county-interscholastic-athletic-conference
