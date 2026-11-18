@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2938:7771774@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270315T150000
+DTEND;TZID=America/New_York:20270315T170000
+SUMMARY:Westfield vs Metuchen High School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7638423@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270315T160000
@@ -100,6 +108,15 @@ DTEND;TZID=America/New_York:20270320T130000
 SUMMARY:Arthur L. Johnson vs Belleville High School (Junior Varsity Boys 
  Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7771781@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T150000
+DTEND;TZID=America/New_York:20270320T170000
+SUMMARY:Scotch Plains-Fanwood at Metuchen High School (Junior Varsity Boy
+ s Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7638427@union-county-interscholastic-athletic-conference
@@ -1041,6 +1058,15 @@ DTSTART;TZID=America/New_York:20270519T163000
 DTEND;TZID=America/New_York:20270519T183000
 SUMMARY:Elizabeth vs Governor Livingston (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7771753@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T160000
+DTEND;TZID=America/New_York:20270520T180000
+SUMMARY:Governor Livingston vs The Pingry School (Junior Varsity Boys Bas
+ eball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7764428@union-county-interscholastic-athletic-conference

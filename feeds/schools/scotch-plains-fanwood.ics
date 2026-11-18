@@ -901,14 +901,6 @@ SUMMARY:Linden vs Scotch Plains-Fanwood (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7464749@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T173000
-DTEND;TZID=America/New_York:20261007T193000
-SUMMARY:Linden at Scotch Plains-Fanwood (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2698:7464890@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T173000
@@ -916,6 +908,14 @@ DTEND;TZID=America/New_York:20261007T193000
 SUMMARY:Linden at Scotch Plains-Fanwood (Junior Varsity Girls Girls Volle
  yball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7464749@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T173000
+DTEND;TZID=America/New_York:20261007T193000
+SUMMARY:Linden at Scotch Plains-Fanwood (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7569153@union-county-interscholastic-athletic-conference
@@ -2299,15 +2299,6 @@ SUMMARY:Scotch Plains-Fanwood vs South River Middle/High School (Varsity
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7515001@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270129T160000
-DTEND;TZID=America/New_York:20270129T180000
-SUMMARY:Scotch Plains-Fanwood at Mcmanus Middle School (Middle School Boy
- s Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:39378:7514972@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T160000
@@ -2315,6 +2306,15 @@ DTEND;TZID=America/New_York:20270129T180000
 SUMMARY:Scotch Plains-Fanwood vs Mcmanus Middle School (Middle School Gir
  ls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7515001@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T160000
+DTEND;TZID=America/New_York:20270129T180000
+SUMMARY:Scotch Plains-Fanwood at Mcmanus Middle School (Middle School Boy
+ s Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7638579@union-county-interscholastic-athletic-conference
@@ -2535,6 +2535,24 @@ DTEND;TZID=America/New_York:20270320T130000
 SUMMARY:Scotch Plains-Fanwood at Mountain Lakes High School (Varsity Boys
   Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7771713@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T110000
+DTEND;TZID=America/New_York:20270320T130000
+SUMMARY:Scotch Plains-Fanwood at Metuchen High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7771781@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T150000
+DTEND;TZID=America/New_York:20270320T170000
+SUMMARY:Scotch Plains-Fanwood at Metuchen High School (Junior Varsity Boy
+ s Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7555262@union-county-interscholastic-athletic-conference
