@@ -1011,20 +1011,20 @@ SUMMARY:Union vs East Side High School (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7570607@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T100000
-DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Linden at Piscataway High School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2698:7570606@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T120000
 SUMMARY:Linden at Piscataway High School (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7570607@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Linden at Piscataway High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7469941@union-county-interscholastic-athletic-conference
@@ -1396,6 +1396,14 @@ SUMMARY:Elizabeth at Hightstown High School (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7613006@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:Elizabeth at Hightstown High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7613008@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T100000
@@ -1403,14 +1411,6 @@ DTEND;TZID=America/New_York:20260912T120000
 SUMMARY:Elizabeth at Hightstown High School (Junior Varsity Boys Boys Soc
  cer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7613006@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T100000
-DTEND;TZID=America/New_York:20260912T120000
-SUMMARY:Elizabeth at Hightstown High School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2837:7577657@union-county-interscholastic-athletic-conference
@@ -1920,20 +1920,20 @@ SUMMARY:Governor Livingston at Voorhees High School (Varsity Boys Boys So
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7531207@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:David Brearley at Roselle Park (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2584:7531208@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
 DTEND;TZID=America/New_York:20260921T180000
 SUMMARY:David Brearley at Roselle Park (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2584:7531207@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:David Brearley at Roselle Park (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7582126@union-county-interscholastic-athletic-conference
@@ -2027,15 +2027,6 @@ SUMMARY:Scotch Plains-Fanwood vs Madison High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7625462@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Scotch Plains-Fanwood vs Madison High School (Junior Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:39378:7625472@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -2045,12 +2036,13 @@ SUMMARY:Scotch Plains-Fanwood vs Madison High School (Varsity Boys Boys S
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7480030@union-county-interscholastic-athletic-conference
+UID:ds:39378:7625462@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Summit at Chatham High School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Scotch Plains-Fanwood vs Madison High School (Junior Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7480033@union-county-interscholastic-athletic-conference
@@ -2067,6 +2059,14 @@ DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Summit at Chatham High School (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7480030@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Summit at Chatham High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2905:7562904@union-county-interscholastic-athletic-conference
@@ -2326,20 +2326,20 @@ SUMMARY:Roselle vs Jonathan Dayton (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7648275@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Elizabeth vs Westfield (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7644290@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Elizabeth at Westfield (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7648275@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Elizabeth vs Westfield (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7644300@union-county-interscholastic-athletic-conference
@@ -3621,6 +3621,14 @@ SUMMARY:Elizabeth at Bayonne High School (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2630:7534591@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Governor Livingston at Plainfield (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7534610@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
@@ -3628,14 +3636,6 @@ DTEND;TZID=America/New_York:20261008T181500
 SUMMARY:Governor Livingston at Plainfield (Junior Varsity Boys Boys Socce
  r)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7534591@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Governor Livingston at Plainfield (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7669964@union-county-interscholastic-athletic-conference
@@ -3754,15 +3754,6 @@ SUMMARY:Roselle at Kumpf (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7667356@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T090000
-DTEND;TZID=America/New_York:20261010T110000
-SUMMARY:Governor Livingston vs Colonia High School (Junior Varsity Boys B
- oys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7667352@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
@@ -3770,6 +3761,15 @@ DTEND;TZID=America/New_York:20261010T110000
 SUMMARY:Governor Livingston vs Colonia High School (Varsity Boys Boys Soc
  cer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7667356@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Governor Livingston vs Colonia High School (Junior Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7629345@union-county-interscholastic-athletic-conference
@@ -3855,15 +3855,6 @@ SUMMARY:Linden at Scotch Plains-Fanwood (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7413030@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T110000
-DTEND;TZID=America/New_York:20261010T130000
-SUMMARY:Westfield vs Monroe Township School District (Junior Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7412794@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T110000
@@ -3871,6 +3862,15 @@ DTEND;TZID=America/New_York:20261010T130000
 SUMMARY:Westfield vs Monroe Township School District (Varsity Boys Boys S
  occer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7413030@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T110000
+DTEND;TZID=America/New_York:20261010T130000
+SUMMARY:Westfield vs Monroe Township School District (Junior Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7592749@union-county-interscholastic-athletic-conference
@@ -4006,20 +4006,20 @@ SUMMARY:Roselle Park at Cranford (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7536027@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Summit at Westfield (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7535976@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Summit at Westfield (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7536027@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Summit at Westfield (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7666169@union-county-interscholastic-athletic-conference
@@ -4610,20 +4610,20 @@ SUMMARY:Roselle Park at Summit (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7526611@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Union vs Franklin High School (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2906:7470891@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
 DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Union vs Franklin High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7526611@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Union vs Franklin High School (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7700965@union-county-interscholastic-athletic-conference
@@ -4954,6 +4954,15 @@ SUMMARY:Arthur L. Johnson at Mcmanus Middle School (Middle School Boys Bo
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2837:7701970@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T160000
+DTEND;TZID=America/New_York:20261023T180000
+SUMMARY:Roselle Park vs Essex County Donald M. Payne Tech (Junior Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2837:7701966@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T160000
@@ -4961,15 +4970,6 @@ DTEND;TZID=America/New_York:20261023T180000
 SUMMARY:Roselle Park vs Essex County Donald M. Payne Tech (Varsity Boys B
  oys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2837:7701969@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Roselle Park vs Essex County Donald M. Payne Tech (Junior Varsity
-  Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7708861@union-county-interscholastic-athletic-conference
