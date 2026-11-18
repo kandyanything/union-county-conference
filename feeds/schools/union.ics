@@ -243,6 +243,14 @@ SUMMARY:Union vs East Side High School (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2906:7460022@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Union at Franklin High School (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2906:7610898@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
@@ -250,14 +258,6 @@ DTEND;TZID=America/New_York:20260905T120000
 SUMMARY:Union vs Jefferson Township High School (Junior Varsity Boys Foot
  ball)
 DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2906:7460022@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T100000
-DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Union at Franklin High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7566627@union-county-interscholastic-athletic-conference
@@ -525,20 +525,20 @@ SUMMARY:Union at High Point Regional High School (Varsity Girls Field Hoc
 DESCRIPTION:Varsity Girls Field Hockey - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7535631@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T130000
-DTEND;TZID=America/New_York:20260919T150000
-SUMMARY:Summit at Union (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7534499@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T130000
 DTEND;TZID=America/New_York:20260919T150000
 SUMMARY:Summit at Union (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7535631@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T130000
+DTEND;TZID=America/New_York:20260919T150000
+SUMMARY:Summit at Union (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7584152@union-county-interscholastic-athletic-conference
@@ -925,20 +925,20 @@ SUMMARY:Cranford at Union (Boys (MS GOLD) Soccer)
 DESCRIPTION:Boys (MS GOLD) Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7532025@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Summit vs Union (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7532026@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Summit vs Union (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7532025@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Summit vs Union (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7592576@union-county-interscholastic-athletic-conference
@@ -1055,12 +1055,13 @@ SUMMARY:Union vs Bridgewater-Raritan High School (Varsity Boys Boys Cross
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7503399@union-county-interscholastic-athletic-conference
+UID:ds:2906:7412196@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Union at Bridgewater-Raritan High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+SUMMARY:Union at Monroe Township School District (Junior Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7412195@union-county-interscholastic-athletic-conference
@@ -1072,13 +1073,12 @@ SUMMARY:Union at Monroe Township School District (Varsity Girls Girls Soc
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7412196@union-county-interscholastic-athletic-conference
+UID:ds:2906:7503399@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Union at Monroe Township School District (Junior Varsity Girls Gi
- rls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Union at Bridgewater-Raritan High School (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7503308@union-county-interscholastic-athletic-conference
@@ -1227,20 +1227,20 @@ SUMMARY:Governor Livingston vs Union (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7700188@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Rahway at Union (Middle School Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7688858@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
 DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Rahway vs Union (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7700188@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Rahway at Union (Middle School Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7526611@union-county-interscholastic-athletic-conference
@@ -1457,20 +1457,20 @@ SUMMARY:Kent Place vs Union (Varsity Swimming)
 DESCRIPTION:Varsity Swimming - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7708981@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Summit at Union (Varsity Girls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7713913@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Summit at Union (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7708981@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Summit at Union (Varsity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7626069@union-county-interscholastic-athletic-conference
@@ -1746,15 +1746,6 @@ SUMMARY:Linden at Union (Varsity Coed Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7514945@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T160000
-DTEND;TZID=America/New_York:20270108T180000
-SUMMARY:Union vs Mcmanus Middle School (Middle School Girls Girls Basketb
- all)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2906:7514987@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
@@ -1762,6 +1753,15 @@ DTEND;TZID=America/New_York:20270108T180000
 SUMMARY:Union at Mcmanus Middle School (Middle School Boys Boys Basketbal
  l)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7514945@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T160000
+DTEND;TZID=America/New_York:20270108T180000
+SUMMARY:Union vs Mcmanus Middle School (Middle School Girls Girls Basketb
+ all)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7687014@union-county-interscholastic-athletic-conference
@@ -1788,14 +1788,6 @@ SUMMARY:Jonathan Dayton at Union (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7698132@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T160000
-DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Cranford vs Union (Boys (MS BLUE) Basketball)
-DESCRIPTION:Boys (MS BLUE) Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7698162@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
@@ -1804,12 +1796,12 @@ SUMMARY:Cranford at Union (Girls (MS BLUE) Basketball)
 DESCRIPTION:Girls (MS BLUE) Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7698132@union-county-interscholastic-athletic-conference
+UID:ds:2581:7698132@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Union at Cranford (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+SUMMARY:Cranford vs Union (Boys (MS BLUE) Basketball)
+DESCRIPTION:Boys (MS BLUE) Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7698162@union-county-interscholastic-athletic-conference
@@ -1818,6 +1810,14 @@ DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
 SUMMARY:Union vs Cranford (Middle School Girls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7698132@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Union at Cranford (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7605562@union-county-interscholastic-athletic-conference
@@ -1861,20 +1861,20 @@ SUMMARY:Linden at Union (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7765892@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T150000
-DTEND;TZID=America/New_York:20270113T170000
-SUMMARY:Elizabeth at Union (Varsity Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7765902@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T150000
 DTEND;TZID=America/New_York:20270113T170000
 SUMMARY:Elizabeth at Union (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7765892@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T150000
+DTEND;TZID=America/New_York:20270113T170000
+SUMMARY:Elizabeth at Union (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2906:7678400@union-county-interscholastic-athletic-conference
@@ -1919,20 +1919,20 @@ SUMMARY:Kent Place vs Union (Varsity Basketball)
 DESCRIPTION:Varsity Basketball - Home - 11:15 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7612888@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T181500
-DTEND;TZID=America/New_York:20270119T201500
-SUMMARY:Governor Livingston vs Union (Varsity Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7613736@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T181500
 DTEND;TZID=America/New_York:20270119T201500
 SUMMARY:Governor Livingston vs Union (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7612888@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T181500
+DTEND;TZID=America/New_York:20270119T201500
+SUMMARY:Governor Livingston vs Union (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7698005@union-county-interscholastic-athletic-conference
@@ -1951,14 +1951,6 @@ SUMMARY:Cranford vs Union (MS-Gold Girls Girls Basketball)
 DESCRIPTION:MS-Gold Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7698005@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T160000
-DTEND;TZID=America/New_York:20270120T180000
-SUMMARY:Union vs Cranford (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2906:7698037@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
@@ -1971,9 +1963,17 @@ UID:ds:2906:7769720@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
 DTEND;TZID=America/New_York:20270120T180000
-SUMMARY:Union vs Joseph E. Soehl Middle School (Middle School Girls Girls
+SUMMARY:Union at Joseph E. Soehl Middle School (Middle School Girls Girls
   Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7698005@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Union vs Cranford (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2584:7643424@union-county-interscholastic-athletic-conference
@@ -2056,15 +2056,6 @@ SUMMARY:Jonathan Dayton at Union (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2906:7629910@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270125T160000
-DTEND;TZID=America/New_York:20270125T180000
-SUMMARY:Union at Columbia Middle School (Middle School Boys Boys Basketba
- ll)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2906:7629971@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T160000
@@ -2072,6 +2063,15 @@ DTEND;TZID=America/New_York:20270125T180000
 SUMMARY:Union vs Columbia Middle School (Middle School Girls Girls Basket
  ball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2906:7629910@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T160000
+DTEND;TZID=America/New_York:20270125T180000
+SUMMARY:Union at Columbia Middle School (Middle School Boys Boys Basketba
+ ll)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7597230@union-county-interscholastic-athletic-conference

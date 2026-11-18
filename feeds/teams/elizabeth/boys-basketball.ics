@@ -148,20 +148,20 @@ SUMMARY:Elizabeth at Scotch Plains-Fanwood (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7768757@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T161500
-DTEND;TZID=America/New_York:20270106T181500
-SUMMARY:Elizabeth vs TBA NJ (MS-South Boys Boys Basketball)
-DESCRIPTION:MS-South Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7769131@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T161500
 DTEND;TZID=America/New_York:20270106T181500
 SUMMARY:Elizabeth vs TBA NJ (MS-North Boys Boys Basketball)
 DESCRIPTION:MS-North Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7768757@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T161500
+DTEND;TZID=America/New_York:20270106T181500
+SUMMARY:Elizabeth vs TBA NJ (MS-South Boys Boys Basketball)
+DESCRIPTION:MS-South Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7768744@union-county-interscholastic-athletic-conference
@@ -304,20 +304,20 @@ SUMMARY:Elizabeth vs Union Catholic (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7544736@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T160000
-DTEND;TZID=America/New_York:20270115T180000
-SUMMARY:Elizabeth at Jonathan Dayton (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7703501@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T160000
 DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Boys Bo
  ys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7544736@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T160000
+DTEND;TZID=America/New_York:20270115T180000
+SUMMARY:Elizabeth at Jonathan Dayton (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -388,14 +388,6 @@ SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Boys Bo
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7768780@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T161500
-DTEND;TZID=America/New_York:20270120T181500
-SUMMARY:Elizabeth at Rahway Middle School (MS-South Boys Boys Basketball)
-DESCRIPTION:MS-South Boys Boys Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7769178@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T161500
@@ -403,6 +395,22 @@ DTEND;TZID=America/New_York:20270120T181500
 SUMMARY:Elizabeth vs Joseph E. Soehl Middle School (MS-North Boys Boys Ba
  sketball)
 DESCRIPTION:MS-North Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7770457@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T161500
+DTEND;TZID=America/New_York:20270120T181500
+SUMMARY:Elizabeth at Rahway (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7768780@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T161500
+DTEND;TZID=America/New_York:20270120T181500
+SUMMARY:Elizabeth at Rahway Middle School (MS-South Boys Boys Basketball)
+DESCRIPTION:MS-South Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7683086@union-county-interscholastic-athletic-conference
@@ -421,15 +429,6 @@ SUMMARY:Elizabeth vs Union (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7514998@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T160000
-DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Elizabeth vs Mcmanus Middle School (Middle School Boys Boys Baske
- tball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7629902@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
@@ -437,6 +436,15 @@ DTEND;TZID=America/New_York:20270122T180000
 SUMMARY:Elizabeth at Elizabeth Middle School North (Middle School Boys Bo
  ys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7514998@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Elizabeth vs Mcmanus Middle School (Middle School Boys Boys Baske
+ tball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7769212@union-county-interscholastic-athletic-conference
@@ -736,14 +744,6 @@ SUMMARY:Elizabeth vs Paul VI High School (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7767992@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270208T160000
-DTEND;TZID=America/New_York:20270208T180000
-SUMMARY:Elizabeth at Rahway (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7769237@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270208T163000
@@ -776,14 +776,6 @@ DTEND;TZID=America/New_York:20270208T210000
 SUMMARY:Elizabeth vs Paramus Catholic High School (Varsity Boys Boys Bask
  etball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7767994@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270210T160000
-DTEND;TZID=America/New_York:20270210T180000
-SUMMARY:Elizabeth at Rahway (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7769243@union-county-interscholastic-athletic-conference

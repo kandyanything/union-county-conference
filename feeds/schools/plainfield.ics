@@ -511,14 +511,6 @@ SUMMARY:Arthur L. Johnson vs Plainfield (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7543336@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Plainfield vs Rahway (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2812:7543423@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -533,6 +525,14 @@ DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Plainfield at Rahway (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7543336@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Plainfield vs Rahway (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444987@union-county-interscholastic-athletic-conference
@@ -634,15 +634,6 @@ SUMMARY:Plainfield vs Mcmanus Middle School (Middle School Boys Football)
 DESCRIPTION:Middle School Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7483190@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T163000
-DTEND;TZID=America/New_York:20261002T183000
-SUMMARY:Plainfield vs New Brunswick High School (Freshman Girls Girls Vol
- leyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2812:7483255@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T163000
@@ -650,6 +641,15 @@ DTEND;TZID=America/New_York:20261002T183000
 SUMMARY:Plainfield vs New Brunswick High School (Junior Varsity Girls Gir
  ls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7483190@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T163000
+DTEND;TZID=America/New_York:20261002T183000
+SUMMARY:Plainfield vs New Brunswick High School (Freshman Girls Girls Vol
+ leyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7483414@union-county-interscholastic-athletic-conference
@@ -694,20 +694,20 @@ SUMMARY:Plainfield vs Elizabeth (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7631676@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T161500
-DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Elizabeth at Plainfield (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7622491@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Elizabeth at Plainfield (Middle School Coed Coed Tennis)
 DESCRIPTION:Middle School Coed Coed Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7631676@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Elizabeth at Plainfield (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534613@union-county-interscholastic-athletic-conference
@@ -776,20 +776,20 @@ SUMMARY:Plainfield at Perth Amboy High School (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7445036@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Arthur L. Johnson vs Plainfield (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7445037@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Arthur L. Johnson vs Plainfield (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7445036@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Arthur L. Johnson vs Plainfield (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7563260@union-county-interscholastic-athletic-conference
@@ -956,20 +956,20 @@ SUMMARY:Plainfield at John P Stevens High School (Varsity Girls Girls Soc
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7631501@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T161500
-DTEND;TZID=America/New_York:20261021T181500
-SUMMARY:Elizabeth at Plainfield (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7632403@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T161500
 DTEND;TZID=America/New_York:20261021T181500
 SUMMARY:Elizabeth vs Plainfield (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7631501@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Elizabeth at Plainfield (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7631501@union-county-interscholastic-athletic-conference
@@ -1031,14 +1031,6 @@ SUMMARY:Jonathan Dayton vs Plainfield (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7631375@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T160000
-DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Plainfield at Franklin High School (Middle School Boys Football)
-DESCRIPTION:Middle School Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2812:7719130@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T160000
@@ -1046,6 +1038,14 @@ DTEND;TZID=America/New_York:20261028T180000
 SUMMARY:Plainfield vs Piscataway High School (Varsity Girls Girls Volleyb
  all)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7631375@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T160000
+DTEND;TZID=America/New_York:20261028T180000
+SUMMARY:Plainfield at Franklin High School (Middle School Boys Football)
+DESCRIPTION:Middle School Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7728133@union-county-interscholastic-athletic-conference
@@ -1116,20 +1116,20 @@ SUMMARY:Cranford vs Plainfield (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7505935@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T160000
-DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Linden vs Plainfield (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2698:7515217@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
 SUMMARY:Linden vs Plainfield (Varsity Coed Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7505935@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Linden vs Plainfield (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7514793@union-county-interscholastic-athletic-conference
@@ -1307,15 +1307,6 @@ SUMMARY:Plainfield at Joseph E. Soehl Middle School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7629590@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T160000
-DTEND;TZID=America/New_York:20270106T180000
-SUMMARY:Plainfield at Columbia Middle School (Middle School Boys Boys Bas
- ketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2812:7629964@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
@@ -1323,6 +1314,15 @@ DTEND;TZID=America/New_York:20270106T180000
 SUMMARY:Plainfield vs Columbia Middle School (Middle School Girls Girls B
  asketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7629590@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Plainfield at Columbia Middle School (Middle School Boys Boys Bas
+ ketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7767771@union-county-interscholastic-athletic-conference
@@ -1357,20 +1357,20 @@ SUMMARY:Cranford vs Plainfield (Girls (MS BLUE) Basketball)
 DESCRIPTION:Girls (MS BLUE) Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7768509@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T161500
-DTEND;TZID=America/New_York:20270108T181500
-SUMMARY:Elizabeth at Plainfield (MS-South Girls Girls Basketball)
-DESCRIPTION:MS-South Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7768770@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
 DTEND;TZID=America/New_York:20270108T181500
 SUMMARY:Elizabeth at Plainfield (MS-South Boys Boys Basketball)
 DESCRIPTION:MS-South Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7768509@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T161500
+DTEND;TZID=America/New_York:20270108T181500
+SUMMARY:Elizabeth at Plainfield (MS-South Girls Girls Basketball)
+DESCRIPTION:MS-South Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7768509@union-county-interscholastic-athletic-conference
@@ -1406,15 +1406,6 @@ SUMMARY:Plainfield vs Perth Amboy High School (Varsity Boys Boys Basketba
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7515021@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T160000
-DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Plainfield vs Joseph E. Soehl Middle School (Middle School Girls 
- Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2812:7515095@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
@@ -1422,6 +1413,15 @@ DTEND;TZID=America/New_York:20270111T180000
 SUMMARY:Plainfield at Joseph E. Soehl Middle School (Middle School Boys B
  oys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2812:7515021@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Plainfield vs Joseph E. Soehl Middle School (Middle School Girls 
+ Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7768520@union-county-interscholastic-athletic-conference
@@ -1563,15 +1563,6 @@ SUMMARY:Plainfield vs Mcmanus Middle School (Middle School Coed Coed Wres
 DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7445096@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T160000
-DTEND;TZID=America/New_York:20270120T180000
-SUMMARY:Arthur L. Johnson at Plainfield (Middle School Boys Boys Basketba
- ll)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2509:7445097@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
@@ -1579,6 +1570,15 @@ DTEND;TZID=America/New_York:20270120T180000
 SUMMARY:Arthur L. Johnson vs Plainfield (Middle School Girls Girls Basket
  ball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7445096@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Arthur L. Johnson at Plainfield (Middle School Boys Boys Basketba
+ ll)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7729811@union-county-interscholastic-athletic-conference
