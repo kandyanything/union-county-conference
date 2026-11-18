@@ -87,20 +87,20 @@ SUMMARY:Arthur L. Johnson vs Oak Knoll (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7531241@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7630639@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Summit vs Oak Knoll (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531241@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7534007@union-county-interscholastic-athletic-conference
@@ -185,20 +185,20 @@ SUMMARY:Summit at Oak Knoll (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7647073@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Summit vs Oak Knoll (Middle School Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7549245@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Summit vs Oak Knoll (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7647073@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Summit vs Oak Knoll (Middle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7636312@union-county-interscholastic-athletic-conference
@@ -1502,6 +1502,24 @@ DTSTART;TZID=America/New_York:20270205T120000
 DTEND;TZID=America/New_York:20270205T140000
 SUMMARY:Oak Knoll at Newark Academy (Varsity Fencing)
 DESCRIPTION:Varsity Fencing - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16691752www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T110000
+DTEND;TZID=America/New_York:20270216T130000
+SUMMARY:Oak Knoll at Gill St. Bernard's School (Varsity Basketball)
+DESCRIPTION:Varsity Basketball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16691753www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T123000
+DTEND;TZID=America/New_York:20270216T143000
+SUMMARY:Oak Knoll at Gill St. Bernard's School (Junior Varsity Basketball)
+DESCRIPTION:Junior Varsity Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7708551@union-county-interscholastic-athletic-conference
