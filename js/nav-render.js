@@ -63,17 +63,80 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isParent) {
             var sub = document.createElement('ul');
             sub.className = 'subnav';
-            item.children.forEach(function (child) {
-                var cli = document.createElement('li');
-                var ca = document.createElement('a');
-                ca.href = resolveHref(child.href);
-                ca.textContent = child.label;
-                cli.appendChild(ca);
-                sub.appendChild(cli);
-            });
+            item.children.forEach(function (child) { sub.appendChild(buildChild(child)); });
             li.appendChild(sub);
         }
         return li;
+    }
+
+    // A dropdown entry. One with its own 'children' (All-Conference > Fall >
+    // sports) gets a flyout list beside the dropdown on desktop, and opens in
+    // place on the collapsed phone menu.
+    function buildChild(child) {
+        var cli = document.createElement('li');
+        var ca = document.createElement('a');
+        ca.href = resolveHref(child.href);
+        ca.textContent = child.label;
+        cli.appendChild(ca);
+        if (Array.isArray(child.children) && child.children.length) {
+            cli.className = 'has-sub has-fly';
+            var fly = document.createElement('ul');
+            fly.className = 'subnav subnav--fly';
+            child.children.forEach(function (g) {
+                var gli = document.createElement('li');
+                var ga = document.createElement('a');
+                ga.href = resolveHref(g.href);
+                ga.textContent = g.label;
+                gli.appendChild(ga);
+                fly.appendChild(gli);
+            });
+            cli.appendChild(fly);
+        }
+        return cli;
+    }
+
+    // The All-Conference dropdown is built from data/all-conference.json: one
+    // entry per season (Fall, Winter, Spring), each with a flyout of the sports
+    // that have honorees that season, A-Z. A newly posted sport appears in the
+    // menu without anyone editing nav.json. The slug must match sportSlug() in
+    // js/all-conference.js, which reads ?sport= to pick the sport.
+    function sportSlug(name) {
+        return String(name || '').toLowerCase()
+            .replace(/&/g, ' and ')
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+    }
+
+    function fetchAllConferenceSeasons() {
+        return fetch('data/all-conference.json')
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (d) {
+                if (!d) return [];
+                var seasons = (d.seasons && d.seasons.length) ? d.seasons.slice() : ['Fall', 'Winter', 'Spring'];
+                var bySeason = {};
+                var seen = {};
+                (d.selections || []).forEach(function (s) {
+                    var slug = s && s.sport && s.name ? sportSlug(s.sport) : '';
+                    if (!slug || seen[slug]) return;
+                    seen[slug] = true;
+                    var season = s.season || 'Other';
+                    if (seasons.indexOf(season) === -1) seasons.push(season);
+                    (bySeason[season] = bySeason[season] || []).push({ label: s.sport, href: 'all-conference.html?sport=' + slug });
+                });
+                return seasons.map(function (season) {
+                    var sports = (bySeason[season] || []).sort(function (a, b) {
+                        return a.label.localeCompare(b.label, undefined, { sensitivity: 'base' });
+                    });
+                    return { label: season, href: 'all-conference.html#' + sportSlug(season), children: sports };
+                });
+            })
+            // Without it the item is still a working link to the All-Conference page.
+            .catch(function () { return []; });
+    }
+
+    function withAutoChildren(item, seasons) {
+        if (item.autoChildren !== 'all-conference' || !seasons.length) return item;
+        return { label: item.label, href: item.href, children: seasons };
     }
 
     // The four Extra Pages are optional, independent, and quiet about their
@@ -97,8 +160,9 @@ document.addEventListener('DOMContentLoaded', function () {
     Promise.all([
         fetch('data/nav.json').then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); }),
         Promise.all(EXTRA_PAGES.map(fetchExtraItem)),
+        fetchAllConferenceSeasons(),
     ]).then(function (results) {
-        var core = results[0].items || [];
+        var core = (results[0].items || []).map(function (item) { return withAutoChildren(item, results[2]); });
         var extras = results[1].filter(Boolean);
         core.concat(extras).forEach(function (item) { list.appendChild(buildItem(item)); });
         wireInteractivity();
@@ -174,7 +238,14 @@ document.addEventListener('DOMContentLoaded', function () {
             var sub = li.querySelector('.subnav');
             if (!sub) return;
             var left = li.getBoundingClientRect().left;
-            li.classList.toggle('opens-left', left + sub.offsetWidth > edge - 8);
+            var opensLeft = left + sub.offsetWidth > edge - 8;
+            li.classList.toggle('opens-left', opensLeft);
+            // flyouts (All-Conference > Fall > sports) open to whichever side has room
+            var fly = sub.querySelector('.subnav--fly');
+            if (fly) {
+                var subLeft = opensLeft ? li.getBoundingClientRect().right - sub.offsetWidth : left;
+                li.classList.toggle('fly-left', subLeft + sub.offsetWidth + fly.offsetWidth > edge - 8);
+            }
         });
     }
 });

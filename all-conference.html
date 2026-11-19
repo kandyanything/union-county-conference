@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="All-Conference and All-Union County honors from the Union County Conference, by season, sport and division.">
+    <title>All-Conference | UCC</title>
+    <link rel="canonical" href="https://www.uccathletics.com/all-conference.html">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16.png">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0b1529">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Union County Conference">
+    <meta property="og:title" content="UCC All-Conference">
+    <meta property="og:description" content="All-Conference and All-Union County honors from the Union County Conference, by season, sport and division.">
+    <meta property="og:url" content="https://www.uccathletics.com/all-conference.html">
+    <meta property="og:image" content="https://www.uccathletics.com/images/social-card.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Union County Conference">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UCC All-Conference">
+    <meta name="twitter:description" content="All-Conference and All-Union County honors from the Union County Conference, by season, sport and division.">
+    <meta name="twitter:image" content="https://www.uccathletics.com/images/social-card.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/redesign.css">
+    <link rel="stylesheet" href="css/redesign-components.css">
+    <link rel="stylesheet" href="css/redesign-sections.css">
+    <link rel="stylesheet" href="css/redesign-pages.css">
+    <script>document.documentElement.className += ' js-reveal';</script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="wrap">
+            <span><strong>UCC</strong> &nbsp;Union County Athletics</span>
+            <nav class="topbar-links" aria-label="Utility">
+                <a class="topbar-flag" href="sportsmanship.html">Sportsmanship</a>
+                <a href="info.html">Conference Info</a>
+                <a href="links.html">External Links</a>
+                <a href="websites.html">School Websites</a>
+            
+                <a class="topbar-social" href="https://www.instagram.com/uciac_/" target="_blank" rel="noopener" aria-label="Union County Conference on Instagram, @uciac_"><svg class="ig-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="igTop" x1="3" y1="21" x2="21" y2="3"><stop offset="0" stop-color="#FEDA75"/><stop offset=".25" stop-color="#FA7E1E"/><stop offset=".5" stop-color="#D62976"/><stop offset=".75" stop-color="#962FBF"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><rect width="24" height="24" rx="6.4" fill="url(#igTop)"/><g fill="none" stroke="#fff" stroke-width="1.7"><rect x="5.4" y="5.4" width="13.2" height="13.2" rx="3.9"/><circle cx="12" cy="12" r="3.1"/></g><circle cx="17.1" cy="7" r="1.05" fill="#fff"/></svg><span class="topbar-social-handle">@uciac_</span></a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="masthead">
+        <div class="masthead-strip" aria-hidden="true"></div>
+        <div class="wrap">
+            <a class="masthead-brand" href="index.html" aria-label="Union County Conference home">
+                <img class="masthead-logo" src="images/uciac-logo-footer.png" alt="Union County Conference logo">
+                <span class="masthead-text">
+                    <span class="name">Union County Conference</span>
+                </span>
+            </a>
+        </div>
+    </header>
+
+    <nav class="mainnav" aria-label="Primary">
+        <div class="wrap">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+            <ul class="navlist" id="primary-menu"></ul>
+        </div>
+    </nav>
+
+    <section class="page-head">
+        <div class="wrap">
+            <div class="eyebrow">Conference Honors</div>
+            <h1>All-Conference</h1>
+            <p>Student-athletes honored by the Union County Conference and the UCIAC, by season and sport.</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <section class="ucc-allconference" id="all-conference">
+                <p class="allconf-intro" hidden></p>
+                <a class="allconf-back" href="all-conference.html" hidden>&larr; All sports</a>
+                <div class="allconf-controls" hidden>
+                    <div class="allconf-field">
+                        <label for="allconf-year">Year</label>
+                        <select id="allconf-year"></select>
+                    </div>
+                    <div class="allconf-field" hidden>
+                        <label for="allconf-division">Division</label>
+                        <select id="allconf-division"></select>
+                    </div>
+                </div>
+                <div class="allconf-results" aria-live="polite"></div>
+                <p class="allconf-empty">All-Conference selections are posted after each season.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-cols">
+                <div class="footer-brand">
+                    <img src="images/uciac-logo.png" alt="">
+                    <div>
+                        <h4>Union County Conference</h4>
+                        <p style="margin:0;font-size:.93rem;">Union County Athletics. Serving 22 member high schools in New Jersey.</p>
+                        <a class="footer-social" href="https://www.instagram.com/uciac_/" target="_blank" rel="noopener"><svg class="ig-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="igFoot" x1="3" y1="21" x2="21" y2="3"><stop offset="0" stop-color="#FEDA75"/><stop offset=".25" stop-color="#FA7E1E"/><stop offset=".5" stop-color="#D62976"/><stop offset=".75" stop-color="#962FBF"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><rect width="24" height="24" rx="6.4" fill="url(#igFoot)"/><g fill="none" stroke="#fff" stroke-width="1.7"><rect x="5.4" y="5.4" width="13.2" height="13.2" rx="3.9"/><circle cx="12" cy="12" r="3.1"/></g><circle cx="17.1" cy="7" r="1.05" fill="#fff"/></svg><span>@uciac_</span></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html#member-schools">Schedules by School</a></li>
+                        <li><a href="calendar.html">Conference Calendar</a></li>
+                        <li><a href="websites.html">School Websites</a></li>
+                        <li><a href="info.html">Conference Information</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="sportsmanship.html">Sportsmanship Code</a></li>
+                        <li><a href="links.html">External Links</a></li>
+                        <li><a href="https://www.njsiaa.org/" target="_blank" rel="noopener">NJSIAA</a></li>
+                        <li><a href="videos.html">All Videos</a></li>
+                        <li><a href="index.html#UCC-news">UCC News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Union County Conference. All rights reserved.</span>
+                <span>Union County, New Jersey</span>
+                <a class="atq-credit" href="https://athlitiq.com" target="_blank" rel="noopener">
+                    <span>Built by</span>
+                    <img class="atq-logo" src="images/athlitiq-lockup.svg" alt="AthlitIQ" width="91" height="20">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/redesign-logostrip.js"></script>
+    <script src="js/nav-render.js"></script>
+    <script src="js/redesign-reveal.js"></script>
+    <script src="js/all-conference.js"></script>
+</body>
+</html>
