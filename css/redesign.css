@@ -187,13 +187,13 @@ p { margin: 0 0 1rem; }
 .navlist > li > a {
     display: flex; align-items: center;
     font-family: var(--font-display);
-    font-size: 1.02rem;
+    font-size: calc(.95rem * var(--nav-scale, 1));
     font-weight: 500;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #d7dade;
     text-decoration: none;
-    padding: 15px 15px;
+    padding: 15px calc(14px * var(--nav-scale, 1));
     border-bottom: 3px solid transparent;
     transition: background .2s, color .2s, border-color .2s;
 }
@@ -221,16 +221,17 @@ p { margin: 0 0 1rem; }
    instead - js/nav-render.js sets .opens-left from where the item sits. */
 .navlist > li.has-sub.opens-left .subnav { left: auto; right: 0; }
 
-/* The nine top-level items need about 1210px at full spacing, so between
-   the collapse point (1120px) and 1280px they would wrap onto a second row.
-   Tighten the spacing (and, at the narrowest, the type) there instead - one
-   row at every desktop width. */
+/* The nine top-level items must stay on one row at every desktop width, so
+   the type and spacing step down between the collapse point (1120px) and
+   1280px. Fonts render a little wider on some computers, so each step leaves
+   room to spare, and js/nav-render.js shrinks --nav-scale further if the
+   row still wraps on a particular screen. */
 @media (min-width: 1121px) and (max-width: 1279px) {
-    .navlist > li > a { padding-left: 12px; padding-right: 12px; letter-spacing: .05em; font-size: .97rem; }
+    .navlist > li > a { padding-left: calc(11px * var(--nav-scale, 1)); padding-right: calc(11px * var(--nav-scale, 1)); letter-spacing: .045em; font-size: calc(.92rem * var(--nav-scale, 1)); }
     .has-sub > a::after { margin-left: 5px; }
 }
 @media (min-width: 1121px) and (max-width: 1199px) {
-    .navlist > li > a { padding-left: 9px; padding-right: 9px; letter-spacing: .04em; font-size: .93rem; }
+    .navlist > li > a { padding-left: calc(8px * var(--nav-scale, 1)); padding-right: calc(8px * var(--nav-scale, 1)); letter-spacing: .035em; font-size: calc(.88rem * var(--nav-scale, 1)); }
 }
 
 /* Belt and braces at in-between widths: clip horizontally while leaving the
