@@ -221,6 +221,13 @@ p { margin: 0 0 1rem; }
    instead - js/nav-render.js sets .opens-left from where the item sits. */
 .navlist > li.has-sub.opens-left .subnav { left: auto; right: 0; }
 
+/* The eight top-level items need about 1105px at full spacing, so between
+   the collapse point (1120px) and 1280px they would wrap onto a second row.
+   Tighten the spacing there instead - one row at every desktop width. */
+@media (min-width: 1121px) and (max-width: 1279px) {
+    .navlist > li > a { padding-left: 13px; padding-right: 13px; letter-spacing: .06em; }
+}
+
 /* Belt and braces at in-between widths: clip horizontally while leaving the
    vertical overflow the dropdowns depend on. clip rather than hidden, because
    hidden on one axis forces the other to auto and would trap them. */

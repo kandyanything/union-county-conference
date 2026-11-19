@@ -1,12 +1,16 @@
 {
-  "_comment": "Site-wide pop-up. mode 'acknowledge' shows it each visit until the visitor clicks 'Don't show this again'; closing with X or Esc dismisses for that session only. Change 'id' for a NEW message. Other modes: 'once', 'untilDate' (with endDate), 'always'.",
+  "_comment": "Site-wide pop-up. mode 'untilDate' shows it on every visit (once per browser session) until endDate, then it comes down on its own. Change 'id' for a NEW message. layout 'photos' is the photo-gallery feature card (art panel + 'logo' seal); leave layout out for the plain card. Other modes: 'once', 'acknowledge', 'always'.",
   "active": true,
-  "id": "welcome-2026",
-  "eyebrow": "Announcement",
-  "title": "Welcome to the New Union County Site",
-  "body": "Browse every school's schedule, follow standings, and watch UCIAC Vision — all season long.",
-  "linkUrl": "#member-schools",
-  "linkLabel": "View Schedules",
-  "mode": "acknowledge",
-  "endDate": ""
+  "id": "summit-photos-2026-winter",
+  "layout": "photos",
+  "logo": "images/uciac-logo-footer.png",
+  "logoAlt": "Union County Conference",
+  "eyebrow": "Photo Gallery · Now Available",
+  "title": "2026 UCC Winter Sportsmanship Summit",
+  "body": "Relive the day! Photos from our Winter Sportsmanship Summit on November 11, 2026 are now online.",
+  "linkUrl": "https://photos.app.goo.gl/f9ub7oCLXm2YVqQC7",
+  "linkLabel": "View the Photos",
+  "dismissLabel": "Maybe later",
+  "mode": "untilDate",
+  "endDate": "2026-12-31"
 }

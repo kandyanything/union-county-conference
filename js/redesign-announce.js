@@ -9,6 +9,9 @@
 //                   then comes down on its own; a close hides it for the session.
 // "id" keys the memory, so posting a new message (new id) re-shows it to
 // everyone. Add ?announce to the URL to preview. Fully editable from the CMS.
+// "layout": "photos" swaps the plain card for a photo-gallery feature card:
+// a navy/gold art panel with a fanned stack of photo frames, the conference
+// seal ("logo"), and the whole graphic linking to "linkUrl".
 (function () {
     'use strict';
 
@@ -95,7 +98,124 @@
         '.ann-btn--ghost{background:transparent;color:#48505b;border-color:#d6dadf;}' +
         '.ann-btn--ghost:hover{background:#f2f3f5;}' +
         '.ann-btn:focus-visible{outline:2px solid var(--red,#c8102e);outline-offset:2px;}' +
-        '@media (prefers-reduced-motion:reduce){.ann-backdrop,.ann-card{transition:none;}}';
+        '@media (prefers-reduced-motion:reduce){.ann-backdrop,.ann-card{transition:none;}}' +
+        // ---- "photos" feature layout ----
+        '.ann-card--photos{max-width:470px;border-radius:18px;text-align:center;}' +
+        '.ann-art{position:relative;display:block;height:232px;overflow:hidden;text-decoration:none;cursor:pointer;' +
+        'background:radial-gradient(120% 90% at 50% 115%,rgba(196,150,42,.55),transparent 58%),' +
+        'radial-gradient(70% 60% at 85% 0%,rgba(59,130,246,.30),transparent 70%),linear-gradient(160deg,#0b1529 0%,#121e40 45%,#1a2560 100%);}' +
+        '.ann-art::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 2px,transparent 2px 26px);}' +
+        '.ann-art::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,transparent,#c4962a 20%,#f1d38a 50%,#c4962a 80%,transparent);}' +
+        '.ann-stack{position:absolute;left:50%;top:24px;width:0;height:0;}' +
+        '.ann-photo{position:absolute;left:-74px;top:0;width:148px;height:128px;padding:7px 7px 20px;background:#fff;border-radius:4px;' +
+        'box-shadow:0 14px 28px rgba(0,0,0,.45);transition:transform .45s cubic-bezier(.2,.8,.3,1.15);}' +
+        '.ann-photo svg{display:block;width:100%;height:100%;border-radius:2px;}' +
+        '.ann-photo--1{transform:translate(-62px,22px) rotate(-14deg);}' +
+        '.ann-photo--2{transform:translate(64px,20px) rotate(13deg);}' +
+        '.ann-photo--3{transform:translate(0,6px) rotate(-2deg);z-index:2;}' +
+        '.ann-art:hover .ann-photo--1,.ann-art:focus-visible .ann-photo--1{transform:translate(-92px,26px) rotate(-19deg);}' +
+        '.ann-art:hover .ann-photo--2,.ann-art:focus-visible .ann-photo--2{transform:translate(94px,24px) rotate(18deg);}' +
+        '.ann-art:hover .ann-photo--3,.ann-art:focus-visible .ann-photo--3{transform:translate(0,-4px) rotate(0deg) scale(1.04);}' +
+        '.ann-cam{position:absolute;right:-14px;bottom:2px;width:46px;height:46px;border-radius:50%;z-index:3;display:flex;align-items:center;justify-content:center;' +
+        'background:linear-gradient(145deg,#f1d38a,#c4962a 55%,#a07820);box-shadow:0 6px 16px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.5);}' +
+        '.ann-cam svg{width:24px;height:24px;}' +
+        '.ann-spark{position:absolute;color:#f1d38a;font-size:14px;line-height:1;opacity:.85;animation:annTw 2.6s ease-in-out infinite;}' +
+        '@keyframes annTw{0%,100%{opacity:.25;transform:scale(.7);}50%{opacity:1;transform:scale(1.1);}}' +
+        '.ann-card--photos .ann-x{top:10px;right:10px;color:rgba(255,255,255,.8);z-index:6;}' +
+        '.ann-card--photos .ann-x:hover{color:#fff;background:rgba(255,255,255,.14);}' +
+        '.ann-seal{position:relative;z-index:5;width:92px;height:92px;margin:-46px auto 0;border-radius:50%;background:#fff;padding:5px;' +
+        'box-shadow:0 0 0 3px #c4962a,0 10px 24px rgba(11,21,41,.35);}' +
+        '.ann-seal img{display:block;width:100%;height:100%;object-fit:contain;border-radius:50%;}' +
+        '.ann-card--photos .ann-eyebrow{margin:14px 26px 0;color:#a07820;}' +
+        '.ann-card--photos .ann-title{margin:6px 30px 8px;font-size:1.6rem;color:#0b1529;}' +
+        '.ann-card--photos .ann-body{margin:0 30px 20px;}' +
+        '.ann-card--photos .ann-actions{flex-direction:column;align-items:stretch;padding:0 30px 26px;gap:6px;}' +
+        '.ann-btn--gold{display:flex;align-items:center;justify-content:center;gap:10px;font-family:var(--font-display,inherit);font-weight:500;font-size:1.02rem;' +
+        'letter-spacing:.09em;text-transform:uppercase;padding:14px 20px;color:#0b1529;border:0;' +
+        'background:linear-gradient(135deg,#f1d38a,#c4962a 55%,#a07820);box-shadow:0 8px 20px rgba(160,120,32,.35);}' +
+        '.ann-btn--gold:hover{filter:brightness(1.06);transform:translateY(-1px);}' +
+        '.ann-btn--gold svg{width:20px;height:20px;flex:none;}' +
+        '.ann-btn--text{background:none;border:0;color:#666b74;font-size:.86rem;padding:8px;}' +
+        '.ann-btn--text:hover{color:#0b1529;text-decoration:underline;}' +
+        '@media (max-width:480px){.ann-art{height:200px;}.ann-stack{top:14px;}.ann-photo{transform-origin:center;}' +
+        '.ann-photo--1{transform:translate(-50px,22px) rotate(-14deg) scale(.86);}.ann-photo--2{transform:translate(52px,20px) rotate(13deg) scale(.86);}' +
+        '.ann-photo--3{transform:translate(0,4px) rotate(-2deg) scale(.9);}.ann-card--photos .ann-title{font-size:1.35rem;margin:6px 22px 8px;}' +
+        '.ann-card--photos .ann-body{margin:0 22px 18px;}.ann-card--photos .ann-actions{padding:0 22px 22px;}}' +
+        '@media (prefers-reduced-motion:reduce){.ann-photo{transition:none;}.ann-spark{animation:none;}}';
+
+    // A stylised photograph - sky, sun, two ridgelines - in three colourways,
+    // so the stack reads as "photos" at a glance without needing real ones.
+    var SCENES = [
+        ['#1a2560', '#3b82f6', '#f1d38a', '#121e40', '#2b3f86'],
+        ['#a07820', '#f1d38a', '#fff6dc', '#1a2560', '#3f5bb5'],
+        ['#0b1529', '#1f3070', '#f1d38a', '#c4962a', '#8a6a1e']
+    ];
+    function sceneSvg(c, n) {
+        return '<svg viewBox="0 0 134 101" aria-hidden="true" focusable="false"><defs><linearGradient id="annSky' + n + '" x1="0" y1="0" x2="0" y2="1">' +
+            '<stop offset="0" stop-color="' + c[0] + '"/><stop offset="1" stop-color="' + c[1] + '"/></linearGradient></defs>' +
+            '<rect width="134" height="101" fill="url(#annSky' + n + ')"/><circle cx="98" cy="30" r="13" fill="' + c[2] + '"/>' +
+            '<path d="M0 101 L0 70 L30 44 L52 64 L78 36 L134 82 L134 101 Z" fill="' + c[4] + '"/>' +
+            '<path d="M0 101 L0 84 L40 62 L70 80 L100 60 L134 88 L134 101 Z" fill="' + c[3] + '"/></svg>';
+    }
+    var CAMERA = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="#0b1529" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+        '<path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.6"/></svg>';
+    var GALLERY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+        '<rect x="3" y="5" width="15" height="13" rx="2"/><path d="M3 15l4-4 4 4 3-3 4 4"/><path d="M21 8v11a2 2 0 0 1-2 2H7"/></svg>';
+
+    // The "photos" card. Returns the pieces render() wires up.
+    function buildPhotosCard(a) {
+        var card = document.createElement('div'); card.className = 'ann-card ann-card--photos';
+        var external = /^https?:/i.test(a.linkUrl || '');
+
+        var art = document.createElement(a.linkUrl ? 'a' : 'div'); art.className = 'ann-art';
+        if (a.linkUrl) {
+            art.href = a.linkUrl;
+            if (external) { art.target = '_blank'; art.rel = 'noopener'; }
+            art.setAttribute('aria-label', (a.linkLabel || 'View the photos') + ' - ' + a.title);
+        }
+        var stack = document.createElement('div'); stack.className = 'ann-stack';
+        [0, 1, 2].forEach(function (i) {
+            var ph = document.createElement('div'); ph.className = 'ann-photo ann-photo--' + (i + 1);
+            ph.innerHTML = sceneSvg(SCENES[i], i);
+            if (i === 2) { var cam = document.createElement('span'); cam.className = 'ann-cam'; cam.innerHTML = CAMERA; ph.appendChild(cam); }
+            stack.appendChild(ph);
+        });
+        art.appendChild(stack);
+        [[14, 18, '0s'], [82, 30, '.9s'], [22, 70, '1.7s'], [88, 74, '.4s']].forEach(function (sp) {
+            var s = document.createElement('span'); s.className = 'ann-spark'; s.setAttribute('aria-hidden', 'true'); s.textContent = '\u2726';
+            s.style.left = sp[0] + '%'; s.style.top = sp[1] + '%'; s.style.animationDelay = sp[2];
+            art.appendChild(s);
+        });
+        card.appendChild(art);
+
+        var x = document.createElement('button'); x.className = 'ann-x'; x.type = 'button'; x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+        card.appendChild(x);          // sits over the art panel (positioned absolutely)
+
+        if (a.logo) {
+            var seal = document.createElement('div'); seal.className = 'ann-seal';
+            var img = document.createElement('img'); img.src = a.logo; img.alt = a.logoAlt || '';
+            seal.appendChild(img); card.appendChild(seal);
+        }
+        if (a.eyebrow) { var ey = document.createElement('div'); ey.className = 'ann-eyebrow'; ey.textContent = a.eyebrow; card.appendChild(ey); }
+        var h = document.createElement('h2'); h.id = 'ann-title'; h.className = 'ann-title'; h.textContent = a.title; card.appendChild(h);
+        if (a.body) { var p = document.createElement('p'); p.className = 'ann-body'; p.textContent = a.body; card.appendChild(p); }
+
+        var actions = document.createElement('div'); actions.className = 'ann-actions';
+        var links = [art];
+        if (a.linkUrl) {
+            var cta = document.createElement('a'); cta.className = 'ann-btn ann-btn--gold';
+            cta.href = a.linkUrl;
+            if (external) { cta.target = '_blank'; cta.rel = 'noopener'; }
+            cta.innerHTML = GALLERY_ICON;
+            cta.appendChild(document.createTextNode(a.linkLabel || 'View the Photos'));
+            actions.appendChild(cta); links.push(cta);
+        }
+        var later = document.createElement('button'); later.type = 'button'; later.className = 'ann-btn ann-btn--text';
+        later.textContent = a.dismissLabel || 'Maybe later';
+        actions.appendChild(later);
+        card.appendChild(actions);
+        return { card: card, close: x, dismiss: later, links: a.linkUrl ? links : [], dismissIsAck: false };
+    }
 
     function render(a, id, mode, force) {
         if (document.getElementById('UCIAC-announce')) return;
@@ -107,9 +227,13 @@
         back.id = 'UCIAC-announce'; back.className = 'ann-backdrop';
         back.setAttribute('role', 'dialog'); back.setAttribute('aria-modal', 'true'); back.setAttribute('aria-labelledby', 'ann-title');
 
-        var card = document.createElement('div'); card.className = 'ann-card';
+        var built = a.layout === 'photos' ? buildPhotosCard(a) : null;
+        var card = built ? built.card : document.createElement('div');
+        if (!built) card.className = 'ann-card';
         var bar = document.createElement('div'); bar.className = 'ann-bar';
-        var x = document.createElement('button'); x.className = 'ann-x'; x.type = 'button'; x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+        var x = built ? built.close : document.createElement('button');
+        if (!built) {
+        x.className = 'ann-x'; x.type = 'button'; x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
         card.appendChild(bar); card.appendChild(x);
         if (a.eyebrow) { var ey = document.createElement('div'); ey.className = 'ann-eyebrow'; ey.textContent = a.eyebrow; card.appendChild(ey); }
         var h = document.createElement('h2'); h.id = 'ann-title'; h.className = 'ann-title'; h.textContent = a.title; card.appendChild(h);
@@ -127,6 +251,11 @@
         got.textContent = mode === 'acknowledge' ? "Don't show this again" : (a.linkUrl ? 'Dismiss' : 'Got it');
         actions.appendChild(got);
         card.appendChild(actions);
+        } else {
+            var got = built.dismiss;
+            // opening the album counts as having seen it for this session
+            built.links.forEach(function (l) { l.addEventListener('click', function () { dismiss(false); }); });
+        }
 
         back.appendChild(card);
         document.body.appendChild(back);
