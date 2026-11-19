@@ -842,3 +842,106 @@ main .container > section { overflow-x: auto; }
     .sports-code { max-width: none; }
     .sports-code p { font-size: 11.5pt; line-height: 1.5; }
 }
+
+/* ---------- Sportsmanship Summit ----------------------------------------
+   One section per summit (data/sportsmanship-summit.json): heading and date,
+   a square-cropped photo grid, and the full album link. Photos open full size
+   in a <dialog> viewer. */
+.summit-empty { color: var(--muted); }
+.summit-event + .summit-event {
+    margin-top: 44px;
+    padding-top: 36px;
+    border-top: 1px solid rgba(11, 21, 41, .12);
+}
+.summit-head h2 { margin: 0 0 4px; }
+.summit-date {
+    margin: 14px 0 0;
+    font-family: var(--font-display);
+    font-size: .95rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--red-dark);
+}
+.summit-desc { margin: 12px 0 0; max-width: 70ch; }
+
+.summit-grid {
+    list-style: none;
+    margin: 24px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+}
+.summit-grid li { margin: 0; }
+.summit-thumb {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: zoom-in;
+    background: var(--line);
+    aspect-ratio: 1 / 1;
+    box-shadow: var(--shadow-sm);
+    transition: transform .2s, box-shadow .2s;
+}
+.summit-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.summit-thumb:hover,
+.summit-thumb:focus-visible { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.summit-thumb:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
+
+.summit-album { margin-top: 24px; }
+
+.summit-lightbox {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--white);
+}
+.summit-lightbox[open] { display: flex; align-items: center; justify-content: center; }
+.summit-lightbox::backdrop { background: rgba(6, 11, 22, .92); }
+.summit-lightbox figure { margin: 0; max-width: calc(100vw - 140px); text-align: center; }
+.summit-lightbox img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 110px);
+    margin: 0 auto;
+    border-radius: 6px;
+    box-shadow: var(--shadow-lg);
+}
+.summit-lightbox figcaption { margin-top: 12px; font-size: .92rem; color: rgba(255, 255, 255, .82); }
+.summit-lb-close,
+.summit-lb-prev,
+.summit-lb-next {
+    position: absolute;
+    border: 0;
+    background: rgba(255, 255, 255, .12);
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 999px;
+    line-height: 1;
+    transition: background .2s;
+}
+.summit-lb-close:hover,
+.summit-lb-prev:hover,
+.summit-lb-next:hover { background: rgba(255, 255, 255, .26); }
+.summit-lb-close { top: 18px; right: 18px; width: 44px; height: 44px; font-size: 1.9rem; }
+.summit-lb-prev,
+.summit-lb-next { top: 50%; transform: translateY(-50%); width: 52px; height: 52px; font-size: 2.2rem; }
+.summit-lb-prev { left: 16px; }
+.summit-lb-next { right: 16px; }
+.summit-lb-prev[hidden],
+.summit-lb-next[hidden] { display: none; }
+
+@media (max-width: 600px) {
+    .summit-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .summit-lightbox figure { max-width: calc(100vw - 24px); }
+    .summit-lb-prev,
+    .summit-lb-next { top: auto; bottom: 18px; transform: none; }
+}
