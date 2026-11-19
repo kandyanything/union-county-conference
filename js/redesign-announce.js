@@ -11,7 +11,10 @@
 // everyone. Add ?announce to the URL to preview. Fully editable from the CMS.
 // "layout": "photos" swaps the plain card for a photo-gallery feature card:
 // a navy/gold art panel with a fanned stack of photo frames, the conference
-// seal ("logo"), and the whole graphic linking to "linkUrl".
+// seal ("logo"), and the whole graphic linking to "linkUrl". "photos" (up to
+// three image paths, 3:2) fill the frames: the first is the centre one, shown
+// whole; the second and third fan out behind it, left and right. Without
+// photos the frames show a drawn picture instead.
 (function () {
     'use strict';
 
@@ -107,18 +110,20 @@
         '.ann-art::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 2px,transparent 2px 26px);}' +
         '.ann-art::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,transparent,#c4962a 20%,#f1d38a 50%,#c4962a 80%,transparent);}' +
         '.ann-stack{position:absolute;left:50%;top:24px;width:0;height:0;}' +
-        '.ann-photo{position:absolute;left:-74px;top:0;width:148px;height:128px;padding:7px 7px 20px;background:#fff;border-radius:4px;' +
+        '.ann-photo{position:absolute;left:-85px;top:0;width:170px;height:131px;padding:7px 7px 20px;background:#fff;border-radius:4px;' +
         'box-shadow:0 14px 28px rgba(0,0,0,.45);transition:transform .45s cubic-bezier(.2,.8,.3,1.15);}' +
-        '.ann-photo svg{display:block;width:100%;height:100%;border-radius:2px;}' +
-        '.ann-photo--1{transform:translate(-62px,22px) rotate(-14deg);}' +
-        '.ann-photo--2{transform:translate(64px,20px) rotate(13deg);}' +
-        '.ann-photo--3{transform:translate(0,6px) rotate(-2deg);z-index:2;}' +
-        '.ann-art:hover .ann-photo--1,.ann-art:focus-visible .ann-photo--1{transform:translate(-92px,26px) rotate(-19deg);}' +
-        '.ann-art:hover .ann-photo--2,.ann-art:focus-visible .ann-photo--2{transform:translate(94px,24px) rotate(18deg);}' +
-        '.ann-art:hover .ann-photo--3,.ann-art:focus-visible .ann-photo--3{transform:translate(0,-4px) rotate(0deg) scale(1.04);}' +
-        '.ann-cam{position:absolute;right:-14px;bottom:2px;width:46px;height:46px;border-radius:50%;z-index:3;display:flex;align-items:center;justify-content:center;' +
+        '.ann-photo svg,.ann-photo img{display:block;width:100%;height:100%;border-radius:2px;}' +
+        '.ann-photo img{object-fit:cover;background:#1a2560;}' +
+        '.ann-photo--1{transform:translate(-84px,26px) rotate(-13deg);}' +
+        '.ann-photo--2{transform:translate(86px,24px) rotate(12deg);}' +
+        '.ann-photo--3{transform:translate(0,4px) rotate(-2deg) scale(1.12);z-index:2;}' +
+        '.ann-art:hover .ann-photo--1,.ann-art:focus-visible .ann-photo--1{transform:translate(-112px,30px) rotate(-18deg);}' +
+        '.ann-art:hover .ann-photo--2,.ann-art:focus-visible .ann-photo--2{transform:translate(114px,28px) rotate(17deg);}' +
+        '.ann-art:hover .ann-photo--3,.ann-art:focus-visible .ann-photo--3{transform:translate(0,-4px) rotate(0deg) scale(1.17);}' +
+        // on the frame's corner, below the picture, so the centre photo shows whole
+        '.ann-cam{position:absolute;right:-17px;bottom:-24px;width:38px;height:38px;border-radius:50%;z-index:3;display:flex;align-items:center;justify-content:center;' +
         'background:linear-gradient(145deg,#f1d38a,#c4962a 55%,#a07820);box-shadow:0 6px 16px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.5);}' +
-        '.ann-cam svg{width:24px;height:24px;}' +
+        '.ann-cam svg{width:20px;height:20px;}' +
         '.ann-spark{position:absolute;color:#f1d38a;font-size:14px;line-height:1;opacity:.85;animation:annTw 2.6s ease-in-out infinite;}' +
         '@keyframes annTw{0%,100%{opacity:.25;transform:scale(.7);}50%{opacity:1;transform:scale(1.1);}}' +
         '.ann-card--photos .ann-x{top:10px;right:10px;color:rgba(255,255,255,.8);z-index:6;}' +
@@ -138,8 +143,8 @@
         '.ann-btn--text{background:none;border:0;color:#666b74;font-size:.86rem;padding:8px;}' +
         '.ann-btn--text:hover{color:#0b1529;text-decoration:underline;}' +
         '@media (max-width:480px){.ann-art{height:200px;}.ann-stack{top:14px;}.ann-photo{transform-origin:center;}' +
-        '.ann-photo--1{transform:translate(-50px,22px) rotate(-14deg) scale(.86);}.ann-photo--2{transform:translate(52px,20px) rotate(13deg) scale(.86);}' +
-        '.ann-photo--3{transform:translate(0,4px) rotate(-2deg) scale(.9);}.ann-card--photos .ann-title{font-size:1.35rem;margin:6px 22px 8px;}' +
+        '.ann-photo--1{transform:translate(-62px,24px) rotate(-13deg) scale(.8);}.ann-photo--2{transform:translate(64px,22px) rotate(12deg) scale(.8);}' +
+        '.ann-photo--3{transform:translate(0,2px) rotate(-2deg) scale(.98);}.ann-card--photos .ann-title{font-size:1.35rem;margin:6px 22px 8px;}' +
         '.ann-card--photos .ann-body{margin:0 22px 18px;}.ann-card--photos .ann-actions{padding:0 22px 22px;}}' +
         '@media (prefers-reduced-motion:reduce){.ann-photo{transition:none;}.ann-spark{animation:none;}}';
 
@@ -174,9 +179,19 @@
             art.setAttribute('aria-label', (a.linkLabel || 'View the photos') + ' - ' + a.title);
         }
         var stack = document.createElement('div'); stack.className = 'ann-stack';
+        // frame 3 is the centre one, frames 1 and 2 fan out left and right
+        var pics = Array.isArray(a.photos) ? a.photos : [];
+        var picFor = [pics[1], pics[2], pics[0]];
         [0, 1, 2].forEach(function (i) {
             var ph = document.createElement('div'); ph.className = 'ann-photo ann-photo--' + (i + 1);
-            ph.innerHTML = sceneSvg(SCENES[i], i);
+            if (picFor[i]) {
+                var pim = document.createElement('img');
+                pim.src = picFor[i]; pim.alt = ''; pim.decoding = 'async';
+                pim.onerror = function () { ph.innerHTML = sceneSvg(SCENES[i], i); };
+                ph.appendChild(pim);
+            } else {
+                ph.innerHTML = sceneSvg(SCENES[i], i);
+            }
             if (i === 2) { var cam = document.createElement('span'); cam.className = 'ann-cam'; cam.innerHTML = CAMERA; ph.appendChild(cam); }
             stack.appendChild(ph);
         });
