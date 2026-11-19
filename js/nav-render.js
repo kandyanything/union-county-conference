@@ -155,6 +155,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
         window.addEventListener('resize', function () {
             if (!collapsed()) close();
+            placeSubmenus();
+        });
+        placeSubmenus();
+        // web fonts change the item widths once they load
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(placeSubmenus);
+    }
+
+    // A dropdown opens rightwards from its menu item unless that would run past
+    // the right edge of the window, in which case it opens leftwards. Decided
+    // from where the item actually sits rather than from its place in the list:
+    // the bar wraps onto a second row, which puts the last items at the far
+    // LEFT, and a leftward dropdown there ran off the screen. A hidden dropdown
+    // still counts toward page width, so this matters even while closed.
+    function placeSubmenus() {
+        var edge = document.documentElement.clientWidth;
+        list.querySelectorAll(':scope > li.has-sub').forEach(function (li) {
+            var sub = li.querySelector('.subnav');
+            if (!sub) return;
+            var left = li.getBoundingClientRect().left;
+            li.classList.toggle('opens-left', left + sub.offsetWidth > edge - 8);
         });
     }
 });

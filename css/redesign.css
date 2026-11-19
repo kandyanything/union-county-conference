@@ -217,8 +217,9 @@ p { margin: 0 0 1rem; }
 /* A menu near the end of the bar hangs past the right edge on a narrower
    desktop and widens the whole page - 67px of horizontal scroll at 1024px,
    present even while closed, because a visibility: hidden box still counts
-   toward the scrollable area. The last two menus open leftwards instead. */
-.navlist > li.has-sub:nth-last-child(-n+2) .subnav { left: auto; right: 0; }
+   toward the scrollable area. A menu that would do that opens leftwards
+   instead - js/nav-render.js sets .opens-left from where the item sits. */
+.navlist > li.has-sub.opens-left .subnav { left: auto; right: 0; }
 
 /* Belt and braces at in-between widths: clip horizontally while leaving the
    vertical overflow the dropdowns depend on. clip rather than hidden, because
@@ -312,7 +313,7 @@ p { margin: 0 0 1rem; }
         display: none;
     }
     /* the collapsed menu stacks, so the desktop right-anchoring must not apply */
-    .navlist > li.has-sub:nth-last-child(-n+2) .subnav { left: auto; right: auto; }
+    .navlist > li.has-sub.opens-left .subnav { left: auto; right: auto; }
     .has-sub.open .subnav { display: block; }
     .subnav a { color: #c0e8f4; padding-left: 22px; }
     .subnav a:hover { background: rgba(255,255,255,.08); }
