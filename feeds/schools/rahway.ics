@@ -395,20 +395,20 @@ SUMMARY:Rahway at Roselle Park (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7541349@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T170000
-DTEND;TZID=America/New_York:20260911T190000
-SUMMARY:Rahway at Roselle Park (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7536344@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T170000
 DTEND;TZID=America/New_York:20260911T190000
 SUMMARY:Rahway at Roselle Park (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7541349@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T170000
+DTEND;TZID=America/New_York:20260911T190000
+SUMMARY:Rahway at Roselle Park (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7463868@union-county-interscholastic-athletic-conference
@@ -1590,15 +1590,6 @@ DTSTART;TZID=America/New_York:20261017T140000
 DTEND;TZID=America/New_York:20261017T160000
 SUMMARY:Governor Livingston at Rahway (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:KentPlace:10865607www.kentplace.org@union-county-interscholastic-
- athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T123000
-DTEND;TZID=America/New_York:20261019T143000
-SUMMARY:Kent Place vs Rahway (Varsity Soccer)
-DESCRIPTION:Varsity Soccer - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7688858@union-county-interscholastic-athletic-conference
@@ -2842,20 +2833,20 @@ SUMMARY:Arthur L. Johnson at Rahway (Middle School Boys Boys Wrestling)
 DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7737379@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T160000
-DTEND;TZID=America/New_York:20270119T180000
-SUMMARY:Rahway vs Roselle Park (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7708597@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
 DTEND;TZID=America/New_York:20270119T180000
 SUMMARY:Rahway vs Arthur L. Johnson (Middle School Coed Coed Wrestling)
 DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7737379@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:Rahway vs Roselle Park (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7728020@union-county-interscholastic-athletic-conference
@@ -3150,15 +3141,6 @@ SUMMARY:Rahway at Joseph E. Soehl Middle School (Middle School Girls Girl
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7515105@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270129T160000
-DTEND;TZID=America/New_York:20270129T180000
-SUMMARY:Rahway vs Joseph E. Soehl Middle School (Middle School Boys Boys 
- Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2821:7769175@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T160000
@@ -3166,6 +3148,15 @@ DTEND;TZID=America/New_York:20270129T180000
 SUMMARY:Rahway vs St Thomas Aquinas High School (Junior Varsity Boys Boys
   Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2821:7515105@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T160000
+DTEND;TZID=America/New_York:20270129T180000
+SUMMARY:Rahway vs Joseph E. Soehl Middle School (Middle School Boys Boys 
+ Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7768890@union-county-interscholastic-athletic-conference
