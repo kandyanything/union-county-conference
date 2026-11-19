@@ -14,7 +14,9 @@
 // seal ("logo"), and the whole graphic linking to "linkUrl". "photos" (up to
 // three image paths, 3:2) fill the frames: the first is the centre one, shown
 // whole; the second and third fan out behind it, left and right. Without
-// photos the frames show a drawn picture instead.
+// photos the frames show a drawn picture instead. It also offers "Don't show
+// again" (label: "neverLabel"), which hides that announcement id for good in
+// that visitor's browser, whatever the mode.
 (function () {
     'use strict';
 
@@ -40,6 +42,7 @@
     function endOfDay(d) { var t = new Date(String(d).slice(0, 10) + 'T23:59:59'); return isNaN(t.getTime()) ? NaN : t.getTime(); }
 
     function shouldShow(mode, id, endDate) {
+        if (lget('annNever_' + id)) return false;                    // the visitor chose "Don't show again"
         if (mode === 'always') return true;
         if (mode === 'untilDate') {
             var e = endDate ? endOfDay(endDate) : NaN;
@@ -142,6 +145,8 @@
         '.ann-btn--gold svg{width:20px;height:20px;flex:none;}' +
         '.ann-btn--text{background:none;border:0;color:#666b74;font-size:.86rem;padding:8px;}' +
         '.ann-btn--text:hover{color:#0b1529;text-decoration:underline;}' +
+        '.ann-subactions{display:flex;justify-content:center;align-items:center;gap:4px;}' +
+        '.ann-subactions .ann-dot{color:#c3c7ce;font-size:.8rem;}' +
         '@media (max-width:480px){.ann-art{height:200px;}.ann-stack{top:14px;}.ann-photo{transform-origin:center;}' +
         '.ann-photo--1{transform:translate(-62px,24px) rotate(-13deg) scale(.8);}.ann-photo--2{transform:translate(64px,22px) rotate(12deg) scale(.8);}' +
         '.ann-photo--3{transform:translate(0,2px) rotate(-2deg) scale(.98);}.ann-card--photos .ann-title{font-size:1.35rem;margin:6px 22px 8px;}' +
@@ -225,11 +230,16 @@
             cta.appendChild(document.createTextNode(a.linkLabel || 'View the Photos'));
             actions.appendChild(cta); links.push(cta);
         }
+        var sub = document.createElement('div'); sub.className = 'ann-subactions';
         var later = document.createElement('button'); later.type = 'button'; later.className = 'ann-btn ann-btn--text';
         later.textContent = a.dismissLabel || 'Maybe later';
-        actions.appendChild(later);
+        var dot = document.createElement('span'); dot.className = 'ann-dot'; dot.setAttribute('aria-hidden', 'true'); dot.textContent = '\u2022';
+        var never = document.createElement('button'); never.type = 'button'; never.className = 'ann-btn ann-btn--text';
+        never.textContent = a.neverLabel || "Don't show again";
+        sub.appendChild(later); sub.appendChild(dot); sub.appendChild(never);
+        actions.appendChild(sub);
         card.appendChild(actions);
-        return { card: card, close: x, dismiss: later, links: a.linkUrl ? links : [], dismissIsAck: false };
+        return { card: card, close: x, dismiss: later, never: never, links: a.linkUrl ? links : [], dismissIsAck: false };
     }
 
     function render(a, id, mode, force) {
@@ -295,6 +305,10 @@
         }
         x.addEventListener('click', function () { dismiss(false); });
         got.addEventListener('click', function () { dismiss(true); });
+        if (built && built.never) built.never.addEventListener('click', function () {
+            if (!force) lset('annNever_' + id);
+            dismiss(true);
+        });
         back.addEventListener('click', function (e) { if (e.target === back) dismiss(false); });
         document.addEventListener('keydown', onKey);
     }

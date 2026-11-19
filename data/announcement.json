@@ -1,5 +1,5 @@
 {
-  "_comment": "Site-wide pop-up. mode 'untilDate' shows it on every visit (once per browser session) until endDate, then it comes down on its own. Change 'id' for a NEW message. layout 'photos' is the photo-gallery feature card (art panel + 'logo' seal); 'photos' fills its three frames - first is the centre one, shown whole, then left, then right; leave layout out for the plain card. Other modes: 'once', 'acknowledge', 'always'.",
+  "_comment": "Site-wide pop-up. mode 'untilDate' shows it on every visit (once per browser session) until endDate, then it comes down on its own. Change 'id' for a NEW message. layout 'photos' is the photo-gallery feature card (art panel + 'logo' seal); 'photos' fills its three frames - first is the centre one, shown whole, then left, then right; leave layout out for the plain card. Other modes: 'once', 'acknowledge', 'always'. The photos layout also has a \"Don't show again\" button (neverLabel) that hides this id for good in that visitor's browser.",
   "active": true,
   "id": "summit-photos-2026-winter",
   "layout": "photos",
@@ -16,6 +16,7 @@
   "linkUrl": "https://photos.app.goo.gl/f9ub7oCLXm2YVqQC7",
   "linkLabel": "View the Photos",
   "dismissLabel": "Maybe later",
+  "neverLabel": "Don't show again",
   "mode": "untilDate",
   "endDate": "2026-12-31"
 }
