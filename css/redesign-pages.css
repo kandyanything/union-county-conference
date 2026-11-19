@@ -945,3 +945,211 @@ main .container > section { overflow-x: auto; }
     .summit-lb-prev,
     .summit-lb-next { top: auto; bottom: 18px; transform: none; }
 }
+
+/* ---- UCC All-Conference (all-conference.html) -------------------------------
+   No ?sport=: sports as cards grouped by season. ?sport=: one sport, with the
+   All-Union County teams and award cards first, then each UCC division, and
+   Year and Division pickers styled like the calendar's filter fields. */
+.allconf-intro { margin: 0 0 22px; color: var(--muted); max-width: 70ch; }
+.allconf-intro[hidden],
+.allconf-back[hidden],
+.allconf-controls[hidden],
+.allconf-field[hidden],
+.allconf-empty[hidden] { display: none; }
+
+.allconf-back {
+    display: inline-block;
+    margin: 0 0 18px;
+    font-size: .9rem;
+    font-weight: 700;
+    color: var(--navy-700);
+    text-decoration: none;
+}
+.allconf-back:hover { text-decoration: underline; }
+
+.allconf-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 240px));
+    gap: 14px;
+    margin-bottom: 30px;
+}
+.allconf-field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.allconf-field label {
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+.allconf-field select {
+    width: 100%;
+    min-width: 0;
+    font-family: var(--font-body);
+    font-size: .95rem;
+    padding: 10px 12px;
+    border: 2px solid var(--line);
+    border-radius: 8px;
+    background: var(--white);
+    color: var(--ink);
+}
+.allconf-field select:focus { outline: none; border-color: var(--red); }
+
+.allconf-empty,
+.allconf-none { margin: 0; color: var(--muted); font-size: 1.05rem; }
+
+/* seasons list */
+.allconf-season { margin: 0 0 38px; scroll-margin-top: 80px; }
+.allconf-season:last-child { margin-bottom: 0; }
+.allconf-season-name {
+    margin: 0 0 14px;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--navy-800);
+}
+.allconf-sports {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 14px;
+}
+.allconf-sports li { margin: 0; }
+.allconf-sports a {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: 100%;
+    padding: 18px 20px;
+    border: 2px solid var(--line);
+    border-left: 5px solid var(--red);
+    border-radius: 8px;
+    background: var(--white);
+    text-decoration: none;
+    transition: border-color .15s, box-shadow .15s, transform .15s;
+}
+.allconf-sports a:hover,
+.allconf-sports a:focus-visible {
+    border-color: var(--navy-700);
+    border-left-color: var(--red);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+.allconf-sport-name {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    color: var(--navy-800);
+}
+.allconf-sport-meta {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--red-dark);
+}
+
+/* one sport */
+.allconf-group { margin: 0 0 40px; }
+.allconf-group:last-child { margin-bottom: 0; }
+.allconf-division {
+    margin: 0 0 16px;
+    padding: 0 0 0 12px;
+    border-left: 4px solid var(--red);
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--navy-800);
+}
+/* These are h2/h3 for the outline, but must not pick up the page-wide
+   "main h2" underline bar or display-face sizing. */
+.allconf-division::after,
+.allconf-season-name::after,
+.allconf-team::after { content: none; }
+
+.allconf-awards {
+    list-style: none;
+    margin: 0 0 22px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+.allconf-awards li {
+    margin: 0;
+    padding: 16px 18px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--navy-800), var(--navy-600));
+    color: var(--white);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.allconf-award-label {
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+.allconf-award-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+.allconf-award-name .allconf-crest { width: 30px; height: 30px; }
+.allconf-award-school { font-size: .88rem; color: #c9d3e6; }
+
+.allconf-teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 8px 28px;
+}
+.allconf-team-block { min-width: 0; }
+.allconf-team {
+    margin: 0 0 4px;
+    padding: 0 0 8px;
+    border-bottom: 2px solid var(--navy-700);
+    font-family: var(--font-body);
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--red-dark);
+}
+.allconf-list { list-style: none; margin: 0 0 18px; padding: 0; }
+.allconf-list li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    gap: 2px 14px;
+    align-items: center;
+    margin: 0;
+    padding: 9px 2px;
+    border-bottom: 1px solid var(--line);
+}
+.allconf-name { font-weight: 700; color: var(--ink); }
+.allconf-school { display: flex; align-items: center; gap: 9px; color: var(--muted); min-width: 0; font-size: .93rem; }
+.allconf-crest { width: 26px; height: 26px; object-fit: contain; flex-shrink: 0; }
+.allconf-pos { grid-column: 1 / -1; color: var(--muted); font-size: .88rem; }
+
+@media (max-width: 600px) {
+    .allconf-controls { grid-template-columns: 1fr 1fr; }
+    .allconf-teams { grid-template-columns: 1fr; }
+    .allconf-division { font-size: 1.15rem; }
+}
+@media (max-width: 380px) {
+    .allconf-list li { grid-template-columns: 1fr; }
+}

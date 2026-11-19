@@ -1,5 +1,5 @@
 {
-  "_comment": "Union County Conference top navigation. Built fresh on every page by js/nav-render.js. 'href' uses the full portable form so the renderer can detect same-page anchors and convert them to smooth-scroll links. A top-level item with 'children' becomes a dropdown; one without is a plain link.",
+  "_comment": "Union County Conference top navigation. Built fresh on every page by js/nav-render.js. 'href' uses the full portable form so the renderer can detect same-page anchors and convert them to smooth-scroll links. A top-level item with 'children' becomes a dropdown; one without is a plain link. The item with \"autoChildren\": \"all-conference\" gets a dropdown of seasons (Fall, Winter, Spring), each with a flyout of that season's sports from data/all-conference.json, built automatically - add a sport's names there and it appears in the menu.",
   "items": [
     { "label": "Home", "href": "index.html" },
     { "label": "School Schedules", "href": "index.html#member-schools" },
@@ -21,6 +21,11 @@
         { "label": "Honors", "href": "index.html#honors" },
         { "label": "Conference Leadership", "href": "index.html#leadership" }
       ]
+    },
+    {
+      "label": "All-Conference",
+      "href": "all-conference.html",
+      "autoChildren": "all-conference"
     },
     {
       "label": "Media",

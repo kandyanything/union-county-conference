@@ -189,11 +189,11 @@ p { margin: 0 0 1rem; }
     font-family: var(--font-display);
     font-size: 1.02rem;
     font-weight: 500;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #d7dade;
     text-decoration: none;
-    padding: 15px 18px;
+    padding: 15px 15px;
     border-bottom: 3px solid transparent;
     transition: background .2s, color .2s, border-color .2s;
 }
@@ -221,11 +221,16 @@ p { margin: 0 0 1rem; }
    instead - js/nav-render.js sets .opens-left from where the item sits. */
 .navlist > li.has-sub.opens-left .subnav { left: auto; right: 0; }
 
-/* The eight top-level items need about 1105px at full spacing, so between
+/* The nine top-level items need about 1210px at full spacing, so between
    the collapse point (1120px) and 1280px they would wrap onto a second row.
-   Tighten the spacing there instead - one row at every desktop width. */
+   Tighten the spacing (and, at the narrowest, the type) there instead - one
+   row at every desktop width. */
 @media (min-width: 1121px) and (max-width: 1279px) {
-    .navlist > li > a { padding-left: 13px; padding-right: 13px; letter-spacing: .06em; }
+    .navlist > li > a { padding-left: 12px; padding-right: 12px; letter-spacing: .05em; font-size: .97rem; }
+    .has-sub > a::after { margin-left: 5px; }
+}
+@media (min-width: 1121px) and (max-width: 1199px) {
+    .navlist > li > a { padding-left: 9px; padding-right: 9px; letter-spacing: .04em; font-size: .93rem; }
 }
 
 /* Belt and braces at in-between widths: clip horizontally while leaving the
@@ -239,6 +244,26 @@ p { margin: 0 0 1rem; }
     font-size: .95rem; color: var(--ink); text-decoration: none;
 }
 .subnav a:hover { background: var(--bg); color: var(--navy-700); }
+
+/* Flyouts: a dropdown entry with its own list (All-Conference > Fall > sports)
+   shows that list beside the dropdown, only while that entry is hovered or
+   focused - the dropdown-level rule above would otherwise open every flyout
+   at once, since they are .subnav lists inside the hovered item too. */
+.navlist .subnav li.has-fly { position: relative; }
+.navlist .subnav li.has-fly > a { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.navlist .subnav li.has-fly > a::after { content: "\25B8"; margin-left: 12px; font-size: .8em; opacity: .55; }
+.navlist .subnav li.has-fly > .subnav.subnav--fly {
+    left: 100%; top: -9px; min-width: 230px;
+    opacity: 0; visibility: hidden; transform: translateX(6px);
+}
+.navlist .subnav li.has-fly:hover > .subnav.subnav--fly,
+.navlist .subnav li.has-fly:focus-within > .subnav.subnav--fly { opacity: 1; visibility: visible; transform: none; }
+.navlist .subnav li.has-fly:hover > a,
+.navlist .subnav li.has-fly:focus-within > a { background: var(--bg); color: var(--navy-700); }
+/* near the right edge the flyout opens to the left of the dropdown instead */
+.navlist > li.fly-left .subnav li.has-fly > .subnav.subnav--fly { left: auto; right: 100%; transform: translateX(-6px); }
+.navlist > li.fly-left .subnav li.has-fly:hover > .subnav.subnav--fly,
+.navlist > li.fly-left .subnav li.has-fly:focus-within > .subnav.subnav--fly { transform: none; }
 .nav-toggle { display: none; }
 
 /* ---------- section shell ---------- */
@@ -311,6 +336,8 @@ p { margin: 0 0 1rem; }
         color: var(--white); font-family: var(--font-display); font-size: 1rem;
         text-transform: uppercase; letter-spacing: .08em; padding: 14px 4px;
     }
+    /* the open menu drops below the Menu button rather than squeezing in beside it */
+    .mainnav .wrap { flex-wrap: wrap; }
     .navlist { display: none; width: 100%; flex-direction: column; }
     .navlist.open { display: flex; }
     .navlist > li > a { padding: 13px 4px; border-bottom: 1px solid rgba(255,255,255,.12); }
@@ -324,6 +351,14 @@ p { margin: 0 0 1rem; }
     .has-sub.open .subnav { display: block; }
     .subnav a { color: #c0e8f4; padding-left: 22px; }
     .subnav a:hover { background: rgba(255,255,255,.08); }
+    /* flyouts open in place, one step further in, on the collapsed menu */
+    .navlist .subnav li.has-fly > .subnav.subnav--fly,
+    .navlist > li.fly-left .subnav li.has-fly > .subnav.subnav--fly { display: none; opacity: 1; visibility: visible; transform: none; background: rgba(0,0,0,.16); }
+    .navlist .subnav li.has-fly.open > .subnav.subnav--fly { display: block; }
+    .navlist .subnav li.has-fly > a { justify-content: flex-start; }
+    .navlist .subnav li.has-fly > a::after { content: "\25BE"; }
+    .navlist .subnav li.has-fly:hover > a, .navlist .subnav li.has-fly:focus-within > a { background: rgba(255,255,255,.08); color: #c0e8f4; }
+    .subnav--fly a { padding-left: 40px; }
 }
 
 /* ---------- small screens ---------- */
