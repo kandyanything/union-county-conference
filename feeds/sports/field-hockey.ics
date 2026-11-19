@@ -686,14 +686,6 @@ SUMMARY:Summit at Oak Knoll (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7584190@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Cranford vs Kumpf middle (Middle School Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7647564@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
@@ -701,6 +693,14 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Cranford at Orange Avenue School (Middle School Girls Field Hocke
  y)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7584190@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Cranford vs Kumpf middle (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7542206@union-county-interscholastic-athletic-conference
@@ -1071,19 +1071,19 @@ SUMMARY:Governor Livingston vs Matawan Regional High School (Varsity Girl
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7584195@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Cranford at Kumpf middle (Middle School Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7636854@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7584195@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Cranford at Kumpf middle (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1680,7 +1680,7 @@ SUMMARY:Arthur L. Johnson vs Matawan Regional High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11293415www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11542866www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T103000
