@@ -217,13 +217,33 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
 
+        function layout() { fitOneRow(); placeSubmenus(); }
         window.addEventListener('resize', function () {
             if (!collapsed()) close();
-            placeSubmenus();
+            layout();
         });
-        placeSubmenus();
+        layout();
         // web fonts change the item widths once they load
-        if (document.fonts && document.fonts.ready) document.fonts.ready.then(placeSubmenus);
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(layout);
+
+        // The desktop bar must be one row. The CSS sizes leave room to spare,
+        // but a font can render wider on some computers (or with browser zoom),
+        // so if the items still wrap, step the type and spacing down a little
+        // at a time until they fit.
+        function fitOneRow() {
+            list.style.removeProperty('--nav-scale');
+            if (collapsed()) return;
+            var scale = 1;
+            while (wraps() && scale > 0.8) {
+                scale = Math.round((scale - 0.02) * 100) / 100;
+                list.style.setProperty('--nav-scale', scale);
+            }
+        }
+        function wraps() {
+            var items = list.querySelectorAll(':scope > li');
+            if (items.length < 2) return false;
+            return items[items.length - 1].offsetTop > items[0].offsetTop + 4;
+        }
     }
 
     // A dropdown opens rightwards from its menu item unless that would run past
