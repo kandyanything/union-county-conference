@@ -1,10 +1,15 @@
 {
-  "_comment": "Site-wide pop-up. mode 'untilDate' shows it on every visit (once per browser session) until endDate, then it comes down on its own. Change 'id' for a NEW message. layout 'photos' is the photo-gallery feature card (art panel + 'logo' seal); leave layout out for the plain card. Other modes: 'once', 'acknowledge', 'always'.",
+  "_comment": "Site-wide pop-up. mode 'untilDate' shows it on every visit (once per browser session) until endDate, then it comes down on its own. Change 'id' for a NEW message. layout 'photos' is the photo-gallery feature card (art panel + 'logo' seal); 'photos' fills its three frames - first is the centre one, shown whole, then left, then right; leave layout out for the plain card. Other modes: 'once', 'acknowledge', 'always'.",
   "active": true,
   "id": "summit-photos-2026-winter",
   "layout": "photos",
   "logo": "images/uciac-logo-footer.png",
   "logoAlt": "Union County Conference",
+  "photos": [
+    "images/summit/2026-winter/ucc2.jpg",
+    "images/summit/2026-winter/ucc3.jpg",
+    "images/summit/2026-winter/ucc1.jpg"
+  ],
   "eyebrow": "Photo Gallery · Now Available",
   "title": "2026 UCC Winter Sportsmanship Summit",
   "body": "Relive the day! Photos from our Winter Sportsmanship Summit on November 11, 2026 are now online.",
