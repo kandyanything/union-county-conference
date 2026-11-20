@@ -112,22 +112,6 @@ SUMMARY:Westfield at James Caldwell High School (Junior Varsity Girls Fie
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7554914@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T160000
-DTEND;TZID=America/New_York:20260826T180000
-SUMMARY:Summit vs Westfield (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2886:7554915@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T160000
-DTEND;TZID=America/New_York:20260826T180000
-SUMMARY:Summit at Westfield (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7540275@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T160000
@@ -144,6 +128,22 @@ DTEND;TZID=America/New_York:20260826T180000
 SUMMARY:Westfield vs Livingston High School (Freshman Girls Girls Volleyb
  all)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7554914@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T160000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Westfield at Summit (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7554915@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T160000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Westfield vs Summit (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7591078@union-county-interscholastic-athletic-conference
@@ -274,14 +274,6 @@ SUMMARY:Westfield vs Wayne Valley High School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7548787@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Summit at Westfield (Freshman Girls Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7548787@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -343,28 +335,28 @@ SUMMARY:Westfield vs Woodbridge High School (Varsity Girls Girls Volleyba
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7572556@union-county-interscholastic-athletic-conference
+UID:ds:2938:7554963@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Summit at Westfield (Varsity Girls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 4:00 PM
+SUMMARY:Westfield at Summit (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7554963@union-county-interscholastic-athletic-conference
+UID:ds:2938:7554969@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Summit vs Westfield (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+SUMMARY:Westfield vs Summit (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7554969@union-county-interscholastic-athletic-conference
+UID:ds:2938:7572556@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Summit at Westfield (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Varsity Girls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7622184@union-county-interscholastic-athletic-conference
@@ -383,28 +375,20 @@ SUMMARY:Elizabeth vs Westfield (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7532114@union-county-interscholastic-athletic-conference
+UID:ds:2938:7531231@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Summit at Westfield (Freshman Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+SUMMARY:Westfield at Summit (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7531231@union-county-interscholastic-athletic-conference
+UID:ds:2938:7531232@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Summit vs Westfield (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2886:7531232@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Summit vs Westfield (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Westfield at Summit (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7622186@union-county-interscholastic-athletic-conference
@@ -415,28 +399,28 @@ SUMMARY:Elizabeth vs Westfield (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7550906@union-county-interscholastic-athletic-conference
+UID:ds:2938:7550906@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Summit vs Westfield (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Westfield at Summit (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7551053@union-county-interscholastic-athletic-conference
+UID:ds:2938:7551053@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Summit at Westfield (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7552289@union-county-interscholastic-athletic-conference
+UID:ds:2938:7552289@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T171500
 DTEND;TZID=America/New_York:20260914T191500
-SUMMARY:Summit at Westfield (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+SUMMARY:Westfield vs Summit (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7566771@union-county-interscholastic-athletic-conference
@@ -677,6 +661,14 @@ SUMMARY:Governor Livingston vs Westfield (Junior Varsity Girls Field Hock
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7644290@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Elizabeth at Westfield (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7648275@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -691,14 +683,6 @@ DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Elizabeth at Westfield (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7644290@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Elizabeth at Westfield (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7541950@union-county-interscholastic-athletic-conference
@@ -840,20 +824,20 @@ SUMMARY:Westfield vs Hunterdon Central Regional High (Varsity Girls Gymna
 DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7655090@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Elizabeth at Westfield (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7655089@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T161500
 DTEND;TZID=America/New_York:20261001T181500
 SUMMARY:Elizabeth at Westfield (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7655090@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:Elizabeth at Westfield (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7440926@union-county-interscholastic-athletic-conference
@@ -940,20 +924,20 @@ SUMMARY:Westfield vs Montgomery High School (Junior Varsity Girls Field H
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7550886@union-county-interscholastic-athletic-conference
+UID:ds:2938:7550886@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Summit vs Westfield (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Westfield at Summit (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7552449@union-county-interscholastic-athletic-conference
+UID:ds:2938:7552449@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Summit at Westfield (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7475947@union-county-interscholastic-athletic-conference
@@ -964,12 +948,12 @@ SUMMARY:Westfield vs Woodbridge High School (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7550885@union-county-interscholastic-athletic-conference
+UID:ds:2938:7550885@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T171500
 DTEND;TZID=America/New_York:20261005T191500
-SUMMARY:Summit vs Westfield (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
+SUMMARY:Westfield at Summit (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7545737@union-county-interscholastic-athletic-conference
@@ -1079,20 +1063,20 @@ SUMMARY:Westfield vs Bergen County Technical High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7541419@union-county-interscholastic-athletic-conference
+UID:ds:2938:7541419@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
 DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Summit at Westfield (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7541421@union-county-interscholastic-athletic-conference
+UID:ds:2938:7541421@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T180000
 DTEND;TZID=America/New_York:20261009T200000
-SUMMARY:Summit at Westfield (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 6:00 PM
+SUMMARY:Westfield vs Summit (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7466675@union-county-interscholastic-athletic-conference
@@ -1221,20 +1205,20 @@ SUMMARY:Rahway vs Westfield (Middle School Girls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7535976@union-county-interscholastic-athletic-conference
+UID:ds:2938:7535976@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Summit at Westfield (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7536027@union-county-interscholastic-athletic-conference
+UID:ds:2938:7536027@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Summit at Westfield (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7534796@union-county-interscholastic-athletic-conference
@@ -1391,20 +1375,12 @@ SUMMARY:Westfield vs Livingston High School (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7688919@union-county-interscholastic-athletic-conference
+UID:ds:2938:7688919@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T161500
 DTEND;TZID=America/New_York:20261022T181500
-SUMMARY:Summit at Westfield (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2886:7713955@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Summit at Westfield (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7708861@union-county-interscholastic-athletic-conference
@@ -1413,6 +1389,14 @@ DTSTART;TZID=America/New_York:20261023T160000
 DTEND;TZID=America/New_York:20261023T180000
 SUMMARY:Westfield vs Ramsey High School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7713955@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T160000
+DTEND;TZID=America/New_York:20261023T180000
+SUMMARY:Westfield vs Summit (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:11211293www.kentplace.org@union-county-interscholastic-
@@ -1831,12 +1815,12 @@ SUMMARY:Elizabeth vs Westfield (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7707763@union-county-interscholastic-athletic-conference
+UID:ds:2938:7707763@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T164500
 DTEND;TZID=America/New_York:20261222T184500
-SUMMARY:Summit at Westfield (Varsity Girls Girls Ice Hockey)
-DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:45 PM
+SUMMARY:Westfield vs Summit (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7585488@union-county-interscholastic-athletic-conference
@@ -1988,12 +1972,12 @@ SUMMARY:Governor Livingston vs Westfield (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692893@union-county-interscholastic-athletic-conference
+UID:ds:2938:7692893@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T153000
 DTEND;TZID=America/New_York:20270107T173000
-SUMMARY:Summit at Westfield (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
+SUMMARY:Westfield vs Summit (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7558961@union-county-interscholastic-athletic-conference
@@ -2106,12 +2090,12 @@ SUMMARY:Westfield at Delbarton School (Junior Varsity Boys Boys Ice Hocke
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7707764@union-county-interscholastic-athletic-conference
+UID:ds:2938:7707764@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T164500
 DTEND;TZID=America/New_York:20270113T184500
-SUMMARY:Summit vs Westfield (Varsity Girls Girls Ice Hockey)
-DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 4:45 PM
+SUMMARY:Westfield at Summit (Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7768877@union-county-interscholastic-athletic-conference
@@ -2130,12 +2114,12 @@ SUMMARY:Westfield vs Livingston High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692901@union-county-interscholastic-athletic-conference
+UID:ds:2938:7692901@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T154500
 DTEND;TZID=America/New_York:20270115T174500
-SUMMARY:Summit vs Westfield (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:45 PM
+SUMMARY:Westfield at Summit (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7723365@union-county-interscholastic-athletic-conference
@@ -2207,20 +2191,20 @@ SUMMARY:Cranford vs Westfield (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7723671@union-county-interscholastic-athletic-conference
+UID:ds:2938:7723671@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T153000
 DTEND;TZID=America/New_York:20270121T173000
-SUMMARY:Summit vs Westfield (Varsity Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:30 PM
+SUMMARY:Westfield at Summit (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7723661@union-county-interscholastic-athletic-conference
+UID:ds:2938:7723661@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T153000
 DTEND;TZID=America/New_York:20270121T173000
-SUMMARY:Summit vs Westfield (Varsity Girls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:30 PM
+SUMMARY:Westfield at Summit (Varsity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7567520@union-county-interscholastic-athletic-conference
@@ -2495,28 +2479,28 @@ SUMMARY:Westfield vs Colonia High School (Junior Varsity Boys Boys Ice Ho
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692880@union-county-interscholastic-athletic-conference
+UID:ds:2938:7692880@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T160000
 DTEND;TZID=America/New_York:20270204T180000
-SUMMARY:Summit at Westfield (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+SUMMARY:Westfield vs Summit (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692877@union-county-interscholastic-athletic-conference
+UID:ds:2938:7692877@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T173000
 DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Summit at Westfield (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+SUMMARY:Westfield vs Summit (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692879@union-county-interscholastic-athletic-conference
+UID:ds:2938:7692879@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T190000
 DTEND;TZID=America/New_York:20270204T210000
-SUMMARY:Summit at Westfield (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+SUMMARY:Westfield vs Summit (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7759872@union-county-interscholastic-athletic-conference
@@ -2536,12 +2520,12 @@ SUMMARY:Westfield at Piscataway High School (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692836@union-county-interscholastic-athletic-conference
+UID:ds:2938:7692836@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270206T110000
 DTEND;TZID=America/New_York:20270206T130000
-SUMMARY:Summit at Westfield (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
+SUMMARY:Westfield vs Summit (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7728179@union-county-interscholastic-athletic-conference
