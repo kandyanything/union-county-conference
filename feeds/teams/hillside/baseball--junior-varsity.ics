@@ -24,19 +24,43 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2698:7531735@union-county-interscholastic-athletic-conference
+UID:ds:2654:7540132@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270501T160000
-DTEND;TZID=America/New_York:20270501T180000
-SUMMARY:Linden at Hillside (Junior Varsity Boys Baseball)
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Hillside vs Mcmanus Middle School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532003@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T160000
+DTEND;TZID=America/New_York:20270430T180000
+SUMMARY:Hillside at Mcmanus Middle School (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7531737@union-county-interscholastic-athletic-conference
+UID:ds:2654:7531735@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T160000
+DTEND;TZID=America/New_York:20270501T180000
+SUMMARY:Hillside vs Linden (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7531737@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T160000
 DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Linden vs Hillside (Junior Varsity Boys Baseball)
+SUMMARY:Hillside at Linden (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532022@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T160000
+DTEND;TZID=America/New_York:20270517T180000
+SUMMARY:Hillside vs Mcmanus Middle School (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

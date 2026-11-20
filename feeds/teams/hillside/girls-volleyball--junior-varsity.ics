@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2654:7561420@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T173000
+DTEND;TZID=America/New_York:20260908T193000
+SUMMARY:Hillside vs Roselle (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2510:7561420@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T173000
@@ -32,13 +40,21 @@ SUMMARY:Roselle at Hillside (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7444967@union-county-interscholastic-athletic-conference
+UID:ds:2654:7444967@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T173000
 DTEND;TZID=America/New_York:20260916T193000
-SUMMARY:Arthur L. Johnson at Hillside (Junior Varsity Girls Girls Volleyb
+SUMMARY:Hillside vs Arthur L. Johnson (Junior Varsity Girls Girls Volleyb
  all)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7561424@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T173000
+DTEND;TZID=America/New_York:20260924T193000
+SUMMARY:Hillside vs Roselle (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7561424@union-county-interscholastic-athletic-conference
@@ -49,20 +65,38 @@ SUMMARY:Roselle at Hillside (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7445025@union-county-interscholastic-athletic-conference
+UID:ds:2654:7587695@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T173000
+DTEND;TZID=America/New_York:20260925T193000
+SUMMARY:Hillside at Science Park High School (Junior Varsity Girls Girls 
+ Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7581324@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T170000
+DTEND;TZID=America/New_York:20260929T190000
+SUMMARY:Hillside vs Malcolm X Shabazz High School (Junior Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7445025@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Arthur L. Johnson vs Hillside (Junior Varsity Girls Girls Volleyb
+SUMMARY:Hillside at Arthur L. Johnson (Junior Varsity Girls Girls Volleyb
  all)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7693024@union-county-interscholastic-athletic-conference
+UID:ds:2654:7693024@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
 DTEND;TZID=America/New_York:20261019T183000
-SUMMARY:Linden vs Hillside (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:30 PM
+SUMMARY:Hillside at Linden (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR

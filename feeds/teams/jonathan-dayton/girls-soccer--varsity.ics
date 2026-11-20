@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2821:7532242@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532236@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T100000
+DTEND;TZID=America/New_York:20260827T120000
+SUMMARY:Jonathan Dayton at Mount Saint Mary Academy (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7532242@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Rahway at Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Jonathan Dayton vs Rahway (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7532244@union-county-interscholastic-athletic-conference
@@ -40,20 +49,20 @@ SUMMARY:Cranford vs Jonathan Dayton (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7532245@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532245@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Plainfield vs Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Jonathan Dayton at Plainfield (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7465578@union-county-interscholastic-athletic-conference
+UID:ds:2678:7465578@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Linden at Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Jonathan Dayton vs Linden (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7532249@union-county-interscholastic-athletic-conference
@@ -73,20 +82,37 @@ SUMMARY:David Brearley vs Jonathan Dayton (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2837:7532266@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532262@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T183000
+DTEND;TZID=America/New_York:20260928T203000
+SUMMARY:Jonathan Dayton vs Columbia High School (Varsity Girls Girls Socc
+ er)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7532266@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T183000
 DTEND;TZID=America/New_York:20261001T203000
-SUMMARY:Roselle Park at Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+SUMMARY:Jonathan Dayton vs Roselle Park (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2836:7532268@union-county-interscholastic-athletic-conference
+UID:ds:2678:7532268@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T100000
 DTEND;TZID=America/New_York:20261003T120000
-SUMMARY:Roselle Catholic vs Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+SUMMARY:Jonathan Dayton at Roselle Catholic (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532255@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillside vs Jonathan Dayton (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7532272@union-county-interscholastic-athletic-conference
@@ -97,6 +123,15 @@ SUMMARY:Elizabeth vs Jonathan Dayton (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2678:7532274@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T120000
+DTEND;TZID=America/New_York:20261010T140000
+SUMMARY:Jonathan Dayton at Millburn High School (Varsity Girls Girls Socc
+ er)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2584:7685406@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -105,11 +140,29 @@ SUMMARY:David Brearley vs Jonathan Dayton (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7532278@union-county-interscholastic-athletic-conference
+UID:ds:2678:7513687@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Jonathan Dayton at Cedar Grove High School (Varsity Girls Girls S
+ occer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7532278@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Plainfield at Jonathan Dayton (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+SUMMARY:Jonathan Dayton vs Plainfield (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7532279@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Jonathan Dayton vs Mount Saint Mary Academy (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

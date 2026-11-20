@@ -24,12 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2821:7540845@union-county-interscholastic-athletic-conference
+UID:ds:2654:7540845@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Rahway vs Hillside (Varsity Girls Girls Soccer)
+SUMMARY:Hillside at Rahway (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532255@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillside vs Jonathan Dayton (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7682890@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T163000
+DTEND;TZID=America/New_York:20261013T183000
+SUMMARY:Hillside vs Barringer High School (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7699532@union-county-interscholastic-athletic-conference
@@ -40,11 +56,46 @@ SUMMARY:Elizabeth at Hillside (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7714456@union-county-interscholastic-athletic-conference
+UID:ds:2654:7587328@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Hillside at Science Park High School (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7554240@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Hillside at Columbia Middle School (Middle School Girls Girls Soc
+ cer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7718921@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T093300
+DTEND;TZID=America/New_York:20261023T113300
+SUMMARY:Hillside at Elizabeth Middle School South (Middle School Girls Gi
+ rls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 9:33 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7734738@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Hillside at Elizabeth Middle School South (Middle School Girls Gi
+ rls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7714456@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T160000
 DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Linden vs Hillside (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Hillside at Linden (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

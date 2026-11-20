@@ -24,12 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2654:7561399@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Hillside vs Roselle (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2510:7561399@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Roselle at Hillside (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7561420@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T173000
+DTEND;TZID=America/New_York:20260908T193000
+SUMMARY:Hillside vs Roselle (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7561420@union-county-interscholastic-athletic-conference
@@ -172,12 +188,28 @@ SUMMARY:Roselle at Plainfield (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2654:7561402@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Hillside vs Roselle (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2510:7561402@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Roselle at Hillside (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7561424@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T173000
+DTEND;TZID=America/New_York:20260924T193000
+SUMMARY:Hillside vs Roselle (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7561424@union-county-interscholastic-athletic-conference

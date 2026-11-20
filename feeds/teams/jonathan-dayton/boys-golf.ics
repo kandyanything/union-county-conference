@@ -24,12 +24,12 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2509:7521911@union-county-interscholastic-athletic-conference
+UID:ds:2678:7521911@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T150000
 DTEND;TZID=America/New_York:20270330T170000
-SUMMARY:Arthur L. Johnson at Jonathan Dayton (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Away - 3:00 PM
+SUMMARY:Jonathan Dayton vs Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7763692@union-county-interscholastic-athletic-conference
@@ -40,6 +40,14 @@ SUMMARY:Cranford vs Jonathan Dayton (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2678:7707896@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T160000
+DTEND;TZID=America/New_York:20270406T180000
+SUMMARY:Jonathan Dayton at Governor Livingston (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2584:7763693@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T160000
@@ -48,20 +56,20 @@ SUMMARY:David Brearley at Jonathan Dayton (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2905:7763696@union-county-interscholastic-athletic-conference
+UID:ds:2678:7763696@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T160000
 DTEND;TZID=America/New_York:20270413T180000
-SUMMARY:Union Catholic at Jonathan Dayton (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
+SUMMARY:Jonathan Dayton vs Union Catholic (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7521920@union-county-interscholastic-athletic-conference
+UID:ds:2678:7521920@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T151500
 DTEND;TZID=America/New_York:20270414T171500
-SUMMARY:Arthur L. Johnson vs Jonathan Dayton (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Home - 3:15 PM
+SUMMARY:Jonathan Dayton at Arthur L. Johnson (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7763701@union-county-interscholastic-athletic-conference
@@ -80,11 +88,11 @@ SUMMARY:David Brearley vs Jonathan Dayton (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2905:7763705@union-county-interscholastic-athletic-conference
+UID:ds:2678:7763705@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T160000
 DTEND;TZID=America/New_York:20270428T180000
-SUMMARY:Union Catholic vs Jonathan Dayton (Varsity Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Home - 4:00 PM
+SUMMARY:Jonathan Dayton at Union Catholic (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

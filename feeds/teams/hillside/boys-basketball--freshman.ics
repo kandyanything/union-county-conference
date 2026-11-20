@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2886:7692850@union-county-interscholastic-athletic-conference
+UID:ds:2654:7693525@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Hillside vs Hackettstown High School (Freshman Boys Boys Basketba
+ ll)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7692850@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T160000
 DTEND;TZID=America/New_York:20261219T180000
-SUMMARY:Summit at Hillside (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+SUMMARY:Hillside vs Summit (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7576657@union-county-interscholastic-athletic-conference
@@ -40,12 +49,12 @@ SUMMARY:Cranford vs Hillside (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7445063@union-county-interscholastic-athletic-conference
+UID:ds:2654:7445063@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Arthur L. Johnson at Hillside (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+SUMMARY:Hillside vs Arthur L. Johnson (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102821509@union-county-interscholastic-athletic-conference
@@ -56,12 +65,12 @@ SUMMARY:Oratory Prep at Hillside (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692865@union-county-interscholastic-athletic-conference
+UID:ds:2654:7692865@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Summit vs Hillside (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+SUMMARY:Hillside at Summit (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7576673@union-county-interscholastic-athletic-conference
@@ -72,12 +81,20 @@ SUMMARY:Cranford at Hillside (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7445099@union-county-interscholastic-athletic-conference
+UID:ds:2654:7445099@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Arthur L. Johnson vs Hillside (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+SUMMARY:Hillside at Arthur L. Johnson (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7571029@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Hillside at Livingston High School (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103387127@union-county-interscholastic-athletic-conference
@@ -86,5 +103,13 @@ DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
 SUMMARY:Oratory Prep vs Hillside (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7562801@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T160000
+DTEND;TZID=America/New_York:20270204T180000
+SUMMARY:Hillside at Chatham High School (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

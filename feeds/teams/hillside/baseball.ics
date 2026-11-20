@@ -24,51 +24,123 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2837:7776755@union-county-interscholastic-athletic-conference
+UID:ds:2654:7540132@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T160000
 DTEND;TZID=America/New_York:20270414T180000
-SUMMARY:Roselle Park at Hillside (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2698:7531712@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270501T160000
-DTEND;TZID=America/New_York:20270501T180000
-SUMMARY:Linden at Hillside (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2698:7531735@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270501T160000
-DTEND;TZID=America/New_York:20270501T180000
-SUMMARY:Linden at Hillside (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2698:7531713@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270503T160000
-DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Linden vs Hillside (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2698:7531737@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270503T160000
-DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Linden vs Hillside (Junior Varsity Boys Baseball)
+SUMMARY:Hillside vs Mcmanus Middle School (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2837:7776763@union-county-interscholastic-athletic-conference
+UID:ds:2654:7776755@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Hillside vs Roselle Park (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7656634@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T160000
+DTEND;TZID=America/New_York:20270416T180000
+SUMMARY:Hillside at Jonathan Dayton (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7656634@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T160000
+DTEND;TZID=America/New_York:20270416T180000
+SUMMARY:Jonathan Dayton vs Hillside (MS-M Boys Baseball)
+DESCRIPTION:MS-M Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7656654@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Hillside vs Jonathan Dayton (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7656654@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Jonathan Dayton at Hillside (MS-M Boys Baseball)
+DESCRIPTION:MS-M Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532003@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T160000
+DTEND;TZID=America/New_York:20270430T180000
+SUMMARY:Hillside at Mcmanus Middle School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7531712@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T160000
+DTEND;TZID=America/New_York:20270501T180000
+SUMMARY:Hillside vs Linden (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7531735@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T160000
+DTEND;TZID=America/New_York:20270501T180000
+SUMMARY:Hillside vs Linden (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7531713@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T160000
+DTEND;TZID=America/New_York:20270503T180000
+SUMMARY:Hillside at Linden (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7531737@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T160000
+DTEND;TZID=America/New_York:20270503T180000
+SUMMARY:Hillside at Linden (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7656684@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T160000
+DTEND;TZID=America/New_York:20270510T180000
+SUMMARY:Hillside at Jonathan Dayton (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2678:7656684@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T160000
+DTEND;TZID=America/New_York:20270510T180000
+SUMMARY:Jonathan Dayton vs Hillside (MS-M Boys Baseball)
+DESCRIPTION:MS-M Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7776763@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270512T163000
 DTEND;TZID=America/New_York:20270512T183000
-SUMMARY:Roselle Park vs Hillside (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:30 PM
+SUMMARY:Hillside at Roselle Park (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7532022@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T160000
+DTEND;TZID=America/New_York:20270517T180000
+SUMMARY:Hillside vs Mcmanus Middle School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
