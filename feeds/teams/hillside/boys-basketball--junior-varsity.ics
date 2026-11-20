@@ -24,21 +24,12 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2654:7693524@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Hillside vs Hackettstown High School (Junior Varsity Boys Boys Ba
- sketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7692848@union-county-interscholastic-athletic-conference
+UID:ds:2886:7692848@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T173000
 DTEND;TZID=America/New_York:20261219T193000
-SUMMARY:Hillside vs Summit (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+SUMMARY:Summit at Hillside (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7576545@union-county-interscholastic-athletic-conference
@@ -49,13 +40,13 @@ SUMMARY:Cranford vs Hillside (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7445065@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445065@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
-SUMMARY:Hillside vs Arthur L. Johnson (Junior Varsity Boys Boys Basketbal
+SUMMARY:Arthur L. Johnson at Hillside (Junior Varsity Boys Boys Basketbal
  l)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100868218@union-county-interscholastic-athletic-conference
@@ -66,12 +57,12 @@ SUMMARY:Oratory Prep at Hillside (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7692864@union-county-interscholastic-athletic-conference
+UID:ds:2886:7692864@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Hillside at Summit (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+SUMMARY:Summit vs Hillside (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7576553@union-county-interscholastic-athletic-conference
@@ -82,22 +73,13 @@ SUMMARY:Cranford at Hillside (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7445100@union-county-interscholastic-athletic-conference
+UID:ds:2509:7445100@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
 DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Hillside at Arthur L. Johnson (Junior Varsity Boys Boys Basketbal
+SUMMARY:Arthur L. Johnson vs Hillside (Junior Varsity Boys Boys Basketbal
  l)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7571028@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T113000
-DTEND;TZID=America/New_York:20270123T133000
-SUMMARY:Hillside at Livingston High School (Junior Varsity Boys Boys Bask
- etball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105415739@union-county-interscholastic-athletic-conference
@@ -106,23 +88,5 @@ DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
 SUMMARY:Oratory Prep vs Hillside (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7562800@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Hillside at Chatham High School (Junior Varsity Boys Boys Basketb
- all)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7741785@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T113000
-DTEND;TZID=America/New_York:20270206T133000
-SUMMARY:Hillside vs West Side High School (Junior Varsity Boys Boys Baske
- tball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 END:VCALENDAR

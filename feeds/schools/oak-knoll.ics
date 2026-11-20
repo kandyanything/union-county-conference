@@ -120,23 +120,6 @@ SUMMARY:Governor Livingston vs Oak Knoll (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2678:7532375@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Jonathan Dayton at Oak Knoll (Junior Varsity Girls Girls Volleyba
- ll)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2678:7532346@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T173000
-DTEND;TZID=America/New_York:20260917T193000
-SUMMARY:Jonathan Dayton at Oak Knoll (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2584:7529581@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -185,20 +168,20 @@ SUMMARY:Summit at Oak Knoll (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7647073@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Summit vs Oak Knoll (Middle School Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7549245@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Summit vs Oak Knoll (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7647073@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Summit vs Oak Knoll (Middle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7636312@union-county-interscholastic-athletic-conference
@@ -240,14 +223,6 @@ DTSTART;TZID=America/New_York:20260925T160000
 DTEND;TZID=America/New_York:20260925T180000
 SUMMARY:Arthur L. Johnson vs Oak Knoll (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2678:7532440@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Jonathan Dayton vs Oak Knoll (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7609928@union-county-interscholastic-athletic-conference
@@ -299,29 +274,12 @@ SUMMARY:Rahway at Oak Knoll (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2678:7532353@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Jonathan Dayton vs Oak Knoll (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7557395@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:Elizabeth at Oak Knoll (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2678:7532382@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T173000
-DTEND;TZID=America/New_York:20261006T193000
-SUMMARY:Jonathan Dayton vs Oak Knoll (Junior Varsity Girls Girls Volleyba
- ll)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7502350@union-county-interscholastic-athletic-conference
@@ -908,6 +866,15 @@ SUMMARY:Linden at Oak Knoll (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:OakKnoll:16715737www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T103000
+DTEND;TZID=America/New_York:20270108T123000
+SUMMARY:Oak Knoll at Kent Place (Middle School Basketball)
+DESCRIPTION:Middle School Basketball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:OakKnoll:16593650www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
@@ -915,6 +882,15 @@ DTSTART;TZID=America/New_York:20270108T104500
 DTEND;TZID=America/New_York:20270108T124500
 SUMMARY:Oak Knoll at The Hun School (Varsity Ice Hockey)
 DESCRIPTION:Varsity Ice Hockey - Away - 10:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:OakKnoll:16715739www.oakknoll.org@union-county-interscholastic-at
+ hletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T113000
+DTEND;TZID=America/New_York:20270108T133000
+SUMMARY:Oak Knoll at Kent Place (Middle School Basketball)
+DESCRIPTION:Middle School Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:OakKnoll:16593651www.oakknoll.org@union-county-interscholastic-at
@@ -960,13 +936,13 @@ SUMMARY:Elizabeth at Oak Knoll (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16681870www.oakknoll.org@union-county-interscholastic-at
+UID:ics:OakKnoll:16715738www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T110000
 DTEND;TZID=America/New_York:20270112T130000
-SUMMARY:Oak Knoll at Arthur L. Johnson (Varsity Basketball)
-DESCRIPTION:Varsity Basketball - Away - 11:00 AM
+SUMMARY:Oak Knoll at Arthur L. Johnson (Junior Varsity Basketball)
+DESCRIPTION:Junior Varsity Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:OakKnoll:16593670www.oakknoll.org@union-county-interscholastic-at
@@ -978,13 +954,13 @@ SUMMARY:Oak Knoll vs Madison High School (Varsity Ice Hockey)
 DESCRIPTION:Varsity Ice Hockey - Home - 11:10 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:OakKnoll:16681871www.oakknoll.org@union-county-interscholastic-at
+UID:ics:OakKnoll:16715736www.oakknoll.org@union-county-interscholastic-at
  hletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T123000
 DTEND;TZID=America/New_York:20270112T143000
-SUMMARY:Oak Knoll at Arthur L. Johnson (Junior Varsity Basketball)
-DESCRIPTION:Junior Varsity Basketball - Away - 12:30 PM
+SUMMARY:Oak Knoll at Arthur L. Johnson (Varsity Basketball)
+DESCRIPTION:Varsity Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:OakKnoll:16660171www.oakknoll.org@union-county-interscholastic-at

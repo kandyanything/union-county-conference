@@ -24,12 +24,12 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2678:7764424@union-county-interscholastic-athletic-conference
+UID:ds:2698:7764424@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T160000
 DTEND;TZID=America/New_York:20270426T180000
-SUMMARY:Jonathan Dayton vs Linden (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+SUMMARY:Linden at Jonathan Dayton (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7531720@union-county-interscholastic-athletic-conference
@@ -37,14 +37,6 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270430T160000
 DTEND;TZID=America/New_York:20270430T180000
 SUMMARY:Linden vs Rahway (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7531735@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270501T160000
-DTEND;TZID=America/New_York:20270501T180000
-SUMMARY:Hillside vs Linden (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -56,12 +48,20 @@ SUMMARY:Linden at Rahway (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7531737@union-county-interscholastic-athletic-conference
+UID:ds:2698:7531735@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T160000
+DTEND;TZID=America/New_York:20270501T180000
+SUMMARY:Linden at Hillside (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2698:7531737@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T160000
 DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Hillside at Linden (Junior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+SUMMARY:Linden vs Hillside (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7531723@union-county-interscholastic-athletic-conference
