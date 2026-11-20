@@ -2036,20 +2036,20 @@ SUMMARY:Roselle at Roselle Park (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2837:7632901@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Roselle Park vs Roselle (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2837:7632900@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Roselle Park vs Roselle (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7632901@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Roselle Park vs Roselle (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100858239@union-county-interscholastic-athletic-conference
@@ -2749,6 +2749,14 @@ SUMMARY:David Brearley vs Winfield Elementary School (Middle School Boys
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105506252@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T154500
+DTEND;TZID=America/New_York:20270112T174500
+SUMMARY:Oratory Prep at Peck School (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100858281@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -2904,14 +2912,6 @@ DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
 SUMMARY:Summit vs Morristown High School (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:105506252@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270112
-DTEND;VALUE=DATE:20270113
-SUMMARY:Oratory Prep at TBD (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7698004@union-county-interscholastic-athletic-conference
@@ -3386,15 +3386,6 @@ SUMMARY:Roselle at Rahway (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7772947@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T120000
-DTEND;TZID=America/New_York:20270116T140000
-SUMMARY:Arthur L. Johnson vs Bernards High School (Junior Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2812:7739746@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T120000
@@ -3434,15 +3425,6 @@ DTSTART;TZID=America/New_York:20270116T130000
 DTEND;TZID=America/New_York:20270116T150000
 SUMMARY:Roselle at Rahway (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2509:7772949@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T140000
-DTEND;TZID=America/New_York:20270116T160000
-SUMMARY:Arthur L. Johnson vs Bernards High School (Varsity Boys Boys Bask
- etball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2812:7608727@union-county-interscholastic-athletic-conference
@@ -5962,13 +5944,13 @@ SUMMARY:Elizabeth vs Paramus Catholic High School (Varsity Boys Boys Bask
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7767991@union-county-interscholastic-athletic-conference
+UID:arb:105726803@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T160000
 DTEND;TZID=America/New_York:20270209T180000
-SUMMARY:David Brearley vs Oratory Prep (Middle School Boys Boys Basketbal
+SUMMARY:Oratory Prep at David Brearley (Middle School Boys Boys Basketbal
  l)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7572104@union-county-interscholastic-athletic-conference
