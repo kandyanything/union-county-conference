@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2886:7638441@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270326T160000
+DTEND;TZID=America/New_York:20270326T180000
+SUMMARY:Summit at Sayreville Public Schools (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7708114@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
@@ -54,6 +62,14 @@ DTSTART;TZID=America/New_York:20270409T160000
 DTEND;TZID=America/New_York:20270409T180000
 SUMMARY:Cranford at Summit (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7629802@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Summit vs Morris Catholic High School (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2678:7725653@union-county-interscholastic-athletic-conference

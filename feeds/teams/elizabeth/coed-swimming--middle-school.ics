@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2607:7776571@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Elizabeth at Neptune Middle School (Middle School Coed Coed Swimm
+ ing)
+DESCRIPTION:Middle School Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7773615@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
@@ -31,5 +40,31 @@ DTEND;TZID=America/New_York:20270107T180000
 SUMMARY:Elizabeth at Wardlaw Hartridge School (Middle School Coed Coed Sw
  imming)
 DESCRIPTION:Middle School Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7776581@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Elizabeth vs Metuchen Middle School (Middle School Coed Coed Swim
+ ming)
+DESCRIPTION:Middle School Coed Coed Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7776588@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T160000
+DTEND;TZID=America/New_York:20270126T180000
+SUMMARY:Elizabeth vs Metuchen Middle School (Middle School Coed Coed Swim
+ ming)
+DESCRIPTION:Middle School Coed Coed Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7776618@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T160000
+DTEND;TZID=America/New_York:20270205T180000
+SUMMARY:Elizabeth vs Kent Place (Middle School Coed Coed Swimming)
+DESCRIPTION:Middle School Coed Coed Swimming - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

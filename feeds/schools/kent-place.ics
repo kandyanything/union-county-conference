@@ -23,6 +23,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2886:7554229@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T160000
+DTEND;TZID=America/New_York:20260824T180000
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7554235@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T160000
+DTEND;TZID=America/New_York:20260824T180000
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7539522@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T090000
@@ -40,12 +56,60 @@ SUMMARY:Governor Livingston at Kent Place (Junior Varsity Girls Girls Ten
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7531242@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T160000
+DTEND;TZID=America/New_York:20260901T180000
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7531547@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T173000
+DTEND;TZID=America/New_York:20260901T193000
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7550760@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Summit vs Kent Place (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7550572@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T171500
+DTEND;TZID=America/New_York:20260903T191500
+SUMMARY:Summit vs Kent Place (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2509:7444940@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Arthur L. Johnson at Kent Place (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7554925@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7554927@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Summit vs Kent Place (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7444941@union-county-interscholastic-athletic-conference
@@ -121,6 +185,38 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T171500
 DTEND;TZID=America/New_York:20260915T191500
 SUMMARY:Elizabeth at Kent Place (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7638341@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T140000
+DTEND;TZID=America/New_York:20260919T160000
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7638338@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T153000
+DTEND;TZID=America/New_York:20260919T173000
+SUMMARY:Summit at Kent Place (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7588654@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7588656@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T171500
+DTEND;TZID=America/New_York:20260922T191500
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -262,12 +358,28 @@ SUMMARY:Arthur L. Johnson at Kent Place (Junior Varsity Girls Girls Volle
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7624854@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Summit vs Kent Place (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2821:7541022@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
 DTEND;TZID=America/New_York:20261019T183000
 SUMMARY:Rahway at Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7702998@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Summit vs Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:11440363www.kentplace.org@union-county-interscholastic-
@@ -313,6 +425,22 @@ DTSTART;TZID=America/New_York:20261021T153000
 DTEND;TZID=America/New_York:20261021T173000
 SUMMARY:Kent Place vs Summit (TBD) (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7703689@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7703910@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T193000
+DTEND;TZID=America/New_York:20261021T213000
+SUMMARY:Summit vs Kent Place (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 7:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:11491219www.kentplace.org@union-county-interscholastic-
@@ -713,6 +841,14 @@ SUMMARY:Kent Place vs Summit (Varsity Swimming)
 DESCRIPTION:Varsity Swimming - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7713646@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T160000
+DTEND;TZID=America/New_York:20261202T180000
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:KentPlace:11534598www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1030,6 +1166,15 @@ SUMMARY:Kent Place vs Morristown Beard School (Varsity Ice Hockey)
 DESCRIPTION:Varsity Ice Hockey - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:KentPlace:11559683www.kentplace.org@union-county-interscholastic-
+ athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T104500
+DTEND;TZID=America/New_York:20270112T124500
+SUMMARY:Kent Place at Cranford (Varsity Swimming)
+DESCRIPTION:Varsity Swimming - Away - 10:45 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:KentPlace:11461818www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1037,15 +1182,6 @@ DTSTART;TZID=America/New_York:20270112T110000
 DTEND;TZID=America/New_York:20270112T130000
 SUMMARY:Kent Place vs Roselle (Varsity Basketball)
 DESCRIPTION:Varsity Basketball - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:KentPlace:11506830www.kentplace.org@union-county-interscholastic-
- athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T110000
-DTEND;TZID=America/New_York:20270112T130000
-SUMMARY:Kent Place at Cranford (Varsity Swimming)
-DESCRIPTION:Varsity Swimming - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:11503233www.kentplace.org@union-county-interscholastic-
@@ -1430,6 +1566,22 @@ SUMMARY:Kent Place vs West Essex (Varsity Fencing)
 DESCRIPTION:Varsity Fencing - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2886:7690440@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T160000
+DTEND;TZID=America/New_York:20270201T180000
+SUMMARY:Summit at Kent Place (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7690439@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T173000
+DTEND;TZID=America/New_York:20270201T193000
+SUMMARY:Summit at Kent Place (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:KentPlace:11370219www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1472,6 +1624,14 @@ DTSTART;TZID=America/New_York:20270202T163000
 DTEND;TZID=America/New_York:20270202T183000
 SUMMARY:Roselle vs Kent Place (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7776618@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T160000
+DTEND;TZID=America/New_York:20270205T180000
+SUMMARY:Elizabeth vs Kent Place (Middle School Coed Coed Swimming)
+DESCRIPTION:Middle School Coed Coed Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:11490291www.kentplace.org@union-county-interscholastic-
