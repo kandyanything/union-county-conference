@@ -1071,19 +1071,19 @@ SUMMARY:Governor Livingston vs Matawan Regional High School (Varsity Girl
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7584195@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Cranford at Kumpf middle (Middle School Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7636854@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Cranford at Arthur L. Johnson (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7584195@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Cranford at Kumpf middle (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1619,20 +1619,20 @@ SUMMARY:Westfield vs Livingston High School (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2581:7652572@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T160000
+DTEND;TZID=America/New_York:20261023T180000
+SUMMARY:Cranford at Edgar MS (Middle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2581:7653415@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T160000
 DTEND;TZID=America/New_York:20261023T180000
 SUMMARY:Cranford at Metuchen High School (Middle School Girls Field Hocke
  y)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2581:7652572@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Cranford at Edgar MS (Middle School Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1671,7 +1671,7 @@ SUMMARY:Kent Place at Oak Knoll (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11347280www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11586835www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T120000
@@ -1680,7 +1680,7 @@ SUMMARY:Kent Place at Glen Ridge (Varsity Field Hockey)
 DESCRIPTION:Varsity Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11347282www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11586837www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T123000
@@ -1715,7 +1715,7 @@ SUMMARY:Union at Passaic County Technical Institute (Varsity Girls Field
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11396917www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11586840www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T113000
@@ -1951,7 +1951,7 @@ SUMMARY:Governor Livingston at Voorhees High School (Varsity Girls Field
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11382712www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11586853www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261104T090000
