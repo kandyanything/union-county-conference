@@ -3583,19 +3583,19 @@ SUMMARY:Elizabeth vs South Plainfield High School (Varsity Girls Girls Wr
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7663549@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270103T090000
-DTEND;TZID=America/New_York:20270103T110000
-SUMMARY:Elizabeth vs Glen Rock High School (Varsity Girls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7697553@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270103T090000
 DTEND;TZID=America/New_York:20270103T110000
 SUMMARY:Elizabeth vs Madison High School (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7663549@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270103T090000
+DTEND;TZID=America/New_York:20270103T110000
+SUMMARY:Elizabeth vs Glen Rock High School (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -3607,6 +3607,14 @@ SUMMARY:Cranford vs Elizabeth (Boys (MS BLUE) Basketball)
 DESCRIPTION:Boys (MS BLUE) Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7698123@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T160000
+DTEND;TZID=America/New_York:20270104T180000
+SUMMARY:Elizabeth at Cranford (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7629963@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T160000
@@ -3614,14 +3622,6 @@ DTEND;TZID=America/New_York:20270104T180000
 SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
  irls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7698123@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T160000
-DTEND;TZID=America/New_York:20270104T180000
-SUMMARY:Elizabeth at Cranford (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7768489@union-county-interscholastic-athletic-conference
@@ -3641,14 +3641,6 @@ SUMMARY:Elizabeth at Orange Avenue School (MS-North Boys Boys Basketball)
 DESCRIPTION:MS-North Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7766001@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Elizabeth vs Roselle Catholic (Varsity Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7776382@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -3664,6 +3656,14 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Elizabeth at Neptune Middle School (Middle School Coed Coed Swimm
  ing)
 DESCRIPTION:Middle School Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7766001@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Elizabeth vs Roselle Catholic (Varsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7767759@union-county-interscholastic-athletic-conference
@@ -3887,14 +3887,6 @@ SUMMARY:Elizabeth at Plainfield (MS-South Boys Boys Basketball)
 DESCRIPTION:MS-South Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7769146@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T161500
-DTEND;TZID=America/New_York:20270108T181500
-SUMMARY:Elizabeth vs Rahway Middle School (MS-North Boys Boys Basketball)
-DESCRIPTION:MS-North Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7767779@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
@@ -3909,6 +3901,14 @@ DTSTART;TZID=America/New_York:20270108T161500
 DTEND;TZID=America/New_York:20270108T181500
 SUMMARY:Elizabeth at Plainfield (MS-South Girls Girls Basketball)
 DESCRIPTION:MS-South Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7769146@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T161500
+DTEND;TZID=America/New_York:20270108T181500
+SUMMARY:Elizabeth vs Rahway Middle School (MS-North Boys Boys Basketball)
+DESCRIPTION:MS-North Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7767779@union-county-interscholastic-athletic-conference
@@ -4227,15 +4227,6 @@ SUMMARY:Linden at Elizabeth (Junior Varsity Coed Coed Bowling)
 DESCRIPTION:Junior Varsity Coed Coed Bowling - Away - 12:23 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7776436@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Elizabeth vs Metuchen Middle School (Middle School Coed Coed Wres
- tling)
-DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7776581@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
@@ -4243,6 +4234,15 @@ DTEND;TZID=America/New_York:20270114T180000
 SUMMARY:Elizabeth vs Metuchen Middle School (Middle School Coed Coed Swim
  ming)
 DESCRIPTION:Middle School Coed Coed Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7776436@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Elizabeth vs Metuchen Middle School (Middle School Coed Coed Wres
+ tling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7690418@union-county-interscholastic-athletic-conference
@@ -4320,14 +4320,6 @@ SUMMARY:Cranford at Elizabeth (Middle School Girls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7767823@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T161500
-DTEND;TZID=America/New_York:20270115T181500
-SUMMARY:Elizabeth vs Cranford (MS-North Girls Girls Basketball)
-DESCRIPTION:MS-North Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7768569@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T161500
@@ -4352,6 +4344,14 @@ DTEND;TZID=America/New_York:20270115T181500
 SUMMARY:Elizabeth at Florence M Gaudineer Middle (MS-North Boys Boys Bask
  etball)
 DESCRIPTION:MS-North Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7767823@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T161500
+DTEND;TZID=America/New_York:20270115T181500
+SUMMARY:Elizabeth vs Cranford (MS-North Girls Girls Basketball)
+DESCRIPTION:MS-North Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2510:7768569@union-county-interscholastic-athletic-conference
