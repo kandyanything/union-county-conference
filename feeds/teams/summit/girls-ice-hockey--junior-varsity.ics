@@ -24,11 +24,45 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2581:7707766@union-county-interscholastic-athletic-conference
+UID:ds:2581:7779606@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261220T173000
 DTEND;TZID=America/New_York:20261220T193000
-SUMMARY:Cranford vs Summit (Junior Varsity Girls Girls Ice Hockey)
-DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 5:30 PM
+SUMMARY:Cranford at Summit (Junior Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7779617@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T183000
+DTEND;TZID=America/New_York:20270119T203000
+SUMMARY:Summit vs Morristown Beard School (Junior Varsity Girls Girls Ice
+  Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7779587@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T203500
+DTEND;TZID=America/New_York:20270126T223500
+SUMMARY:Cranford at Summit (Junior Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Away - 8:35 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7779632@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270207T191500
+DTEND;TZID=America/New_York:20270207T211500
+SUMMARY:Summit vs Madison High School (Junior Varsity Girls Girls Ice Hoc
+ key)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 7:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7779633@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270214T191500
+DTEND;TZID=America/New_York:20270214T211500
+SUMMARY:Summit vs Westfield (Junior Varsity Girls Girls Ice Hockey)
+DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 7:15 PM
 END:VEVENT
 END:VCALENDAR
