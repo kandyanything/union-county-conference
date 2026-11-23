@@ -24,6 +24,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:105756732@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Oratory Prep at Linden (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2630:7713512@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270410T100000
@@ -96,5 +104,14 @@ DTSTART;TZID=America/New_York:20270501T100000
 DTEND;TZID=America/New_York:20270501T120000
 SUMMARY:Oratory Prep at Westfield (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105756681@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T160000
+DTEND;TZID=America/New_York:20270514T180000
+SUMMARY:Oratory Prep at Hanover Park High School (Junior Varsity Boys Bas
+ eball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
