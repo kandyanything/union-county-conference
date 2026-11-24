@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2630:7605221@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T153000
-DTEND;TZID=America/New_York:20261211T173000
-SUMMARY:Governor Livingston at Westfield (Junior Varsity Coed Coed Ice Ho
- ckey)
-DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7570070@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T164500
@@ -48,6 +39,15 @@ DTSTART;TZID=America/New_York:20270111T203000
 DTEND;TZID=America/New_York:20270111T223000
 SUMMARY:Governor Livingston vs Westfield (Varsity Coed Coed Ice Hockey)
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7605221@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T154000
+DTEND;TZID=America/New_York:20270115T174000
+SUMMARY:Governor Livingston at Westfield (Junior Varsity Coed Coed Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 3:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2630:7569970@union-county-interscholastic-athletic-conference

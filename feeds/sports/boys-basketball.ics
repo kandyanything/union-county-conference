@@ -1435,20 +1435,20 @@ SUMMARY:Linden at Plainfield (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2510:7541600@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Roselle vs Jonathan Dayton (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7541658@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
 SUMMARY:Roselle vs Jonathan Dayton (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2510:7541600@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:Roselle vs Jonathan Dayton (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7723746@union-county-interscholastic-athletic-conference
@@ -2053,20 +2053,20 @@ SUMMARY:Roselle at Roselle Park (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2837:7632901@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Roselle Park vs Roselle (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2837:7632900@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Roselle Park vs Roselle (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7632901@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Roselle Park vs Roselle (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100858239@union-county-interscholastic-athletic-conference
@@ -3264,20 +3264,20 @@ SUMMARY:David Brearley vs Lincoln Franklin Elementary School (Middle Scho
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7544736@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T160000
-DTEND;TZID=America/New_York:20270115T180000
-SUMMARY:Elizabeth at Jonathan Dayton (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7703501@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T160000
 DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Boys Bo
  ys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7544736@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T160000
+DTEND;TZID=America/New_York:20270115T180000
+SUMMARY:Elizabeth at Jonathan Dayton (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3725,6 +3725,14 @@ SUMMARY:Union vs Cranford (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7770457@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T161500
+DTEND;TZID=America/New_York:20270120T181500
+SUMMARY:Elizabeth at Rahway (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7769178@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T161500
@@ -3740,14 +3748,6 @@ DTSTART;TZID=America/New_York:20270120T161500
 DTEND;TZID=America/New_York:20270120T181500
 SUMMARY:Elizabeth at Rahway Middle School (MS-South Boys Boys Basketball)
 DESCRIPTION:MS-South Boys Boys Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7770457@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T161500
-DTEND;TZID=America/New_York:20270120T181500
-SUMMARY:Elizabeth at Rahway (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7768780@union-county-interscholastic-athletic-conference
@@ -6089,6 +6089,15 @@ SUMMARY:Governor Livingston vs Empowerment Academy Charter School (Freshm
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2821:7768068@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Rahway at Columbia Middle School (Middle School Boys Boys Basketb
+ all)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7764388@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T173000
@@ -6129,15 +6138,6 @@ DTEND;VALUE=DATE:20270212
 SUMMARY:Governor Livingston at TBA NJ (Junior Varsity Boys Boys Basketbal
  l)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2821:7768068@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270212T160000
-DTEND;TZID=America/New_York:20270212T180000
-SUMMARY:Rahway at Columbia Middle School (Middle School Boys Boys Basketb
- all)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2584:7695436@union-county-interscholastic-athletic-conference

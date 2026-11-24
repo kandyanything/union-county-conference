@@ -1127,15 +1127,6 @@ SUMMARY:Governor Livingston vs Westfield (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7412794@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T110000
-DTEND;TZID=America/New_York:20261010T130000
-SUMMARY:Westfield vs Monroe Township School District (Varsity Boys Boys S
- occer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7413030@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T110000
@@ -1143,6 +1134,15 @@ DTEND;TZID=America/New_York:20261010T130000
 SUMMARY:Westfield vs Monroe Township School District (Junior Varsity Boys
   Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7412794@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T110000
+DTEND;TZID=America/New_York:20261010T130000
+SUMMARY:Westfield vs Monroe Township School District (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7562249@union-county-interscholastic-athletic-conference
@@ -1221,20 +1221,20 @@ SUMMARY:Rahway vs Westfield (Middle School Girls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7536027@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Summit at Westfield (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7535976@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Summit at Westfield (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7536027@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Summit at Westfield (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7534796@union-county-interscholastic-athletic-conference
@@ -1661,24 +1661,6 @@ DTSTART;TZID=America/New_York:20261211T133000
 DTEND;TZID=America/New_York:20261211T153000
 SUMMARY:Oak Knoll at Westfield (Varsity Ice Hockey)
 DESCRIPTION:Varsity Ice Hockey - Away - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2630:7605221@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T153000
-DTEND;TZID=America/New_York:20261211T173000
-SUMMARY:Governor Livingston at Westfield (Junior Varsity Coed Coed Ice Ho
- ckey)
-DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2938:7605221@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T153000
-DTEND;TZID=America/New_York:20261211T173000
-SUMMARY:Westfield vs Governor Livingston (Junior Varsity Boys Boys Ice Ho
- ckey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7638537@union-county-interscholastic-athletic-conference
@@ -2119,6 +2101,24 @@ DTSTART;TZID=America/New_York:20270113T183000
 DTEND;TZID=America/New_York:20270113T203000
 SUMMARY:Westfield vs Livingston High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7605221@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T154000
+DTEND;TZID=America/New_York:20270115T174000
+SUMMARY:Governor Livingston at Westfield (Junior Varsity Coed Coed Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 3:40 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7605221@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T154000
+DTEND;TZID=America/New_York:20270115T174000
+SUMMARY:Westfield vs Governor Livingston (Junior Varsity Boys Boys Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 3:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7692901@union-county-interscholastic-athletic-conference
@@ -2646,6 +2646,15 @@ DTSTART;TZID=America/New_York:20270330T160000
 DTEND;TZID=America/New_York:20270330T180000
 SUMMARY:Westfield at Sparta High School (Varsity Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7781055@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T163000
+DTEND;TZID=America/New_York:20270330T183000
+SUMMARY:Westfield at New Brunswick High School (Varsity Girls Flag Footba
+ ll)
+DESCRIPTION:Varsity Girls Flag Football - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7610108@union-county-interscholastic-athletic-conference

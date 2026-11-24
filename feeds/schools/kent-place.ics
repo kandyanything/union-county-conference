@@ -155,14 +155,6 @@ SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Vol
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2630:7534001@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Governor Livingston vs Kent Place (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2630:7534002@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -170,6 +162,14 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Governor Livingston vs Kent Place (Junior Varsity Girls Girls Soc
  cer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2630:7534001@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Governor Livingston vs Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7629027@union-county-interscholastic-athletic-conference
@@ -309,20 +309,20 @@ SUMMARY:Linden at Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7671446@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T133000
-DTEND;TZID=America/New_York:20261010T153000
-SUMMARY:Cranford vs Kent Place (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7671440@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T133000
 DTEND;TZID=America/New_York:20261010T153000
 SUMMARY:Cranford vs Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7671446@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T133000
+DTEND;TZID=America/New_York:20261010T153000
+SUMMARY:Cranford vs Kent Place (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7569178@union-county-interscholastic-athletic-conference
@@ -715,7 +715,7 @@ SUMMARY:Kent Place at TBD (Cross Country)
 DESCRIPTION:Cross Country - Away - 5:45 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11587754www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11640459www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T110000
@@ -775,7 +775,7 @@ SUMMARY:Cranford at Kent Place (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11606016www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11639567www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T110000
@@ -784,7 +784,7 @@ SUMMARY:Kent Place at TBD (Winter Track)
 DESCRIPTION:Winter Track - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11606026www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11639566www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T110000
