@@ -705,15 +705,6 @@ SUMMARY:Oratory Prep vs Chatham High School (Freshman Boys Boys Basketbal
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:50 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2905:7742208@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T180000
-DTEND;TZID=America/New_York:20261210T200000
-SUMMARY:Union Catholic vs Dwight-Englewood School (Varsity Boys Boys Bask
- etball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2905:7742210@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T180000
@@ -721,6 +712,15 @@ DTEND;TZID=America/New_York:20261210T200000
 SUMMARY:Union Catholic vs Dwight-Englewood School (Junior Varsity Boys Bo
  ys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2905:7742208@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T180000
+DTEND;TZID=America/New_York:20261210T200000
+SUMMARY:Union Catholic vs Dwight-Englewood School (Varsity Boys Boys Bask
+ etball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2509:7509729@union-county-interscholastic-athletic-conference
@@ -1217,6 +1217,15 @@ SUMMARY:Cranford at Saint John Vianney High School (Freshman Boys Boys Ba
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2509:7781925@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
+SUMMARY:Arthur L. Johnson at Henry Hudson Regional High School (Junior Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2759:7467097@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
@@ -1258,6 +1267,15 @@ DTSTART;TZID=America/New_York:20261219T113000
 DTEND;TZID=America/New_York:20261219T133000
 SUMMARY:David Brearley at Rahway (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2509:7781926@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T113000
+DTEND;TZID=America/New_York:20261219T133000
+SUMMARY:Arthur L. Johnson at Henry Hudson Regional High School (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2759:7467093@union-county-interscholastic-athletic-conference
@@ -1318,15 +1336,6 @@ DTSTART;TZID=America/New_York:20261219T160000
 DTEND;TZID=America/New_York:20261219T180000
 SUMMARY:Hillside vs Summit (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2509:7781921@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T160000
-DTEND;TZID=America/New_York:20261219T180000
-SUMMARY:Arthur L. Johnson at Henry Hudson Regional High School (Varsity B
- oys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7514886@union-county-interscholastic-athletic-conference
@@ -1461,20 +1470,20 @@ SUMMARY:Linden at Plainfield (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2510:7541600@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Roselle vs Jonathan Dayton (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2510:7541658@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
 SUMMARY:Roselle vs Jonathan Dayton (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2510:7541600@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:Roselle vs Jonathan Dayton (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7723746@union-county-interscholastic-athletic-conference
@@ -2097,20 +2106,20 @@ SUMMARY:Roselle at Roselle Park (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2837:7632900@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Roselle Park vs Roselle (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2837:7632901@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Roselle Park vs Roselle (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2837:7632900@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Roselle Park vs Roselle (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100858239@union-county-interscholastic-athletic-conference
