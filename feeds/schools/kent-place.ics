@@ -309,20 +309,20 @@ SUMMARY:Linden at Kent Place (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7671440@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T133000
-DTEND;TZID=America/New_York:20261010T153000
-SUMMARY:Cranford vs Kent Place (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2581:7671446@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T133000
 DTEND;TZID=America/New_York:20261010T153000
 SUMMARY:Cranford vs Kent Place (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2581:7671440@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T133000
+DTEND;TZID=America/New_York:20261010T153000
+SUMMARY:Cranford vs Kent Place (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7569178@union-county-interscholastic-athletic-conference
@@ -405,15 +405,6 @@ DTSTART;TZID=America/New_York:20261024T083000
 DTEND;TZID=America/New_York:20261024T103000
 SUMMARY:Kent Place at Westfield (Varsity Soccer)
 DESCRIPTION:Varsity Soccer - Away - 8:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:KentPlace:11600253www.kentplace.org@union-county-interscholastic-
- athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T103000
-DTEND;TZID=America/New_York:20261024T123000
-SUMMARY:Kent Place at Oak Knoll (Varsity Field Hockey)
-DESCRIPTION:Varsity Field Hockey - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:KentPlace:11569220www.kentplace.org@union-county-interscholastic-
@@ -900,7 +891,7 @@ SUMMARY:Kent Place at Union (Varsity Basketball)
 DESCRIPTION:Varsity Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11558774www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11630603www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T110000
