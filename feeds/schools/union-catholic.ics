@@ -278,20 +278,20 @@ SUMMARY:Elizabeth vs Union Catholic (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7550795@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Summit vs Union Catholic (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7550803@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
 DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Summit vs Union Catholic (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7550795@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Summit vs Union Catholic (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7550794@union-county-interscholastic-athletic-conference
@@ -867,7 +867,7 @@ SUMMARY:Union Catholic at Pascack Valley High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2905:7781634@union-county-interscholastic-athletic-conference
+UID:ds:2905:7783146@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T100000
 DTEND;TZID=America/New_York:20261228T120000
@@ -943,15 +943,6 @@ SUMMARY:Linden vs Union Catholic (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2905:7699159@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T153000
-DTEND;TZID=America/New_York:20270108T173000
-SUMMARY:Union Catholic at South Plainfield High School (Varsity Girls Gir
- ls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2905:7634506@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T153000
@@ -959,6 +950,15 @@ DTEND;TZID=America/New_York:20270108T173000
 SUMMARY:Union Catholic at South Plainfield High School (Varsity Boys Boys
   Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2905:7699159@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T153000
+DTEND;TZID=America/New_York:20270108T173000
+SUMMARY:Union Catholic at South Plainfield High School (Varsity Girls Gir
+ ls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2905:7784049@union-county-interscholastic-athletic-conference
