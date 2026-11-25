@@ -1170,6 +1170,14 @@ SUMMARY:Arthur L. Johnson vs Elizabeth (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2607:7631399@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Elizabeth at Roselle (Middle School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2607:7626114@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -1185,14 +1193,6 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Elizabeth at Elizabeth Middle School South (Middle School Girls G
  irls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7631399@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Elizabeth at Roselle (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7556868@union-county-interscholastic-athletic-conference
@@ -1228,15 +1228,6 @@ SUMMARY:Elizabeth at Plainfield (Middle School Coed Coed Tennis)
 DESCRIPTION:Middle School Coed Coed Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7647632@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T163000
-DTEND;TZID=America/New_York:20260923T183000
-SUMMARY:Elizabeth vs Union City High School (Junior Varsity Girls Girls V
- olleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7647620@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T163000
@@ -1244,6 +1235,15 @@ DTEND;TZID=America/New_York:20260923T183000
 SUMMARY:Elizabeth vs Union City High School (Freshman Girls Girls Volleyb
  all)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7647632@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T163000
+DTEND;TZID=America/New_York:20260923T183000
+SUMMARY:Elizabeth vs Union City High School (Junior Varsity Girls Girls V
+ olleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7647636@union-county-interscholastic-athletic-conference
@@ -3251,7 +3251,7 @@ SUMMARY:Elizabeth at Bloomfield High School (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7818052@union-county-interscholastic-athletic-conference
+UID:ds:2607:7764192@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T173000
 DTEND;TZID=America/New_York:20261209T193000
@@ -3360,7 +3360,7 @@ SUMMARY:Elizabeth at Summit (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7819894@union-county-interscholastic-athletic-conference
+UID:ds:2607:7668027@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
@@ -3368,7 +3368,7 @@ SUMMARY:Elizabeth at Union Catholic (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7819899@union-county-interscholastic-athletic-conference
+UID:ds:2607:7819898@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T080000
 DTEND;TZID=America/New_York:20261219T100000
@@ -3392,7 +3392,7 @@ SUMMARY:Rahway at Elizabeth (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7819904@union-county-interscholastic-athletic-conference
+UID:ds:2607:7768869@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T110000
@@ -3516,7 +3516,7 @@ SUMMARY:Elizabeth vs Bloomfield High School (Junior Varsity Girls Girls B
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7683085@union-county-interscholastic-athletic-conference
+UID:ds:2607:7819967@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
@@ -3532,7 +3532,7 @@ SUMMARY:Elizabeth vs Plainfield (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7783199@union-county-interscholastic-athletic-conference
+UID:ds:2607:7682461@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261230T100000
 DTEND;TZID=America/New_York:20261230T120000
@@ -3978,7 +3978,7 @@ SUMMARY:Plainfield vs Elizabeth (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2812:7820153@union-county-interscholastic-athletic-conference
+UID:ds:2812:7768509@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
 DTEND;TZID=America/New_York:20270108T181500
@@ -4529,7 +4529,7 @@ SUMMARY:Elizabeth vs Linden (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7820401@union-county-interscholastic-athletic-conference
+UID:ds:2581:7587903@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T154500
 DTEND;TZID=America/New_York:20270120T174500
@@ -4826,7 +4826,7 @@ SUMMARY:Elizabeth at Hillside (MS-North Girls Girls Basketball)
 DESCRIPTION:MS-North Girls Girls Basketball - Away - 10:16 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7767840@union-county-interscholastic-athletic-conference
+UID:ds:2654:7820513@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T101600
 DTEND;TZID=America/New_York:20270125T121600
