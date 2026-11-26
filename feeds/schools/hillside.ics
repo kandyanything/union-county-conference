@@ -975,7 +975,7 @@ SUMMARY:Oratory Prep at Hillside (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7820168@union-county-interscholastic-athletic-conference
+UID:ds:2654:7597219@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
 DTEND;TZID=America/New_York:20270109T120000
@@ -999,20 +999,20 @@ SUMMARY:Cranford at Hillside (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7544756@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T160000
-DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Hillside at Jonathan Dayton (Middle School Girls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7820187@union-county-interscholastic-athletic-conference
+UID:ds:2654:7544734@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
 SUMMARY:Hillside vs Jonathan Dayton (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7820188@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Hillside at Jonathan Dayton (Middle School Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7737398@union-county-interscholastic-athletic-conference
@@ -1032,7 +1032,7 @@ SUMMARY:Hillside vs Joseph E. Soehl Middle School (Middle School Girls Gi
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7515096@union-county-interscholastic-athletic-conference
+UID:ds:2654:7820261@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
@@ -1041,7 +1041,7 @@ SUMMARY:Hillside at Joseph E. Soehl Middle School (Middle School Boys Boy
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7820295@union-county-interscholastic-athletic-conference
+UID:ds:2654:7692865@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -1049,7 +1049,7 @@ SUMMARY:Hillside at Summit (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7820314@union-county-interscholastic-athletic-conference
+UID:ds:2654:7692864@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
@@ -1057,21 +1057,12 @@ SUMMARY:Hillside at Summit (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7820321@union-county-interscholastic-athletic-conference
+UID:ds:2654:7692863@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
 SUMMARY:Hillside at Summit (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7820325@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T160000
-DTEND;TZID=America/New_York:20270115T180000
-SUMMARY:Hillside at Mcmanus Middle School (Middle School Boys Boys Basket
- ball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7820324@union-county-interscholastic-athletic-conference
@@ -1081,6 +1072,15 @@ DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Hillside vs Mcmanus Middle School (Middle School Girls Girls Bask
  etball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7820325@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T160000
+DTEND;TZID=America/New_York:20270115T180000
+SUMMARY:Hillside at Mcmanus Middle School (Middle School Boys Boys Basket
+ ball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2581:7576673@union-county-interscholastic-athletic-conference
@@ -1116,12 +1116,20 @@ SUMMARY:Hillside at Jonathan Dayton (Junior Varsity Girls Girls Basketbal
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7445099@union-county-interscholastic-athletic-conference
+UID:ds:2654:7820433@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:Hillside at Arthur L. Johnson (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2654:7820450@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Hillside at Jonathan Dayton (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7445100@union-county-interscholastic-athletic-conference
@@ -1131,14 +1139,6 @@ DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:Hillside at Arthur L. Johnson (Junior Varsity Boys Boys Basketbal
  l)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2654:7540023@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Hillside at Jonathan Dayton (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2654:7820460@union-county-interscholastic-athletic-conference
@@ -1206,7 +1206,7 @@ SUMMARY:Hillside at Elizabeth (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:KentPlace:11637749www.kentplace.org@union-county-interscholastic-
+UID:ics:KentPlace:11677266www.kentplace.org@union-county-interscholastic-
  athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T110000
