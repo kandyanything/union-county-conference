@@ -224,15 +224,6 @@ SUMMARY:Westfield vs Bridgewater-Raritan High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7521284@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T160000
-DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Westfield at Bridgewater-Raritan High School (Junior Varsity Girl
- s Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7520961@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
@@ -240,6 +231,15 @@ DTEND;TZID=America/New_York:20260902T180000
 SUMMARY:Westfield at Bridgewater-Raritan High School (Varsity Girls Girls
   Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7521284@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Westfield at Bridgewater-Raritan High School (Junior Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7557418@union-county-interscholastic-athletic-conference
@@ -677,20 +677,20 @@ SUMMARY:Governor Livingston vs Westfield (Junior Varsity Girls Field Hock
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7648275@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Elizabeth vs Westfield (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7644290@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Elizabeth at Westfield (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7648275@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Elizabeth vs Westfield (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7644300@union-county-interscholastic-athletic-conference
@@ -1127,15 +1127,6 @@ SUMMARY:Governor Livingston vs Westfield (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7413030@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T110000
-DTEND;TZID=America/New_York:20261010T130000
-SUMMARY:Westfield vs Monroe Township School District (Junior Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2938:7412794@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T110000
@@ -1143,6 +1134,15 @@ DTEND;TZID=America/New_York:20261010T130000
 SUMMARY:Westfield vs Monroe Township School District (Varsity Boys Boys S
  occer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2938:7413030@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T110000
+DTEND;TZID=America/New_York:20261010T130000
+SUMMARY:Westfield vs Monroe Township School District (Junior Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2938:7562249@union-county-interscholastic-athletic-conference
@@ -1879,7 +1879,7 @@ SUMMARY:Cranford at Westfield (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7587900@union-county-interscholastic-athletic-conference
+UID:ds:2581:7820026@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T153000
 DTEND;TZID=America/New_York:20270105T173000
@@ -1945,7 +1945,7 @@ SUMMARY:Linden at Westfield (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7604483@union-county-interscholastic-athletic-conference
+UID:ds:2938:7802810@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T203000
@@ -1986,7 +1986,7 @@ SUMMARY:Summit at Westfield (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7783943@union-county-interscholastic-athletic-conference
+UID:ds:2938:7558961@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T170000
 DTEND;TZID=America/New_York:20270108T190000
@@ -1995,7 +1995,7 @@ SUMMARY:Westfield vs Delaware Valley Regional High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7573653@union-county-interscholastic-athletic-conference
+UID:ds:2581:7820158@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T180000
 DTEND;TZID=America/New_York:20270108T200000
@@ -2029,7 +2029,7 @@ SUMMARY:Governor Livingston vs Westfield (Junior Varsity Coed Coed Ice Ho
 DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Home - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7820201@union-county-interscholastic-athletic-conference
+UID:ds:2938:7570070@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T164500
 DTEND;TZID=America/New_York:20270111T184500
@@ -2288,7 +2288,7 @@ SUMMARY:Cranford at Westfield (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2938:7809878@union-county-interscholastic-athletic-conference
+UID:ds:2938:7506090@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T100000
 DTEND;TZID=America/New_York:20270123T120000
