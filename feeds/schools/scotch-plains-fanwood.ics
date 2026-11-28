@@ -596,15 +596,6 @@ SUMMARY:Scotch Plains-Fanwood vs Madison High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7625462@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Scotch Plains-Fanwood vs Madison High School (Junior Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:39378:7625472@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -614,13 +605,13 @@ SUMMARY:Scotch Plains-Fanwood vs Madison High School (Varsity Boys Boys S
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7557039@union-county-interscholastic-athletic-conference
+UID:ds:39378:7625462@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T163000
-DTEND;TZID=America/New_York:20260922T183000
-SUMMARY:Scotch Plains-Fanwood at Elizabeth (Junior Varsity Girls Girls Cr
- oss Country)
-DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:30 PM
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Scotch Plains-Fanwood vs Madison High School (Junior Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7557027@union-county-interscholastic-athletic-conference
@@ -630,6 +621,15 @@ DTEND;TZID=America/New_York:20260922T183000
 SUMMARY:Scotch Plains-Fanwood at Elizabeth (Varsity Girls Girls Cross Cou
  ntry)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7557039@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T163000
+DTEND;TZID=America/New_York:20260922T183000
+SUMMARY:Scotch Plains-Fanwood at Elizabeth (Junior Varsity Girls Girls Cr
+ oss Country)
+DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7555317@union-county-interscholastic-athletic-conference
@@ -693,14 +693,6 @@ SUMMARY:Rahway vs Scotch Plains-Fanwood (Junior Varsity Girls Girls Volle
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7554949@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Scotch Plains-Fanwood at Summit (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:39378:7554950@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -708,6 +700,14 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Scotch Plains-Fanwood vs Summit (Junior Varsity Girls Girls Tenni
  s)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7554949@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Scotch Plains-Fanwood at Summit (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2821:7536372@union-county-interscholastic-athletic-conference
@@ -1251,15 +1251,6 @@ SUMMARY:Cranford at Scotch Plains-Fanwood (Junior Varsity Girls Field Hoc
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7700451@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T180000
-DTEND;TZID=America/New_York:20261029T200000
-SUMMARY:Scotch Plains-Fanwood vs North Plainfield Public Schools (Varsity
-  Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:39378:7703314@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T180000
@@ -1267,6 +1258,15 @@ DTEND;TZID=America/New_York:20261029T200000
 SUMMARY:Scotch Plains-Fanwood vs North Plainfield Public Schools (Varsity
   Girls Girls Cheerleading)
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:39378:7700451@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:Scotch Plains-Fanwood vs North Plainfield Public Schools (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:39378:7728683@union-county-interscholastic-athletic-conference
@@ -1532,7 +1532,7 @@ SUMMARY:Rahway at Scotch Plains-Fanwood (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2821:7819859@union-county-interscholastic-athletic-conference
+UID:ds:2821:7769169@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T170000
 DTEND;TZID=America/New_York:20261216T190000
@@ -1839,7 +1839,7 @@ SUMMARY:Scotch Plains-Fanwood at Columbia Middle School (Middle School Gi
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2584:7818522@union-county-interscholastic-athletic-conference
+UID:ds:2584:7683190@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T083000
 DTEND;TZID=America/New_York:20270109T103000
@@ -2006,7 +2006,7 @@ SUMMARY:Arthur L. Johnson vs Scotch Plains-Fanwood (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2509:7663510@union-county-interscholastic-athletic-conference
+UID:ds:2509:7820282@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T173000
 DTEND;TZID=America/New_York:20270113T193000
@@ -2049,7 +2049,7 @@ SUMMARY:Kent Place vs Scotch Plains-Fanwood (Varsity Swimming)
 DESCRIPTION:Varsity Swimming - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7784346@union-county-interscholastic-athletic-conference
+UID:ds:39378:7757563@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T194500
 DTEND;TZID=America/New_York:20270115T214500
@@ -2058,7 +2058,7 @@ SUMMARY:Scotch Plains-Fanwood at Montgomery High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7784379@union-county-interscholastic-athletic-conference
+UID:ds:39378:7646467@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T103000
 DTEND;TZID=America/New_York:20270116T123000
@@ -2076,7 +2076,7 @@ SUMMARY:Scotch Plains-Fanwood vs Bound Brook High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7713559@union-county-interscholastic-athletic-conference
+UID:ds:39378:7820361@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T153000
 DTEND;TZID=America/New_York:20270119T173000
@@ -2111,7 +2111,7 @@ SUMMARY:Scotch Plains-Fanwood at Glen Rock High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:39378:7784725@union-county-interscholastic-athletic-conference
+UID:ds:39378:7784726@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T080000
 DTEND;TZID=America/New_York:20270123T100000
@@ -2257,7 +2257,7 @@ SUMMARY:Elizabeth vs Scotch Plains-Fanwood (MS-North Girls Girls Basketba
 DESCRIPTION:MS-North Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7820585@union-county-interscholastic-athletic-conference
+UID:ds:2607:7768799@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T161500
 DTEND;TZID=America/New_York:20270127T181500
