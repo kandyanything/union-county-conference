@@ -2524,20 +2524,20 @@ SUMMARY:Cranford vs Summit (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2759:7552742@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:New Providence at Summit (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2759:7552740@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
 DTEND;TZID=America/New_York:20261022T180000
 SUMMARY:New Providence at Summit (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2759:7552742@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:New Providence at Summit (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7688919@union-county-interscholastic-athletic-conference
@@ -2677,20 +2677,20 @@ SUMMARY:Summit vs Oak Knoll (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2607:7532094@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T161500
-DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Elizabeth vs Summit (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2607:7532101@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T161500
 DTEND;TZID=America/New_York:20261027T181500
 SUMMARY:Elizabeth vs Summit (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7532094@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T161500
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:Elizabeth vs Summit (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7552779@union-county-interscholastic-athletic-conference
@@ -2743,14 +2743,6 @@ SUMMARY:Summit at Watchung Hills Regional High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7552793@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T160000
-DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:Summit vs Madison High School (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2886:7708199@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T160000
@@ -2758,6 +2750,14 @@ DTEND;TZID=America/New_York:20261030T180000
 SUMMARY:Summit vs Madison High School (Junior Varsity Girls Girls Volleyb
  all)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2886:7552793@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T180000
+SUMMARY:Summit vs Madison High School (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2886:7723247@union-county-interscholastic-athletic-conference
@@ -3772,7 +3772,7 @@ SUMMARY:Summit at Bernards High School (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2581:7576502@union-county-interscholastic-athletic-conference
+UID:ds:2581:7820179@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T130000
 DTEND;TZID=America/New_York:20270109T150000
@@ -3780,20 +3780,12 @@ SUMMARY:Cranford at Summit (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2698:7585825@union-county-interscholastic-athletic-conference
+UID:ds:2698:7820219@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Linden at Summit (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2607:7820232@union-county-interscholastic-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T163000
-DTEND;TZID=America/New_York:20270112T183000
-SUMMARY:Elizabeth vs Summit (Varsity Girls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2607:7713925@union-county-interscholastic-athletic-conference
@@ -3802,6 +3794,14 @@ DTSTART;TZID=America/New_York:20270112T163000
 DTEND;TZID=America/New_York:20270112T183000
 SUMMARY:Elizabeth vs Summit (Varsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2607:7713558@union-county-interscholastic-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T163000
+DTEND;TZID=America/New_York:20270112T183000
+SUMMARY:Elizabeth vs Summit (Varsity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2698:7820236@union-county-interscholastic-athletic-conference
@@ -3886,7 +3886,7 @@ SUMMARY:Roselle Park at Summit (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2886:7692899@union-county-interscholastic-athletic-conference
+UID:ds:2886:7818644@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T180000
 DTEND;TZID=America/New_York:20270113T200000
@@ -3903,7 +3903,7 @@ SUMMARY:Oak Knoll vs Summit (Varsity Ice Hockey)
 DESCRIPTION:Varsity Ice Hockey - Home - 11:10 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7820295@union-county-interscholastic-athletic-conference
+UID:ds:2654:7692865@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -3944,7 +3944,7 @@ SUMMARY:Elizabeth vs Summit (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2654:7820314@union-county-interscholastic-athletic-conference
+UID:ds:2654:7692864@union-county-interscholastic-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
